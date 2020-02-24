@@ -1,3 +1,48 @@
+// ======================================================================================
+// BEGIN JANUS DESIGN TOKENS IMPLEMENTATION
+
+// Import variables from Janus design tokens
+@import "../node_modules/@symplicity/janus-tokens/dist/index.scss";
+
+// Map Janus design tokens to bootstrap variables
+$white: $color-white !default;
+$gray-100: $color-gray-lightest !default;
+$gray-200: $color-gray-lighter !default;
+$gray-300: $color-gray-light !default;
+$gray-400: $color-gray-neutral !default;
+$gray-500: $color-gray-dark !default;
+$gray-600: $color-gray-darker !default;
+$gray-700: $color-gray-darker !default;
+$gray-800: $color-gray-darkest !default;
+$gray-900: $color-gray-darkest !default;
+$black: $color-black !default;
+
+$blue:    $color-primary !default;
+$indigo:  #6610f2 !default;         // NEEDS REVIEW
+$purple:  #6f42c1 !default;         // NEEDS REVIEW
+$pink:    #e83e8c !default;         // NEEDS REVIEW
+$red:     $color-danger !default;
+$orange:  #fd7e14 !default;         // NEEDS REVIEW
+$yellow:  $color-warning !default;
+$green:   $color-success !default;
+$teal:    #20c997 !default;         // NEEDS REVIEW
+$cyan:    $color-info !default;
+
+
+$alert-bg-level:                    -11 !default;
+$alert-border-level:                -11 !default;
+$alert-color-level:                 0 !default;       // CAN NOT MATCH INTENDED BG COLOR
+
+$btn-border-radius-lg:  $border-radius !default;
+$btn-border-radius-sm:  $border-radius !default;
+
+$font-family-sans-serif:      $font-stack-base !default;
+$font-family-monospace:       $font-stack-monospace !default;
+
+
+// START ORIGINAL BOOTSTRAP VARIABLES - DO NOT EDIT BELOW THIS LINE
+// ======================================================================================
+
 // Variables
 //
 // Variables should follow the `$component-state-property-size` formula for

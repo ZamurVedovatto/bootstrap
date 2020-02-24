@@ -103,6 +103,7 @@
     "popper.js": "^1.16.0"
   },
   "devDependencies": {
+    "@symplicity/janus-tokens": "github:Symplicity/janus-tokens",
     "@babel/cli": "^7.7.4",
     "@babel/core": "^7.7.4",
     "@babel/plugin-proposal-object-rest-spread": "^7.7.4",
