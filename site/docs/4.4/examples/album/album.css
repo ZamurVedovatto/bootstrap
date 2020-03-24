@@ -1,17 +1,17 @@
-.jumbotron {
+[dir] .jumbotron {
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin-bottom: 0;
   background-color: #fff;
 }
 @media (min-width: 768px) {
-  .jumbotron {
+  [dir] .jumbotron {
     padding-top: 6rem;
     padding-bottom: 6rem;
   }
 }
 
-.jumbotron p:last-child {
+[dir] .jumbotron p:last-child {
   margin-bottom: 0;
 }
 
@@ -23,11 +23,11 @@
   max-width: 40rem;
 }
 
-footer {
+[dir] footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
 
-footer p {
+[dir] footer p {
   margin-bottom: .25rem;
 }
