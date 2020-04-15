@@ -126,7 +126,7 @@ address {
 }
 
 dt {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 [dir] dd {
@@ -407,7 +407,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 [dir] h1, [dir] h2, [dir] h3, [dir] h4, [dir] h5, [dir] h6, [dir] .h1, [dir] .h2, [dir] .h3, [dir] .h4, [dir] .h5, [dir] .h6 {
@@ -415,27 +415,27 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
-}
-
-h2, .h2 {
   font-size: 2rem;
 }
 
-h3, .h3 {
+h2, .h2 {
   font-size: 1.75rem;
 }
 
-h4, .h4 {
-  font-size: 1.5rem;
-}
-
-h5, .h5 {
+h3, .h3 {
   font-size: 1.25rem;
 }
 
-h6, .h6 {
+h4, .h4 {
   font-size: 1rem;
+}
+
+h5, .h5 {
+  font-size: 0.875rem;
+}
+
+h6, .h6 {
+  font-size: 0.8125rem;
 }
 
 .lead {
@@ -446,25 +446,25 @@ h6, .h6 {
 .display-1 {
   font-size: 6rem;
   font-weight: 300;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 .display-2 {
   font-size: 5.5rem;
   font-weight: 300;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 .display-3 {
   font-size: 4.5rem;
   font-weight: 300;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 .display-4 {
   font-size: 3.5rem;
   font-weight: 300;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 [dir] hr {
@@ -601,7 +601,7 @@ kbd {
 
 kbd kbd {
   font-size: 100%;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 [dir] kbd kbd {
@@ -6508,7 +6508,7 @@ input[type="button"].btn-block {
 .badge {
   display: inline-block;
   font-size: 75%;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1;
   white-space: nowrap;
   vertical-align: baseline;
@@ -6789,7 +6789,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .alert-link {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 [dir=ltr] .alert-dismissible {
@@ -7624,7 +7624,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .close {
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1;
   color: black;
   opacity: .5;
@@ -12519,7 +12519,7 @@ a.close.disabled {
 }
 
 .font-weight-bold {
-  font-weight: 700 !important;
+  font-weight: 600 !important;
 }
 
 .font-weight-bolder {
