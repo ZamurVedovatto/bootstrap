@@ -27,7 +27,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #333333;
+  color: #212529;
 }
 
 [dir] body {
@@ -141,7 +141,7 @@ sup {
 }
 
 a {
-  color: #0e62b9;
+  color: #004d74;
   text-decoration: none;
 }
 
@@ -150,7 +150,7 @@ a {
 }
 
 a:hover {
-  color: #093c72;
+  color: #001a28;
   text-decoration: underline;
 }
 
@@ -203,7 +203,7 @@ table {
 }
 
 caption {
-  color: #454545;
+  color: #6c757d;
   caption-side: bottom;
 }
 
