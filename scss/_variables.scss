@@ -37,27 +37,27 @@ $danger:        $red !default;
 $light:         $gray-500 !default;
 $dark:          $gray-800 !default;
 
-$alert-bg-level:                    -11 !default;
-$alert-border-level:                -11 !default;
+$alert-bg-level:                    -11.1 !default;
+$alert-border-level:                -11.1 !default;
 $alert-color-level:                 0 !default;       // CAN NOT MATCH INTENDED BG COLOR
 
 $btn-border-radius-lg:  $border-radius !default;
 $btn-border-radius-sm:  $border-radius !default;
 
-$font-family-sans-serif:      $font-stack-base !default;
-$font-family-monospace:       $font-stack-monospace !default;
+$font-family-sans-serif:      $janus-font-stack-base !default;
+$font-family-monospace:       $janus-font-stack-monospace !default;
 
-$font-size-base:              $font-size-base !default;
-$line-height-base:            1.5 !default;
-$headings-line-height:        1.4 !default;
+$font-size-base:              $janus-font-size-base !default;
+$line-height-base:            $janus-line-height-base !default;
+$headings-line-height:        $janus-headings-line-height-base !default;
 
-$h1-font-size:                $font-size-base * 2 !default;
-$h2-font-size:                $font-size-base * 1.75 !default;
-$h3-font-size:                $font-size-base * 1.25 !default;
-$h4-font-size:                $font-size-base !default;
-$h5-font-size:                $font-size-base * 0.875 !default;
-$h6-font-size:                $font-size-base * 0.8125 !default;
-$h7-font-size:                $font-size-base * 0.75 !default;
+$h1-font-size:                $janus-font-size-base * 2 !default;
+$h2-font-size:                $janus-font-size-base * 1.75 !default;
+$h3-font-size:                $janus-font-size-base * 1.25 !default;
+$h4-font-size:                $janus-font-size-base !default;
+$h5-font-size:                $janus-font-size-base * 0.875 !default;
+$h6-font-size:                $janus-font-size-base * 0.8125 !default;
+$h7-font-size:                $janus-font-size-base * 0.75 !default;
 
 // START ORIGINAL BOOTSTRAP VARIABLES - DO NOT EDIT BELOW THIS LINE
 // ======================================================================================
@@ -347,7 +347,7 @@ $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberati
 $font-family-base:            $font-family-sans-serif !default;
 // stylelint-enable value-keyword-case
 
-$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-base:              $janus-font-size-base !default; // Assumes the browser default, typically `16px`
 $font-size-lg:                $font-size-base * 1.25 !default;
 $font-size-sm:                $font-size-base * .875 !default;
 

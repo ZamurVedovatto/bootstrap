@@ -6823,12 +6823,12 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 [dir] .alert-primary {
-  background-color: #e0eaee;
-  border-color: #e0eaee;
+  background-color: #e2ebef;
+  border-color: #e2ebef;
 }
 
 [dir] .alert-primary hr {
-  border-top-color: #d0dfe5;
+  border-top-color: #d2e0e6;
 }
 
 .alert-primary .alert-link {
@@ -6840,12 +6840,12 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 [dir] .alert-secondary {
-  background-color: #e7e7e7;
-  border-color: #e7e7e7;
+  background-color: #e8e8e8;
+  border-color: #e8e8e8;
 }
 
 [dir] .alert-secondary hr {
-  border-top-color: #dadada;
+  border-top-color: #dbdbdb;
 }
 
 .alert-secondary .alert-link {
@@ -6857,12 +6857,12 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 [dir] .alert-success {
-  background-color: #e5efe9;
-  border-color: #e5efe9;
+  background-color: #e7f0eb;
+  border-color: #e7f0eb;
 }
 
 [dir] .alert-success hr {
-  border-top-color: #d5e5dc;
+  border-top-color: #d7e6de;
 }
 
 .alert-success .alert-link {
@@ -6874,12 +6874,12 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 [dir] .alert-info {
-  background-color: #e2edf8;
-  border-color: #e2edf8;
+  background-color: #e4eff8;
+  border-color: #e4eff8;
 }
 
 [dir] .alert-info hr {
-  border-top-color: #cde0f3;
+  border-top-color: #d0e3f3;
 }
 
 .alert-info .alert-link {
@@ -6891,12 +6891,12 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 [dir] .alert-warning {
-  background-color: #f5ebe1;
-  border-color: #f5ebe1;
+  background-color: #f5ece3;
+  border-color: #f5ece3;
 }
 
 [dir] .alert-warning hr {
-  border-top-color: #efdece;
+  border-top-color: #eedfd0;
 }
 
 .alert-warning .alert-link {
@@ -6908,12 +6908,12 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 [dir] .alert-danger {
-  background-color: #f7e8e5;
-  border-color: #f7e8e5;
+  background-color: #f8e9e6;
+  border-color: #f8e9e6;
 }
 
 [dir] .alert-danger hr {
-  border-top-color: #f1d7d2;
+  border-top-color: #f2d7d2;
 }
 
 .alert-danger .alert-link {
@@ -6925,12 +6925,12 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 [dir] .alert-light {
-  background-color: #f5f6f7;
-  border-color: #f5f6f7;
+  background-color: #f6f7f8;
+  border-color: #f6f7f8;
 }
 
 [dir] .alert-light hr {
-  border-top-color: #e7e9ec;
+  border-top-color: #e8eaed;
 }
 
 .alert-light .alert-link {
@@ -6942,12 +6942,12 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 [dir] .alert-dark {
-  background-color: #e7e7e8;
-  border-color: #e7e7e8;
+  background-color: #e8e9ea;
+  border-color: #e8e9ea;
 }
 
 [dir] .alert-dark hr {
-  border-top-color: #dadadc;
+  border-top-color: #dbdcde;
 }
 
 .alert-dark .alert-link {
