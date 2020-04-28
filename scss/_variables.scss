@@ -41,8 +41,8 @@ $alert-bg-level:                    -11.1 !default;
 $alert-border-level:                -11.1 !default;
 $alert-color-level:                 0 !default;       // CAN NOT MATCH INTENDED BG COLOR
 
-$btn-border-radius-lg:  $border-radius !default;
-$btn-border-radius-sm:  $border-radius !default;
+$btn-border-radius-lg:        $janus-border-radius-lg !default;
+$btn-border-radius-sm:        $janus-border-radius-sm !default;
 
 $font-family-sans-serif:      $janus-font-stack-base !default;
 $font-family-monospace:       $janus-font-stack-monospace !default;
@@ -58,6 +58,10 @@ $h4-font-size:                $janus-font-size-base !default;
 $h5-font-size:                $janus-font-size-base * 0.875 !default;
 $h6-font-size:                $janus-font-size-base * 0.8125 !default;
 $h7-font-size:                $janus-font-size-base * 0.75 !default;
+
+$border-radius:               $janus-border-radius !default;
+$border-radius-sm:            $janus-border-radius-sm !default;
+$border-radius-lg:            $janus-border-radius-lg !default;
 
 // START ORIGINAL BOOTSTRAP VARIABLES - DO NOT EDIT BELOW THIS LINE
 // ======================================================================================
