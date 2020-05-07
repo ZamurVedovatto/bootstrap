@@ -4,6 +4,20 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+.alert [class^="icn-"],
+.alert [class*=" icn-"] {
+  font-size: 1.25rem;
+}
+
+.alert .close,
+.alert .icn-close {
+  font-size: 0.75rem;
+}
+
+[dir] .rounded-xl {
+  border-radius: 0.25rem !important;
+}
+
 :root {
   --blue: #004d74;
   --indigo: #6610f2;
@@ -6778,10 +6792,10 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 [dir] .alert {
-  padding: 0.75rem 1.25rem;
+  padding: 0.75rem 1rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
-  border-radius: 0.188rem;
+  border-radius: 0.25rem;
 }
 
 .alert-heading {
@@ -6793,11 +6807,11 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 [dir=ltr] .alert-dismissible {
-  padding-right: 4rem;
+  padding-right: 3.5rem;
 }
 
 [dir=rtl] .alert-dismissible {
-  padding-left: 4rem;
+  padding-left: 3.5rem;
 }
 
 .alert-dismissible .close {
@@ -6807,7 +6821,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 [dir] .alert-dismissible .close {
-  padding: 0.75rem 1.25rem;
+  padding: 0.75rem 1rem;
 }
 
 [dir=ltr] .alert-dismissible .close {

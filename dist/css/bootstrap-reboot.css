@@ -5,6 +5,20 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
+.alert [class^="icn-"],
+.alert [class*=" icn-"] {
+  font-size: 1.25rem;
+}
+
+.alert .close,
+.alert .icn-close {
+  font-size: 0.75rem;
+}
+
+[dir] .rounded-xl {
+  border-radius: 0.25rem !important;
+}
+
 *,
 *::before,
 *::after {
