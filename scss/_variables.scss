@@ -91,6 +91,7 @@ $alert-padding-y:             $janus-alert-padding-y !default;
   }
   .close,
   .icn-close {
+    text-shadow: none;
     font-size: $janus-alert-close-font-size;
   }
 }

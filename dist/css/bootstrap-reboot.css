@@ -15,6 +15,10 @@
   font-size: 0.75rem;
 }
 
+[dir] .alert .close, [dir] .alert .icn-close {
+  text-shadow: none;
+}
+
 [dir] .rounded-xl {
   border-radius: 0.25rem !important;
 }
