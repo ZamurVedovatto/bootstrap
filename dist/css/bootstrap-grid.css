@@ -29,6 +29,14 @@ html {
   text-shadow: none;
 }
 
+.alert .more-link[aria-expanded="true"]::before {
+  content: '- Less';
+}
+
+.alert .more-link[aria-expanded="false"]::before {
+  content: '+ More';
+}
+
 [dir] .rounded-xl {
   border-radius: 0.25rem !important;
 }

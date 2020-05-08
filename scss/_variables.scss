@@ -94,6 +94,12 @@ $alert-padding-y:             $janus-alert-padding-y !default;
     text-shadow: none;
     font-size: $janus-alert-close-font-size;
   }
+  .more-link[aria-expanded="true"]::before  {
+    content: '- Less'
+  }
+  .more-link[aria-expanded="false"]::before {  
+    content: '+ More'
+  }
 }
 
 // MOVE TO: scss/utilities/_borders.scss
