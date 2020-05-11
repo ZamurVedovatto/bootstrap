@@ -41,8 +41,6 @@ $alert-bg-level:                    -10 !default;
 $alert-border-level:                -9 !default;
 $alert-color-level:                 6 !default;
 
-$alert-border-radius:         $janus-border-radius-xl !default;
-
 $btn-border-radius-lg:        $janus-border-radius-lg !default;
 $btn-border-radius-sm:        $janus-border-radius-sm !default;
 
@@ -65,10 +63,6 @@ $border-radius:               $janus-border-radius !default;
 $border-radius-sm:            $janus-border-radius-sm !default;
 $border-radius-lg:            $janus-border-radius-lg !default;
 
-//Custom border-radius size 'Xlarge'
-
-$border-radius-xl:            $janus-border-radius-xl !default; 
-
 $input-btn-padding-y:         $janus-input-btn-padding-y !default;
 $input-btn-padding-x:         $janus-input-btn-padding-x !default;
 $input-btn-padding-y-sm:      $janus-input-btn-padding-y-sm !default;
@@ -82,30 +76,14 @@ $badge-padding-y:             $janus-badge-padding-y !default;
 $alert-padding-x:             $janus-alert-padding-x !default;
 $alert-padding-y:             $janus-alert-padding-y !default;
 
-// MOVE TO: scss/_alert.scss
+// MOVE TO: scss/helpers/_icons.scss (dir not in v4.1.1 currently, but is in master)
 
-.alert {
-  [class^="icn-"], 
-  [class*=" icn-"] {
-    font-size: $janus-alert-icon-font-size;
-  }
-  .close,
-  .icn-close {
-    text-shadow: none;
-    font-size: $janus-alert-close-font-size;
-  }
-  .more-link[aria-expanded="true"]::before  {
-    content: '- Less'
-  }
-  .more-link[aria-expanded="false"]::before {  
-    content: '+ More'
-  }
+.icon-lg-font-size {
+  font-size: $janus-icon-lg-font-size;
 }
 
-// MOVE TO: scss/utilities/_borders.scss
-
-.rounded-xl {
-  border-radius: $border-radius-xl !important;
+.icon-sm-font-size {
+  font-size: $janus-icon-sm-font-size;
 }
 
 // START ORIGINAL BOOTSTRAP VARIABLES - DO NOT EDIT BELOW THIS LINE

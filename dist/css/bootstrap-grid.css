@@ -15,30 +15,12 @@ html {
   box-sizing: inherit;
 }
 
-.alert [class^="icn-"],
-.alert [class*=" icn-"] {
+.icon-lg-font-size {
   font-size: 1.25rem;
 }
 
-.alert .close,
-.alert .icn-close {
+.icon-sm-font-size {
   font-size: 0.75rem;
-}
-
-[dir] .alert .close, [dir] .alert .icn-close {
-  text-shadow: none;
-}
-
-.alert .more-link[aria-expanded="true"]::before {
-  content: '- Less';
-}
-
-.alert .more-link[aria-expanded="false"]::before {
-  content: '+ More';
-}
-
-[dir] .rounded-xl {
-  border-radius: 0.25rem !important;
 }
 
 .container {
