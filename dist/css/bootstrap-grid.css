@@ -23,6 +23,10 @@ html {
   font-size: 0.75rem;
 }
 
+[dir] .text-shadow-none {
+  text-shadow: none;
+}
+
 .container {
   width: 100%;
 }

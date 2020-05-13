@@ -86,6 +86,10 @@ $alert-padding-y:             $janus-alert-padding-y !default;
   font-size: $janus-icon-sm-font-size;
 }
 
+.text-shadow-none {
+  text-shadow: none;
+}
+
 // START ORIGINAL BOOTSTRAP VARIABLES - DO NOT EDIT BELOW THIS LINE
 // ======================================================================================
 

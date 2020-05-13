@@ -12,6 +12,10 @@
   font-size: 0.75rem;
 }
 
+[dir] .text-shadow-none {
+  text-shadow: none;
+}
+
 :root {
   --blue: #004d74;
   --indigo: #6610f2;
