@@ -8,12 +8,12 @@
   font-size: 1.25rem;
 }
 
-.icon-sm-font-size {
-  font-size: 0.75rem;
-}
-
 [dir] .text-shadow-none {
   text-shadow: none;
+}
+
+.close {
+  opacity: .7 !important;
 }
 
 :root {
@@ -6805,11 +6805,11 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 [dir=ltr] .alert-dismissible {
-  padding-right: 3.5rem;
+  padding-right: 3rem;
 }
 
 [dir=rtl] .alert-dismissible {
-  padding-left: 3.5rem;
+  padding-left: 3rem;
 }
 
 .alert-dismissible .close {
@@ -7635,7 +7635,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .close {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1;
   color: black;

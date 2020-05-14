@@ -77,18 +77,22 @@ $badge-padding-y:             $janus-badge-padding-y !default;
 $alert-padding-x:             $janus-alert-padding-x !default;
 $alert-padding-y:             $janus-alert-padding-y !default;
 
+$close-font-size:             $janus-font-size-base;
+
 // MOVE TO: scss/helpers/_icons.scss (dir not in v4.1.1 currently, but is in master)
 
 .icon-lg-font-size {
   font-size: $janus-icon-lg-font-size;
 }
 
-.icon-sm-font-size {
-  font-size: $janus-icon-sm-font-size;
-}
-
 .text-shadow-none {
   text-shadow: none;
+}
+
+// MOVE TO: scss/_close.scss
+
+.close {
+  opacity: .7 !important;
 }
 
 // START ORIGINAL BOOTSTRAP VARIABLES - DO NOT EDIT BELOW THIS LINE

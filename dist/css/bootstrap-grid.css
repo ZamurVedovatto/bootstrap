@@ -19,12 +19,12 @@ html {
   font-size: 1.25rem;
 }
 
-.icon-sm-font-size {
-  font-size: 0.75rem;
-}
-
 [dir] .text-shadow-none {
   text-shadow: none;
+}
+
+.close {
+  opacity: .7 !important;
 }
 
 .container {
