@@ -37,9 +37,9 @@ $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
 
-$alert-bg-level:                    -10 !default;
+$alert-bg-level:                    -11 !default;
 $alert-border-level:                -9 !default;
-$alert-color-level:                 5 !default;
+$alert-color-level:                 0 !default;
 $alert-border-width:                0 !default;
 
 $btn-border-radius-lg:        $janus-border-radius-lg !default;
@@ -77,12 +77,14 @@ $badge-padding-y:             $janus-badge-padding-y !default;
 $alert-padding-x:             $janus-alert-padding-x !default;
 $alert-padding-y:             $janus-alert-padding-y !default;
 
-$close-font-size:             $janus-font-size-base;
+$close-font-size:             $janus-font-size-base !default;
+$close-line-height:           $janus-icon-lg-line-height;
 
 // MOVE TO: scss/helpers/_icons.scss (dir not in v4.1.1 currently, but is in master)
 
 .icon-lg-font-size {
   font-size: $janus-icon-lg-font-size;
+  line-height: $janus-icon-lg-line-height !important;
 }
 
 .text-shadow-none {
@@ -93,6 +95,7 @@ $close-font-size:             $janus-font-size-base;
 
 .close {
   opacity: .7 !important;
+  line-height: $close-line-height !important;
 }
 
 // START ORIGINAL BOOTSTRAP VARIABLES - DO NOT EDIT BELOW THIS LINE

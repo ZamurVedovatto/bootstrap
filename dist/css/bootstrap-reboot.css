@@ -7,6 +7,7 @@
  */
 .icon-lg-font-size {
   font-size: 1.25rem;
+  line-height: 1.5rem !important;
 }
 
 [dir] .text-shadow-none {
@@ -15,6 +16,7 @@
 
 .close {
   opacity: .7 !important;
+  line-height: 1.5rem !important;
 }
 
 *,
