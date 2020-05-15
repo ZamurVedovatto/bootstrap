@@ -29,6 +29,10 @@ html {
   line-height: 1.5rem !important;
 }
 
+[dir] .btn.btn-sm {
+  border-width: 1px;
+}
+
 .container {
   width: 100%;
 }

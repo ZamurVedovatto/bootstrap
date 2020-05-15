@@ -71,6 +71,10 @@ $input-btn-padding-x-sm:      $janus-input-btn-padding-x-sm !default;
 $input-btn-padding-y-lg:      $janus-input-btn-padding-y-lg !default;
 $input-btn-padding-x-lg:      $janus-input-btn-padding-x-lg !default;
 
+$border-width:                1px !default;
+$input-btn-border-width:      $border-width !default;
+$btn-border-width:            $input-btn-border-width * 2 !default;
+
 $badge-padding-x:             $janus-badge-padding-x !default;
 $badge-padding-y:             $janus-badge-padding-y !default;
 
@@ -96,6 +100,12 @@ $close-line-height:           $janus-icon-lg-line-height;
 .close {
   opacity: .7 !important;
   line-height: $close-line-height !important;
+}
+
+// MOVE TO: scss/_buttons.scss
+
+.btn.btn-sm {
+  border-width: $border-width;
 }
 
 // START ORIGINAL BOOTSTRAP VARIABLES - DO NOT EDIT BELOW THIS LINE
