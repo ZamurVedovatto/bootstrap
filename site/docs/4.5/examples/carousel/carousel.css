@@ -3,9 +3,12 @@
 /* Padding below the footer and lighter body text */
 
 body {
+  color: #5a5a5a;
+}
+
+[dir] body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #5a5a5a;
 }
 
 
@@ -13,7 +16,7 @@ body {
 -------------------------------------------------- */
 
 /* Carousel base class */
-.carousel {
+[dir] .carousel {
   margin-bottom: 4rem;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -29,9 +32,14 @@ body {
 .carousel-item > img {
   position: absolute;
   top: 0;
-  left: 0;
   min-width: 100%;
   height: 32rem;
+}
+[dir=ltr] .carousel-item > img {
+  left: 0;
+}
+[dir=rtl] .carousel-item > img {
+  right: 0;
 }
 
 
@@ -39,24 +47,31 @@ body {
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
+[dir] .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
 .marketing h2 {
   font-weight: 400;
 }
-.marketing .col-lg-4 p {
+[dir=ltr] .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
+}
+[dir=rtl] .marketing .col-lg-4 p {
+  margin-left: .75rem;
+  margin-right: .75rem;
 }
 
 
 /* Featurettes
 ------------------------- */
 
-.featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+.featurette-divider { /* Space out the Bootstrap <hr> more */
+}
+
+[dir] .featurette-divider {
+  margin: 5rem 0;
 }
 
 /* Thin out the marketing headings */
@@ -73,9 +88,11 @@ body {
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
   .carousel-caption p {
-    margin-bottom: 1.25rem;
     font-size: 1.25rem;
     line-height: 1.4;
+  }
+  [dir] .carousel-caption p {
+    margin-bottom: 1.25rem;
   }
 
   .featurette-heading {
@@ -84,7 +101,7 @@ body {
 }
 
 @media (min-width: 62em) {
-  .featurette-heading {
+  [dir] .featurette-heading {
     margin-top: 7rem;
   }
 }

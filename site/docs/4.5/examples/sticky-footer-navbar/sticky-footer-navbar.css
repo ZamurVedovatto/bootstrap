@@ -2,17 +2,22 @@
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 
-main > .container {
+[dir] main > .container {
   padding: 60px 15px 0;
 }
 
-.footer {
+[dir] .footer {
   background-color: #f5f5f5;
 }
 
-.footer > .container {
+[dir=ltr] .footer > .container {
   padding-right: 15px;
   padding-left: 15px;
+}
+
+[dir=rtl] .footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 code {
