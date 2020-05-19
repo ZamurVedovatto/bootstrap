@@ -77,6 +77,7 @@ $btn-border-width:            $input-btn-border-width * 2 !default;
 
 $badge-padding-x:             $janus-badge-padding-x !default;
 $badge-padding-y:             $janus-badge-padding-y !default;
+$badge-border-radius:         $janus-border-radius-sm !default;
 
 $alert-padding-x:             $janus-alert-padding-x !default;
 $alert-padding-y:             $janus-alert-padding-y !default;
@@ -101,8 +102,6 @@ $close-line-height:           $janus-icon-lg-line-height;
   opacity: .7 !important;
   line-height: $close-line-height !important;
 }
-
-// MOVE TO: scss/_buttons.scss
 
 .btn.btn-sm {
   border-width: $border-width;

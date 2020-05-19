@@ -6536,7 +6536,7 @@ input[type="button"].btn-block {
 [dir] .badge {
   padding: 0.1em 0.4em;
   text-align: center;
-  border-radius: 0.25rem;
+  border-radius: 0.125rem;
 }
 
 @media (prefers-reduced-motion: reduce) {
