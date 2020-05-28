@@ -4243,7 +4243,7 @@ input[type="button"].btn-block {
 }
 
 [dir] .dropdown-item {
-  padding: 0.25rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   clear: both;
   text-align: inherit;
   background-color: transparent;
@@ -4299,7 +4299,7 @@ input[type="button"].btn-block {
 }
 
 [dir] .dropdown-item-text {
-  padding: 0.25rem 1.5rem;
+  padding: 0.5rem 1.5rem;
 }
 
 .btn-group,

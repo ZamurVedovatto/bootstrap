@@ -83,7 +83,9 @@ $alert-padding-x:             $janus-alert-padding-x !default;
 $alert-padding-y:             $janus-alert-padding-y !default;
 
 $close-font-size:             $janus-font-size-base !default;
-$close-line-height:           $janus-icon-lg-line-height;
+$close-line-height:           $janus-icon-lg-line-height !default;
+
+$dropdown-item-padding-y:     $janus-dropdown-item-padding-y !default;
 
 // MOVE TO: scss/helpers/_icons.scss (dir not in v4.1.1 currently, but is in master)
 
