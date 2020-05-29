@@ -4,6 +4,12 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+.dropdown-header {
+  font-size: 1rem !important;
+  font-weight: bold;
+  color: #333333 !important;
+}
+
 .icon-lg-font-size {
   font-size: 1.25rem;
   line-height: 1.5rem !important;
@@ -4284,7 +4290,7 @@ input[type="button"].btn-block {
 .dropdown-header {
   display: block;
   font-size: 0.875rem;
-  color: #6c757d;
+  color: black;
   white-space: nowrap;
 }
 

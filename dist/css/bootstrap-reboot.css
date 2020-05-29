@@ -5,6 +5,12 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
+.dropdown-header {
+  font-size: 1rem !important;
+  font-weight: bold;
+  color: #333333 !important;
+}
+
 .icon-lg-font-size {
   font-size: 1.25rem;
   line-height: 1.5rem !important;

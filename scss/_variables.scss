@@ -86,6 +86,15 @@ $close-font-size:             $janus-font-size-base !default;
 $close-line-height:           $janus-icon-lg-line-height !default;
 
 $dropdown-item-padding-y:     $janus-dropdown-item-padding-y !default;
+$dropdown-header-color:       $black !default;
+
+// MOVE TO: scss/_dropdown.scss
+
+.dropdown-header {
+  font-size: $h4-font-size !important;
+  font-weight: bold;
+  color: $janus-color-secondary !important;
+}
 
 // MOVE TO: scss/helpers/_icons.scss (dir not in v4.1.1 currently, but is in master)
 
