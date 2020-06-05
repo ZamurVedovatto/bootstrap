@@ -121,14 +121,14 @@ $dropdown-header-color:       $black !default;
 // MOVE TO: scss/_dropdown.scss
 
 .dropdown-menu {
-    width: 200px;
+    width: 100%;
 }
 
 // REPLACE: @include media-breakpoint-up(sm) { ... }
 
 @media (min-width: 576px) {
     .dropdown-menu {
-        width: 100%;
+        width: 200px;
     }
 }
 

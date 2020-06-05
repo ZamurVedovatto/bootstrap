@@ -29,12 +29,12 @@
 }
 
 .dropdown-menu {
-  width: 200px;
+  width: 100%;
 }
 
 @media (min-width: 576px) {
   .dropdown-menu {
-    width: 100%;
+    width: 200px;
   }
 }
 
