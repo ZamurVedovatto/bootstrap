@@ -40,7 +40,7 @@ html {
 }
 
 .dropdown-item {
-  white-space: normal;
+  white-space: normal !important;
 }
 
 .container {
