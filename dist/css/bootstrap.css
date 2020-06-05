@@ -28,6 +28,10 @@
   border-width: 1px;
 }
 
+.dropdown-item {
+  white-space: normal;
+}
+
 :root {
   --blue: #004d74;
   --indigo: #6610f2;

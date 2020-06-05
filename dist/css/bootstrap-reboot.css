@@ -29,6 +29,10 @@
   border-width: 1px;
 }
 
+.dropdown-item {
+  white-space: normal;
+}
+
 *,
 *::before,
 *::after {

@@ -118,6 +118,12 @@ $dropdown-header-color:       $black !default;
   border-width: $border-width;
 }
 
+// MOVE TO: scss/_dropdown.scss
+
+.dropdown-item {
+    white-space: normal;
+}
+
 // START ORIGINAL BOOTSTRAP VARIABLES - DO NOT EDIT BELOW THIS LINE
 // ======================================================================================
 

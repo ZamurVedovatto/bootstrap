@@ -39,6 +39,10 @@ html {
   border-width: 1px;
 }
 
+.dropdown-item {
+  white-space: normal;
+}
+
 .container {
   width: 100%;
 }
