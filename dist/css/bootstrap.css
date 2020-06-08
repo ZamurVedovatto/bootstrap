@@ -3954,7 +3954,7 @@ input[type="button"].btn-block {
 
 [dir] .dropdown-menu {
   padding: 0.5rem 0;
-  margin: 0.125rem 0 0;
+  margin: 0.25rem 0 0;
   background-color: white;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -4076,7 +4076,7 @@ input[type="button"].btn-block {
 
 [dir] .dropup .dropdown-menu {
   margin-top: 0;
-  margin-bottom: 0.125rem;
+  margin-bottom: 0.25rem;
 }
 
 .dropup .dropdown-toggle::after {
@@ -4121,13 +4121,13 @@ input[type="button"].btn-block {
 [dir=ltr] .dropright .dropdown-menu {
   right: auto;
   left: 100%;
-  margin-left: 0.125rem;
+  margin-left: 0.25rem;
 }
 
 [dir=rtl] .dropright .dropdown-menu {
   left: auto;
   right: 100%;
-  margin-right: 0.125rem;
+  margin-right: 0.25rem;
 }
 
 .dropright .dropdown-toggle::after {
@@ -4176,13 +4176,13 @@ input[type="button"].btn-block {
 [dir=ltr] .dropleft .dropdown-menu {
   right: 100%;
   left: auto;
-  margin-right: 0.125rem;
+  margin-right: 0.25rem;
 }
 
 [dir=rtl] .dropleft .dropdown-menu {
   left: 100%;
   right: auto;
-  margin-left: 0.125rem;
+  margin-left: 0.25rem;
 }
 
 .dropleft .dropdown-toggle::after {
