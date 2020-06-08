@@ -39,6 +39,10 @@ html {
   border-width: 1px;
 }
 
+.dropdown-toggle::after {
+  display: none;
+}
+
 .dropdown-menu {
   width: 100%;
 }

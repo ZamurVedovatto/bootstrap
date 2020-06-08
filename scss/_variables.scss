@@ -49,6 +49,8 @@ $font-family-sans-serif:      $janus-font-stack-base !default;
 $font-family-monospace:       $janus-font-stack-monospace !default;
 
 $font-size-base:              $janus-font-size-base !default;
+$btn-font-size-lg:            $janus-font-size-base !default;
+
 $line-height-base:            $janus-line-height-base !default;
 $headings-line-height:        $janus-headings-line-height-base !default;
 
@@ -119,6 +121,10 @@ $dropdown-header-color:       $black !default;
 }
 
 // MOVE TO: scss/_dropdown.scss
+
+.dropdown-toggle::after {
+    display: none;
+}
 
 .dropdown-menu {
     width: 100%;

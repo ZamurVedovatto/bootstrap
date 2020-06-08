@@ -28,6 +28,10 @@
   border-width: 1px;
 }
 
+.dropdown-toggle::after {
+  display: none;
+}
+
 .dropdown-menu {
   width: 100%;
 }
@@ -3830,7 +3834,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-lg, .btn-group-lg > .btn {
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
