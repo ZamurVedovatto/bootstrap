@@ -124,10 +124,6 @@ $dropdown-spacer:             $janus-dropdown-spacer !default;
 
 // MOVE TO: scss/_dropdown.scss
 
-.dropdown-toggle::after {
-    display: none !important;
-}
-
 .dropdown-menu {
     width: 100%;
 }
