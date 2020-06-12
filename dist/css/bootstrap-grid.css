@@ -53,6 +53,45 @@ html {
   white-space: normal !important;
 }
 
+[dir] .modal-dialog {
+  box-shadow: 0px 2px 5px 0px #6c757d;
+  border-radius: 0.625rem;
+}
+
+[dir] .modal-header, [dir] .modal-footer {
+  background: #f8f9fa;
+}
+
+[dir=ltr] .modal-header {
+  border-top-right-radius: 0.625rem !important;
+  border-top-left-radius: 0.625rem !important;
+}
+
+[dir=rtl] .modal-header {
+  border-top-left-radius: 0.625rem !important;
+  border-top-right-radius: 0.625rem !important;
+}
+
+[dir=ltr] .modal-footer {
+  border-bottom-right-radius: 0.625rem !important;
+  border-bottom-left-radius: 0.625rem !important;
+}
+
+[dir=rtl] .modal-footer {
+  border-bottom-left-radius: 0.625rem !important;
+  border-bottom-right-radius: 0.625rem !important;
+}
+
+.modal-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+[dir] .modal-content {
+  border: none !important;
+  border-radius: .625rem !important;
+}
+
 .container {
   width: 100%;
 }

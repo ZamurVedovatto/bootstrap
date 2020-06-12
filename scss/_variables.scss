@@ -65,6 +65,7 @@ $h7-font-size:                $janus-font-size-base * 0.75 !default;
 $border-radius:               $janus-border-radius !default;
 $border-radius-sm:            $janus-border-radius-sm !default;
 $border-radius-lg:            $janus-border-radius-lg !default;
+$border-radius-xl:            $janus-border-radius-xl;
 
 $input-btn-padding-y:         $janus-input-btn-padding-y !default;
 $input-btn-padding-x:         $janus-input-btn-padding-x !default;
@@ -97,7 +98,7 @@ $dropdown-spacer:             $janus-dropdown-spacer !default;
 .dropdown-header {
   font-size: $h4-font-size !important;
   font-weight: bold;
-  color: $janus-color-secondary !important;
+  color: $secondary !important;
 }
 
 // MOVE TO: scss/helpers/_icons.scss (dir not in v4.1.1 currently, but is in master)
@@ -138,6 +139,38 @@ $dropdown-spacer:             $janus-dropdown-spacer !default;
 
 .dropdown-item {
     white-space: normal !important;
+}
+
+// MOVE TO: scss/_modal.scss
+
+.modal-dialog {
+    box-shadow: 0px 2px 5px 0px rgba($gray-600, 1);
+    border-radius: $border-radius-xl;
+}
+
+.modal-header,
+.modal-footer {
+    background: $gray-100;
+}
+
+.modal-header {
+    border-top-right-radius: $border-radius-xl !important;
+    border-top-left-radius: $border-radius-xl !important;
+}
+
+.modal-footer {
+    border-bottom-right-radius: $border-radius-xl !important;
+    border-bottom-left-radius: $border-radius-xl !important;
+}
+
+.modal-title {
+    font-size: $font-size-base;
+    font-weight: 600;
+}
+
+.modal-content {
+    border: none !important;
+    border-radius: .625rem !important;
 }
 
 // START ORIGINAL BOOTSTRAP VARIABLES - DO NOT EDIT BELOW THIS LINE
