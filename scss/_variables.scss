@@ -112,6 +112,12 @@ $dropdown-spacer:             $janus-dropdown-spacer !default;
   text-shadow: none;
 }
 
+// MOVE TO: scss/utilities/_borders.scss
+
+.rounded-xl {
+  border-radius: $border-radius-xl !important;
+}
+
 // MOVE TO: scss/_close.scss
 
 .close {

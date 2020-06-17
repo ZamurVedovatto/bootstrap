@@ -20,6 +20,10 @@
   text-shadow: none;
 }
 
+[dir] .rounded-xl {
+  border-radius: 0.625rem !important;
+}
+
 .close {
   opacity: .7 !important;
   line-height: 1.5rem !important;
