@@ -59,7 +59,7 @@ html {
 
 [dir] .modal-dialog {
   box-shadow: 0px 2px 5px 0px #6c757d;
-  border-radius: 0.188rem;
+  border-radius: 0.375rem;
 }
 
 [dir] .modal-header, [dir] .modal-footer {
@@ -67,23 +67,23 @@ html {
 }
 
 [dir=ltr] .modal-header {
-  border-top-right-radius: 0.188rem !important;
-  border-top-left-radius: 0.188rem !important;
+  border-top-right-radius: 0.375rem !important;
+  border-top-left-radius: 0.375rem !important;
 }
 
 [dir=rtl] .modal-header {
-  border-top-left-radius: 0.188rem !important;
-  border-top-right-radius: 0.188rem !important;
+  border-top-left-radius: 0.375rem !important;
+  border-top-right-radius: 0.375rem !important;
 }
 
 [dir=ltr] .modal-footer {
-  border-bottom-right-radius: 0.188rem !important;
-  border-bottom-left-radius: 0.188rem !important;
+  border-bottom-right-radius: 0.375rem !important;
+  border-bottom-left-radius: 0.375rem !important;
 }
 
 [dir=rtl] .modal-footer {
-  border-bottom-left-radius: 0.188rem !important;
-  border-bottom-right-radius: 0.188rem !important;
+  border-bottom-left-radius: 0.375rem !important;
+  border-bottom-right-radius: 0.375rem !important;
 }
 
 .modal-title {
@@ -92,7 +92,7 @@ html {
 }
 
 [dir] .modal-content {
-  border-radius: 0.188rem !important;
+  border-radius: 0.375rem !important;
 }
 
 .container {
