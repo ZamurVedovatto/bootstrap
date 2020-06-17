@@ -44,7 +44,7 @@
 
 [dir] .modal-dialog {
   box-shadow: 0px 2px 5px 0px #6c757d;
-  border-radius: 0.625rem;
+  border-radius: 0.188rem;
 }
 
 [dir] .modal-header, [dir] .modal-footer {
@@ -52,23 +52,23 @@
 }
 
 [dir=ltr] .modal-header {
-  border-top-right-radius: 0.625rem !important;
-  border-top-left-radius: 0.625rem !important;
+  border-top-right-radius: 0.188rem !important;
+  border-top-left-radius: 0.188rem !important;
 }
 
 [dir=rtl] .modal-header {
-  border-top-left-radius: 0.625rem !important;
-  border-top-right-radius: 0.625rem !important;
+  border-top-left-radius: 0.188rem !important;
+  border-top-right-radius: 0.188rem !important;
 }
 
 [dir=ltr] .modal-footer {
-  border-bottom-right-radius: 0.625rem !important;
-  border-bottom-left-radius: 0.625rem !important;
+  border-bottom-right-radius: 0.188rem !important;
+  border-bottom-left-radius: 0.188rem !important;
 }
 
 [dir=rtl] .modal-footer {
-  border-bottom-left-radius: 0.625rem !important;
-  border-bottom-right-radius: 0.625rem !important;
+  border-bottom-left-radius: 0.188rem !important;
+  border-bottom-right-radius: 0.188rem !important;
 }
 
 .modal-title {
@@ -77,8 +77,7 @@
 }
 
 [dir] .modal-content {
-  border: none !important;
-  border-radius: .625rem !important;
+  border-radius: 0.188rem !important;
 }
 
 :root {

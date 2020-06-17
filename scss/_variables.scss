@@ -145,7 +145,7 @@ $dropdown-spacer:             $janus-dropdown-spacer !default;
 
 .modal-dialog {
     box-shadow: 0px 2px 5px 0px rgba($gray-600, 1);
-    border-radius: $border-radius-xl;
+    border-radius: $border-radius-lg;
 }
 
 .modal-header,
@@ -154,13 +154,13 @@ $dropdown-spacer:             $janus-dropdown-spacer !default;
 }
 
 .modal-header {
-    border-top-right-radius: $border-radius-xl !important;
-    border-top-left-radius: $border-radius-xl !important;
+    border-top-right-radius: $border-radius-lg !important;
+    border-top-left-radius: $border-radius-lg !important;
 }
 
 .modal-footer {
-    border-bottom-right-radius: $border-radius-xl !important;
-    border-bottom-left-radius: $border-radius-xl !important;
+    border-bottom-right-radius: $border-radius-lg !important;
+    border-bottom-left-radius: $border-radius-lg !important;
 }
 
 .modal-title {
@@ -169,8 +169,8 @@ $dropdown-spacer:             $janus-dropdown-spacer !default;
 }
 
 .modal-content {
-    border: none !important;
-    border-radius: .625rem !important;
+//    border: none !important;
+    border-radius: $border-radius-lg !important;
 }
 
 // START ORIGINAL BOOTSTRAP VARIABLES - DO NOT EDIT BELOW THIS LINE
