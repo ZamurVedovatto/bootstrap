@@ -6,6 +6,9 @@ body {
 body {
   display: flex;
   align-items: center;
+}
+
+[dir] body {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #f5f5f5;
@@ -14,33 +17,52 @@ body {
 .form-signin {
   width: 100%;
   max-width: 420px;
+}
+
+[dir] .form-signin {
   padding: 15px;
   margin: auto;
 }
 
 .form-label-group {
   position: relative;
+}
+
+[dir] .form-label-group {
   margin-bottom: 1rem;
 }
 
 .form-label-group > input,
 .form-label-group > label {
   height: 3.125rem;
+}
+
+[dir] .form-label-group > input, [dir] .form-label-group > label {
   padding: .75rem;
 }
 
 .form-label-group > label {
   position: absolute;
   top: 0;
-  left: 0;
   display: block;
   width: 100%;
   color: #495057;
-  pointer-events: none;
-  cursor: text; /* Match the input under the label */
+  pointer-events: none; /* Match the input under the label */
+  transition: all .1s ease-in-out;
+}
+
+[dir] .form-label-group > label {
+  cursor: text;
   border: 1px solid transparent;
   border-radius: .25rem;
-  transition: all .1s ease-in-out;
+}
+
+[dir=ltr] .form-label-group > label {
+  left: 0;
+}
+
+[dir=rtl] .form-label-group > label {
+  right: 0;
 }
 
 .form-label-group input::-webkit-input-placeholder {
@@ -59,28 +81,44 @@ body {
   color: transparent;
 }
 
-.form-label-group input:not(:-moz-placeholder-shown) {
+[dir] .form-label-group input:not(:-moz-placeholder-shown) {
   padding-top: 1.25rem;
   padding-bottom: .25rem;
 }
 
-.form-label-group input:not(:placeholder-shown) {
+[dir] .form-label-group input:not(:placeholder-shown) {
   padding-top: 1.25rem;
   padding-bottom: .25rem;
 }
 
 .form-label-group input:not(:-moz-placeholder-shown) ~ label {
+  font-size: 12px;
+  color: #777;
+}
+
+[dir] .form-label-group input:not(:-moz-placeholder-shown) ~ label {
   padding-top: .25rem;
   padding-bottom: .25rem;
+}
+
+.form-label-group input:not(:-moz-placeholder-shown) ~ label {
   font-size: 12px;
   color: #777;
 }
 
 .form-label-group input:not(:placeholder-shown) ~ label {
-  padding-top: .25rem;
-  padding-bottom: .25rem;
   font-size: 12px;
   color: #777;
+}
+
+[dir] .form-label-group input:not(:-moz-placeholder-shown) ~ label {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+}
+
+[dir] .form-label-group input:not(:placeholder-shown) ~ label {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
 }
 
 /* Fallback for Edge
