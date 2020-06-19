@@ -186,27 +186,27 @@
 }
 
 [dir] .border-primary {
-  border-color: #0d6efd !important;
+  border-color: #004d74 !important;
 }
 
 [dir] .border-secondary {
-  border-color: #6c757d !important;
+  border-color: #333333 !important;
 }
 
 [dir] .border-success {
-  border-color: #28a745 !important;
+  border-color: #297848 !important;
 }
 
 [dir] .border-info {
-  border-color: #17a2b8 !important;
+  border-color: #0b5ba1 !important;
 }
 
 [dir] .border-warning {
-  border-color: #ffc107 !important;
+  border-color: #a85502 !important;
 }
 
 [dir] .border-danger {
-  border-color: #dc3545 !important;
+  border-color: #bf3e24 !important;
 }
 
 [dir] .border-light {
@@ -218,7 +218,7 @@
 }
 
 [dir] .border-white {
-  border-color: #fff !important;
+  border-color: white !important;
 }
 
 .w-25 {
@@ -1069,27 +1069,27 @@
 }
 
 .text-primary {
-  color: #0d6efd !important;
+  color: #004d74 !important;
 }
 
 .text-secondary {
-  color: #6c757d !important;
+  color: #333333 !important;
 }
 
 .text-success {
-  color: #28a745 !important;
+  color: #297848 !important;
 }
 
 .text-info {
-  color: #17a2b8 !important;
+  color: #0b5ba1 !important;
 }
 
 .text-warning {
-  color: #ffc107 !important;
+  color: #a85502 !important;
 }
 
 .text-danger {
-  color: #dc3545 !important;
+  color: #bf3e24 !important;
 }
 
 .text-light {
@@ -1101,7 +1101,7 @@
 }
 
 .text-white {
-  color: #fff !important;
+  color: white !important;
 }
 
 .text-body {
@@ -1141,27 +1141,27 @@
 }
 
 [dir] .bg-primary {
-  background-color: #0d6efd !important;
+  background-color: #004d74 !important;
 }
 
 [dir] .bg-secondary {
-  background-color: #6c757d !important;
+  background-color: #333333 !important;
 }
 
 [dir] .bg-success {
-  background-color: #28a745 !important;
+  background-color: #297848 !important;
 }
 
 [dir] .bg-info {
-  background-color: #17a2b8 !important;
+  background-color: #0b5ba1 !important;
 }
 
 [dir] .bg-warning {
-  background-color: #ffc107 !important;
+  background-color: #a85502 !important;
 }
 
 [dir] .bg-danger {
-  background-color: #dc3545 !important;
+  background-color: #bf3e24 !important;
 }
 
 [dir] .bg-light {
@@ -1173,11 +1173,11 @@
 }
 
 [dir] .bg-body {
-  background-color: #fff !important;
+  background-color: white !important;
 }
 
 [dir] .bg-white {
-  background-color: #fff !important;
+  background-color: white !important;
 }
 
 [dir] .bg-transparent {
@@ -1259,11 +1259,11 @@
 }
 
 [dir] .rounded-sm {
-  border-radius: 0.2rem !important;
+  border-radius: 0.125rem !important;
 }
 
 [dir] .rounded-lg {
-  border-radius: 0.3rem !important;
+  border-radius: 0.188rem !important;
 }
 
 [dir] .rounded-circle {
