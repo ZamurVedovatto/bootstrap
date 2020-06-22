@@ -5966,6 +5966,11 @@ fieldset:disabled .btn {
   font-weight: 700;
 }
 
+.alert-icon {
+  position: relative;
+  top: .125rem;
+}
+
 [dir=ltr] .alert-dismissible {
   padding-right: 3rem;
 }

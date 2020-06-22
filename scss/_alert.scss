@@ -21,6 +21,10 @@
   font-weight: $alert-link-font-weight;
 }
 
+.alert-icon {
+  position: relative;
+  top: .125rem;
+}
 
 // Dismissible alerts
 //
