@@ -6747,13 +6747,13 @@ fieldset:disabled .btn {
 .close {
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.5rem;
   color: black;
   opacity: .5;
 }
 
 [dir] .close {
-  text-shadow: 0 1px 0 white;
+  text-shadow: none;
 }
 
 .close:hover {

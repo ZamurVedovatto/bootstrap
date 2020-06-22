@@ -85,7 +85,8 @@ $alert-padding-x:             $janus-alert-padding-x !default;
 $alert-padding-y:             $janus-alert-padding-y !default;
 
 $close-font-size:             $janus-font-size-base !default;
-// $close-line-height:           $janus-icon-lg-line-height !default;
+$close-line-height:           $janus-icon-lg-line-height !default;
+$close-text-shadow:           none !default;
 
 $dropdown-item-padding-y:     $janus-dropdown-item-padding-y !default;
 $dropdown-header-color:       $black !default;
