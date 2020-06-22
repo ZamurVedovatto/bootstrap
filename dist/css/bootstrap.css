@@ -6749,7 +6749,7 @@ fieldset:disabled .btn {
   font-weight: 700;
   line-height: 1.5rem;
   color: black;
-  opacity: .5;
+  opacity: .7;
 }
 
 [dir] .close {
@@ -6767,6 +6767,10 @@ fieldset:disabled .btn {
 
 .close:disabled, .close.disabled {
   pointer-events: none;
+}
+
+[dir] .btn.btn-sm, [dir] .btn-group-sm > .btn {
+  border-width: 1px;
 }
 
 [dir] button.close {

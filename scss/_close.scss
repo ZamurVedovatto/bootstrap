@@ -4,7 +4,7 @@
   line-height: $close-line-height;
   color: $close-color;
   text-shadow: $close-text-shadow;
-  opacity: .5;
+  opacity: .7;
 
   // Override <a>'s hover style
   &:hover {
@@ -20,6 +20,12 @@
   &:disabled,
   &.disabled {
     pointer-events: none;
+  }
+}
+
+.btn {
+  &.btn-sm {
+    border-width: $border-width;
   }
 }
 
