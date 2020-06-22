@@ -15,6 +15,7 @@
 
 // The dropdown menu
 .dropdown-menu {
+  width: 100%;
   position: absolute;
   top: 100%;
   left: 0;
@@ -32,6 +33,12 @@
   border: $dropdown-border-width solid $dropdown-border-color;
   @include border-radius($dropdown-border-radius);
   @include box-shadow($dropdown-box-shadow);
+}
+
+@include media-breakpoint-up(sm) {
+  .dropdown-menu {
+    width: 200px;
+  }
 }
 
 // scss-docs-start responsive-breakpoints

@@ -4358,6 +4358,7 @@ fieldset:disabled .btn {
 }
 
 .dropdown-menu {
+  width: 100%;
   position: absolute;
   top: 100%;
   z-index: 1000;
@@ -4385,6 +4386,12 @@ fieldset:disabled .btn {
 [dir=rtl] .dropdown-menu {
   right: 0;
   text-align: right;
+}
+
+@media (min-width: 576px) {
+  .dropdown-menu {
+    width: 200px;
+  }
 }
 
 [dir=ltr] .dropdown-menu-left {
