@@ -4341,12 +4341,14 @@ fieldset:disabled .btn {
   margin-left: 0.255em;
   border-right: 0.3em solid transparent;
   border-left: 0.3em solid transparent;
+  transform: rotateZ(45deg);
 }
 
 [dir=rtl] .dropdown-toggle::after {
   margin-right: 0.255em;
   border-left: 0.3em solid transparent;
   border-right: 0.3em solid transparent;
+  transform: rotateZ(-45deg);
 }
 
 [dir=ltr] .dropdown-toggle:empty::after {
@@ -4523,23 +4525,21 @@ fieldset:disabled .btn {
   display: inline-block;
   vertical-align: 0.255em;
   content: "";
+  top: 0.25rem;
 }
 
 [dir] .dropup .dropdown-toggle::after {
   border-top: 0;
-  border-bottom: 0.3em solid;
 }
 
 [dir=ltr] .dropup .dropdown-toggle::after {
   margin-left: 0.255em;
-  border-right: 0.3em solid transparent;
-  border-left: 0.3em solid transparent;
+  transform: rotateZ(-135deg);
 }
 
 [dir=rtl] .dropup .dropdown-toggle::after {
   margin-right: 0.255em;
-  border-left: 0.3em solid transparent;
-  border-right: 0.3em solid transparent;
+  transform: rotateZ(135deg);
 }
 
 [dir=ltr] .dropup .dropdown-toggle:empty::after {
@@ -4574,23 +4574,17 @@ fieldset:disabled .btn {
   display: inline-block;
   vertical-align: 0.255em;
   content: "";
-}
-
-[dir] .dropright .dropdown-toggle::after {
-  border-top: 0.3em solid transparent;
-  border-bottom: 0.3em solid transparent;
+  top: -1px;
 }
 
 [dir=ltr] .dropright .dropdown-toggle::after {
   margin-left: 0.255em;
-  border-right: 0;
-  border-left: 0.3em solid;
+  transform: rotateZ(-45deg);
 }
 
 [dir=rtl] .dropright .dropdown-toggle::after {
   margin-right: 0.255em;
-  border-left: 0;
-  border-right: 0.3em solid;
+  transform: rotateZ(45deg);
 }
 
 [dir=ltr] .dropright .dropdown-toggle:empty::after {
@@ -4647,21 +4641,19 @@ fieldset:disabled .btn {
   display: inline-block;
   vertical-align: 0.255em;
   content: "";
-}
-
-[dir] .dropleft .dropdown-toggle::before {
-  border-top: 0.3em solid transparent;
-  border-bottom: 0.3em solid transparent;
+  top: -1px;
 }
 
 [dir=ltr] .dropleft .dropdown-toggle::before {
   margin-right: 0.255em;
-  border-right: 0.3em solid;
+  border-left: 0;
+  transform: rotateZ(-225deg);
 }
 
 [dir=rtl] .dropleft .dropdown-toggle::before {
   margin-left: 0.255em;
-  border-left: 0.3em solid;
+  border-right: 0;
+  transform: rotateZ(225deg);
 }
 
 [dir=ltr] .dropleft .dropdown-toggle:empty::after {
@@ -4766,6 +4758,30 @@ fieldset:disabled .btn {
 
 [dir] .dropdown-item-text {
   padding: 0.5rem 1rem;
+}
+
+.dropdown-toggle::after, .dropdown-toggle::before {
+  position: relative;
+  width: .5em;
+  height: .5em;
+}
+
+[dir] .dropdown-toggle::after, [dir] .dropdown-toggle::before {
+  border: .3em solid;
+}
+
+[dir=ltr] .dropdown-toggle::after, [dir=ltr] .dropdown-toggle::before {
+  margin: 0 0 0 .4em;
+  border-width: 0 .15em .15em 0;
+}
+
+[dir=rtl] .dropdown-toggle::after, [dir=rtl] .dropdown-toggle::before {
+  margin: 0 .4em 0 0;
+  border-width: 0 0 .15em .15em;
+}
+
+.dropdown-toggle::before {
+  display: none;
 }
 
 .btn-group,

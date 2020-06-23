@@ -202,3 +202,23 @@
   padding: $dropdown-item-padding-y $dropdown-item-padding-x;
   color: $dropdown-link-color;
 }
+
+// Customize Dropdown Toggle to be a chevron instead of a triangle
+
+.dropdown-toggle {
+  &::after,
+  &::before {
+    position: relative;
+    width: .5em;
+    height: .5em;
+    margin: 0 0 0 .4em;
+    border: .3em solid;
+    border-width: 0 .15em .15em 0;
+  }
+}
+
+.dropdown-toggle {
+  &::before {
+    display: none;
+  }
+}
