@@ -5985,6 +5985,7 @@ fieldset:disabled .btn {
 .alert-icon {
   position: relative;
   top: .125rem;
+  font-size: 1.25rem;
 }
 
 [dir=ltr] .alert-dismissible {
