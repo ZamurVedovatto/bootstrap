@@ -12,15 +12,18 @@
 }
 
 body {
-  margin: 0;
   font-family: Lato, -apple-system, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: white;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+[dir] body {
+  margin: 0;
+  background-color: white;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -28,11 +31,14 @@ body {
 }
 
 hr {
-  margin: 1rem 0;
   color: inherit;
+  opacity: 0.25;
+}
+
+[dir] hr {
+  margin: 1rem 0;
   background-color: currentColor;
   border: 0;
-  opacity: 0.25;
 }
 
 hr:not([size]) {
@@ -40,10 +46,13 @@ hr:not([size]) {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.4;
+}
+
+[dir] h1, [dir] h2, [dir] h3, [dir] h4, [dir] h5, [dir] h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 
 h1 {
@@ -82,7 +91,7 @@ h6 {
   font-size: 0.8125rem;
 }
 
-p {
+[dir] p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -90,33 +99,39 @@ p {
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
-  cursor: help;
+  -webkit-text-decoration-skip-ink: none;
   text-decoration-skip-ink: none;
 }
 
+[dir] abbr[title], [dir] abbr[data-original-title] {
+  cursor: help;
+}
+
 address {
-  margin-bottom: 1rem;
   font-style: normal;
   line-height: inherit;
 }
 
-ol,
-ul {
+[dir] address {
+  margin-bottom: 1rem;
+}
+
+[dir=ltr] ol, [dir=ltr] ul {
   padding-left: 2rem;
 }
 
-ol,
-ul,
-dl {
+[dir=rtl] ol, [dir=rtl] ul {
+  padding-right: 2rem;
+}
+
+[dir] ol, [dir] ul, [dir] dl {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-ol ol,
-ul ul,
-ol ul,
-ul ol {
+[dir] ol ol, [dir] ul ul, [dir] ol ul, [dir] ul ol {
   margin-bottom: 0;
 }
 
@@ -124,12 +139,19 @@ dt {
   font-weight: 700;
 }
 
-dd {
+[dir] dd {
   margin-bottom: .5rem;
+}
+
+[dir=ltr] dd {
   margin-left: 0;
 }
 
-blockquote {
+[dir=rtl] dd {
+  margin-right: 0;
+}
+
+[dir] blockquote {
   margin: 0 0 1rem;
 }
 
@@ -142,7 +164,7 @@ small {
   font-size: 0.875em;
 }
 
-mark {
+[dir] mark {
   padding: 0.2em;
   background-color: #fcf8e3;
 }
@@ -187,11 +209,14 @@ samp {
 
 pre {
   display: block;
-  margin-top: 0;
-  margin-bottom: 1rem;
   overflow: auto;
   font-size: 0.875em;
   -ms-overflow-style: scrollbar;
+}
+
+[dir] pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 pre code {
@@ -211,20 +236,26 @@ a > code {
 }
 
 kbd {
-  padding: 0.2rem 0.4rem;
   font-size: 0.875em;
   color: white;
+}
+
+[dir] kbd {
+  padding: 0.2rem 0.4rem;
   background-color: #212529;
   border-radius: 0.125rem;
 }
 
 kbd kbd {
-  padding: 0;
   font-size: 1em;
   font-weight: 700;
 }
 
-figure {
+[dir] kbd kbd {
+  padding: 0;
+}
+
+[dir] figure {
   margin: 0 0 1rem;
 }
 
@@ -239,23 +270,28 @@ table {
 }
 
 caption {
+  color: #6c757d;
+}
+
+[dir] caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  color: #6c757d;
+}
+
+[dir=ltr] caption {
   text-align: left;
 }
 
-th {
+[dir=rtl] caption {
+  text-align: right;
+}
+
+[dir] th {
   text-align: inherit;
   text-align: -webkit-match-parent;
 }
 
-thead,
-tbody,
-tfoot,
-tr,
-td,
-th {
+[dir] thead, [dir] tbody, [dir] tfoot, [dir] tr, [dir] td, [dir] th {
   border-color: inherit;
   border-style: solid;
   border-width: 0;
@@ -265,7 +301,7 @@ label {
   display: inline-block;
 }
 
-button {
+[dir] button {
   border-radius: 0;
 }
 
@@ -279,10 +315,13 @@ button,
 select,
 optgroup,
 textarea {
-  margin: 0;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+[dir] input, [dir] button, [dir] select, [dir] optgroup, [dir] textarea {
+  margin: 0;
 }
 
 button,
@@ -295,7 +334,7 @@ select {
   text-transform: none;
 }
 
-[role="button"] {
+[dir] [role="button"] {
   cursor: pointer;
 }
 
@@ -314,14 +353,11 @@ button,
   -webkit-appearance: button;
 }
 
-button:not(:disabled),
-[type="button"]:not(:disabled),
-[type="reset"]:not(:disabled),
-[type="submit"]:not(:disabled) {
+[dir] button:not(:disabled), [dir] [type="button"]:not(:disabled), [dir] [type="reset"]:not(:disabled), [dir] [type="submit"]:not(:disabled) {
   cursor: pointer;
 }
 
-::-moz-focus-inner {
+[dir] ::-moz-focus-inner {
   padding: 0;
   border-style: none;
 }
@@ -332,19 +368,32 @@ textarea {
 
 fieldset {
   min-width: 0;
+}
+
+[dir] fieldset {
   padding: 0;
   margin: 0;
   border: 0;
 }
 
 legend {
-  float: left;
   width: 100%;
-  padding: 0;
-  margin-bottom: 0.5rem;
   font-size: calc(1.275rem + 0.3vw);
   line-height: inherit;
   white-space: normal;
+}
+
+[dir] legend {
+  padding: 0;
+  margin-bottom: 0.5rem;
+}
+
+[dir=ltr] legend {
+  float: left;
+}
+
+[dir=rtl] legend {
+  float: right;
 }
 
 @media (min-width: 1200px) {
@@ -353,17 +402,15 @@ legend {
   }
 }
 
-legend + * {
+[dir=ltr] legend + * {
   clear: left;
 }
 
-::-webkit-datetime-edit-fields-wrapper,
-::-webkit-datetime-edit-text,
-::-webkit-datetime-edit-minute,
-::-webkit-datetime-edit-hour-field,
-::-webkit-datetime-edit-day-field,
-::-webkit-datetime-edit-month-field,
-::-webkit-datetime-edit-year-field {
+[dir=rtl] legend + * {
+  clear: right;
+}
+
+[dir] ::-webkit-datetime-edit-fields-wrapper, [dir] ::-webkit-datetime-edit-text, [dir] ::-webkit-datetime-edit-minute, [dir] ::-webkit-datetime-edit-hour-field, [dir] ::-webkit-datetime-edit-day-field, [dir] ::-webkit-datetime-edit-month-field, [dir] ::-webkit-datetime-edit-year-field {
   padding: 0;
 }
 
@@ -380,7 +427,7 @@ legend + * {
   -webkit-appearance: none;
 }
 
-::-webkit-color-swatch-wrapper {
+[dir] ::-webkit-color-swatch-wrapper {
   padding: 0;
 }
 
@@ -393,12 +440,15 @@ output {
   display: inline-block;
 }
 
-iframe {
+[dir] iframe {
   border: 0;
 }
 
 summary {
   display: list-item;
+}
+
+[dir] summary {
   cursor: pointer;
 }
 
@@ -409,5 +459,4 @@ progress {
 [hidden] {
   display: none !important;
 }
-
 /*# sourceMappingURL=bootstrap-reboot.css.map */
