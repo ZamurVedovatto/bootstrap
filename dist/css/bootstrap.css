@@ -4700,7 +4700,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .dropdown-item {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.5rem;
   clear: both;
   text-align: inherit;
   background-color: transparent;
@@ -4748,7 +4748,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .dropdown-header {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.5rem;
   margin-bottom: 0;
 }
 
@@ -4758,7 +4758,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .dropdown-item-text {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.5rem;
 }
 
 .dropdown-toggle::after, .dropdown-toggle::before {
