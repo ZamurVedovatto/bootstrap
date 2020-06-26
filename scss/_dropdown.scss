@@ -194,6 +194,7 @@
   @include font-size($h4-font-size);
   color: $dropdown-header-color;
   white-space: nowrap; // as with > li > a
+  line-height: $janus-line-height-base;
 }
 
 // Dropdown text
