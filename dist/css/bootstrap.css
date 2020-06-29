@@ -6952,6 +6952,7 @@ fieldset:disabled .btn {
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.188rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .modal-backdrop {
@@ -7066,6 +7067,10 @@ fieldset:disabled .btn {
   width: 50px;
   height: 50px;
   overflow: scroll;
+}
+
+[dir] .modal-header, [dir] .modal-footer {
+  background: #f8f9fa;
 }
 
 @media (min-width: 576px) {
