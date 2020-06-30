@@ -7018,7 +7018,8 @@ fieldset:disabled .btn {
 }
 
 .modal-title {
-  line-height: 1.5;
+  line-height: 1.45rem;
+  font-weight: 700;
 }
 
 [dir] .modal-title {
