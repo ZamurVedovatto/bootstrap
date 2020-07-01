@@ -6986,7 +6986,7 @@ fieldset:disabled .btn {
 .modal-header {
   display: flex;
   flex-shrink: 0;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
 }
 
