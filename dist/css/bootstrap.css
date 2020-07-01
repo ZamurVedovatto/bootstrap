@@ -7075,7 +7075,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .modal-header, [dir] .modal-footer {
-  background: red;
+  background: #f8f9fa;
 }
 
 @media (min-width: 576px) {
