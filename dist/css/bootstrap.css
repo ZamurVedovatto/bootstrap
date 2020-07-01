@@ -6986,7 +6986,6 @@ fieldset:disabled .btn {
 .modal-header {
   display: flex;
   flex-shrink: 0;
-  align-items: center !important;
   justify-content: space-between;
 }
 
@@ -7070,8 +7069,13 @@ fieldset:disabled .btn {
   overflow: scroll;
 }
 
+.modal-header,
+.modal-footer {
+  align-items: center;
+}
+
 [dir] .modal-header, [dir] .modal-footer {
-  background: #f8f9fa;
+  background: red;
 }
 
 @media (min-width: 576px) {

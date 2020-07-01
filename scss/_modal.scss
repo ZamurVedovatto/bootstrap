@@ -111,7 +111,6 @@
 .modal-header {
   display: flex;
   flex-shrink: 0;
-  align-items: center !important; 
   justify-content: space-between; // Put modal header elements (title and dismiss) on opposite ends
   padding: $modal-header-padding;
   border-bottom: $modal-header-border-width solid $modal-header-border-color;
@@ -171,7 +170,8 @@
 
 .modal-header,
 .modal-footer {
-  background: $light;
+  background: red;
+  align-items: center;
 }
 
 // Scale up the modal
