@@ -60,7 +60,6 @@ $h3-font-size:                $janus-font-size-base * 1.25 !default;
 $h4-font-size:                $janus-font-size-base !default;
 $h5-font-size:                $janus-font-size-base * .875 !default;
 $h6-font-size:                $janus-font-size-base * .8125 !default;
-// $h7-font-size:                $janus-font-size-base * 0.75 !default;
 
 $border-radius:               $janus-border-radius !default;
 $border-radius-sm:            $janus-border-radius-sm !default;
@@ -91,6 +90,8 @@ $close-text-shadow:           none !default;
 $dropdown-item-padding-y:     $janus-dropdown-item-padding-y !default;
 $dropdown-item-padding-x:     $janus-dropdown-item-padding-x !default;
 
+$dropdown-header-color:       $janus-color-secondary !default;
+
 $dropdown-spacer:             $janus-dropdown-spacer !default;
 
-$modal-title-line-height:      $janus-modal-title-line-height !default;
+$modal-title-line-height:     $janus-modal-title-line-height !default;
