@@ -4708,16 +4708,22 @@ fieldset:disabled .btn {
 }
 
 [dir=ltr] .dropdown-item.with-prefix-icon {
-  padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+  padding: 0.5rem 2.25rem 0.5rem 0.5rem;
 }
 
 [dir=rtl] .dropdown-item.with-prefix-icon {
-  padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 2.25rem;
 }
 
 .dropdown-item.with-prefix-icon i {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
+  font-size: 1.25rem;
+  color: #333333;
+}
+
+[dir] .dropdown-item.with-prefix-icon i {
+  padding: 2px;
 }
 
 [dir=ltr] .dropdown-item.with-suffix-icon {
@@ -4731,6 +4737,7 @@ fieldset:disabled .btn {
 .dropdown-item.with-suffix-icon i {
   width: 20px;
   height: 20px;
+  color: #333333;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
