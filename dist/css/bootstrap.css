@@ -4715,12 +4715,22 @@ fieldset:disabled .btn {
   padding: 0.5rem 0.5rem 0.5rem 1.5rem;
 }
 
+.dropdown-item.with-prefix-icon i {
+  width: 24px;
+  height: 24px;
+}
+
 [dir=ltr] .dropdown-item.with-suffix-icon {
-  padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 3rem;
 }
 
 [dir=rtl] .dropdown-item.with-suffix-icon {
-  padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+  padding: 0.5rem 3rem 0.5rem 0.5rem;
+}
+
+.dropdown-item.with-suffix-icon i {
+  width: 20px;
+  height: 20px;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {

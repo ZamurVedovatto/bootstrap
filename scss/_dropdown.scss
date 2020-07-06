@@ -145,11 +145,19 @@
   border: 0; // For `<button>`s
 
   &.with-prefix-icon {
-    padding: $dropdown-item-padding-y  $dropdown-item-padding-x $dropdown-item-padding-y $dropdown-item-padding-y;    
+    padding: $dropdown-item-padding-y  $dropdown-item-padding-x $dropdown-item-padding-y $dropdown-item-padding-y;
+    i {
+      width: 24px;
+      height: 24px;
+    } 
   }
 
   &.with-suffix-icon {
-    padding: $dropdown-item-padding-y $dropdown-item-padding-y $dropdown-item-padding-y $dropdown-item-padding-x;
+    padding: $dropdown-item-padding-y $dropdown-item-padding-y $dropdown-item-padding-y $dropdown-item-padding-x * 2;
+    i {
+      width: 20px;
+      height: 20px;
+    }    
   }
 
   // Prevent dropdown overflow if there's no padding
