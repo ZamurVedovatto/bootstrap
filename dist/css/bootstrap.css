@@ -4707,6 +4707,22 @@ fieldset:disabled .btn {
   border: 0;
 }
 
+[dir=ltr] .dropdown-item.with-prefix-icon {
+  padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+}
+
+[dir=rtl] .dropdown-item.with-prefix-icon {
+  padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+}
+
+[dir=ltr] .dropdown-item.with-suffix-icon {
+  padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+}
+
+[dir=rtl] .dropdown-item.with-suffix-icon {
+  padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+}
+
 .dropdown-item:hover, .dropdown-item:focus {
   color: #16181b;
 }

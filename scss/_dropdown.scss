@@ -144,6 +144,14 @@
   background-color: transparent; // For `<button>`s
   border: 0; // For `<button>`s
 
+  &.with-prefix-icon {
+    padding: $dropdown-item-padding-y  $dropdown-item-padding-x $dropdown-item-padding-y $dropdown-item-padding-y;    
+  }
+
+  &.with-suffix-icon {
+    padding: $dropdown-item-padding-y $dropdown-item-padding-y $dropdown-item-padding-y $dropdown-item-padding-x;
+  }
+
   // Prevent dropdown overflow if there's no padding
   // See https://github.com/twbs/bootstrap/pull/27703
   @if $dropdown-padding-y == 0 {
