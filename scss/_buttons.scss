@@ -36,6 +36,10 @@
   &.active {
     @include box-shadow($btn-active-box-shadow);
 
+    i {
+      color: #fff;
+    }
+
     &:focus {
       @include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
     }
