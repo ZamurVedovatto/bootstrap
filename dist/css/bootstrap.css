@@ -3478,11 +3478,6 @@ progress {
   box-shadow: 0 0 0 0.2rem rgba(0, 77, 116, 0.25);
 }
 
-.btn-check:checked + .btn i,
-.btn-check:active + .btn i, .btn:active i, .btn.active i {
-  color: #fff;
-}
-
 .btn:disabled, .btn.disabled,
 fieldset:disabled .btn {
   pointer-events: none;
@@ -4760,6 +4755,10 @@ fieldset:disabled .btn {
 
 [dir] .dropdown-item.active, [dir] .dropdown-item:active {
   background-color: #004d74;
+}
+
+.dropdown-item.active i, .dropdown-item:active i {
+  color: #fff;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
