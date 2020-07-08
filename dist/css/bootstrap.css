@@ -4808,17 +4808,31 @@ fieldset:disabled .btn {
 }
 
 [dir=ltr] .dropdown-toggle::after, [dir=ltr] .dropdown-toggle::before {
-  margin: 0 0 0 .4em;
   border-width: 0 .15em .15em 0;
 }
 
 [dir=rtl] .dropdown-toggle::after, [dir=rtl] .dropdown-toggle::before {
-  margin: 0 .4em 0 0;
   border-width: 0 0 .15em .15em;
+}
+
+[dir=ltr] .dropdown-toggle::after {
+  margin: 0 0 0 .2em;
+}
+
+[dir=rtl] .dropdown-toggle::after {
+  margin: 0 .2em 0 0;
 }
 
 .dropdown-toggle::before {
   display: none;
+}
+
+[dir=ltr] .dropdown-toggle.btn-sm::after, [dir=ltr] .btn-group-sm > .dropdown-toggle.btn::after {
+  border-width: 0 .1em .1em 0;
+}
+
+[dir=rtl] .dropdown-toggle.btn-sm::after, [dir=rtl] .btn-group-sm > .dropdown-toggle.btn::after {
+  border-width: 0 0 .1em .1em;
 }
 
 .btn-group,

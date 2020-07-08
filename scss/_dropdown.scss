@@ -235,14 +235,29 @@
     position: relative;
     width: .5em;
     height: .5em;
-    margin: 0 0 0 .4em;
     border: .3em solid;
     border-width: 0 .15em .15em 0;
   }
 }
 
 .dropdown-toggle {
+  &::after {
+    margin: 0 0 0 .2em;
+  }
+}
+
+.dropdown-toggle {
   &::before {
     display: none;
+  }
+}
+
+// Decrease size of chevron when using .btn-sm
+
+.dropdown-toggle {
+  &.btn-sm {
+    &::after {
+      border-width: 0 .1em .1em 0;
+    }
   }
 }
