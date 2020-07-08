@@ -80,8 +80,8 @@
   border-color: $color;
 
   &:hover {
-    color: $color-hover;
-    background-color: $active-background;
+    color: $active-border;
+    background-color: rgba($active-background, 0.1);
     border-color: $active-border;
   }
 

@@ -3909,11 +3909,11 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary:hover {
-  color: white;
+  color: #004d74;
 }
 
 [dir] .btn-outline-primary:hover {
-  background-color: #004d74;
+  background-color: rgba(0, 77, 116, 0.1);
   border-color: #004d74;
 }
 
@@ -3952,11 +3952,11 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-secondary:hover {
-  color: white;
+  color: #333333;
 }
 
 [dir] .btn-outline-secondary:hover {
-  background-color: #333333;
+  background-color: rgba(51, 51, 51, 0.1);
   border-color: #333333;
 }
 
@@ -3995,11 +3995,11 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-success:hover {
-  color: white;
+  color: #297848;
 }
 
 [dir] .btn-outline-success:hover {
-  background-color: #297848;
+  background-color: rgba(41, 120, 72, 0.1);
   border-color: #297848;
 }
 
@@ -4038,11 +4038,11 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-info:hover {
-  color: white;
+  color: #0b5ba1;
 }
 
 [dir] .btn-outline-info:hover {
-  background-color: #0b5ba1;
+  background-color: rgba(11, 91, 161, 0.1);
   border-color: #0b5ba1;
 }
 
@@ -4081,11 +4081,11 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-warning:hover {
-  color: white;
+  color: #a85502;
 }
 
 [dir] .btn-outline-warning:hover {
-  background-color: #a85502;
+  background-color: rgba(168, 85, 2, 0.1);
   border-color: #a85502;
 }
 
@@ -4124,11 +4124,11 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-danger:hover {
-  color: white;
+  color: #bf3e24;
 }
 
 [dir] .btn-outline-danger:hover {
-  background-color: #bf3e24;
+  background-color: rgba(191, 62, 36, 0.1);
   border-color: #bf3e24;
 }
 
@@ -4167,11 +4167,11 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-light:hover {
-  color: #212529;
+  color: #f8f9fa;
 }
 
 [dir] .btn-outline-light:hover {
-  background-color: #f8f9fa;
+  background-color: rgba(248, 249, 250, 0.1);
   border-color: #f8f9fa;
 }
 
@@ -4210,11 +4210,11 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-dark:hover {
-  color: white;
+  color: #343a40;
 }
 
 [dir] .btn-outline-dark:hover {
-  background-color: #343a40;
+  background-color: rgba(52, 58, 64, 0.1);
   border-color: #343a40;
 }
 
