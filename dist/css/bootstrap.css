@@ -3913,7 +3913,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-outline-primary:hover {
-  background-color: rgba(0, 77, 116, 0.1);
+  background-color: rgba(0, 77, 116, 0.05);
   border-color: #004d74;
 }
 
@@ -3956,7 +3956,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-outline-secondary:hover {
-  background-color: rgba(51, 51, 51, 0.1);
+  background-color: rgba(51, 51, 51, 0.05);
   border-color: #333333;
 }
 
@@ -3999,7 +3999,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-outline-success:hover {
-  background-color: rgba(41, 120, 72, 0.1);
+  background-color: rgba(41, 120, 72, 0.05);
   border-color: #297848;
 }
 
@@ -4042,7 +4042,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-outline-info:hover {
-  background-color: rgba(11, 91, 161, 0.1);
+  background-color: rgba(11, 91, 161, 0.05);
   border-color: #0b5ba1;
 }
 
@@ -4085,7 +4085,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-outline-warning:hover {
-  background-color: rgba(168, 85, 2, 0.1);
+  background-color: rgba(168, 85, 2, 0.05);
   border-color: #a85502;
 }
 
@@ -4128,7 +4128,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-outline-danger:hover {
-  background-color: rgba(191, 62, 36, 0.1);
+  background-color: rgba(191, 62, 36, 0.05);
   border-color: #bf3e24;
 }
 
@@ -4171,7 +4171,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-outline-light:hover {
-  background-color: rgba(248, 249, 250, 0.1);
+  background-color: rgba(248, 249, 250, 0.05);
   border-color: #f8f9fa;
 }
 
@@ -4214,7 +4214,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-outline-dark:hover {
-  background-color: rgba(52, 58, 64, 0.1);
+  background-color: rgba(52, 58, 64, 0.05);
   border-color: #343a40;
 }
 
