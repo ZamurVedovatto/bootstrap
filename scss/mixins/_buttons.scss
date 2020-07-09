@@ -61,11 +61,11 @@
 
   &:disabled,
   &.disabled {
-    color: $color;
-    background-color: $background;
     // Remove CSS gradients if they're enabled
     background-image: if($enable-gradients, none, null);
-    border-color: $border;
+    color: $btn-disabled-color;
+    background-color: $btn-disabled-background-color;
+    border-color: $btn-disabled-border-color;
   }
 }
 
