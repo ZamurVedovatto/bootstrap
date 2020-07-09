@@ -76,13 +76,12 @@
   $active-border: $color,
   $active-color: color-contrast($active-background)
 ) {
-  color: $color;
-  border-color: $color;
+  color: rgba($color, 0.6);
+  border-color: rgba($color, 0.6);
 
   &:hover,
   &:focus {
     color: $active-border;
-    background-color: rgba($active-background, 0.05);
     border-color: $active-border;
   }
 
@@ -96,8 +95,8 @@
   &:active,
   &.active,
   &.dropdown-toggle.show {
-    color: $active-color;
-    background-color: $active-background;
+    color: $active-border;
+    background-color: rgba($active-background, 0.05);
     border-color: $active-border;
 
     &:focus {
@@ -112,8 +111,9 @@
 
   &:disabled,
   &.disabled {
-    color: $color;
-    background-color: transparent;
+    color: $btn-disabled-color;
+    background-color: $btn-disabled-background-color;
+    border-color: $btn-disabled-border-color;
   }
 }
 
