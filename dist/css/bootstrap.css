@@ -3901,7 +3901,7 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary {
-  color: rgba(0, 77, 116, 0.6);
+  color: #004d74;
 }
 
 [dir] .btn-outline-primary {
@@ -3944,7 +3944,7 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-secondary {
-  color: rgba(51, 51, 51, 0.6);
+  color: #333333;
 }
 
 [dir] .btn-outline-secondary {
@@ -3987,7 +3987,7 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-success {
-  color: rgba(41, 120, 72, 0.6);
+  color: #297848;
 }
 
 [dir] .btn-outline-success {
@@ -4030,7 +4030,7 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-info {
-  color: rgba(11, 91, 161, 0.6);
+  color: #0b5ba1;
 }
 
 [dir] .btn-outline-info {
@@ -4073,7 +4073,7 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-warning {
-  color: rgba(168, 85, 2, 0.6);
+  color: #a85502;
 }
 
 [dir] .btn-outline-warning {
@@ -4116,7 +4116,7 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-danger {
-  color: rgba(191, 62, 36, 0.6);
+  color: #bf3e24;
 }
 
 [dir] .btn-outline-danger {
@@ -4159,7 +4159,7 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-light {
-  color: rgba(248, 249, 250, 0.6);
+  color: #f8f9fa;
 }
 
 [dir] .btn-outline-light {
@@ -4202,7 +4202,7 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-dark {
-  color: rgba(52, 58, 64, 0.6);
+  color: #343a40;
 }
 
 [dir] .btn-outline-dark {
