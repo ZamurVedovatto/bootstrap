@@ -4708,11 +4708,11 @@ fieldset:disabled .btn {
 }
 
 [dir=ltr] .dropdown-item.with-prefix-icon {
-  padding: 0.5rem 2.25rem 0.5rem 0.5rem;
+  padding: 0.5rem 2.25rem 0.5rem 1rem;
 }
 
 [dir=rtl] .dropdown-item.with-prefix-icon {
-  padding: 0.5rem 0.5rem 0.5rem 2.25rem;
+  padding: 0.5rem 1rem 0.5rem 2.25rem;
 }
 
 .dropdown-item.with-prefix-icon i {

@@ -145,7 +145,7 @@
   border: 0; // For `<button>`s
 
   &.with-prefix-icon {
-    padding: $dropdown-item-padding-y $dropdown-item-padding-x * 1.5 $dropdown-item-padding-y $dropdown-item-padding-y;
+    padding: $dropdown-item-padding-y ($dropdown-item-padding-x * 1.5) $dropdown-item-padding-y ($dropdown-item-padding-y * 2);
     i {
       width: 20px;
       height: 20px;
