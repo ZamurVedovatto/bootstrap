@@ -102,3 +102,8 @@ $btn-disabled-background-color: $janus-disabled-button-background-color;
 
 $font-weight-semibold:        600 !default;
 $btn-font-weight:             $font-weight-semibold !default;
+
+$input-btn-focus-width:         .125rem !default;
+$input-btn-focus-box-shadow:    0 0 0 $input-btn-focus-width $janus-color-secondary !default;
+
+$btn-disabled-opacity:        1 !default;
