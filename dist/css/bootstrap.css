@@ -2304,8 +2304,8 @@ progress {
 }
 
 [dir] .col-form-label-sm {
-  padding-top: calc(0.094rem + 1px);
-  padding-bottom: calc(0.094rem + 1px);
+  padding-top: calc(0.157rem + 1px);
+  padding-bottom: calc(0.157rem + 1px);
 }
 
 .form-text {
@@ -2410,12 +2410,12 @@ progress {
 }
 
 .form-control-sm {
-  min-height: calc(1.5em + 0.188rem + 2px);
+  min-height: calc(1.5em + 0.314rem + 2px);
   font-size: 0.875rem;
 }
 
 [dir] .form-control-sm {
-  padding: 0.094rem 1rem;
+  padding: 0.157rem 1rem;
   border-radius: 0.125rem;
 }
 
@@ -2528,13 +2528,13 @@ progress {
 }
 
 .form-select-sm {
-  height: calc(1.5em + 0.188rem + 2px);
+  height: calc(1.5em + 0.314rem + 2px);
   font-size: 0.875rem;
 }
 
 [dir] .form-select-sm {
-  padding-top: 0.094rem;
-  padding-bottom: 0.094rem;
+  padding-top: 0.157rem;
+  padding-bottom: 0.157rem;
 }
 
 [dir=ltr] .form-select-sm {
@@ -2836,12 +2836,12 @@ progress {
 }
 
 .form-file-sm {
-  --bs-form-file-height: calc(1.5em + 0.188rem + 2px);
+  --bs-form-file-height: calc(1.5em + 0.314rem + 2px);
   font-size: 0.875rem;
 }
 
 [dir] .form-file-sm .form-file-text, [dir] .form-file-sm .form-file-button {
-  padding: 0.094rem 1rem;
+  padding: 0.157rem 1rem;
 }
 
 .form-file-lg {
@@ -3145,11 +3145,11 @@ progress {
 }
 
 .input-group-sm > .form-control {
-  min-height: calc(1.5em + 0.188rem + 2px);
+  min-height: calc(1.5em + 0.314rem + 2px);
 }
 
 .input-group-sm > .form-select {
-  height: calc(1.5em + 0.188rem + 2px);
+  height: calc(1.5em + 0.314rem + 2px);
 }
 
 .input-group-sm > .form-control,
@@ -3160,7 +3160,7 @@ progress {
 }
 
 [dir] .input-group-sm > .form-control, [dir] .input-group-sm > .form-select, [dir] .input-group-sm > .input-group-text, [dir] .input-group-sm > .btn {
-  padding: 0.094rem 1rem;
+  padding: 0.157rem 1rem;
   border-radius: 0.125rem;
 }
 
@@ -4272,7 +4272,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-sm, [dir] .btn-group-sm > .btn {
-  padding: 0.094rem 1rem;
+  padding: 0.157rem 1rem;
   border-radius: 0.125rem;
 }
 
