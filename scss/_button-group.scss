@@ -42,6 +42,13 @@
     margin-left: -$btn-border-width;
   }
 
+  &.btn-group-sm {
+    > .btn:not(:first-child),
+    > .btn-group:not(:first-child) {
+      margin-left: -1px;
+    }
+  }
+
   // Reset rounded corners
   > .btn:not(:last-child):not(.dropdown-toggle),
   > .btn-group:not(:last-child) > .btn {

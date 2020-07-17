@@ -4881,6 +4881,14 @@ fieldset:disabled .btn {
   margin-right: -2px;
 }
 
+[dir=ltr] .btn-group.btn-group-sm > .btn:not(:first-child), [dir=ltr] .btn-group.btn-group-sm > .btn-group:not(:first-child) {
+  margin-left: -1px;
+}
+
+[dir=rtl] .btn-group.btn-group-sm > .btn:not(:first-child), [dir=rtl] .btn-group.btn-group-sm > .btn-group:not(:first-child) {
+  margin-right: -1px;
+}
+
 [dir=ltr] .btn-group > .btn:not(:last-child):not(.dropdown-toggle), [dir=ltr] .btn-group > .btn-group:not(:last-child) > .btn {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
