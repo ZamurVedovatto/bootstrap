@@ -4327,28 +4327,23 @@ fieldset:disabled .btn {
 }
 
 .dropdown-toggle::after {
-  display: inline-block;
   vertical-align: 0.255em;
-  content: "";
+  content: url("/docs/5.0/assets/img/chevron_down_light.svg");
+  position: absolute !important;
+  width: 1em;
+  height: 1em;
 }
 
 [dir] .dropdown-toggle::after {
-  border-top: 0.3em solid;
-  border-bottom: 0;
+  border: none !important;
 }
 
 [dir=ltr] .dropdown-toggle::after {
   margin-left: 0.255em;
-  border-right: 0.3em solid transparent;
-  border-left: 0.3em solid transparent;
-  transform: rotateZ(45deg);
 }
 
 [dir=rtl] .dropdown-toggle::after {
   margin-right: 0.255em;
-  border-left: 0.3em solid transparent;
-  border-right: 0.3em solid transparent;
-  transform: rotateZ(-45deg);
 }
 
 [dir=ltr] .dropdown-toggle:empty::after {
@@ -4522,24 +4517,26 @@ fieldset:disabled .btn {
 }
 
 .dropup .dropdown-toggle::after {
-  display: inline-block;
   vertical-align: 0.255em;
-  content: "";
-  top: 0.25rem;
+  content: url("/docs/5.0/assets/img/chevron_down_light.svg");
+  position: absolute !important;
+  width: 1em;
+  height: 1em;
+  top: -1px;
 }
 
 [dir] .dropup .dropdown-toggle::after {
-  border-top: 0;
+  border: none !important;
 }
 
 [dir=ltr] .dropup .dropdown-toggle::after {
   margin-left: 0.255em;
-  transform: rotateZ(-135deg);
+  transform: rotateZ(180deg);
 }
 
 [dir=rtl] .dropup .dropdown-toggle::after {
   margin-right: 0.255em;
-  transform: rotateZ(135deg);
+  transform: rotateZ(-180deg);
 }
 
 [dir=ltr] .dropup .dropdown-toggle:empty::after {
@@ -4571,20 +4568,26 @@ fieldset:disabled .btn {
 }
 
 .dropright .dropdown-toggle::after {
-  display: inline-block;
   vertical-align: 0.255em;
-  content: "";
+  content: url("/docs/5.0/assets/img/chevron_down_light.svg");
+  position: absolute !important;
+  width: 1em;
+  height: 1em;
   top: -1px;
+}
+
+[dir] .dropright .dropdown-toggle::after {
+  border: none !important;
 }
 
 [dir=ltr] .dropright .dropdown-toggle::after {
   margin-left: 0.255em;
-  transform: rotateZ(-45deg);
+  transform: rotateZ(-90deg);
 }
 
 [dir=rtl] .dropright .dropdown-toggle::after {
   margin-right: 0.255em;
-  transform: rotateZ(45deg);
+  transform: rotateZ(90deg);
 }
 
 [dir=ltr] .dropright .dropdown-toggle:empty::after {
@@ -4620,9 +4623,15 @@ fieldset:disabled .btn {
 }
 
 .dropleft .dropdown-toggle::after {
-  display: inline-block;
   vertical-align: 0.255em;
-  content: "";
+  content: url("/docs/5.0/assets/img/chevron_down_light.svg");
+  position: absolute !important;
+  width: 1em;
+  height: 1em;
+}
+
+[dir] .dropleft .dropdown-toggle::after {
+  border: none !important;
 }
 
 [dir=ltr] .dropleft .dropdown-toggle::after {
@@ -4646,14 +4655,12 @@ fieldset:disabled .btn {
 
 [dir=ltr] .dropleft .dropdown-toggle::before {
   margin-right: 0.255em;
-  border-left: 0;
-  transform: rotateZ(-225deg);
+  transform: rotateZ(90deg);
 }
 
 [dir=rtl] .dropleft .dropdown-toggle::before {
   margin-left: 0.255em;
-  border-right: 0;
-  transform: rotateZ(225deg);
+  transform: rotateZ(-90deg);
 }
 
 [dir=ltr] .dropleft .dropdown-toggle:empty::after {

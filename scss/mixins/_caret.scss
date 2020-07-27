@@ -1,35 +1,32 @@
 @mixin caret-down {
-  border-top: $caret-width solid;
-  border-right: $caret-width solid transparent;
-  border-bottom: 0;
-  border-left: $caret-width solid transparent;
-  transform: rotateZ(45deg);
+
 }
 
 @mixin caret-up {
-  border-top: 0;
-  top: $dropdown-spacer;
-  transform: rotateZ(-135deg);
+  top: -1px;
+  transform: rotateZ(180deg);
 }
 
 @mixin caret-right {
   top: -1px;
-  transform: rotateZ(-45deg);
+  transform: rotateZ(-90deg);
 }
 
 @mixin caret-left {
   top: -1px;
-  border-left: 0;
-  transform: rotateZ(-225deg);
+  transform: rotateZ(90deg);
 }
 
 @mixin caret($direction: down) {
   @if $enable-caret {
     &::after {
-      display: inline-block;
       margin-left: $caret-spacing;
       vertical-align: $caret-vertical-align;
-      content: "";
+      content: url("/docs/5.0/assets/img/chevron_down_light.svg");
+      border: none !important;
+      position: absolute !important;
+      width: 1em;
+      height: 1em;
       @if $direction == down {
         @include caret-down();
       } @else if $direction == up {
