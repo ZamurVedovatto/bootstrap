@@ -4799,8 +4799,8 @@ fieldset:disabled .btn {
 
 .dropdown-toggle::after, .dropdown-toggle::before {
   position: relative;
-  width: .5em;
-  height: .5em;
+  width: .6em;
+  height: .6em;
 }
 
 [dir] .dropdown-toggle::after, [dir] .dropdown-toggle::before {
