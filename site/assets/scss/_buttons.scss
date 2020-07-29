@@ -2,24 +2,25 @@
 //
 // Custom buttons for the docs.
 
-.btn-bd-primary {
-  font-weight: 600;
-  color: $white;
-  background-color: $bd-purple-bright;
-  border-color: $bd-purple-bright;
-
-  &:hover,
-  &:active {
+.btn {
+  &.btn-bd-primary {
+    font-weight: 600;
     color: $white;
-    background-color: darken($bd-purple-bright, 10%);
-    border-color: darken($bd-purple-bright, 10%);
-  }
+    background-color: $bd-purple-bright;
+    border-color: $bd-purple-bright;
 
-  &:focus {
-    box-shadow: 0 0 0 3px rgba($bd-purple-bright, .25);
+    &:hover,
+    &:active {
+      color: $white;
+      background-color: darken($bd-purple-bright, 10%);
+      border-color: darken($bd-purple-bright, 10%);
+    }
+
+    &:focus {
+      box-shadow: 0 0 0 3px rgba($bd-purple-bright, .25);
+    }
   }
 }
-
 .btn-bd-download {
   font-weight: 600;
   color: $bd-download;

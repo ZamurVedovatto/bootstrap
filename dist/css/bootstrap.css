@@ -3458,6 +3458,7 @@ progress {
   border: 2px solid transparent;
   padding: 0.25rem 1rem;
   border-radius: 0.25rem;
+  transform: translateZ(0);
 }
 
 @media (prefers-reduced-motion: reduce) {
