@@ -69,7 +69,7 @@ params:
   cdn:
     # See https://www.srihash.org for info on how to generate the hashes
     css:              "https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
-    css_hash:         "sha384-sgaIJuZRwiPIWOVXq8RmqwAWgfw3xSD+ndDTqnOw7hLXjd+NLwEjgyHBTiAlvSQQ"
+    css_hash:         "sha384-SzTk0HPE6w2OsEEFfvhFw5LcseyGp+Z/w0joEXKm9+IBa3k7LKBpqWRjJarYQfD/"
     js:               "https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
     js_hash:          "sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
     js_bundle:        "https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"
