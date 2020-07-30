@@ -3457,7 +3457,7 @@ progress {
   background-color: transparent;
   border: 2px solid transparent;
   padding: 0.25rem 1rem;
-  border-radius: 0.25rem;
+  border-radius: 0.188rem;
   transform: translateZ(0);
 }
 
@@ -4288,6 +4288,14 @@ fieldset:disabled .btn {
 
 .btn-lg i, .btn-group-lg > .btn i {
   font-size: 1.25rem;
+  position: relative;
+  top: 3px;
+}
+
+.btn i {
+  font-size: 1.125rem;
+  position: relative;
+  top: 2px;
 }
 
 .fade {
@@ -5226,7 +5234,7 @@ fieldset:disabled .btn {
   padding: 0.25rem 0.75rem;
   background-color: transparent;
   border: 1px solid transparent;
-  border-radius: 0.25rem;
+  border-radius: 0.188rem;
 }
 
 @media (prefers-reduced-motion: reduce) {
