@@ -4286,6 +4286,10 @@ fieldset:disabled .btn {
   margin-top: 0.5rem;
 }
 
+.btn-lg i, .btn-group-lg > .btn i {
+  font-size: 1.25rem;
+}
+
 .fade {
   transition: opacity 0.15s linear;
 }
