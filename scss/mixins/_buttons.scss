@@ -7,11 +7,11 @@
   $background,
   $border,
   $color: color-contrast($background),
-  $hover-background: darken($background, 10%),
-  $hover-border: darken($border, 10%),
+  $hover-background: darken($background, 5%),
+  $hover-border: darken($border, 5%),
   $hover-color: color-contrast($hover-background),
-  $active-background: darken($background, 20%),
-  $active-border: darken($border, 20%),
+  $active-background: darken($background, 10%),
+  $active-border: darken($border, 10%),
   $active-color: color-contrast($active-background)
 ) {
   color: $color;

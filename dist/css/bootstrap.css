@@ -3500,8 +3500,8 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-primary:hover {
-  background: #002b41;
-  border: 2px solid #002b41;
+  background: #003c5b;
+  border: 2px solid #003c5b;
 }
 
 .btn-check:focus + .btn-primary, .btn-primary:focus {
@@ -3509,7 +3509,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-check:focus + .btn-primary, [dir] .btn-primary:focus {
-  background-color: #002b41;
+  background-color: #003c5b;
   border-color: #ececec;
 }
 
@@ -3520,8 +3520,8 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-check:checked + .btn-primary, [dir] .btn-check:active + .btn-primary, [dir] .btn-primary:active, [dir] .btn-primary.active, [dir] .show > .btn-primary.dropdown-toggle {
-  background-color: #00090e;
-  border-color: #00090e;
+  background-color: #002b41;
+  border-color: #002b41;
 }
 
 [dir] .btn-check:checked + .btn-primary:focus, [dir] .btn-check:active + .btn-primary:focus, [dir] .btn-primary:active:focus, [dir] .btn-primary.active:focus, [dir] .show > .btn-primary.dropdown-toggle:focus {
@@ -3551,8 +3551,8 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-secondary:hover {
-  background: #1a1a1a;
-  border: 2px solid #1a1a1a;
+  background: #262626;
+  border: 2px solid #262626;
 }
 
 .btn-check:focus + .btn-secondary, .btn-secondary:focus {
@@ -3560,7 +3560,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-check:focus + .btn-secondary, [dir] .btn-secondary:focus {
-  background-color: #1a1a1a;
+  background-color: #262626;
   border-color: #ececec;
 }
 
@@ -3571,8 +3571,8 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-check:checked + .btn-secondary, [dir] .btn-check:active + .btn-secondary, [dir] .btn-secondary:active, [dir] .btn-secondary.active, [dir] .show > .btn-secondary.dropdown-toggle {
-  background-color: black;
-  border-color: black;
+  background-color: #1a1a1a;
+  border-color: #1a1a1a;
 }
 
 [dir] .btn-check:checked + .btn-secondary:focus, [dir] .btn-check:active + .btn-secondary:focus, [dir] .btn-secondary:active:focus, [dir] .btn-secondary.active:focus, [dir] .show > .btn-secondary.dropdown-toggle:focus {
@@ -3602,8 +3602,8 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-success:hover {
-  background: #1c5231;
-  border: 2px solid #1c5231;
+  background: #23653d;
+  border: 2px solid #23653d;
 }
 
 .btn-check:focus + .btn-success, .btn-success:focus {
@@ -3611,7 +3611,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-check:focus + .btn-success, [dir] .btn-success:focus {
-  background-color: #1c5231;
+  background-color: #23653d;
   border-color: #ececec;
 }
 
@@ -3622,8 +3622,8 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-check:checked + .btn-success, [dir] .btn-check:active + .btn-success, [dir] .btn-success:active, [dir] .btn-success.active, [dir] .show > .btn-success.dropdown-toggle {
-  background-color: #0f2c1a;
-  border-color: #0f2c1a;
+  background-color: #1c5231;
+  border-color: #1c5231;
 }
 
 [dir] .btn-check:checked + .btn-success:focus, [dir] .btn-check:active + .btn-success:focus, [dir] .btn-success:active:focus, [dir] .btn-success.active:focus, [dir] .show > .btn-success.dropdown-toggle:focus {
@@ -3653,8 +3653,8 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-info:hover {
-  background: #084071;
-  border: 2px solid #084071;
+  background: #094e89;
+  border: 2px solid #094e89;
 }
 
 .btn-check:focus + .btn-info, .btn-info:focus {
@@ -3662,7 +3662,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-check:focus + .btn-info, [dir] .btn-info:focus {
-  background-color: #084071;
+  background-color: #094e89;
   border-color: #ececec;
 }
 
@@ -3673,8 +3673,8 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-check:checked + .btn-info, [dir] .btn-check:active + .btn-info, [dir] .btn-info:active, [dir] .btn-info.active, [dir] .show > .btn-info.dropdown-toggle {
-  background-color: #042542;
-  border-color: #042542;
+  background-color: #084071;
+  border-color: #084071;
 }
 
 [dir] .btn-check:checked + .btn-info:focus, [dir] .btn-check:active + .btn-info:focus, [dir] .btn-info:active:focus, [dir] .btn-info.active:focus, [dir] .show > .btn-info.dropdown-toggle:focus {
@@ -3704,8 +3704,8 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-warning:hover {
-  background: #763c01;
-  border: 2px solid #763c01;
+  background: #8f4802;
+  border: 2px solid #8f4802;
 }
 
 .btn-check:focus + .btn-warning, .btn-warning:focus {
@@ -3713,7 +3713,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-check:focus + .btn-warning, [dir] .btn-warning:focus {
-  background-color: #763c01;
+  background-color: #8f4802;
   border-color: #ececec;
 }
 
@@ -3724,8 +3724,8 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-check:checked + .btn-warning, [dir] .btn-check:active + .btn-warning, [dir] .btn-warning:active, [dir] .btn-warning.active, [dir] .show > .btn-warning.dropdown-toggle {
-  background-color: #432201;
-  border-color: #432201;
+  background-color: #763c01;
+  border-color: #763c01;
 }
 
 [dir] .btn-check:checked + .btn-warning:focus, [dir] .btn-check:active + .btn-warning:focus, [dir] .btn-warning:active:focus, [dir] .btn-warning.active:focus, [dir] .show > .btn-warning.dropdown-toggle:focus {
@@ -3755,8 +3755,8 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-danger:hover {
-  background: #94301c;
-  border: 2px solid #94301c;
+  background: #aa3720;
+  border: 2px solid #aa3720;
 }
 
 .btn-check:focus + .btn-danger, .btn-danger:focus {
@@ -3764,7 +3764,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-check:focus + .btn-danger, [dir] .btn-danger:focus {
-  background-color: #94301c;
+  background-color: #aa3720;
   border-color: #ececec;
 }
 
@@ -3775,8 +3775,8 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-check:checked + .btn-danger, [dir] .btn-check:active + .btn-danger, [dir] .btn-danger:active, [dir] .btn-danger.active, [dir] .show > .btn-danger.dropdown-toggle {
-  background-color: #692214;
-  border-color: #692214;
+  background-color: #94301c;
+  border-color: #94301c;
 }
 
 [dir] .btn-check:checked + .btn-danger:focus, [dir] .btn-check:active + .btn-danger:focus, [dir] .btn-danger:active:focus, [dir] .btn-danger.active:focus, [dir] .show > .btn-danger.dropdown-toggle:focus {
@@ -3806,8 +3806,8 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-light:hover {
-  background: #dae0e5;
-  border: 2px solid #dae0e5;
+  background: #e9ecef;
+  border: 2px solid #e9ecef;
 }
 
 .btn-check:focus + .btn-light, .btn-light:focus {
@@ -3815,7 +3815,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-check:focus + .btn-light, [dir] .btn-light:focus {
-  background-color: #dae0e5;
+  background-color: #e9ecef;
   border-color: #ececec;
 }
 
@@ -3826,8 +3826,8 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-check:checked + .btn-light, [dir] .btn-check:active + .btn-light, [dir] .btn-light:active, [dir] .btn-light.active, [dir] .show > .btn-light.dropdown-toggle {
-  background-color: #bdc6d0;
-  border-color: #bdc6d0;
+  background-color: #dae0e5;
+  border-color: #dae0e5;
 }
 
 [dir] .btn-check:checked + .btn-light:focus, [dir] .btn-check:active + .btn-light:focus, [dir] .btn-light:active:focus, [dir] .btn-light.active:focus, [dir] .show > .btn-light.dropdown-toggle:focus {
@@ -3857,8 +3857,8 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-dark:hover {
-  background: #1d2124;
-  border: 2px solid #1d2124;
+  background: #292d32;
+  border: 2px solid #292d32;
 }
 
 .btn-check:focus + .btn-dark, .btn-dark:focus {
@@ -3866,7 +3866,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-check:focus + .btn-dark, [dir] .btn-dark:focus {
-  background-color: #1d2124;
+  background-color: #292d32;
   border-color: #ececec;
 }
 
@@ -3877,8 +3877,8 @@ fieldset:disabled .btn {
 }
 
 [dir] .btn-check:checked + .btn-dark, [dir] .btn-check:active + .btn-dark, [dir] .btn-dark:active, [dir] .btn-dark.active, [dir] .show > .btn-dark.dropdown-toggle {
-  background-color: #060708;
-  border-color: #060708;
+  background-color: #1d2124;
+  border-color: #1d2124;
 }
 
 [dir] .btn-check:checked + .btn-dark:focus, [dir] .btn-check:active + .btn-dark:focus, [dir] .btn-dark:active:focus, [dir] .btn-dark.active:focus, [dir] .show > .btn-dark.dropdown-toggle:focus {
