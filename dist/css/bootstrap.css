@@ -4815,8 +4815,8 @@ fieldset:disabled .btn {
 
 .dropdown-toggle::after, .dropdown-toggle::before {
   position: relative;
-  width: .6em;
-  height: .6em;
+  width: .45em;
+  height: .45em;
 }
 
 [dir] .dropdown-toggle::after, [dir] .dropdown-toggle::before {
@@ -4824,11 +4824,11 @@ fieldset:disabled .btn {
 }
 
 [dir=ltr] .dropdown-toggle::after, [dir=ltr] .dropdown-toggle::before {
-  border-width: 0 .15em .15em 0;
+  border-width: 0 .1em .1em 0;
 }
 
 [dir=rtl] .dropdown-toggle::after, [dir=rtl] .dropdown-toggle::before {
-  border-width: 0 0 .15em .15em;
+  border-width: 0 0 .1em .1em;
 }
 
 [dir=ltr] .dropdown-toggle::after {
