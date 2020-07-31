@@ -10,6 +10,7 @@
   > .btn {
     position: relative;
     flex: 1 1 auto;
+    min-width: 0;
   }
 
   // Bring the hover, focused, and "active" buttons to the front to overlay
@@ -46,6 +47,9 @@
     > .btn:not(:first-child),
     > .btn-group:not(:first-child) {
       margin-left: -1px;
+    }
+    > .btn {
+      min-width: 0;
     }
   }
 
