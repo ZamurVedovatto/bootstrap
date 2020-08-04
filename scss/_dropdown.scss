@@ -241,12 +241,6 @@
 }
 
 .dropdown-toggle {
-  &::after {
-    margin: 0 0 0 .2em;
-  }
-}
-
-.dropdown-toggle {
   &::before {
     display: none;
   }

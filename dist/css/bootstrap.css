@@ -4831,14 +4831,6 @@ fieldset:disabled .btn {
   border-width: 0 0 .1em .1em;
 }
 
-[dir=ltr] .dropdown-toggle::after {
-  margin: 0 0 0 .2em;
-}
-
-[dir=rtl] .dropdown-toggle::after {
-  margin: 0 .2em 0 0;
-}
-
 .dropdown-toggle::before {
   display: none;
 }
