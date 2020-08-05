@@ -4776,7 +4776,7 @@ fieldset:disabled .btn {
   width: 20px;
   height: 20px;
   font-size: 1.25rem;
-  color: #333333;
+  color: #6c6c6c;
 }
 
 [dir] .dropdown-item.with-prefix-icon i {
@@ -4794,7 +4794,7 @@ fieldset:disabled .btn {
 .dropdown-item.with-suffix-icon i {
   width: 20px;
   height: 20px;
-  color: #333333;
+  color: #6c6c6c;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
