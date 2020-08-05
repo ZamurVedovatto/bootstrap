@@ -37,6 +37,9 @@ $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
 
+$enable-shadows:              true !default;
+$box-shadow:                  0 .063rem .125rem rgba($black, .5) !default;
+
 $alert-bg-level:              -11 !default;
 $alert-border-level:          -9 !default;
 $alert-color-level:           0 !default;
@@ -94,8 +97,10 @@ $dropdown-item-padding-y:     $janus-dropdown-item-padding-y !default;
 $dropdown-item-padding-x:     $janus-dropdown-item-padding-x !default;
 
 $dropdown-header-color:       $janus-color-secondary !default;
-
 $dropdown-spacer:             $janus-dropdown-spacer !default;
+$dropdown-border-radius:      $janus-border-radius-lg !default;
+$dropdown-box-shadow:         $box-shadow !default;
+$dropdown-border-color:       $janus-color-secondary-background !default;
 
 $modal-title-line-height:     $janus-modal-title-line-height !default;
 
