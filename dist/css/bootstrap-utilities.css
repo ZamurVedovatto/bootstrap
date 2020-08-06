@@ -193,6 +193,10 @@
   border-color: #333333 !important;
 }
 
+[dir] .border-alt-secondary {
+  border-color: #aaaaaa !important;
+}
+
 [dir] .border-success {
   border-color: #297848 !important;
 }
@@ -1076,6 +1080,10 @@
   color: #333333 !important;
 }
 
+.text-alt-secondary {
+  color: #aaaaaa !important;
+}
+
 .text-success {
   color: #297848 !important;
 }
@@ -1146,6 +1154,10 @@
 
 [dir] .bg-secondary {
   background-color: #333333 !important;
+}
+
+[dir] .bg-alt-secondary {
+  background-color: #aaaaaa !important;
 }
 
 [dir] .bg-success {

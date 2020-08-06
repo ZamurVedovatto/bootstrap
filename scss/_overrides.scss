@@ -38,6 +38,18 @@ $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
 
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "alt-secondary": $alt-secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+) !default;
+
 $box-shadow:                  0 .063rem .125rem rgba($black, .5) !default;
 
 $alert-bg-level:              -11 !default;
