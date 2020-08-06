@@ -30,6 +30,7 @@ $cyan:    $janus-color-info !default;
 
 $primary:       $blue !default;
 $secondary:     $janus-color-secondary !default;
+$alt-secondary: $janus-color-button-gray !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -37,7 +38,6 @@ $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
 
-$enable-shadows:              true !default;
 $box-shadow:                  0 .063rem .125rem rgba($black, .5) !default;
 
 $alert-bg-level:              -11 !default;
