@@ -42,7 +42,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #333333;
+  color: #454545;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -2045,14 +2045,14 @@ progress {
 .table {
   --bs-table-bg: transparent;
   --bs-table-accent-bg: transparent;
-  --bs-table-striped-color: #333333;
+  --bs-table-striped-color: #454545;
   --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
-  --bs-table-active-color: #333333;
+  --bs-table-active-color: #454545;
   --bs-table-active-bg: rgba(0, 0, 0, 0.1);
-  --bs-table-hover-color: #333333;
+  --bs-table-hover-color: #454545;
   --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
   width: 100%;
-  color: #333333;
+  color: #454545;
   vertical-align: top;
 }
 
@@ -2388,7 +2388,7 @@ progress {
   display: block;
   width: 100%;
   line-height: 1.5;
-  color: #333333;
+  color: #454545;
 }
 
 [dir] .form-control-plaintext {
@@ -3440,7 +3440,7 @@ progress {
   display: inline-block;
   font-weight: 600;
   line-height: 1.5;
-  color: #333333;
+  color: #454545;
   text-decoration: none;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -3469,7 +3469,7 @@ progress {
 }
 
 .btn:hover {
-  color: #333333;
+  color: #454545;
 }
 
 .btn-check:focus + .btn, .btn:focus {
@@ -4385,7 +4385,7 @@ fieldset:disabled .btn {
   display: none;
   min-width: 10rem;
   font-size: 1rem;
-  color: #333333;
+  color: #454545;
   list-style: none;
 }
 
@@ -6308,7 +6308,7 @@ fieldset:disabled .btn {
 }
 
 .list-group-item-action:active {
-  color: #333333;
+  color: #454545;
 }
 
 [dir] .list-group-item-action:active {
@@ -7767,7 +7767,7 @@ fieldset:disabled .btn {
 }
 
 .popover-body {
-  color: #333333;
+  color: #454545;
 }
 
 [dir] .popover-body {
@@ -9479,7 +9479,7 @@ fieldset:disabled .btn {
 }
 
 .text-body {
-  color: #333333 !important;
+  color: #454545 !important;
 }
 
 .text-muted {
