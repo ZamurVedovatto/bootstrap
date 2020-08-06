@@ -190,7 +190,7 @@
 }
 
 [dir] .border-secondary {
-  border-color: #6c6c6c !important;
+  border-color: #454545 !important;
 }
 
 [dir] .border-success {
@@ -1073,7 +1073,7 @@
 }
 
 .text-secondary {
-  color: #6c6c6c !important;
+  color: #454545 !important;
 }
 
 .text-success {
@@ -1145,7 +1145,7 @@
 }
 
 [dir] .bg-secondary {
-  background-color: #6c6c6c !important;
+  background-color: #454545 !important;
 }
 
 [dir] .bg-success {
