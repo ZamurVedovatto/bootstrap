@@ -16,7 +16,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #333333;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -242,7 +242,7 @@ kbd {
 
 [dir] kbd {
   padding: 0.2rem 0.4rem;
-  background-color: #212529;
+  background-color: #333333;
   border-radius: 0.125rem;
 }
 
@@ -270,7 +270,7 @@ table {
 }
 
 caption {
-  color: #6c757d;
+  color: #6c6c6c;
 }
 
 [dir] caption {
