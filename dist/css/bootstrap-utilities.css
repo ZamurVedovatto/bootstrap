@@ -97,7 +97,7 @@
 }
 
 [dir] .shadow-sm {
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.5) !important;
 }
 
 [dir] .shadow-lg {
