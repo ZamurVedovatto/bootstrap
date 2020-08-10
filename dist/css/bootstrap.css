@@ -4410,7 +4410,7 @@ fieldset:disabled .btn {
 
 @media (min-width: 576px) {
   .dropdown-menu {
-    width: 200px;
+    width: auto;
   }
 }
 
@@ -4734,8 +4734,6 @@ fieldset:disabled .btn {
 }
 
 .dropdown-item.with-prefix-icon i {
-  width: 20px;
-  height: 20px;
   font-size: 1.25rem;
   color: #6c6c6c;
 }
@@ -4753,8 +4751,6 @@ fieldset:disabled .btn {
 }
 
 .dropdown-item.with-suffix-icon i {
-  width: 20px;
-  height: 20px;
   color: #6c6c6c;
 }
 
@@ -4789,7 +4785,7 @@ fieldset:disabled .btn {
 }
 
 .dropdown-menu.show {
-  display: block;
+  display: inline-block;
 }
 
 .dropdown-header {
