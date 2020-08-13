@@ -7019,7 +7019,6 @@ fieldset:disabled .btn {
 [dir] .modal-content {
   background-color: white;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.188rem;
   box-shadow: 0 0.063rem 0.125rem rgba(0, 0, 0, 0.5);
 }
@@ -7060,7 +7059,7 @@ fieldset:disabled .btn {
 
 [dir] .modal-header {
   padding: 1rem 1rem;
-  border-bottom: 1px solid #0e62b9;
+  border-bottom: 1px solid transparent;
 }
 
 [dir=ltr] .modal-header {
@@ -7113,7 +7112,7 @@ fieldset:disabled .btn {
 
 [dir] .modal-footer {
   padding: 0.75rem;
-  border-top: 1px solid #0e62b9;
+  border-top: 1px solid transparent;
 }
 
 [dir=ltr] .modal-footer {
