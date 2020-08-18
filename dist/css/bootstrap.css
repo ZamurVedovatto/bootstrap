@@ -4383,7 +4383,7 @@ fieldset:disabled .btn {
   top: 100%;
   z-index: 1000;
   display: none;
-  min-width: 10rem;
+  min-width: 9.375rem;
   font-size: 1rem;
   color: #454545;
   list-style: none;
