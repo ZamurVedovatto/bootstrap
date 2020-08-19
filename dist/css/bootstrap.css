@@ -4743,11 +4743,11 @@ fieldset:disabled .btn {
 }
 
 [dir=ltr] .dropdown-item.with-suffix-icon {
-  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  padding: 0.5rem 0.5rem 0.5rem 1.5rem;
 }
 
 [dir=rtl] .dropdown-item.with-suffix-icon {
-  padding: 0.5rem 1rem 0.5rem 0.5rem;
+  padding: 0.5rem 1.5rem 0.5rem 0.5rem;
 }
 
 .dropdown-item.with-suffix-icon i {
