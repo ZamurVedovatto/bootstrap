@@ -4743,15 +4743,31 @@ fieldset:disabled .btn {
 }
 
 [dir=ltr] .dropdown-item.with-suffix-icon {
-  padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+  padding: 0.5rem 3.25rem 0.5rem 1.5rem;
 }
 
 [dir=rtl] .dropdown-item.with-suffix-icon {
-  padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+  padding: 0.5rem 1.5rem 0.5rem 3.25rem;
 }
 
 .dropdown-item.with-suffix-icon i {
   color: #6c6c6c;
+  position: absolute;
+  width: 1.25rem;
+  top: .625rem;
+  font-size: 1.25rem;
+}
+
+[dir] .dropdown-item.with-suffix-icon i {
+  text-align: center;
+}
+
+[dir=ltr] .dropdown-item.with-suffix-icon i {
+  right: .5rem;
+}
+
+[dir=rtl] .dropdown-item.with-suffix-icon i {
+  left: .5rem;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {

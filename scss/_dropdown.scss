@@ -156,9 +156,15 @@
   }
 
   &.with-suffix-icon {
-    padding: $dropdown-item-padding-y $dropdown-item-padding-y $dropdown-item-padding-y ($dropdown-item-padding-y * 3);
+    padding: $dropdown-item-padding-y ($dropdown-item-padding-y * 6.5) $dropdown-item-padding-y ($dropdown-item-padding-y * 3);
     i {
       color: $janus-color-icon-gray;
+      position: absolute;
+      right: .5rem;
+      width: 1.25rem;
+      text-align: center;
+      top: .625rem;
+      font-size: 1.25rem;
     }    
   }
 
