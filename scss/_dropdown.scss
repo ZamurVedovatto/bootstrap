@@ -134,6 +134,7 @@
 //
 // `<button>`-specific styles are denoted with `// For <button>s`
 .dropdown-item {
+  position: relative;
   display: block;
   width: 100%; // For `<button>`s
   padding: $dropdown-item-padding-y $dropdown-item-padding-x;

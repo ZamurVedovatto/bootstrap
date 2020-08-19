@@ -4709,6 +4709,7 @@ fieldset:disabled .btn {
 }
 
 .dropdown-item {
+  position: relative;
   display: block;
   width: 100%;
   font-weight: 400;
