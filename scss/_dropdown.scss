@@ -35,6 +35,7 @@
   border: $dropdown-border-width solid $dropdown-border-color;
   @include border-radius($dropdown-border-radius);
   @include box-shadow($dropdown-box-shadow);
+  word-break: break-all;
 }
 
 @include media-breakpoint-up(sm) {
