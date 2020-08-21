@@ -4387,7 +4387,7 @@ fieldset:disabled .btn {
   font-size: 1rem;
   color: #454545;
   list-style: none;
-  word-break: break-all;
+  word-break: break-word;
 }
 
 [dir] .dropdown-menu {
