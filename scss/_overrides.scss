@@ -50,6 +50,12 @@ $theme-colors: (
   "dark":       $dark
 ) !default;
 
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-negative-margins:     true !default;
+
 // Body
 //
 // Settings for the `<body>` element.
@@ -138,3 +144,10 @@ $input-btn-focus-box-shadow:  0 0 0 $input-btn-focus-width $janus-color-secondar
 $btn-disabled-opacity:        1 !default;
 
 $box-shadow-sm:               0 .0625rem .125rem rgba($black, .5) !default;
+
+$form-text-line-height:       1.3125rem;
+$form-text-margin-top:        0 !default;
+$form-text-margin-bottom:     .5rem;
+
+$form-label-margin-bottom:    .25 !default;
+$form-label-font-weight:      600 !default;
