@@ -43,6 +43,11 @@
     .#{$state}-tooltip {
       display: block;
     }
+    &.is-#{$state} {
+      label {
+        color: $color;
+      }
+    }
   }
 
   .form-control {

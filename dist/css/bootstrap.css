@@ -3236,6 +3236,11 @@ progress {
   display: block;
 }
 
+.was-validated :valid.is-valid label,
+.is-valid.is-valid label {
+  color: #297848;
+}
+
 [dir] .was-validated .form-control:valid, [dir] .form-control.is-valid {
   border-color: #297848;
 }
@@ -3320,6 +3325,11 @@ progress {
 .is-invalid .invalid-feedback,
 .is-invalid .invalid-tooltip {
   display: block;
+}
+
+.was-validated :invalid.is-invalid label,
+.is-invalid.is-invalid label {
+  color: #bf3e24;
 }
 
 [dir] .was-validated .form-control:invalid, [dir] .form-control.is-invalid {
