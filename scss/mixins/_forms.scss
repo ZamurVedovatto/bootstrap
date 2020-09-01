@@ -43,7 +43,7 @@
     .#{$state}-tooltip {
       display: block;
     }
-    &.is-#{$state} {
+    .is-#{$state} {
       label {
         color: $color;
       }
