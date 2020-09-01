@@ -2585,8 +2585,8 @@ progress {
   display: block;
 }
 
-.was-validated :valid .is-valid label,
-.is-valid .is-valid label {
+.was-validated :valid .is-valid .form-label,
+.is-valid .is-valid .form-label {
   color: #297848;
 }
 
@@ -2666,8 +2666,8 @@ progress {
   display: block;
 }
 
-.was-validated :invalid .is-invalid label,
-.is-invalid .is-invalid label {
+.was-validated :invalid .is-invalid .form-label,
+.is-invalid .is-invalid .form-label {
   color: #bf3e24;
 }
 

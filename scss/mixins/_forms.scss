@@ -44,7 +44,7 @@
       display: block;
     }
     .is-#{$state} {
-      label {
+      .form-label {
         color: $color;
       }
     }
