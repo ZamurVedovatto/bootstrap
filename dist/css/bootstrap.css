@@ -3238,19 +3238,6 @@ progress {
 
 [dir] .was-validated .form-control:valid, [dir] .form-control.is-valid {
   border-color: #297848;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23297848' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
-  background-repeat: no-repeat;
-  background-size: calc(0.75em + 0.25rem) calc(0.75em + 0.25rem);
-}
-
-[dir=ltr] .was-validated .form-control:valid, [dir=ltr] .form-control.is-valid {
-  padding-right: calc(1.5em + 0.5rem);
-  background-position: right calc(0.375em + 0.125rem) center;
-}
-
-[dir=rtl] .was-validated .form-control:valid, [dir=rtl] .form-control.is-valid {
-  padding-left: calc(1.5em + 0.5rem);
-  background-position: left calc(0.375em + 0.125rem) center;
 }
 
 [dir] .was-validated .form-control:valid:focus, [dir] .form-control.is-valid:focus {
@@ -3258,30 +3245,8 @@ progress {
   box-shadow: 0 0 0 0.125rem rgba(41, 120, 72, 0.25);
 }
 
-[dir=ltr] .was-validated textarea.form-control:valid, [dir=ltr] textarea.form-control.is-valid {
-  padding-right: calc(1.5em + 0.5rem);
-  background-position: top calc(0.375em + 0.125rem) right calc(0.375em + 0.125rem);
-}
-
-[dir=rtl] .was-validated textarea.form-control:valid, [dir=rtl] textarea.form-control.is-valid {
-  padding-left: calc(1.5em + 0.5rem);
-  background-position: top calc(0.375em + 0.125rem) left calc(0.375em + 0.125rem);
-}
-
 [dir] .was-validated .form-select:valid, [dir] .form-select.is-valid {
   border-color: #297848;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23454545' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e"), url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23297848' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
-  background-size: 16px 12px, calc(0.75em + 0.25rem) calc(0.75em + 0.25rem);
-}
-
-[dir=ltr] .was-validated .form-select:valid, [dir=ltr] .form-select.is-valid {
-  padding-right: calc(0.75em + 2.375rem);
-  background-position: right 1rem center, center right 2rem;
-}
-
-[dir=rtl] .was-validated .form-select:valid, [dir=rtl] .form-select.is-valid {
-  padding-left: calc(0.75em + 2.375rem);
-  background-position: left 1rem center, center left 2rem;
 }
 
 [dir] .was-validated .form-select:valid:focus, [dir] .form-select.is-valid:focus {
@@ -3359,19 +3324,6 @@ progress {
 
 [dir] .was-validated .form-control:invalid, [dir] .form-control.is-invalid {
   border-color: #bf3e24;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23bf3e24' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23bf3e24' stroke='none'/%3e%3c/svg%3e");
-  background-repeat: no-repeat;
-  background-size: calc(0.75em + 0.25rem) calc(0.75em + 0.25rem);
-}
-
-[dir=ltr] .was-validated .form-control:invalid, [dir=ltr] .form-control.is-invalid {
-  padding-right: calc(1.5em + 0.5rem);
-  background-position: right calc(0.375em + 0.125rem) center;
-}
-
-[dir=rtl] .was-validated .form-control:invalid, [dir=rtl] .form-control.is-invalid {
-  padding-left: calc(1.5em + 0.5rem);
-  background-position: left calc(0.375em + 0.125rem) center;
 }
 
 [dir] .was-validated .form-control:invalid:focus, [dir] .form-control.is-invalid:focus {
@@ -3379,30 +3331,8 @@ progress {
   box-shadow: 0 0 0 0.125rem rgba(191, 62, 36, 0.25);
 }
 
-[dir=ltr] .was-validated textarea.form-control:invalid, [dir=ltr] textarea.form-control.is-invalid {
-  padding-right: calc(1.5em + 0.5rem);
-  background-position: top calc(0.375em + 0.125rem) right calc(0.375em + 0.125rem);
-}
-
-[dir=rtl] .was-validated textarea.form-control:invalid, [dir=rtl] textarea.form-control.is-invalid {
-  padding-left: calc(1.5em + 0.5rem);
-  background-position: top calc(0.375em + 0.125rem) left calc(0.375em + 0.125rem);
-}
-
 [dir] .was-validated .form-select:invalid, [dir] .form-select.is-invalid {
   border-color: #bf3e24;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23454545' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e"), url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23bf3e24' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23bf3e24' stroke='none'/%3e%3c/svg%3e");
-  background-size: 16px 12px, calc(0.75em + 0.25rem) calc(0.75em + 0.25rem);
-}
-
-[dir=ltr] .was-validated .form-select:invalid, [dir=ltr] .form-select.is-invalid {
-  padding-right: calc(0.75em + 2.375rem);
-  background-position: right 1rem center, center right 2rem;
-}
-
-[dir=rtl] .was-validated .form-select:invalid, [dir=rtl] .form-select.is-invalid {
-  padding-left: calc(0.75em + 2.375rem);
-  background-position: left 1rem center, center left 2rem;
 }
 
 [dir] .was-validated .form-select:invalid:focus, [dir] .form-select.is-invalid:focus {
