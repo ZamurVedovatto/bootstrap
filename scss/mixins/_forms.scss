@@ -21,6 +21,7 @@
     @include font-size($form-feedback-font-size);
     font-style: $form-feedback-font-style;
     color: $color;
+    line-height: $janus-line-height-small;
   }
 
   .#{$state}-tooltip {
