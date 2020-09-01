@@ -43,10 +43,9 @@
     .#{$state}-tooltip {
       display: block;
     }
-    .is-#{$state} {
-      .form-label {
-        color: $color;
-      }
+
+    .form-label {
+      color: $color;
     }
   }
 
