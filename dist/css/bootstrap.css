@@ -2339,7 +2339,7 @@ progress {
 }
 
 [dir] .form-control {
-  padding: 0.25rem 1rem;
+  padding: 0.25rem 0.75rem;
   background-color: white;
   background-clip: padding-box;
   border: 1px solid #aaaaaa;
@@ -2476,13 +2476,13 @@ progress {
 }
 
 [dir=ltr] .form-select {
-  padding: 0.25rem 2rem 0.25rem 1rem;
-  background-position: right 1rem center;
+  padding: 0.25rem 1.75rem 0.25rem 0.75rem;
+  background-position: right 0.75rem center;
 }
 
 [dir=rtl] .form-select {
-  padding: 0.25rem 1rem 0.25rem 2rem;
-  background-position: left 1rem center;
+  padding: 0.25rem 0.75rem 0.25rem 1.75rem;
+  background-position: left 0.75rem center;
 }
 
 .form-select:focus {
@@ -2511,11 +2511,11 @@ progress {
 }
 
 [dir=ltr] .form-select[multiple], [dir=ltr] .form-select[size]:not([size="1"]) {
-  padding-right: 1rem;
+  padding-right: 0.75rem;
 }
 
 [dir=rtl] .form-select[multiple], [dir=rtl] .form-select[size]:not([size="1"]) {
-  padding-left: 1rem;
+  padding-left: 0.75rem;
 }
 
 .form-select:disabled {
@@ -2798,7 +2798,7 @@ progress {
 }
 
 [dir] .form-file-text {
-  padding: 0.25rem 1rem;
+  padding: 0.25rem 0.75rem;
   background-color: white;
   border-color: inherit;
   border-style: solid;
@@ -2823,7 +2823,7 @@ progress {
 }
 
 [dir] .form-file-button {
-  padding: 0.25rem 1rem;
+  padding: 0.25rem 0.75rem;
   background-color: #ececec;
   border-color: inherit;
   border-style: solid;
@@ -3124,7 +3124,7 @@ progress {
 }
 
 [dir] .input-group-text {
-  padding: 0.25rem 1rem;
+  padding: 0.25rem 0.75rem;
   text-align: center;
   background-color: #ececec;
   border: 1px solid #aaaaaa;
@@ -3172,11 +3172,11 @@ progress {
 }
 
 [dir=ltr] .input-group-lg > .form-select, [dir=ltr] .input-group-sm > .form-select {
-  padding-right: 2rem;
+  padding-right: 1.75rem;
 }
 
 [dir=rtl] .input-group-lg > .form-select, [dir=rtl] .input-group-sm > .form-select {
-  padding-left: 2rem;
+  padding-left: 1.75rem;
 }
 
 [dir=ltr] .input-group > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu), [dir=ltr] .input-group > .dropdown-toggle:nth-last-child(n + 3) {
@@ -3211,6 +3211,20 @@ progress {
 
 [dir] .valid-feedback {
   margin-top: 0;
+}
+
+.valid-feedback .feedback-icon {
+  font-size: 1.25rem;
+  position: absolute;
+  font-weight: bold;
+}
+
+[dir=ltr] .valid-feedback .feedback-text {
+  padding-left: 1.5rem;
+}
+
+[dir=rtl] .valid-feedback .feedback-text {
+  padding-right: 1.5rem;
 }
 
 .valid-tooltip {
@@ -3303,6 +3317,20 @@ progress {
 
 [dir] .invalid-feedback {
   margin-top: 0;
+}
+
+.invalid-feedback .feedback-icon {
+  font-size: 1.25rem;
+  position: absolute;
+  font-weight: bold;
+}
+
+[dir=ltr] .invalid-feedback .feedback-text {
+  padding-left: 1.5rem;
+}
+
+[dir=rtl] .invalid-feedback .feedback-text {
+  padding-right: 1.5rem;
 }
 
 .invalid-tooltip {

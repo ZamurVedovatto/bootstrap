@@ -22,6 +22,16 @@
     font-style: $form-feedback-font-style;
     color: $color;
     line-height: $janus-line-height-small;
+    
+    .feedback-icon {
+      font-size: $janus-icon-lg-font-size;
+      position: absolute;
+      font-weight: bold;
+    }
+
+    .feedback-text {
+        padding-left: $janus-dropdown-item-padding-x;
+    }
   }
 
   .#{$state}-tooltip {
