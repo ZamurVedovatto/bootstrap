@@ -13821,4 +13821,10 @@ fieldset:disabled .btn {
     display: inline-flex !important;
   }
 }
+
+[dir] .bordered-container {
+  border: 1px solid #ececec;
+  border-radius: 0.188rem;
+  padding: 20px;
+}
 /*# sourceMappingURL=bootstrap.css.map */
