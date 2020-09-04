@@ -4,6 +4,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://use.typekit.net/awj6qer.css");
 :root {
   --bs-blue: #0e62b9;
   --bs-indigo: #6610f2;
@@ -13848,11 +13849,5 @@ fieldset:disabled .btn {
   .d-print-inline-flex {
     display: inline-flex !important;
   }
-}
-
-[dir] .bordered-container {
-  border: 1px solid #ececec;
-  border-radius: 0.188rem;
-  padding: 20px;
 }
 /*# sourceMappingURL=bootstrap.css.map */

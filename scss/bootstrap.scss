@@ -6,6 +6,8 @@
  */
 
 // scss-docs-start import-stack
+@import url('https://use.typekit.net/awj6qer.css');
+
 // Configuration
 @import "functions";
 @import "variables";
@@ -48,6 +50,4 @@
 // Utilities
 @import "utilities/api";
 
-// Custom
-@import "janus";
 // scss-docs-end import-stack
