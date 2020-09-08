@@ -2361,7 +2361,7 @@ progress {
 [dir] .form-control:focus {
   background-color: white;
   border-color: #54a2f2;
-  box-shadow: 0 0 0 0.125rem #454545;
+  box-shadow: 0 0 0 0.125rem #0e62b9;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -2492,7 +2492,7 @@ progress {
 
 [dir] .form-select:focus {
   border-color: #54a2f2;
-  box-shadow: 0 0 0 0.125rem rgba(14, 98, 185, 0.25);
+  box-shadow: 0 0 0 0.125rem #0e62b9;
 }
 
 .form-select:focus::-ms-value {
@@ -2644,7 +2644,7 @@ progress {
 
 [dir] .form-check-input:focus {
   border-color: #54a2f2;
-  box-shadow: 0 0 0 0.125rem #454545;
+  box-shadow: 0 0 0 0.125rem #0e62b9;
 }
 
 [dir] .form-check-input:checked {
@@ -2757,7 +2757,7 @@ progress {
 
 [dir] .form-file-input:focus-within ~ .form-file-label {
   border-color: #54a2f2;
-  box-shadow: 0 0 0 0.125rem #454545;
+  box-shadow: 0 0 0 0.125rem #0e62b9;
 }
 
 [dir] .form-file-input[disabled] ~ .form-file-label .form-file-text, [dir] .form-file-input:disabled ~ .form-file-label .form-file-text {
@@ -2879,15 +2879,15 @@ progress {
 }
 
 [dir] .form-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px white, 0 0 0 0.125rem #454545;
+  box-shadow: 0 0 0 1px white, 0 0 0 0.125rem #0e62b9;
 }
 
 [dir] .form-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px white, 0 0 0 0.125rem #454545;
+  box-shadow: 0 0 0 1px white, 0 0 0 0.125rem #0e62b9;
 }
 
 [dir] .form-range:focus::-ms-thumb {
-  box-shadow: 0 0 0 1px white, 0 0 0 0.125rem #454545;
+  box-shadow: 0 0 0 1px white, 0 0 0 0.125rem #0e62b9;
 }
 
 [dir] .form-range::-moz-focus-outer {
@@ -3257,26 +3257,12 @@ progress {
   color: #297848;
 }
 
-[dir] .was-validated .form-control:valid, [dir] .form-control.is-valid {
-  border-color: #297848;
-}
-
 [dir] .was-validated .form-control:valid:focus, [dir] .form-control.is-valid:focus {
-  border-color: #297848;
-  box-shadow: 0 0 0 0.125rem rgba(41, 120, 72, 0.25);
-}
-
-[dir] .was-validated .form-select:valid, [dir] .form-select.is-valid {
-  border-color: #297848;
+  box-shadow: 0 0 0 0.125rem #297848;
 }
 
 [dir] .was-validated .form-select:valid:focus, [dir] .form-select.is-valid:focus {
-  border-color: #297848;
   box-shadow: 0 0 0 0.125rem rgba(41, 120, 72, 0.25);
-}
-
-[dir] .was-validated .form-check-input:valid, [dir] .form-check-input.is-valid {
-  border-color: #297848;
 }
 
 [dir] .was-validated .form-check-input:valid:checked, [dir] .form-check-input.is-valid:checked {
@@ -3299,12 +3285,7 @@ progress {
   margin-right: .5em;
 }
 
-[dir] .was-validated .form-file-input:valid ~ .form-file-label, [dir] .form-file-input.is-valid ~ .form-file-label {
-  border-color: #297848;
-}
-
 [dir] .was-validated .form-file-input:valid:focus ~ .form-file-label, [dir] .form-file-input.is-valid:focus ~ .form-file-label {
-  border-color: #297848;
   box-shadow: 0 0 0 0.125rem rgba(41, 120, 72, 0.25);
 }
 
@@ -3363,26 +3344,12 @@ progress {
   color: #bf3e24;
 }
 
-[dir] .was-validated .form-control:invalid, [dir] .form-control.is-invalid {
-  border-color: #bf3e24;
-}
-
 [dir] .was-validated .form-control:invalid:focus, [dir] .form-control.is-invalid:focus {
-  border-color: #bf3e24;
-  box-shadow: 0 0 0 0.125rem rgba(191, 62, 36, 0.25);
-}
-
-[dir] .was-validated .form-select:invalid, [dir] .form-select.is-invalid {
-  border-color: #bf3e24;
+  box-shadow: 0 0 0 0.125rem #bf3e24;
 }
 
 [dir] .was-validated .form-select:invalid:focus, [dir] .form-select.is-invalid:focus {
-  border-color: #bf3e24;
   box-shadow: 0 0 0 0.125rem rgba(191, 62, 36, 0.25);
-}
-
-[dir] .was-validated .form-check-input:invalid, [dir] .form-check-input.is-invalid {
-  border-color: #bf3e24;
 }
 
 [dir] .was-validated .form-check-input:invalid:checked, [dir] .form-check-input.is-invalid:checked {
@@ -3405,12 +3372,7 @@ progress {
   margin-right: .5em;
 }
 
-[dir] .was-validated .form-file-input:invalid ~ .form-file-label, [dir] .form-file-input.is-invalid ~ .form-file-label {
-  border-color: #bf3e24;
-}
-
 [dir] .was-validated .form-file-input:invalid:focus ~ .form-file-label, [dir] .form-file-input.is-invalid:focus ~ .form-file-label {
-  border-color: #bf3e24;
   box-shadow: 0 0 0 0.125rem rgba(191, 62, 36, 0.25);
 }
 
@@ -3455,7 +3417,7 @@ progress {
 }
 
 [dir] .btn-check:focus + .btn, [dir] .btn:focus {
-  box-shadow: 0 0 0 0.125rem #454545;
+  box-shadow: 0 0 0 0.125rem #0e62b9;
 }
 
 .btn:disabled, .btn.disabled,
@@ -5893,7 +5855,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .page-link:focus {
-  box-shadow: 0 0 0 0.125rem #454545;
+  box-shadow: 0 0 0 0.125rem #0e62b9;
 }
 
 [dir=ltr] .page-item:not(:first-child) .page-link {

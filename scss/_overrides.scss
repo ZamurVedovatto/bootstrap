@@ -142,7 +142,8 @@ $font-weight-semibold:        600 !default;
 $btn-font-weight:             $font-weight-semibold !default;
 
 $input-btn-focus-width:       .125rem !default;
-$input-btn-focus-box-shadow:  0 0 0 $input-btn-focus-width $janus-color-secondary !default;
+$input-btn-focus-box-shadow:  0 0 0 $input-btn-focus-width $janus-color-primary !default;
+$input-btn-focus-color-opacity: 1!default;
 
 $btn-disabled-opacity:        1 !default;
 
