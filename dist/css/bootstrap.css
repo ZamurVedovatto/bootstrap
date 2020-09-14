@@ -2309,6 +2309,11 @@ progress {
   padding-bottom: calc(0.157rem + 1px);
 }
 
+[dir] .fieldgroup-label {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
 .form-text {
   font-size: 0.875em;
   color: #6c6c6c;
