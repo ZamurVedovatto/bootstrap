@@ -405,15 +405,15 @@ fieldset {
 
 legend {
   width: 100%;
-  font-size: 1.25rem;
-  font-weight: bold;
+  font-size: 1rem;
+  font-weight: 600;
   line-height: inherit;
   white-space: normal;
 }
 
 [dir] legend {
   padding: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 0.25rem;
 }
 
 [dir=ltr] legend {

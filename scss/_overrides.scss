@@ -90,9 +90,9 @@ $h4-font-size:                $janus-font-size-base !default;
 $h5-font-size:                $janus-font-size-base * .875 !default;
 $h6-font-size:                $janus-font-size-base * .8125 !default;
 
-$legend-margin-bottom:        2rem !default;
-$legend-font-size:            $h3-font-size !default;
-$legend-font-weight:          bold !default;
+$legend-margin-bottom:        .25rem !default;
+$legend-font-size:            $h4-font-size !default;
+$legend-font-weight:          600 !default;
 
 $border-radius:               $janus-border-radius !default;
 $border-radius-sm:            $janus-border-radius-sm !default;
