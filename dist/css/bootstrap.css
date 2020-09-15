@@ -2626,7 +2626,7 @@ progress {
 }
 
 [dir] .form-check-input[type="checkbox"] {
-  border-radius: 0.25em;
+  border-radius: 0.125rem;
 }
 
 [dir] .form-check-input[type="radio"] {
