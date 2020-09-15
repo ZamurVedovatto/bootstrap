@@ -55,8 +55,13 @@
       display: block;
     }
 
-    .form-label {
+    .form-label,
+    legend {
       color: $color;
+    }
+
+    .subform .form-label {
+      color: #333;
     }
   }
 

@@ -3253,8 +3253,15 @@ progress {
 }
 
 .was-validated :valid .form-label,
-.is-valid .form-label {
+.was-validated :valid legend,
+.is-valid .form-label,
+.is-valid legend {
   color: #297848;
+}
+
+.was-validated :valid .subform .form-label,
+.is-valid .subform .form-label {
+  color: #333;
 }
 
 [dir] .was-validated .form-control:valid:focus, [dir] .form-control.is-valid:focus {
@@ -3340,8 +3347,15 @@ progress {
 }
 
 .was-validated :invalid .form-label,
-.is-invalid .form-label {
+.was-validated :invalid legend,
+.is-invalid .form-label,
+.is-invalid legend {
   color: #bf3e24;
+}
+
+.was-validated :invalid .subform .form-label,
+.is-invalid .subform .form-label {
+  color: #333;
 }
 
 [dir] .was-validated .form-control:invalid:focus, [dir] .form-control.is-invalid:focus {
