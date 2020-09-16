@@ -3390,6 +3390,30 @@ progress {
   box-shadow: 0 0 0 0.125rem rgba(191, 62, 36, 0.25);
 }
 
+[dir] .subform-footer {
+  border-top: 1px solid #ececec;
+  text-align: center;
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
+  margin-bottom: -1rem;
+  margin-top: 1.5rem;
+  background: #f6f6f6;
+}
+
+[dir=ltr] .subform-footer {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+[dir=rtl] .subform-footer {
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  margin-right: -1rem;
+  margin-left: -1rem;
+}
+
 .btn {
   display: inline-block;
   font-weight: 600;
