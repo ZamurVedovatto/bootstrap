@@ -23,9 +23,11 @@
     color: $color;
     line-height: $janus-line-height-small;
     
-    .feedback-icon {
+    .feedback-icon,
+    span > span {
       font-size: $janus-icon-lg-font-size;
-      position: absolute;
+      position: relative;
+      top: 3px;
       font-weight: bold;
     }
 

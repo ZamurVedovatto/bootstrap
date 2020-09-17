@@ -3214,9 +3214,11 @@ progress {
   margin-top: 0;
 }
 
-.valid-feedback .feedback-icon {
+.valid-feedback .feedback-icon,
+.valid-feedback span > span {
   font-size: 1.25rem;
-  position: absolute;
+  position: relative;
+  top: 3px;
   font-weight: bold;
 }
 
@@ -3308,9 +3310,11 @@ progress {
   margin-top: 0;
 }
 
-.invalid-feedback .feedback-icon {
+.invalid-feedback .feedback-icon,
+.invalid-feedback span > span {
   font-size: 1.25rem;
-  position: absolute;
+  position: relative;
+  top: 3px;
   font-weight: bold;
 }
 
