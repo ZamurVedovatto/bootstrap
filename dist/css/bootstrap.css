@@ -2616,7 +2616,7 @@ progress {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  border: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid #949494;
 }
 
 @media (prefers-reduced-motion: reduce) {
