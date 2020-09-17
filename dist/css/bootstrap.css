@@ -3220,7 +3220,6 @@ progress {
   font-size: 1.25rem;
   position: relative;
   top: 3px;
-  font-weight: bold;
 }
 
 [dir=ltr] .valid-feedback .feedback-text {
@@ -3317,7 +3316,6 @@ progress {
   font-size: 1.25rem;
   position: relative;
   top: 3px;
-  font-weight: bold;
 }
 
 [dir=ltr] .invalid-feedback .feedback-text {
