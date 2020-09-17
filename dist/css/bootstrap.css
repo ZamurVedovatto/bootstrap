@@ -3208,6 +3208,7 @@ progress {
   font-size: 0.875em;
   color: #297848;
   line-height: 1.3125rem;
+  font-weight: 600;
 }
 
 [dir] .valid-feedback {
@@ -3304,6 +3305,7 @@ progress {
   font-size: 0.875em;
   color: #bf3e24;
   line-height: 1.3125rem;
+  font-weight: 600;
 }
 
 [dir] .invalid-feedback {
