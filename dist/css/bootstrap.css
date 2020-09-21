@@ -3213,6 +3213,7 @@ progress {
 
 [dir] .valid-feedback {
   margin-top: 0;
+  margin-bottom: 0.25rem;
 }
 
 .valid-feedback .feedback-icon,
@@ -3309,6 +3310,7 @@ progress {
 
 [dir] .invalid-feedback {
   margin-top: 0;
+  margin-bottom: 0.25rem;
 }
 
 .invalid-feedback .feedback-icon,

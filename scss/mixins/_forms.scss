@@ -18,6 +18,7 @@
     display: none;
     width: 100%;
     margin-top: $form-feedback-margin-top;
+    margin-bottom: $form-feedback-margin-bottom;
     @include font-size($form-feedback-font-size);
     font-style: $form-feedback-font-style;
     color: $color;
