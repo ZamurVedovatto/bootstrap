@@ -4,10 +4,10 @@
   border-bottom-left-radius: $border-radius;
   text-align: center;
   padding-bottom: $dropdown-spacer;
-  padding-top: $spacer * .75;
+  padding-top: $dropdown-spacer;
   margin-left: -1rem;
   margin-right: -1rem;
   margin-bottom: -1rem;
-  margin-top: 1.5rem;
+  margin-top: $spacer * .75;
   background: $light;
 }
