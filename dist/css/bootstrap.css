@@ -2527,13 +2527,13 @@ progress {
 }
 
 [dir=ltr] .form-select {
-  padding: 0.3125rem 1.75rem 0.3125rem 0.75rem;
-  background-position: right 0.75rem center;
+  padding: 0.3125rem 1.5rem 0.3125rem 0.75rem;
+  background-position: right 0.5rem center;
 }
 
 [dir=rtl] .form-select {
-  padding: 0.3125rem 0.75rem 0.3125rem 1.75rem;
-  background-position: left 0.75rem center;
+  padding: 0.3125rem 0.75rem 0.3125rem 1.5rem;
+  background-position: left 0.5rem center;
 }
 
 .form-select:focus {
