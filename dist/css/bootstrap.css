@@ -2371,7 +2371,7 @@ progress {
 }
 
 [dir] .form-text {
-  margin-top: 0;
+  margin-top: -0.25rem;
   margin-bottom: 0.5rem;
 }
 
@@ -3262,7 +3262,7 @@ progress {
 }
 
 [dir] .valid-feedback {
-  margin-top: 0;
+  margin-top: -0.25rem;
   margin-bottom: 0.25rem;
 }
 
@@ -3359,7 +3359,7 @@ progress {
 }
 
 [dir] .invalid-feedback {
-  margin-top: 0;
+  margin-top: -0.25rem;
   margin-bottom: 0.25rem;
 }
 

@@ -161,12 +161,13 @@ $btn-disabled-opacity:        1 !default;
 $box-shadow-sm:               0 .0625rem .125rem rgba($black, .5) !default;
 
 $form-text-line-height:       1.3125rem;
-$form-text-margin-top:        0 !default;
+$form-text-margin-top:        -0.25rem !default;
 $form-text-margin-bottom:     .5rem;
 
 $form-label-margin-bottom:    .25rem !default;
 $form-label-font-weight:      600 !default;
 $form-feedback-font-size:     $janus-font-size-small !default;
 $form-feedback-margin-bottom: .25rem;
+$form-feedback-margin-top:    -0.25rem;
 
 $form-select-bg-position:     right $janus-form-select-padding-x center !default;
