@@ -7,9 +7,12 @@
  */
 
 .site-header {
-  background-color: rgba(0, 0, 0, .85);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
+}
+
+[dir] .site-header {
+  background-color: rgba(0, 0, 0, .85);
 }
 .site-header a {
   color: #8e8e8e;
@@ -26,32 +29,65 @@
 
 .product-device {
   position: absolute;
-  right: 10%;
   bottom: -30%;
   width: 300px;
   height: 540px;
+}
+
+[dir] .product-device {
   background-color: #333;
   border-radius: 21px;
+}
+
+[dir=ltr] .product-device {
+  right: 10%;
   transform: rotate(30deg);
+}
+
+[dir=rtl] .product-device {
+  left: 10%;
+  transform: rotate(-30deg);
 }
 
 .product-device::before {
   position: absolute;
   top: 10%;
-  right: 10px;
   bottom: 10%;
-  left: 10px;
   content: "";
+}
+
+[dir] .product-device::before {
   background-color: rgba(255, 255, 255, .1);
   border-radius: 5px;
 }
 
+[dir=ltr] .product-device::before {
+  right: 10px;
+  left: 10px;
+}
+
+[dir=rtl] .product-device::before {
+  left: 10px;
+  right: 10px;
+}
+
 .product-device-2 {
   top: -25%;
-  right: auto;
   bottom: 0;
-  left: 5%;
+}
+
+[dir] .product-device-2 {
   background-color: #e5e5e5;
+}
+
+[dir=ltr] .product-device-2 {
+  right: auto;
+  left: 5%;
+}
+
+[dir=rtl] .product-device-2 {
+  left: auto;
+  right: 5%;
 }
 
 

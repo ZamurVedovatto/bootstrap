@@ -15,6 +15,9 @@
 
 // The dropdown menu
 .dropdown-menu {
+  width: 100%;
+  min-width: 150px;
+  max-width: 400px;
   position: absolute;
   top: 100%;
   left: 0;
@@ -32,6 +35,13 @@
   border: $dropdown-border-width solid $dropdown-border-color;
   @include border-radius($dropdown-border-radius);
   @include box-shadow($dropdown-box-shadow);
+  word-break: break-word;
+}
+
+@include media-breakpoint-up(sm) {
+  .dropdown-menu {
+    width: auto;
+  }
 }
 
 // scss-docs-start responsive-breakpoints
@@ -125,6 +135,7 @@
 //
 // `<button>`-specific styles are denoted with `// For <button>s`
 .dropdown-item {
+  position: relative;
   display: block;
   width: 100%; // For `<button>`s
   padding: $dropdown-item-padding-y $dropdown-item-padding-x;
@@ -133,9 +144,31 @@
   color: $dropdown-link-color;
   text-align: inherit; // For `<button>`s
   text-decoration: if($link-decoration == none, null, none);
-  white-space: nowrap; // prevent links from randomly breaking onto new lines
+  white-space: normal;
   background-color: transparent; // For `<button>`s
   border: 0; // For `<button>`s
+
+  &.with-prefix-icon {
+    padding: $dropdown-item-padding-y $dropdown-item-padding-x $dropdown-item-padding-y ($dropdown-item-padding-y * 2);
+    i {
+      padding: 2px;
+      font-size: 1.25rem;
+      color: $janus-color-icon-gray;
+    } 
+  }
+
+  &.with-suffix-icon {
+    padding: $dropdown-item-padding-y ($dropdown-item-padding-y * 6.5) $dropdown-item-padding-y ($dropdown-item-padding-y * 3);
+    i {
+      color: $janus-color-icon-gray;
+      position: absolute;
+      right: .5rem;
+      width: 1.25rem;
+      text-align: center;
+      top: .625rem;
+      font-size: 1.25rem;
+    }    
+  }
 
   // Prevent dropdown overflow if there's no padding
   // See https://github.com/twbs/bootstrap/pull/27703
@@ -161,6 +194,10 @@
     color: $dropdown-link-active-color;
     text-decoration: none;
     @include gradient-bg($dropdown-link-active-bg);
+
+    i {
+      color: #fff;
+    }
   }
 
   &.disabled,
@@ -174,17 +211,19 @@
 }
 
 .dropdown-menu.show {
-  display: block;
+  display: inline-block;
 }
 
 // Dropdown section headers
 .dropdown-header {
+  font-weight: bold;
   display: block;
   padding: $dropdown-header-padding;
   margin-bottom: 0; // for use with heading elements
-  @include font-size($font-size-sm);
+  @include font-size($h4-font-size);
   color: $dropdown-header-color;
   white-space: nowrap; // as with > li > a
+  line-height: $janus-line-height-base;
 }
 
 // Dropdown text
@@ -232,5 +271,34 @@
 
   .dropdown-header {
     color: $dropdown-dark-header-color;
+  }
+}
+
+// Customize Dropdown Toggle to be a chevron instead of a triangle
+
+.dropdown-toggle {
+  &::after,
+  &::before {
+    position: relative;
+    width: .45em;
+    height: .45em;
+    border: .3em solid;
+    border-width: 0 .1em .1em 0;
+  }
+}
+
+.dropdown-toggle {
+  &::before {
+    display: none;
+  }
+}
+
+// Decrease size of chevron when using .btn-sm
+
+.dropdown-toggle {
+  &.btn-sm {
+    &::after {
+      border-width: 0 .1em .1em 0;
+    }
   }
 }
