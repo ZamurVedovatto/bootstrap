@@ -12,7 +12,10 @@
   $hover-color: color-contrast($hover-background),
   $active-background: darken($background, 10%),
   $active-border: darken($border, 10%),
-  $active-color: color-contrast($active-background)
+  $active-color: color-contrast($active-background),
+  $disabled-background: $background,
+  $disabled-border: $border,
+  $disabled-color: color-contrast($disabled-background)
 ) {
   color: $color;
   @include gradient-bg($background);

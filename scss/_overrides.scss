@@ -56,6 +56,7 @@ $theme-colors: (
 
 $enable-negative-margins:     true !default;
 $enable-validation-icons:     false !default;
+$enable-shadows:              true !default;
 
 // Body
 //
@@ -63,7 +64,7 @@ $enable-validation-icons:     false !default;
 
 $body-color:                  $gray-800 !default;
 
-$box-shadow:                  0 .063rem .125rem rgba($black, .5) !default;
+$box-shadow:                  0 .063rem .125rem rgba($black, .25) !default;
 
 $alert-bg-level:              -11 !default;
 $alert-border-level:          -9 !default;
@@ -125,9 +126,9 @@ $badge-border-radius:         $janus-border-radius-sm !default;
 $alert-padding-x:             $janus-alert-padding-x !default;
 $alert-padding-y:             $janus-alert-padding-y !default;
 
-$close-font-size:             $janus-font-size-base !default;
-$close-line-height:           $janus-icon-lg-line-height !default;
-$close-text-shadow:           none !default;
+//$close-font-size:             $janus-font-size-base !default;
+//$close-line-height:           $janus-icon-lg-line-height !default;
+//$close-text-shadow:           none !default;
 
 $dropdown-min-width:          9.375rem !default;
 $dropdown-item-padding-y:     $janus-dropdown-item-padding-y !default;
