@@ -13,9 +13,9 @@
   $active-background: darken($background, 10%),
   $active-border: darken($border, 10%),
   $active-color: color-contrast($active-background),
-  $disabled-background: $background,
-  $disabled-border: $border,
-  $disabled-color: color-contrast($disabled-background)
+  $disabled-background: $btn-disabled-background-color,
+  $disabled-border: $btn-disabled-border-color,
+  $disabled-color: $btn-disabled-color
 ) {
   color: $color;
   @include gradient-bg($background);
