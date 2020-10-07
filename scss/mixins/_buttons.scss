@@ -101,14 +101,14 @@
   &.dropdown-toggle.show {
     color: $active-border;
     background-color: rgba($active-background, 0.05);
-    border-color: $active-border;
+    //border-color: $active-border;
 
     &:focus {
       @if $enable-shadows {
-        @include box-shadow($btn-active-box-shadow, 0 0 0 $btn-focus-width rgba($color, 0));
+        //@include box-shadow($btn-active-box-shadow, 0 0 0 $btn-focus-width rgba($color, 0));
       } @else {
         // Avoid using mixin so we can pass custom focus shadow properly
-        box-shadow: 0 0 0 $btn-focus-width rgba($color, 0);
+        //box-shadow: 0 0 0 $btn-focus-width rgba($color, 0);
       }
     }
   }
@@ -128,3 +128,11 @@
   // Manually declare to provide an override to the browser default
   @include border-radius($border-radius, 0);
 }
+
+// Override .btn-sm to use 1px border instead of 2px
+.btn {
+  &.btn-sm {
+    border-width: $border-width;
+  }
+}
+
