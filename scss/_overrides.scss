@@ -177,3 +177,5 @@ $form-select-bg-position:     right $janus-form-select-padding-x center !default
 
 $btn-close-color:             $black !default;
 $btn-close-bg:                url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' fill='#{$btn-close-color}' viewBox='0 0 24 24'><path d='M 20.7,4.7 19.3,3.3 12,10.6 4.7,3.3 3.3,4.7 10.6,12 3.3,19.3 4.7,20.7 12,13.4 19.3,20.7 20.7,19.3 13.4,12 Z'/></svg>") !default;
+
+$popover-box-shadow:          none !default;
