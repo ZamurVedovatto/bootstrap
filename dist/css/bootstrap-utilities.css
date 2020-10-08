@@ -8,6 +8,10 @@
   border-width: 1px;
 }
 
+[dir] .btn.btn-sm:hover {
+  border-width: 1px;
+}
+
 .align-baseline {
   vertical-align: baseline !important;
 }

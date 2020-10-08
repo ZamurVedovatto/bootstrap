@@ -133,6 +133,8 @@
 .btn {
   &.btn-sm {
     border-width: $border-width;
+    &:hover {
+        border-width: $border-width;
+    }
   }
 }
-

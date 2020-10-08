@@ -9,6 +9,10 @@
   border-width: 1px;
 }
 
+[dir] .btn.btn-sm:hover, [dir] .btn-group-sm > .btn:hover {
+  border-width: 1px;
+}
+
 :root {
   --bs-blue: #0e62b9;
   --bs-indigo: #6610f2;
