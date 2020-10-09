@@ -64,7 +64,8 @@ $enable-shadows:              true !default;
 
 $body-color:                  $gray-800 !default;
 
-$box-shadow:                  0 .063rem .125rem rgba($black, .25) !default;
+$box-shadow:                  0 .125rem .375rem rgba($black, .5) !default;
+$box-shadow-sm:               0 .063rem .125rem rgba($black, .25) !default;
 
 $alert-bg-level:              -11 !default;
 $alert-border-level:          -9 !default;
@@ -179,3 +180,7 @@ $btn-close-color:             $black !default;
 $btn-close-bg:                url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' fill='#{$btn-close-color}' viewBox='0 0 24 24'><path d='M 20.7,4.7 19.3,3.3 12,10.6 4.7,3.3 3.3,4.7 10.6,12 3.3,19.3 4.7,20.7 12,13.4 19.3,20.7 20.7,19.3 13.4,12 Z'/></svg>") !default;
 
 $popover-box-shadow:          none !default;
+
+$box-shadow-sm:               0 .125rem .375rem rgba($black, .5) !default;
+
+$modal-content-border-radius: $janus-border-radius !default;
