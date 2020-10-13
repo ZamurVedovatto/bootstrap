@@ -5685,6 +5685,11 @@ fieldset:disabled .btn {
   margin-right: 1rem;
 }
 
+.card-header {
+  font-size: 0.875em;
+  font-weight: 600;
+}
+
 [dir] .card-header {
   padding: 1.25rem 1.25rem;
   margin-bottom: 0.25rem;
