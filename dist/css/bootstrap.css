@@ -5715,8 +5715,8 @@ fieldset:disabled .btn {
   margin-left: .75rem;
 }
 
-[dir] .card-header [class^="icn-"].icn-events, [dir] .card-header [class*=" icn-"].icn-events {
-  background-color: coral;
+[dir] .card-header .icn-bg-cyan {
+  background-color: #0b5ba1;
 }
 
 [dir] .card-footer {
