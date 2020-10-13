@@ -5657,7 +5657,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .card-body {
-  padding: 1rem 1rem;
+  padding: 1.25rem 1.25rem;
 }
 
 [dir] .card-title {
@@ -5678,11 +5678,11 @@ fieldset:disabled .btn {
 }
 
 [dir=ltr] .card-link + .card-link {
-  margin-left: 1rem;
+  margin-left: 1.25rem;
 }
 
 [dir=rtl] .card-link + .card-link {
-  margin-right: 1rem;
+  margin-right: 1.25rem;
 }
 
 .card-header {
