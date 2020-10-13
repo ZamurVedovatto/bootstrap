@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   min-width: 0; // See https://github.com/twbs/bootstrap/pull/22740#issuecomment-305868106
+  min-height: 200px;
   height: $card-height;
   word-wrap: break-word;
   background-color: $card-bg;
@@ -78,7 +79,7 @@
 //
 
 .card-header {
-  padding: $card-cap-padding-y $card-cap-padding-x;
+  padding: $card-cap-padding-y $card-cap-padding-x $card-cap-padding-bottom;
   margin-bottom: 0; // Removes the default margin-bottom of <hN>
   color: $card-cap-color;
   background-color: $card-cap-bg;
@@ -86,6 +87,19 @@
 
   &:first-child {
     @include border-radius($card-inner-border-radius $card-inner-border-radius 0 0);
+  }
+
+  [class^="icn-"], 
+  [class*=" icn-"] {
+    color: #fff;
+    font-size: 1.125rem;
+    border-radius: .25rem;
+    padding: .3125rem;
+    margin-right: .75rem;
+
+    &.icn-events {
+      background-color: coral;
+    }
   }
 }
 
