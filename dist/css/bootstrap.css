@@ -5694,7 +5694,6 @@ fieldset:disabled .btn {
   padding: 1.25rem 1.25rem;
   margin-bottom: 0.25rem;
   background-color: white;
-  border-bottom: 1px solid #ececec;
 }
 
 [dir] .card-header:first-child {
