@@ -79,8 +79,8 @@
 //
 
 .card-header {
-  padding: $card-cap-padding-y $card-cap-padding-x $card-cap-padding-bottom;
-  margin-bottom: 0; // Removes the default margin-bottom of <hN>
+  padding: $card-cap-padding-y $card-cap-padding-x;
+  margin-bottom: $card-cap-margin-bottom;
   color: $card-cap-color;
   background-color: $card-cap-bg;
   border-bottom: $card-border-width solid $card-border-color;
