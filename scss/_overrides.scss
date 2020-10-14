@@ -4,8 +4,6 @@
 // Import variables from Janus design tokens
 @import "../node_modules/@symplicity/janus-tokens/dist/index.scss";
 
-
-
 // Map Janus design tokens to bootstrap variables
 $white: $janus-color-white !default;
 $gray-100: $janus-color-gray-100 !default;
@@ -30,25 +28,7 @@ $green:   $janus-color-success !default;
 $teal:    #20c997 !default;         // NEEDS REVIEW
 $cyan:    $janus-color-info !default;
 
-$primary:       $blue !default;
 $secondary:     $janus-color-secondary !default;
-$success:       $green !default;
-$info:          $cyan !default;
-$warning:       $yellow !default;
-$danger:        $red !default;
-$light:         $gray-100 !default;
-$dark:          $gray-800 !default;
-
-$theme-colors: (
-  "primary":    $primary,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark
-) !default;
 
 // Options
 //
