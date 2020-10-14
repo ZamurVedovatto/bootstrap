@@ -278,7 +278,7 @@
 }
 
 [dir] .border-secondary {
-  border-color: #454545 !important;
+  border-color: #6c6c6c !important;
 }
 
 [dir] .border-success {
@@ -303,6 +303,30 @@
 
 [dir] .border-dark {
   border-color: #454545 !important;
+}
+
+[dir] .border-pale-green {
+  border-color: #66debe !important;
+}
+
+[dir] .border-pale-orange {
+  border-color: #f0874b !important;
+}
+
+[dir] .border-pale-indigo {
+  border-color: #5a90e8 !important;
+}
+
+[dir] .border-pale-purple {
+  border-color: #9992fb !important;
+}
+
+[dir] .border-pale-blue {
+  border-color: #66baec !important;
+}
+
+[dir] .border-pale-red {
+  border-color: #f66666 !important;
 }
 
 [dir] .border-white {
@@ -1529,7 +1553,7 @@
 }
 
 .text-secondary {
-  color: #454545 !important;
+  color: #6c6c6c !important;
 }
 
 .text-success {
@@ -1554,6 +1578,30 @@
 
 .text-dark {
   color: #454545 !important;
+}
+
+.text-pale-green {
+  color: #66debe !important;
+}
+
+.text-pale-orange {
+  color: #f0874b !important;
+}
+
+.text-pale-indigo {
+  color: #5a90e8 !important;
+}
+
+.text-pale-purple {
+  color: #9992fb !important;
+}
+
+.text-pale-blue {
+  color: #66baec !important;
+}
+
+.text-pale-red {
+  color: #f66666 !important;
 }
 
 .text-white {
@@ -1601,7 +1649,7 @@
 }
 
 [dir] .bg-secondary {
-  background-color: #454545 !important;
+  background-color: #6c6c6c !important;
 }
 
 [dir] .bg-success {
@@ -1626,6 +1674,30 @@
 
 [dir] .bg-dark {
   background-color: #454545 !important;
+}
+
+[dir] .bg-pale-green {
+  background-color: #66debe !important;
+}
+
+[dir] .bg-pale-orange {
+  background-color: #f0874b !important;
+}
+
+[dir] .bg-pale-indigo {
+  background-color: #5a90e8 !important;
+}
+
+[dir] .bg-pale-purple {
+  background-color: #9992fb !important;
+}
+
+[dir] .bg-pale-blue {
+  background-color: #66baec !important;
+}
+
+[dir] .bg-pale-red {
+  background-color: #f66666 !important;
 }
 
 [dir] .bg-body {
