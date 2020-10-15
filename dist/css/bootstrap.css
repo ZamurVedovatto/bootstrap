@@ -4894,9 +4894,6 @@ fieldset:disabled .btn {
 }
 
 .dropdown-menu {
-  width: 100%;
-  min-width: 150px;
-  max-width: 400px;
   position: absolute;
   top: 100%;
   z-index: 1000;
@@ -4905,7 +4902,6 @@ fieldset:disabled .btn {
   font-size: 1rem;
   color: #454545;
   list-style: none;
-  word-break: break-word;
 }
 
 [dir] .dropdown-menu {
@@ -4926,12 +4922,6 @@ fieldset:disabled .btn {
 [dir=rtl] .dropdown-menu {
   right: 0;
   text-align: right;
-}
-
-@media (min-width: 576px) {
-  .dropdown-menu {
-    width: auto;
-  }
 }
 
 [dir=ltr] .dropdown-menu-left {
@@ -5229,13 +5219,12 @@ fieldset:disabled .btn {
 }
 
 .dropdown-item {
-  position: relative;
   display: block;
   width: 100%;
   font-weight: 400;
   color: #333333;
   text-decoration: none;
-  white-space: normal;
+  white-space: nowrap;
 }
 
 [dir] .dropdown-item {
@@ -5244,51 +5233,6 @@ fieldset:disabled .btn {
   text-align: inherit;
   background-color: transparent;
   border: 0;
-}
-
-[dir=ltr] .dropdown-item.with-prefix-icon {
-  padding: 0.5rem 1.5rem 0.5rem 1rem;
-}
-
-[dir=rtl] .dropdown-item.with-prefix-icon {
-  padding: 0.5rem 1rem 0.5rem 1.5rem;
-}
-
-.dropdown-item.with-prefix-icon i {
-  font-size: 1.25rem;
-  color: #6c6c6c;
-}
-
-[dir] .dropdown-item.with-prefix-icon i {
-  padding: 2px;
-}
-
-[dir=ltr] .dropdown-item.with-suffix-icon {
-  padding: 0.5rem 3.25rem 0.5rem 1.5rem;
-}
-
-[dir=rtl] .dropdown-item.with-suffix-icon {
-  padding: 0.5rem 1.5rem 0.5rem 3.25rem;
-}
-
-.dropdown-item.with-suffix-icon i {
-  color: #6c6c6c;
-  position: absolute;
-  width: 1.25rem;
-  top: .625rem;
-  font-size: 1.25rem;
-}
-
-[dir] .dropdown-item.with-suffix-icon i {
-  text-align: center;
-}
-
-[dir=ltr] .dropdown-item.with-suffix-icon i {
-  right: .5rem;
-}
-
-[dir=rtl] .dropdown-item.with-suffix-icon i {
-  left: .5rem;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
@@ -5308,10 +5252,6 @@ fieldset:disabled .btn {
   background-color: #0e62b9;
 }
 
-.dropdown-item.active i, .dropdown-item:active i {
-  color: #fff;
-}
-
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #6c6c6c;
   pointer-events: none;
@@ -5322,16 +5262,14 @@ fieldset:disabled .btn {
 }
 
 .dropdown-menu.show {
-  display: inline-block;
+  display: block;
 }
 
 .dropdown-header {
-  font-weight: bold;
   display: block;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: #454545;
   white-space: nowrap;
-  line-height: 1.5;
 }
 
 [dir] .dropdown-header {
