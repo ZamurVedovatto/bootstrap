@@ -89,8 +89,8 @@
     @include border-radius($card-inner-border-radius $card-inner-border-radius 0 0);
   }
 
-  [class^="icn-"], 
-  [class*=" icn-"] {
+  .card-header-icon [class^="icn-"], 
+  .card-header-icon [class*=" icn-"] {
     color: #fff;
     font-size: 1.125rem;
     border-radius: .25rem;
@@ -100,9 +100,11 @@
     top: 2px;
   }
 
-  .icn-bg-cyan {
-    background-color: $cyan;
+  .card-header-text {
+    position: relative;
+    top: 1px;
   }
+
 }
 
 .card-footer {
