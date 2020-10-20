@@ -5367,6 +5367,21 @@ fieldset:disabled .btn {
   border-width: 0 0 .1em .1em;
 }
 
+.with-suffix-icon i {
+  position: relative;
+  top: 5px;
+}
+
+[dir=ltr] .with-suffix-icon i {
+  float: right;
+  right: -10px;
+}
+
+[dir=rtl] .with-suffix-icon i {
+  float: left;
+  left: -10px;
+}
+
 .btn-group,
 .btn-group-vertical {
   position: relative;
