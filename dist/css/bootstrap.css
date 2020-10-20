@@ -4925,6 +4925,12 @@ fieldset:disabled .btn {
   text-align: right;
 }
 
+@media (max-width: 767.98px) {
+  .dropdown-menu {
+    width: 100%;
+  }
+}
+
 [dir=ltr] .dropdown-menu-left {
   right: auto;
   left: 0;
