@@ -5367,18 +5367,16 @@ fieldset:disabled .btn {
   border-width: 0 0 .1em .1em;
 }
 
-.with-suffix-icon i {
+.with-suffix-icon span {
   position: relative;
-  top: 5px;
+  top: 2px;
 }
 
-[dir=ltr] .with-suffix-icon i {
-  float: right;
+[dir=ltr] .with-suffix-icon span {
   right: -10px;
 }
 
-[dir=rtl] .with-suffix-icon i {
-  float: left;
+[dir=rtl] .with-suffix-icon span {
   left: -10px;
 }
 
