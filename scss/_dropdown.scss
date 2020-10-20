@@ -32,6 +32,7 @@
   border: $dropdown-border-width solid $dropdown-border-color;
   @include border-radius($dropdown-border-radius);
   @include box-shadow($dropdown-box-shadow);
+  max-width: 400px;
 }
 
 // scss-docs-start responsive-breakpoints
@@ -133,7 +134,6 @@
   color: $dropdown-link-color;
   text-align: inherit; // For `<button>`s
   text-decoration: if($link-decoration == none, null, none);
-  white-space: nowrap; // prevent links from randomly breaking onto new lines
   background-color: transparent; // For `<button>`s
   border: 0; // For `<button>`s
 
