@@ -38,6 +38,7 @@
 @include media-breakpoint-down(sm) {
   .dropdown-menu {
     width: 100%;
+    position: relative;
   }
 }
 

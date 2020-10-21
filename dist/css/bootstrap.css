@@ -4928,6 +4928,7 @@ fieldset:disabled .btn {
 @media (max-width: 575.98px) {
   .dropdown-menu {
     width: 100%;
+    position: relative;
   }
 }
 
