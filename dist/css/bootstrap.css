@@ -5273,9 +5273,10 @@ fieldset:disabled .btn {
 
 .dropdown-header {
   display: block;
-  font-size: 0.875rem;
   color: #454545;
   white-space: nowrap;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 [dir] .dropdown-header {
