@@ -6397,6 +6397,15 @@ fieldset:disabled .btn {
   margin-bottom: -1px;
 }
 
+[dir] .card-empty-state {
+  text-align: center;
+}
+
+.card-empty-state span {
+  font-size: 2.5rem;
+  display: block;
+}
+
 .breadcrumb {
   display: flex;
   flex-wrap: wrap;
