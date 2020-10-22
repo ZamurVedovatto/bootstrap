@@ -573,6 +573,12 @@ progress {
   }
 }
 
+.display-7 {
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
 .list-unstyled {
   list-style: none;
 }
@@ -6397,6 +6403,10 @@ fieldset:disabled .btn {
   margin-bottom: -1px;
 }
 
+.card-empty-state {
+  color: #6c6c6c;
+}
+
 [dir] .card-empty-state {
   text-align: center;
 }
@@ -6404,6 +6414,7 @@ fieldset:disabled .btn {
 .card-empty-state span {
   font-size: 2.5rem;
   display: block;
+  color: #6c6c6c;
 }
 
 .breadcrumb {
