@@ -83,7 +83,8 @@
   color: $card-cap-color;
   background-color: $card-cap-bg;
   font-size: $janus-font-size-small;
-  font-weight: $font-weight-semibold; 
+  font-weight: $font-weight-semibold;
+  line-height: $janus-card-title-line-height;
 
   &:first-child {
     @include border-radius($card-inner-border-radius $card-inner-border-radius 0 0);
@@ -257,4 +258,12 @@
       margin-bottom: -$card-border-width;
     }
   }
+}
+
+.card-empty-state {
+    text-align: center;
+    span {
+        font-size: $janus-icon-empty-font-size;
+        display: block;
+    }
 }

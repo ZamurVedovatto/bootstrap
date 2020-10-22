@@ -6174,6 +6174,7 @@ fieldset:disabled .btn {
 .card-header {
   font-size: 0.875em;
   font-weight: 600;
+  line-height: 1.25rem;
 }
 
 [dir] .card-header {
