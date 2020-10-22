@@ -106,6 +106,17 @@ $h4-font-size:                $janus-font-size-base !default;
 $h5-font-size:                $janus-font-size-base * .875 !default;
 $h6-font-size:                $janus-font-size-base * .8125 !default;
 
+// scss-docs-start display-headings
+$display-font-sizes: (
+  1: 5rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem,
+  7: .875rem
+) !default;
+
 $legend-margin-bottom:        .25rem !default;
 $legend-font-size:            $h4-font-size !default;
 $legend-font-weight:          600 !default;
