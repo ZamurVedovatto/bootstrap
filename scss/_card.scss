@@ -263,7 +263,9 @@
 .card-empty-state {
     text-align: center;
     color: $janus-color-icon-gray;
-    span {
+
+    [class^="icn-"], 
+    [class*=" icn-"] {
         font-size: $janus-icon-empty-font-size;
         display: block;
         color: $janus-color-icon-gray;
