@@ -5,11 +5,11 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
-[dir] .btn.btn-sm {
+.btn.btn-sm {
   border-width: 1px;
 }
 
-[dir] .btn.btn-sm:hover {
+.btn.btn-sm:hover {
   border-width: 1px;
 }
 
@@ -20,18 +20,15 @@
 }
 
 body {
+  margin: 0;
   font-family: Lato, -apple-system, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #454545;
+  background-color: white;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-[dir] body {
-  margin: 0;
-  background-color: white;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -39,14 +36,11 @@ body {
 }
 
 hr {
-  color: inherit;
-  opacity: 0.25;
-}
-
-[dir] hr {
   margin: 1rem 0;
+  color: inherit;
   background-color: currentColor;
   border: 0;
+  opacity: 0.25;
 }
 
 hr:not([size]) {
@@ -54,13 +48,10 @@ hr:not([size]) {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 500;
-  line-height: 1.4;
-}
-
-[dir] h1, [dir] h2, [dir] h3, [dir] h4, [dir] h5, [dir] h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.4;
 }
 
 h1 {
@@ -99,7 +90,7 @@ h6 {
   font-size: 0.8125rem;
 }
 
-[dir] p {
+p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -107,39 +98,33 @@ h6 {
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
-  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
-  -webkit-text-decoration-skip-ink: none;
+  cursor: help;
   text-decoration-skip-ink: none;
 }
 
-[dir] abbr[title], [dir] abbr[data-original-title] {
-  cursor: help;
-}
-
 address {
+  margin-bottom: 1rem;
   font-style: normal;
   line-height: inherit;
 }
 
-[dir] address {
-  margin-bottom: 1rem;
-}
-
-[dir=ltr] ol, [dir=ltr] ul {
+ol,
+ul {
   padding-left: 2rem;
 }
 
-[dir=rtl] ol, [dir=rtl] ul {
-  padding-right: 2rem;
-}
-
-[dir] ol, [dir] ul, [dir] dl {
+ol,
+ul,
+dl {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-[dir] ol ol, [dir] ul ul, [dir] ol ul, [dir] ul ol {
+ol ol,
+ul ul,
+ol ul,
+ul ol {
   margin-bottom: 0;
 }
 
@@ -147,19 +132,12 @@ dt {
   font-weight: 700;
 }
 
-[dir] dd {
+dd {
   margin-bottom: .5rem;
-}
-
-[dir=ltr] dd {
   margin-left: 0;
 }
 
-[dir=rtl] dd {
-  margin-right: 0;
-}
-
-[dir] blockquote {
+blockquote {
   margin: 0 0 1rem;
 }
 
@@ -172,7 +150,7 @@ small {
   font-size: 0.875em;
 }
 
-[dir] mark {
+mark {
   padding: 0.2em;
   background-color: #fcf8e3;
 }
@@ -217,14 +195,11 @@ samp {
 
 pre {
   display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
   overflow: auto;
   font-size: 0.875em;
   -ms-overflow-style: scrollbar;
-}
-
-[dir] pre {
-  margin-top: 0;
-  margin-bottom: 1rem;
 }
 
 pre code {
@@ -244,26 +219,20 @@ a > code {
 }
 
 kbd {
+  padding: 0.2rem 0.4rem;
   font-size: 0.875em;
   color: white;
-}
-
-[dir] kbd {
-  padding: 0.2rem 0.4rem;
   background-color: #333333;
   border-radius: 0.125rem;
 }
 
 kbd kbd {
+  padding: 0;
   font-size: 1em;
   font-weight: 700;
 }
 
-[dir] kbd kbd {
-  padding: 0;
-}
-
-[dir] figure {
+figure {
   margin: 0 0 1rem;
 }
 
@@ -278,28 +247,23 @@ table {
 }
 
 caption {
-  color: #6c6c6c;
-}
-
-[dir] caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-}
-
-[dir=ltr] caption {
+  color: #6c6c6c;
   text-align: left;
 }
 
-[dir=rtl] caption {
-  text-align: right;
-}
-
-[dir] th {
+th {
   text-align: inherit;
   text-align: -webkit-match-parent;
 }
 
-[dir] thead, [dir] tbody, [dir] tfoot, [dir] tr, [dir] td, [dir] th {
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
   border-color: inherit;
   border-style: solid;
   border-width: 0;
@@ -309,7 +273,7 @@ label {
   display: inline-block;
 }
 
-[dir] button {
+button {
   border-radius: 0;
 }
 
@@ -323,13 +287,10 @@ button,
 select,
 optgroup,
 textarea {
+  margin: 0;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-}
-
-[dir] input, [dir] button, [dir] select, [dir] optgroup, [dir] textarea {
-  margin: 0;
 }
 
 button,
@@ -342,7 +303,7 @@ select {
   text-transform: none;
 }
 
-[dir] [role="button"] {
+[role="button"] {
   cursor: pointer;
 }
 
@@ -361,11 +322,14 @@ button,
   -webkit-appearance: button;
 }
 
-[dir] button:not(:disabled), [dir] [type="button"]:not(:disabled), [dir] [type="reset"]:not(:disabled), [dir] [type="submit"]:not(:disabled) {
+button:not(:disabled),
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled) {
   cursor: pointer;
 }
 
-[dir] ::-moz-focus-inner {
+::-moz-focus-inner {
   padding: 0;
   border-style: none;
 }
@@ -376,44 +340,33 @@ textarea {
 
 fieldset {
   min-width: 0;
-}
-
-[dir] fieldset {
   padding: 0;
   margin: 0;
   border: 0;
 }
 
 legend {
+  float: left;
   width: 100%;
+  padding: 0;
+  margin-bottom: 0.25rem;
   font-size: 1rem;
   font-weight: 600;
   line-height: inherit;
   white-space: normal;
 }
 
-[dir] legend {
-  padding: 0;
-  margin-bottom: 0.25rem;
-}
-
-[dir=ltr] legend {
-  float: left;
-}
-
-[dir=rtl] legend {
-  float: right;
-}
-
-[dir=ltr] legend + * {
+legend + * {
   clear: left;
 }
 
-[dir=rtl] legend + * {
-  clear: right;
-}
-
-[dir] ::-webkit-datetime-edit-fields-wrapper, [dir] ::-webkit-datetime-edit-text, [dir] ::-webkit-datetime-edit-minute, [dir] ::-webkit-datetime-edit-hour-field, [dir] ::-webkit-datetime-edit-day-field, [dir] ::-webkit-datetime-edit-month-field, [dir] ::-webkit-datetime-edit-year-field {
+::-webkit-datetime-edit-fields-wrapper,
+::-webkit-datetime-edit-text,
+::-webkit-datetime-edit-minute,
+::-webkit-datetime-edit-hour-field,
+::-webkit-datetime-edit-day-field,
+::-webkit-datetime-edit-month-field,
+::-webkit-datetime-edit-year-field {
   padding: 0;
 }
 
@@ -430,7 +383,7 @@ legend {
   -webkit-appearance: none;
 }
 
-[dir] ::-webkit-color-swatch-wrapper {
+::-webkit-color-swatch-wrapper {
   padding: 0;
 }
 
@@ -443,15 +396,12 @@ output {
   display: inline-block;
 }
 
-[dir] iframe {
+iframe {
   border: 0;
 }
 
 summary {
   display: list-item;
-}
-
-[dir] summary {
   cursor: pointer;
 }
 
@@ -462,4 +412,5 @@ progress {
 [hidden] {
   display: none !important;
 }
+
 /*# sourceMappingURL=bootstrap-reboot.css.map */
