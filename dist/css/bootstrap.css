@@ -4858,8 +4858,7 @@ fieldset:disabled .btn {
 .dropup,
 .dropright,
 .dropdown,
-.dropleft,
-.dropleftdown {
+.dropleft {
   position: relative;
 }
 
@@ -5211,43 +5210,6 @@ fieldset:disabled .btn {
   vertical-align: 0;
 }
 
-.dropleft.dropleftdown .dropdown-toggle::after {
-  display: inline-block;
-  vertical-align: 0.255em;
-  content: "";
-}
-
-[dir] .dropleft.dropleftdown .dropdown-toggle::after {
-  border-top: 0.3em solid;
-  border-bottom: 0;
-}
-
-[dir=ltr] .dropleft.dropleftdown .dropdown-toggle::after {
-  margin-left: 0.255em;
-  border-right: 0.3em solid transparent;
-  border-left: 0.3em solid transparent;
-  transform: rotateZ(45deg);
-}
-
-[dir=rtl] .dropleft.dropleftdown .dropdown-toggle::after {
-  margin-right: 0.255em;
-  border-left: 0.3em solid transparent;
-  border-right: 0.3em solid transparent;
-  transform: rotateZ(-45deg);
-}
-
-[dir=ltr] .dropleft.dropleftdown .dropdown-toggle:empty::after {
-  margin-left: 0;
-}
-
-[dir=rtl] .dropleft.dropleftdown .dropdown-toggle:empty::after {
-  margin-right: 0;
-}
-
-.dropleft.dropleftdown .dropdown-toggle::before {
-  vertical-align: 0;
-}
-
 .dropdown-menu[x-placement^="top"], .dropdown-menu[x-placement^="right"], .dropdown-menu[x-placement^="bottom"], .dropdown-menu[x-placement^="left"] {
   bottom: auto;
 }
@@ -5523,11 +5485,11 @@ fieldset:disabled .btn {
   margin-right: 0;
 }
 
-[dir=ltr] .dropleft .dropdown-toggle-split::before, [dir=ltr] .dropleftdown .dropdown-toggle-split::before {
+[dir=ltr] .dropleft .dropdown-toggle-split::before {
   margin-right: 0;
 }
 
-[dir=rtl] .dropleft .dropdown-toggle-split::before, [dir=rtl] .dropleftdown .dropdown-toggle-split::before {
+[dir=rtl] .dropleft .dropdown-toggle-split::before {
   margin-left: 0;
 }
 

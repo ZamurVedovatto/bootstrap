@@ -2,8 +2,7 @@
 .dropup,
 .dropright,
 .dropdown,
-.dropleft,
-.dropleftdown {
+.dropleft {
   position: relative;
 }
 
@@ -106,15 +105,6 @@
     @include caret(left);
     &::before {
       vertical-align: 0;
-    }
-  }
-
-  &.dropleftdown {
-    .dropdown-toggle {
-      @include caret(down);
-      &::before {
-        vertical-align: 0;
-      }
     }
   }
 }

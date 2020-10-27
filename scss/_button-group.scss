@@ -92,8 +92,7 @@
     margin-left: 0;
   }
 
-  .dropleft &::before,
-  .dropleftdown &::before {
+  .dropleft &::before {
     margin-right: 0;
   }
 }
