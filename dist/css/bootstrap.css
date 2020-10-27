@@ -4858,7 +4858,8 @@ fieldset:disabled .btn {
 .dropup,
 .dropright,
 .dropdown,
-.dropleft {
+.dropleft,
+.dropleftdown {
   position: relative;
 }
 
@@ -5207,6 +5208,63 @@ fieldset:disabled .btn {
 }
 
 .dropleft .dropdown-toggle::before {
+  vertical-align: 0;
+}
+
+.dropleftdown .dropdown-menu {
+  top: 0;
+}
+
+[dir] .dropleftdown .dropdown-menu {
+  margin-top: 0;
+}
+
+[dir=ltr] .dropleftdown .dropdown-menu {
+  right: 100%;
+  left: auto;
+  margin-right: 0.25rem;
+}
+
+[dir=rtl] .dropleftdown .dropdown-menu {
+  left: 100%;
+  right: auto;
+  margin-left: 0.25rem;
+}
+
+.dropleftdown .dropdown-toggle::after {
+  display: inline-block;
+  vertical-align: 0.255em;
+  content: "";
+}
+
+[dir] .dropleftdown .dropdown-toggle::after {
+  border-top: 0.3em solid;
+  border-bottom: 0;
+}
+
+[dir=ltr] .dropleftdown .dropdown-toggle::after {
+  margin-left: 0.255em;
+  border-right: 0.3em solid transparent;
+  border-left: 0.3em solid transparent;
+  transform: rotateZ(45deg);
+}
+
+[dir=rtl] .dropleftdown .dropdown-toggle::after {
+  margin-right: 0.255em;
+  border-left: 0.3em solid transparent;
+  border-right: 0.3em solid transparent;
+  transform: rotateZ(-45deg);
+}
+
+[dir=ltr] .dropleftdown .dropdown-toggle:empty::after {
+  margin-left: 0;
+}
+
+[dir=rtl] .dropleftdown .dropdown-toggle:empty::after {
+  margin-right: 0;
+}
+
+.dropleftdown .dropdown-toggle::before {
   vertical-align: 0;
 }
 
