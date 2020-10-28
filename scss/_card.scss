@@ -263,3 +263,22 @@
     }
   }
 }
+
+//
+// Sidebar
+//
+
+.sidebar {
+  .card-header {
+    button[aria-expanded=false] {
+      .icn-chevron_down {
+        transform: rotate(-90deg);
+      }
+    }
+    button[aria-expanded=true] {
+      .icn-chevron_down {
+        transform: rotate(0deg);
+      }
+    }        
+  }
+}

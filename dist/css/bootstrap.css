@@ -6407,6 +6407,18 @@ fieldset:disabled .btn {
   margin-bottom: -1px;
 }
 
+[dir=ltr] .sidebar .card-header button[aria-expanded=false] .icn-chevron_down {
+  transform: rotate(-90deg);
+}
+
+[dir=rtl] .sidebar .card-header button[aria-expanded=false] .icn-chevron_down {
+  transform: rotate(90deg);
+}
+
+[dir] .sidebar .card-header button[aria-expanded=true] .icn-chevron_down {
+  transform: rotate(0deg);
+}
+
 .breadcrumb {
   display: flex;
   flex-wrap: wrap;
