@@ -282,3 +282,19 @@
     }        
   }
 }
+
+//
+// Tabbed Nav in Card
+//
+
+.card {
+  nav {
+    ul {
+      &.border-top,
+      &.border-bottom {
+        border-color: $card-border-color !important;
+      }
+    }
+  }
+}
+

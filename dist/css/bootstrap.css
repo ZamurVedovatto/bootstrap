@@ -6469,6 +6469,10 @@ fieldset:disabled .btn {
   transform: rotate(0deg);
 }
 
+[dir] .card nav ul.border-top, [dir] .card nav ul.border-bottom {
+  border-color: #ececec !important;
+}
+
 .breadcrumb {
   display: flex;
   flex-wrap: wrap;
