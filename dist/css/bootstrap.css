@@ -5632,7 +5632,7 @@ fieldset:disabled .btn {
 }
 
 [dir] .nav-link {
-  padding: 0.5rem 1rem;
+  padding: 0.625rem 0.75rem;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -5778,8 +5778,8 @@ fieldset:disabled .btn {
 }
 
 [dir] .navbar-brand {
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding-top: 0.4375rem;
+  padding-bottom: 0.4375rem;
 }
 
 [dir=ltr] .navbar-brand {
@@ -5823,8 +5823,8 @@ fieldset:disabled .btn {
 }
 
 [dir] .navbar-text {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
 }
 
 .navbar-collapse {
