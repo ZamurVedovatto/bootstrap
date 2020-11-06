@@ -2,10 +2,17 @@
   .link-#{$color} {
     color: $value;
 
+    &:hover {
+      text-decoration: underline;
+    }
+
     @if $emphasized-link-hover-darken-percentage != 0 {
-      &:hover,
       &:focus {
-        color: if(color-contrast($value) == $color-contrast-light, darken($value, $emphasized-link-hover-darken-percentage), lighten($value, $emphasized-link-hover-darken-percentage));
+        background-color: $value;
+        text-decoration: none;
+        outline: 4px solid $value;
+        outline-offset: 0;
+        color: if(color-contrast($value) == $color-contrast-light, #fff, #333);
       }
     }
   }

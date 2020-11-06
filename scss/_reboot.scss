@@ -254,11 +254,19 @@ sup { top: -.5em; }
 
 a {
   color: $link-color;
-  text-decoration: $link-decoration;
+  text-decoration: none;
+  font-weight: 600;
 
   &:hover {
-    color: $link-hover-color;
     text-decoration: $link-hover-decoration;
+  }
+
+  &:focus {
+    background-color: $link-color;
+    text-decoration: none;
+    outline: 4px solid $link-color;
+    outline-offset: 0;
+    color: if(color-contrast($link-color) == $color-contrast-light, #fff, #333);
   }
 }
 

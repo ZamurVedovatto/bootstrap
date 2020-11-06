@@ -195,11 +195,23 @@ sup {
 
 a {
   color: #0e62b9;
-  text-decoration: underline;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 a:hover {
-  color: #093c72;
+  text-decoration: underline;
+}
+
+a:focus {
+  text-decoration: none;
+  outline: 4px solid #0e62b9;
+  outline-offset: 0;
+  color: #fff;
+}
+
+[dir] a:focus {
+  background-color: #0e62b9;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
