@@ -5319,6 +5319,7 @@ fieldset:disabled .btn {
 .dropdown-item:hover, .dropdown-item:focus {
   color: #262626;
   text-decoration: none;
+  outline: none;
 }
 
 [dir] .dropdown-item:hover, [dir] .dropdown-item:focus {
