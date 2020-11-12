@@ -5447,7 +5447,6 @@ fieldset:disabled .btn {
 
 .with-suffix-icon span {
   position: relative;
-  top: 2px;
 }
 
 [dir=ltr] .with-suffix-icon span {
