@@ -4795,12 +4795,12 @@ fieldset:disabled .btn {
 
 .card-header .card-header-icon span {
   color: #fff;
-  font-size: 1.125rem;
   border-radius: .25rem;
-  padding: .3125rem;
+  padding: 0.375rem;
   margin-right: .75rem;
   position: relative;
-  top: 2px;
+  top: -3px;
+  display: flex;
 }
 
 .card-header .card-header-text {
