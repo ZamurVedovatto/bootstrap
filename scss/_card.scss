@@ -90,8 +90,7 @@
     @include border-radius($card-inner-border-radius $card-inner-border-radius 0 0);
   }
 
-  .card-header-icon [class^="icn-"], 
-  .card-header-icon [class*=" icn-"] {
+  .card-header-icon svg {
     color: #fff;
     font-size: 1.125rem;
     border-radius: .25rem;

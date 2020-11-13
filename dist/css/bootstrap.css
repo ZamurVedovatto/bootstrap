@@ -6275,24 +6275,23 @@ fieldset:disabled .btn {
   border-radius: 0.25rem 0.25rem 0 0;
 }
 
-.card-header .card-header-icon [class^="icn-"],
-.card-header .card-header-icon [class*=" icn-"] {
+.card-header .card-header-icon svg {
   color: #fff;
   font-size: 1.125rem;
   position: relative;
   top: 2px;
 }
 
-[dir] .card-header .card-header-icon [class^="icn-"], [dir] .card-header .card-header-icon [class*=" icn-"] {
+[dir] .card-header .card-header-icon svg {
   border-radius: .25rem;
   padding: .3125rem;
 }
 
-[dir=ltr] .card-header .card-header-icon [class^="icn-"], [dir=ltr] .card-header .card-header-icon [class*=" icn-"] {
+[dir=ltr] .card-header .card-header-icon svg {
   margin-right: .75rem;
 }
 
-[dir=rtl] .card-header .card-header-icon [class^="icn-"], [dir=rtl] .card-header .card-header-icon [class*=" icn-"] {
+[dir=rtl] .card-header .card-header-icon svg {
   margin-left: .75rem;
 }
 
