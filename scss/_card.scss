@@ -90,7 +90,7 @@
     @include border-radius($card-inner-border-radius $card-inner-border-radius 0 0);
   }
 
-  .card-header-icon svg {
+  .card-header-icon span {
     color: #fff;
     font-size: 1.125rem;
     border-radius: .25rem;
@@ -270,12 +270,12 @@
 .sidebar {
   .card-header {
     button[aria-expanded=false] {
-      .icn-chevron_down {
+      .tabler-chevron-down {
         transform: rotate(-90deg);
       }
     }
     button[aria-expanded=true] {
-      .icn-chevron_down {
+      .tabler-chevron-down {
         transform: rotate(0deg);
       }
     }        
