@@ -6302,7 +6302,16 @@ fieldset:disabled .btn {
 
 .card-header .card-header-text {
   position: relative;
-  top: 1px;
+  top: 2px;
+  display: inline-block;
+}
+
+[dir=ltr] .card-header .card-header-text {
+  left: -4px;
+}
+
+[dir=rtl] .card-header .card-header-text {
+  right: -4px;
 }
 
 .card-header .btn {
