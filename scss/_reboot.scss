@@ -261,12 +261,14 @@ a {
     text-decoration: $link-hover-decoration;
   }
 
-  &:focus {
-    background-color: $link-color;
-    text-decoration: none;
-    outline: 4px solid $link-color;
-    outline-offset: 0;
-    color: if(color-contrast($link-color) == $color-contrast-light, #fff, #333);
+  &:not(.nav-link) {
+    &:focus {
+      background-color: $link-color;
+      text-decoration: none;
+      outline: 4px solid $link-color;
+      outline-offset: 0;
+      color: if(color-contrast($link-color) == $color-contrast-light, #fff, #333);
+    }
   }
 }
 
