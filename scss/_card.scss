@@ -90,7 +90,7 @@
     @include border-radius($card-inner-border-radius $card-inner-border-radius 0 0);
   }
 
-  .card-header-icon 
+  .card-header-icon { 
     display: inline-block;
 
     span {
