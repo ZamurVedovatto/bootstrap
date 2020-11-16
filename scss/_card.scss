@@ -91,13 +91,11 @@
   }
 
   .card-header-icon { 
-    display: inline-block;
 
     span {
       color: #fff;
       border-radius: .25rem;
       margin-right: .75rem;
-      display: block;
   
       svg {
         margin: $input-btn-padding-y-lg;
@@ -109,7 +107,6 @@
     position: relative;
     top: 2px;
     left: -4px;
-    display: inline-block;
   }
 
   .btn {
