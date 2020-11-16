@@ -90,14 +90,19 @@
     @include border-radius($card-inner-border-radius $card-inner-border-radius 0 0);
   }
 
-  .card-header-icon span {
-    color: #fff;
-    border-radius: .25rem;
-    padding: $input-btn-padding-y-lg;
-    margin-right: .75rem;
-    position: relative;
-    top: -3px;
-    display: flex;
+  .card-header-icon 
+    display: inline-block;
+
+    span {
+      color: #fff;
+      border-radius: .25rem;
+      margin-right: .75rem;
+      display: block;
+  
+      svg {
+        margin: $input-btn-padding-y-lg;
+      }
+    }
   }
 
   .card-header-text {
