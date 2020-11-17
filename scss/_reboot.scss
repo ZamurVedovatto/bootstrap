@@ -261,7 +261,8 @@ a {
     text-decoration: $link-hover-decoration;
   }
 
-  &:not(.nav-link) {
+  &:not(.nav-link),
+  &:not(.dropdown-item) {
     &:focus {
       background-color: $link-color;
       text-decoration: none;

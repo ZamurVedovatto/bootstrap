@@ -236,14 +236,14 @@ a:hover {
   text-decoration: underline;
 }
 
-a:not(.nav-link):focus {
+a:not(.nav-link):focus, a:not(.dropdown-item):focus {
   text-decoration: none;
   outline: 4px solid #0e62b9;
   outline-offset: 0;
   color: #fff;
 }
 
-[dir] a:not(.nav-link):focus {
+[dir] a:not(.nav-link):focus, [dir] a:not(.dropdown-item):focus {
   background-color: #0e62b9;
 }
 
@@ -6275,13 +6275,8 @@ fieldset:disabled .btn {
   border-radius: 0.25rem 0.25rem 0 0;
 }
 
-.card-header .card-header-icon {
-  display: inline-block;
-}
-
 .card-header .card-header-icon span {
   color: #fff;
-  display: block;
 }
 
 [dir] .card-header .card-header-icon span {
@@ -6303,7 +6298,6 @@ fieldset:disabled .btn {
 .card-header .card-header-text {
   position: relative;
   top: 2px;
-  display: inline-block;
 }
 
 [dir=ltr] .card-header .card-header-text {
