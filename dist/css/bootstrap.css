@@ -6297,15 +6297,15 @@ fieldset:disabled .btn {
 
 .card-header .card-header-text {
   position: relative;
-  top: 2px;
+  top: 0.25rem;
 }
 
 [dir=ltr] .card-header .card-header-text {
-  left: -4px;
+  left: -0.25rem;
 }
 
 [dir=rtl] .card-header .card-header-text {
-  right: -4px;
+  right: -0.25rem;
 }
 
 .card-header .btn {

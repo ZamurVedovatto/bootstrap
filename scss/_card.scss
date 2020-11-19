@@ -105,8 +105,8 @@
 
   .card-header-text {
     position: relative;
-    top: 2px;
-    left: -4px;
+    top: $dropdown-spacer;
+    left: (-$dropdown-spacer);
   }
 
   .btn {
