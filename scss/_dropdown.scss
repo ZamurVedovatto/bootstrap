@@ -32,6 +32,14 @@
   border: $dropdown-border-width solid $dropdown-border-color;
   @include border-radius($dropdown-border-radius);
   @include box-shadow($dropdown-box-shadow);
+  max-width: 400px;
+}
+
+@include media-breakpoint-down(sm) {
+  .dropdown-menu {
+    width: 100%;
+    position: relative;
+  }
 }
 
 // scss-docs-start responsive-breakpoints
@@ -133,7 +141,6 @@
   color: $dropdown-link-color;
   text-align: inherit; // For `<button>`s
   text-decoration: if($link-decoration == none, null, none);
-  white-space: nowrap; // prevent links from randomly breaking onto new lines
   background-color: transparent; // For `<button>`s
   border: 0; // For `<button>`s
 
@@ -153,6 +160,7 @@
   &:focus {
     color: $dropdown-link-hover-color;
     text-decoration: if($link-hover-decoration == underline, none, null);
+    outline: none;
     @include gradient-bg($dropdown-link-hover-bg);
   }
 
@@ -182,9 +190,10 @@
   display: block;
   padding: $dropdown-header-padding;
   margin-bottom: 0; // for use with heading elements
-  @include font-size($font-size-sm);
   color: $dropdown-header-color;
   white-space: nowrap; // as with > li > a
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 // Dropdown text
@@ -232,5 +241,41 @@
 
   .dropdown-header {
     color: $dropdown-dark-header-color;
+  }
+}
+
+// Customize Dropdown Toggle to be a chevron instead of a triangle
+
+.dropdown-toggle {
+  &::after,
+  &::before {
+    position: relative;
+    width: .45em;
+    height: .45em;
+    border: .3em solid;
+    border-width: 0 .1em .1em 0;
+  }
+}
+
+.dropdown-toggle {
+  &::before {
+    display: none;
+  }
+}
+
+// Decrease size of chevron when using .btn-sm
+
+.dropdown-toggle {
+  &.btn-sm {
+    &::after {
+      border-width: 0 .1em .1em 0;
+    }
+  }
+}
+
+.with-suffix-icon {
+  span {
+    position: relative;
+    right: -10px;
   }
 }

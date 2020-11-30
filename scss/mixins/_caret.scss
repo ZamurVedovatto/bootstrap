@@ -3,26 +3,24 @@
   border-right: $caret-width solid transparent;
   border-bottom: 0;
   border-left: $caret-width solid transparent;
+  transform: rotateZ(45deg);
 }
 
 @mixin caret-up {
   border-top: 0;
-  border-right: $caret-width solid transparent;
-  border-bottom: $caret-width solid;
-  border-left: $caret-width solid transparent;
+  top: $dropdown-spacer;
+  transform: rotateZ(-135deg);
 }
 
 @mixin caret-right {
-  border-top: $caret-width solid transparent;
-  border-right: 0;
-  border-bottom: $caret-width solid transparent;
-  border-left: $caret-width solid;
+  top: -1px;
+  transform: rotateZ(-45deg);
 }
 
 @mixin caret-left {
-  border-top: $caret-width solid transparent;
-  border-right: $caret-width solid;
-  border-bottom: $caret-width solid transparent;
+  top: -1px;
+  border-left: 0;
+  transform: rotateZ(-225deg);
 }
 
 @mixin caret($direction: down) {

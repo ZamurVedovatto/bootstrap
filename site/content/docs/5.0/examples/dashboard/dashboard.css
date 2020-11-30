@@ -16,10 +16,21 @@ body {
   position: fixed;
   top: 0;
   bottom: 0;
+  z-index: 100; /* Behind the navbar */ /* Height of navbar */
+}
+
+[dir] .sidebar {
+  padding: 48px 0 0;
+}
+
+[dir=ltr] .sidebar {
   left: 0;
-  z-index: 100; /* Behind the navbar */
-  padding: 48px 0 0; /* Height of navbar */
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+[dir=rtl] .sidebar {
+  right: 0;
+  box-shadow: inset 1px 0 0 rgba(0, 0, 0, .1);
 }
 
 @media (max-width: 767.98px) {
@@ -32,9 +43,12 @@ body {
   position: relative;
   top: 0;
   height: calc(100vh - 48px);
-  padding-top: .5rem;
   overflow-x: hidden;
   overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+[dir] .sidebar-sticky {
+  padding-top: .5rem;
 }
 
 .sidebar .nav-link {
@@ -43,8 +57,15 @@ body {
 }
 
 .sidebar .nav-link .feather {
-  margin-right: 4px;
   color: #727272;
+}
+
+[dir=ltr] .sidebar .nav-link .feather {
+  margin-right: 4px;
+}
+
+[dir=rtl] .sidebar .nav-link .feather {
+  margin-left: 4px;
 }
 
 .sidebar .nav-link.active {
@@ -66,19 +87,36 @@ body {
  */
 
 .navbar-brand {
+  font-size: 1rem;
+}
+
+[dir] .navbar-brand {
   padding-top: .75rem;
   padding-bottom: .75rem;
-  font-size: 1rem;
   background-color: rgba(0, 0, 0, .25);
+}
+
+[dir=ltr] .navbar-brand {
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+[dir=rtl] .navbar-brand {
+  box-shadow: inset 1px 0 0 rgba(0, 0, 0, .25);
 }
 
 .navbar .navbar-toggler {
   top: .25rem;
+}
+
+[dir=ltr] .navbar .navbar-toggler {
   right: 1rem;
 }
 
-.navbar .form-control {
+[dir=rtl] .navbar .navbar-toggler {
+  left: 1rem;
+}
+
+[dir] .navbar .form-control {
   padding: .75rem 1rem;
   border-width: 0;
   border-radius: 0;
@@ -86,11 +124,14 @@ body {
 
 .form-control-dark {
   color: #fff;
+}
+
+[dir] .form-control-dark {
   background-color: rgba(255, 255, 255, .1);
   border-color: rgba(255, 255, 255, .1);
 }
 
-.form-control-dark:focus {
+[dir] .form-control-dark:focus {
   border-color: transparent;
   box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
 }
