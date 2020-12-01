@@ -2773,8 +2773,6 @@ progress {
   background-color: #ececec;
 }
 .form-control::file-selector-button {
-  -webkit-margin-end: 0.75rem;
-  margin-inline-end: 0.75rem;
   color: #454545;
   pointer-events: none;
   border-inline-end-width: 1px;
@@ -2782,12 +2780,19 @@ progress {
 }
 [dir] .form-control::file-selector-button {
   padding: 0.3125rem 0.75rem;
-  margin: -0.3125rem -0.75rem;
   background-color: #ececec;
   border-color: inherit;
   border-style: solid;
   border-width: 0;
   border-radius: 0;
+}
+[dir=ltr] .form-control::file-selector-button {
+  margin: -0.3125rem 0.75rem -0.3125rem -0.75rem;
+  border-right-width: 1px;
+}
+[dir=rtl] .form-control::file-selector-button {
+  margin: -0.3125rem -0.75rem -0.3125rem 0.75rem;
+  border-left-width: 1px;
 }
 @media (prefers-reduced-motion: reduce) {
   .form-control::file-selector-button {
@@ -2798,8 +2803,6 @@ progress {
   background-color: #e0e0e0;
 }
 .form-control::-webkit-file-upload-button {
-  -webkit-margin-end: 0.75rem;
-  margin-inline-end: 0.75rem;
   color: #454545;
   pointer-events: none;
   border-inline-end-width: 1px;
@@ -2807,13 +2810,20 @@ progress {
 }
 [dir] .form-control::-webkit-file-upload-button {
   padding: 0.3125rem 0.75rem;
-  margin: -0.3125rem -0.75rem;
   background-color: #ececec;
   border-color: inherit;
   border-style: solid;
   border-width: 0;
   border-radius: 0;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+[dir=ltr] .form-control::-webkit-file-upload-button {
+  margin: -0.3125rem 0.75rem -0.3125rem -0.75rem;
+  border-right-width: 1px;
+}
+[dir=rtl] .form-control::-webkit-file-upload-button {
+  margin: -0.3125rem -0.75rem -0.3125rem 0.75rem;
+  border-left-width: 1px;
 }
 @media (prefers-reduced-motion: reduce) {
   .form-control::-webkit-file-upload-button {
@@ -2859,21 +2869,27 @@ progress {
   padding: 0.157rem 1rem;
   border-radius: 0.125rem;
 }
-.form-control-sm::file-selector-button {
-  -webkit-margin-end: 1rem;
-  margin-inline-end: 1rem;
-}
 [dir] .form-control-sm::file-selector-button {
   padding: 0.157rem 1rem;
-  margin: -0.157rem -1rem;
 }
-.form-control-sm::-webkit-file-upload-button {
-  -webkit-margin-end: 1rem;
-  margin-inline-end: 1rem;
+[dir=ltr] .form-control-sm::file-selector-button {
+  margin: -0.157rem 1rem -0.157rem -1rem;
+  border-right-width: 1px;
+}
+[dir=rtl] .form-control-sm::file-selector-button {
+  margin: -0.157rem -1rem -0.157rem 1rem;
+  border-left-width: 1px;
 }
 [dir] .form-control-sm::-webkit-file-upload-button {
   padding: 0.157rem 1rem;
-  margin: -0.157rem -1rem;
+}
+[dir=ltr] .form-control-sm::-webkit-file-upload-button {
+  margin: -0.157rem 1rem -0.157rem -1rem;
+  border-right-width: 1px;
+}
+[dir=rtl] .form-control-sm::-webkit-file-upload-button {
+  margin: -0.157rem -1rem -0.157rem 1rem;
+  border-left-width: 1px;
 }
 
 .form-control-lg {
@@ -2885,21 +2901,27 @@ progress {
   padding: 0.375rem 1.875rem;
   border-radius: 0.188rem;
 }
-.form-control-lg::file-selector-button {
-  -webkit-margin-end: 1.875rem;
-  margin-inline-end: 1.875rem;
-}
 [dir] .form-control-lg::file-selector-button {
   padding: 0.375rem 1.875rem;
-  margin: -0.375rem -1.875rem;
 }
-.form-control-lg::-webkit-file-upload-button {
-  -webkit-margin-end: 1.875rem;
-  margin-inline-end: 1.875rem;
+[dir=ltr] .form-control-lg::file-selector-button {
+  margin: -0.375rem 1.875rem -0.375rem -1.875rem;
+  border-right-width: 1px;
+}
+[dir=rtl] .form-control-lg::file-selector-button {
+  margin: -0.375rem -1.875rem -0.375rem 1.875rem;
+  border-left-width: 1px;
 }
 [dir] .form-control-lg::-webkit-file-upload-button {
   padding: 0.375rem 1.875rem;
-  margin: -0.375rem -1.875rem;
+}
+[dir=ltr] .form-control-lg::-webkit-file-upload-button {
+  margin: -0.375rem 1.875rem -0.375rem -1.875rem;
+  border-right-width: 1px;
+}
+[dir=rtl] .form-control-lg::-webkit-file-upload-button {
+  margin: -0.375rem -1.875rem -0.375rem 1.875rem;
+  border-left-width: 1px;
 }
 
 textarea.form-control {
