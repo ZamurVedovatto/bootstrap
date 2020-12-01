@@ -79,9 +79,10 @@ $box-shadow:                  0 .063rem .125rem rgba($black, .25) !default;
 $modal-content-box-shadow-xs: $box-shadow;
 $modal-content-box-shadow-sm-up: $box-shadow;
 
-$alert-bg-level:              -11 !default;
-$alert-border-level:          -9 !default;
-$alert-color-level:           0 !default;
+$alert-bg-scale:              -80% !default;
+$alert-border-scale:          0% !default;
+$alert-color-scale:           0% !default;
+
 $alert-border-width:          0 !default;
 
 $btn-border-radius:           $janus-border-radius-lg !default;
