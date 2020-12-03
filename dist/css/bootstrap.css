@@ -4758,7 +4758,7 @@ textarea.form-control-lg {
   border-radius: 1rem;
   padding: 0.125rem 0.75rem;
 }
-[dir] .btn-icon-with-text:hover, [dir] .btn-icon-with-text:focus {
+[dir] .btn-icon-with-text.active, [dir] .btn-icon-with-text:hover, [dir] .btn-icon-with-text:focus {
   background: #f6f6f6;
 }
 
