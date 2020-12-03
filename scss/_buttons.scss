@@ -121,6 +121,7 @@
   border-radius: 1rem;
   padding: 0.125rem .75rem;
 
+  &.active,
   &:hover,
   &:focus {
       background: $gray-100;
