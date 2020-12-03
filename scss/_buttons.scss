@@ -119,6 +119,13 @@
 
 .btn-icon-with-text {
   border-radius: 1rem;
+  padding: 0.125rem .75rem;
+
+  svg {
+    width: $janus-icon-lg-font-size;
+    height: $janus-icon-lg-font-size;
+  }
+
   &:hover,
   &:focus {
       background: $gray-100;
