@@ -117,18 +117,11 @@
 // Icon button
 //
 
-.btn {
-  i {
-    font-size: 1.125rem;
-    position: relative;
-    top: 2px;
-  }
-}
-
-.btn-lg {
-  i {
-    font-size: 1.25rem;
-    position: relative;
-    top: 3px;
+.btn-icon-with-text {
+  border-radius: 1rem;
+  &:hover,
+  &:focus {
+      background: $gray-100;
+      
   }
 }
