@@ -4754,6 +4754,10 @@ textarea.form-control-lg {
   border-radius: 0.125rem;
 }
 
+.btn-action {
+  min-width: 0;
+}
+
 [dir] .btn-action {
   border-radius: 1rem;
   padding: 0.125rem 0.75rem;
