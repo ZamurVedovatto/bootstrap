@@ -1,4 +1,11 @@
+// Start Symplicity
+
+@import "./overrides";
+
+// End Symplicity
+
 // Variables
+//
 //
 // Variables should follow the `$component-state-property-size` formula for
 // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
@@ -244,6 +251,8 @@ $spacers: (
   3: $spacer,
   4: $spacer * 1.5,
   5: $spacer * 3,
+  6: $spacer * .75,
+  7: $spacer * 1.25,
 ) !default;
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
