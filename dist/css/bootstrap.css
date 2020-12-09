@@ -3798,6 +3798,9 @@ textarea.form-control-lg {
 .btn-action.active, .btn-action:hover, .btn-action:focus {
   background: #f6f6f6;
 }
+.btn-action.btn-action-icon-only {
+  padding: 0.125rem 0.3rem;
+}
 
 .fade {
   transition: opacity 0.15s linear;
