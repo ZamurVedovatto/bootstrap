@@ -438,6 +438,11 @@
             altBoundary: this._config.flip,
             rootBoundary: this._config.boundary
           }
+        }, {
+          name: 'flip',
+          options: {
+            fallbackPlacements: ['top', 'right', 'bottom', 'left']
+          }
         }]
       }; // Disable Popper if we have a static display
 

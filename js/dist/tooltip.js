@@ -773,7 +773,8 @@
       var flipModifier = {
         name: 'flip',
         options: {
-          altBoundary: true
+          altBoundary: true,
+          fallbackPlacements: ['top', 'right', 'bottom', 'left']
         }
       };
 

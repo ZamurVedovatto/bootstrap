@@ -2291,6 +2291,11 @@ var Dropdown = /*#__PURE__*/function (_BaseComponent) {
           altBoundary: this._config.flip,
           rootBoundary: this._config.boundary
         }
+      }, {
+        name: 'flip',
+        options: {
+          fallbackPlacements: ['top', 'right', 'bottom', 'left']
+        }
       }]
     }; // Disable Popper if we have a static display
 
@@ -3681,7 +3686,8 @@ var Tooltip = /*#__PURE__*/function (_BaseComponent) {
     var flipModifier = {
       name: 'flip',
       options: {
-        altBoundary: true
+        altBoundary: true,
+        fallbackPlacements: ['top', 'right', 'bottom', 'left']
       }
     };
 
