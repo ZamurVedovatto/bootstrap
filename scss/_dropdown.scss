@@ -40,7 +40,7 @@
   }
 }
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-up(sm) {
   .dropdown-menu {
     width: 100%;
     position: relative;

@@ -3876,7 +3876,7 @@ textarea.form-control-lg {
   left: auto !important;
 }
 
-@media (max-width: 575.98px) {
+@media (min-width: 576px) {
   .dropdown-menu {
     width: 100%;
     position: relative;
