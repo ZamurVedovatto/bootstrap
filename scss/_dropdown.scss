@@ -15,7 +15,7 @@
 
 // The dropdown menu
 .dropdown-menu {
-  position: absolute;
+  position: relative;
   top: 100%;
   left: 0;
   z-index: $zindex-dropdown;
@@ -43,14 +43,12 @@
 @include media-breakpoint-up(sm) {
   .dropdown-menu {
     width: 100%;
-    position: relative;
   }
 }
 
 @include media-breakpoint-up(md) {
   .dropdown-menu {
     width: auto;
-    position: relative;
   }
 }
 
