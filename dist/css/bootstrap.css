@@ -3878,16 +3878,19 @@ textarea.form-control-lg {
   right: auto !important;
 }
 
-@media (min-width: 576px) {
+/*
+@include media-breakpoint-up(sm) {
   .dropdown-menu {
     width: 100%;
   }
 }
-@media (min-width: 768px) {
+
+@include media-breakpoint-up(md) {
   .dropdown-menu {
     width: auto;
   }
 }
+*/
 .dropdown-menu-start {
   --bs-position: start;
   right: auto /* rtl:ignore */;
