@@ -43,16 +43,12 @@
 @include media-breakpoint-up(sm) {
   .dropdown-menu {
     width: 100%;
-    position: relative !important;
-    transform: none !important;
   }
 }
 
 @include media-breakpoint-up(md) {
   .dropdown-menu {
     width: auto;
-    position: relative !important;
-    transform: none !important;
   }
 }
 

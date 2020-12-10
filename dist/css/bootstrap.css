@@ -3881,15 +3881,11 @@ textarea.form-control-lg {
 @media (min-width: 576px) {
   .dropdown-menu {
     width: 100%;
-    position: relative !important;
-    transform: none !important;
   }
 }
 @media (min-width: 768px) {
   .dropdown-menu {
     width: auto;
-    position: relative !important;
-    transform: none !important;
   }
 }
 .dropdown-menu-start {
