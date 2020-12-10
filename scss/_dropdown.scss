@@ -47,6 +47,13 @@
   }
 }
 
+@include media-breakpoint-up(md) {
+  .dropdown-menu {
+    width: auto;
+    position: relative;
+  }
+}
+
 // scss-docs-start responsive-breakpoints
 // We deliberately hardcode the `bs-` prefix because we check
 // this custom property in JS to determine Popper's positioning

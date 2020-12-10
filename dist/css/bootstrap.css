@@ -3884,6 +3884,12 @@ textarea.form-control-lg {
     position: relative;
   }
 }
+@media (min-width: 768px) {
+  .dropdown-menu {
+    width: auto;
+    position: relative;
+  }
+}
 .dropdown-menu-start {
   --bs-position: start;
   right: auto /* rtl:ignore */;
