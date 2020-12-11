@@ -266,14 +266,19 @@ a {
   &:hover {
     text-decoration: $link-hover-decoration;
   }
+}
 
-  &:not(.nav-link):not(.dropdown-item):not(.list-unstyled li a) {
-    &:focus {
-      background-color: $link-color;
-      text-decoration: none;
-      outline: 4px solid $link-color;
-      outline-offset: 0;
-      color: if(color-contrast($link-color) == $color-contrast-light, #fff, #333);
+
+p {
+  a {  
+    &:not(.nav-link):not(.dropdown-item):not(.list-unstyled li a) {
+      &:focus {
+        background-color: $link-color;
+        text-decoration: none;
+        outline: 4px solid $link-color;
+        outline-offset: 0;
+        color: if(color-contrast($link-color) == $color-contrast-light, #fff, #333);
+      }
     }
   }
 }

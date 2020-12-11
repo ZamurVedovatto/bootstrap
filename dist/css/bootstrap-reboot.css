@@ -184,7 +184,8 @@ a {
 a:hover {
   text-decoration: underline;
 }
-a:not(.nav-link):not(.dropdown-item):not(.list-unstyled li a):focus {
+
+p a:not(.nav-link):not(.dropdown-item):not(.list-unstyled li a):focus {
   background-color: #0e62b9;
   text-decoration: none;
   outline: 4px solid #0e62b9;
