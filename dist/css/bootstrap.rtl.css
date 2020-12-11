@@ -220,10 +220,10 @@ a:hover, a:focus {
   text-decoration: underline;
 }
 
-p a:not(.nav-link):not(.dropdown-item):not(.list-unstyled li a):hover, p a:not(.nav-link):not(.dropdown-item):not(.list-unstyled li a):focus {
-  background-color: #0e62b9;
+p a:focus {
+  background-color: #0b4e94;
   text-decoration: none;
-  outline: 4px solid #0e62b9;
+  outline: 4px solid #0b4e94;
   outline-offset: 0;
   color: #fff;
 }

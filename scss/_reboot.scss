@@ -273,16 +273,15 @@ a {
 
 p {
   a {  
-    &:not(.nav-link):not(.dropdown-item):not(.list-unstyled li a) {
-      &:hover,
+    //&:not(.nav-link):not(.dropdown-item):not(.list-unstyled li a) {
       &:focus {
-        background-color: $link-color;
+        background-color: $link-hover-color;
         text-decoration: none;
-        outline: 4px solid $link-color;
+        outline: 4px solid $link-hover-color;
         outline-offset: 0;
         color: if(color-contrast($link-color) == $color-contrast-light, #fff, #333);
       }
-    }
+    //}
   }
 }
 
