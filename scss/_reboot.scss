@@ -263,7 +263,9 @@ a {
   text-decoration: none;
   font-weight: 600;
 
-  &:hover {
+  &:hover,
+  &:focus {
+    color: $link-hover-color;
     text-decoration: $link-hover-decoration;
   }
 }
@@ -272,6 +274,7 @@ a {
 p {
   a {  
     &:not(.nav-link):not(.dropdown-item):not(.list-unstyled li a) {
+      &:hover,
       &:focus {
         background-color: $link-color;
         text-decoration: none;
