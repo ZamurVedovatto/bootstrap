@@ -3878,11 +3878,6 @@ textarea.form-control-lg {
   left: auto !important;
 }
 
-@media (max-width: 320px) {
-  .dropdown-menu {
-    width: 100%;
-  }
-}
 .dropdown-menu-start {
   --bs-position: start;
   right: auto ;
