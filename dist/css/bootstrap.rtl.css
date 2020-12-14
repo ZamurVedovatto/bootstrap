@@ -4037,7 +4037,7 @@ textarea.form-control-lg {
   height: 0;
   margin: 0.5rem 0;
   overflow: hidden;
-  border-top: 1px solid #aaaaaa;
+  border-top: 1px solid #ececec;
 }
 
 .dropdown-item {
@@ -4109,7 +4109,7 @@ textarea.form-control-lg {
   color: #949494;
 }
 .dropdown-menu-dark .dropdown-divider {
-  border-color: #aaaaaa;
+  border-color: #ececec;
 }
 .dropdown-menu-dark .dropdown-item-text {
   color: #cccccc;
