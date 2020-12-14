@@ -3878,19 +3878,11 @@ textarea.form-control-lg {
   left: auto !important;
 }
 
-/*
-@include media-breakpoint-up(sm) {
+@media (min-width: 576px) {
   .dropdown-menu {
     width: 100%;
   }
 }
-
-@include media-breakpoint-up(md) {
-  .dropdown-menu {
-    width: auto;
-  }
-}
-*/
 .dropdown-menu-start {
   --bs-position: start;
   right: auto ;

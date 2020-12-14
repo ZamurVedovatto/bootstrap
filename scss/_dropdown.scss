@@ -40,19 +40,11 @@
   }
 }
 
-/*
 @include media-breakpoint-up(sm) {
   .dropdown-menu {
     width: 100%;
   }
 }
-
-@include media-breakpoint-up(md) {
-  .dropdown-menu {
-    width: auto;
-  }
-}
-*/
 
 // scss-docs-start responsive-breakpoints
 // We deliberately hardcode the `bs-` prefix because we check
