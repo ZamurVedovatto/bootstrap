@@ -132,4 +132,15 @@
   &.btn-action-icon-only {
     padding: 0.125rem .3rem;
   }
+
+  &.btn-action-toggle {
+    background: $gray-100;
+    color: $janus-color-primary;
+    padding: 0.125rem .75rem;
+
+    &.active {
+      background: $janus-color-primary;
+      color: #fff;
+    }
+  }
 }
