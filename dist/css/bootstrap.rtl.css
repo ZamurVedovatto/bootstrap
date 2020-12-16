@@ -3804,7 +3804,7 @@ textarea.form-control-lg {
 .btn-action.btn-action-toggle {
   background: #f6f6f6;
   color: #0e62b9;
-  padding: 0.125rem 0.75rem;
+  padding: 0.125rem 1.25rem;
 }
 .btn-action.btn-action-toggle.active {
   background: #0e62b9;
