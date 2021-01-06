@@ -8,7 +8,7 @@ body {
   align-items: center;
 }
 
-[dir] body {
+body {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #f5f5f5;
@@ -19,7 +19,7 @@ body {
   max-width: 420px;
 }
 
-[dir] .form-signin {
+.form-signin {
   padding: 15px;
   margin: auto;
 }
@@ -28,7 +28,7 @@ body {
   position: relative;
 }
 
-[dir] .form-label-group {
+.form-label-group {
   margin-bottom: 1rem;
 }
 
@@ -37,8 +37,9 @@ body {
   height: 3.125rem;
 }
 
-[dir] .form-label-group > input, [dir] .form-label-group > label {
-  padding: .75rem;
+.form-label-group > input,
+.form-label-group > label {
+  padding: 0.75rem;
 }
 
 .form-label-group label {
@@ -48,20 +49,20 @@ body {
   width: 100%;
   color: #495057;
   pointer-events: none; /* Match the input under the label */
-  transition: all .1s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
-[dir] .form-label-group > label {
+.form-label-group > label {
   cursor: text;
   border: 1px solid transparent;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
 }
 
-[dir=ltr] .form-label-group > label {
+[dir="ltr"] .form-label-group > label {
   left: 0;
 }
 
-[dir=rtl] .form-label-group > label {
+[dir="rtl"] .form-label-group > label {
   right: 0;
 }
 
@@ -77,14 +78,14 @@ body {
   color: transparent;
 }
 
-[dir] .form-label-group input:not(:-moz-placeholder-shown) {
+.form-label-group input:not(:-moz-placeholder-shown) {
   padding-top: 1.25rem;
-  padding-bottom: .25rem;
+  padding-bottom: 0.25rem;
 }
 
-[dir] .form-label-group input:not(:placeholder-shown) {
+.form-label-group input:not(:placeholder-shown) {
   padding-top: 1.25rem;
-  padding-bottom: .25rem;
+  padding-bottom: 0.25rem;
 }
 
 .form-label-group input:not(:-moz-placeholder-shown) ~ label {
@@ -92,9 +93,9 @@ body {
   color: #777;
 }
 
-[dir] .form-label-group input:not(:-moz-placeholder-shown) ~ label {
-  padding-top: .25rem;
-  padding-bottom: .25rem;
+.form-label-group input:not(:-moz-placeholder-shown) ~ label {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .form-label-group input:not(:-moz-placeholder-shown) ~ label {
@@ -107,14 +108,14 @@ body {
   color: #777;
 }
 
-[dir] .form-label-group input:not(:-moz-placeholder-shown) ~ label {
-  padding-top: .25rem;
-  padding-bottom: .25rem;
+.form-label-group input:not(:-moz-placeholder-shown) ~ label {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
-[dir] .form-label-group input:not(:placeholder-shown) ~ label {
-  padding-top: .25rem;
-  padding-bottom: .25rem;
+.form-label-group input:not(:placeholder-shown) ~ label {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 /* Fallback for Edge

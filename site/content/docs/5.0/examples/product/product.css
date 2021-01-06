@@ -11,12 +11,12 @@
   backdrop-filter: saturate(180%) blur(20px);
 }
 
-[dir] .site-header {
-  background-color: rgba(0, 0, 0, .85);
+.site-header {
+  background-color: rgba(0, 0, 0, 0.85);
 }
 .site-header a {
   color: #8e8e8e;
-  transition: color .15s ease-in-out;
+  transition: color 0.15s ease-in-out;
 }
 .site-header a:hover {
   color: #fff;
@@ -34,17 +34,17 @@
   height: 540px;
 }
 
-[dir] .product-device {
+.product-device {
   background-color: #333;
   border-radius: 21px;
 }
 
-[dir=ltr] .product-device {
+[dir="ltr"] .product-device {
   right: 10%;
   transform: rotate(30deg);
 }
 
-[dir=rtl] .product-device {
+[dir="rtl"] .product-device {
   left: 10%;
   transform: rotate(-30deg);
 }
@@ -56,17 +56,17 @@
   content: "";
 }
 
-[dir] .product-device::before {
-  background-color: rgba(255, 255, 255, .1);
+.product-device::before {
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 5px;
 }
 
-[dir=ltr] .product-device::before {
+[dir="ltr"] .product-device::before {
   right: 10px;
   left: 10px;
 }
 
-[dir=rtl] .product-device::before {
+[dir="rtl"] .product-device::before {
   left: 10px;
   right: 10px;
 }
@@ -76,20 +76,19 @@
   bottom: 0;
 }
 
-[dir] .product-device-2 {
+.product-device-2 {
   background-color: #e5e5e5;
 }
 
-[dir=ltr] .product-device-2 {
+[dir="ltr"] .product-device-2 {
   right: auto;
   left: 5%;
 }
 
-[dir=rtl] .product-device-2 {
+[dir="rtl"] .product-device-2 {
   left: auto;
   right: 5%;
 }
-
 
 /*
  * Extra utilities
