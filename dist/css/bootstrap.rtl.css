@@ -2939,10 +2939,6 @@ textarea.form-control-lg {
   margin-right: 0.5em;
 }
 
-.was-validated .form-file-input:valid:focus ~ .form-file-label, .form-file-input.is-valid:focus ~ .form-file-label {
-  box-shadow: 0 0 0 0.125rem rgba(41, 120, 72, 0.25);
-}
-
 .invalid-feedback {
   display: none;
   width: 100%;
@@ -3014,10 +3010,6 @@ textarea.form-control-lg {
 
 .form-check-inline .form-check-input ~ .invalid-feedback {
   margin-right: 0.5em;
-}
-
-.was-validated .form-file-input:invalid:focus ~ .form-file-label, .form-file-input.is-invalid:focus ~ .form-file-label {
-  box-shadow: 0 0 0 0.125rem rgba(191, 62, 36, 0.25);
 }
 
 .subform-footer {

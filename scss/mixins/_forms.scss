@@ -132,16 +132,4 @@
       margin-left: .5em;
     }
   }
-
-  // custom file
-  .form-file-input {
-    @include form-validation-state-selector($state) {
-
-      &:focus {
-        ~ .form-file-label {
-          box-shadow: 0 0 0 $input-focus-width rgba($color, .25);
-        }
-      }
-    }
-  }
 }
