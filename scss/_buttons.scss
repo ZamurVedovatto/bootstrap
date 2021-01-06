@@ -125,7 +125,7 @@
   &.active,
   &:hover,
   &:focus {
-      background: $gray-100;
+      background: rgba($gray-300, .25);
       
   }
 
