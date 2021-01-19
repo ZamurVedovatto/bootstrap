@@ -3859,6 +3859,10 @@ textarea.form-control-lg {
 .btn-action.btn-action-icon-only {
   padding: 0.125rem 0.3rem;
 }
+.btn-action.btn-action-icon-only.btn-action-header {
+  color: #ececec;
+  background: #6c6c6c;
+}
 .btn-action.btn-action-toggle {
   background: #f6f6f6;
   color: #0e62b9;

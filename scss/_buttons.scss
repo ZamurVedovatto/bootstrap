@@ -131,6 +131,11 @@
 
   &.btn-action-icon-only {
     padding: 0.125rem .3rem;
+
+    &.btn-action-header {
+      color: $gray-200;
+      background: $gray-600; 
+    }
   }
 
   &.btn-action-toggle {
