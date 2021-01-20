@@ -7079,6 +7079,11 @@ textarea.form-control-lg {
   height: 1.5rem;
 }
 
+.icon-xxl-font-size {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
 .text-shadow-none {
   text-shadow: none;
 }
