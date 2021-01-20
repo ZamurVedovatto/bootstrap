@@ -130,7 +130,9 @@
   }
 
   &.btn-action-icon-only {
-    padding: 0.125rem .3rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0;
 
     &.btn-action-header {
       color: $gray-600;

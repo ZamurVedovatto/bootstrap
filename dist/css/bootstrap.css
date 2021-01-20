@@ -3919,7 +3919,9 @@ textarea.form-control-lg {
   background: rgba(204, 204, 204, 0.25);
 }
 .btn-action.btn-action-icon-only {
-  padding: 0.125rem 0.3rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
 }
 .btn-action.btn-action-icon-only.btn-action-header {
   color: #6c6c6c;
@@ -7073,8 +7075,8 @@ textarea.form-control-lg {
 }
 
 .icon-xl-font-size {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 1.5rem1 0.5rem;
+  height: 1.5rem1 0.5rem;
 }
 
 .text-shadow-none {
