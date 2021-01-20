@@ -134,6 +134,11 @@
     outline: 0;
     box-shadow: 0 0 0 $navbar-toggler-focus-width;
   }
+
+  svg {
+    top: -2px;
+    position: relative;
+  }
 }
 
 // Keep as a separate element so folks can easily override it with another icon
