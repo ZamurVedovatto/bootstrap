@@ -126,7 +126,6 @@
   &:hover,
   &:focus {
       background: rgba($gray-300, .25);
-      
   }
 
   &.btn-action-icon-only {
@@ -140,7 +139,7 @@
 
       &:hover,
       &:focus {
-        background: $gray-300;
+        box-shadow: $box-shadow-sm;
       }
     }
   }
