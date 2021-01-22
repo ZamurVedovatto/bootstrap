@@ -75,7 +75,10 @@ $enable-shadows:              true !default;
 
 $body-color:                  $gray-800 !default;
 
-$box-shadow:                  0 .063rem .125rem rgba($black, .25) !default;
+$box-shadow:                  0 .125rem .25rem rgba($black, .15) !default;
+$box-shadow-sm:               0 .125rem .25rem rgba($black, .3) !default;
+$box-shadow-lg:               0 1rem 3rem rgba($black, .175) !default;
+
 $modal-content-box-shadow-xs: $box-shadow;
 $modal-content-box-shadow-sm-up: $box-shadow;
 
@@ -190,10 +193,6 @@ $input-btn-focus-color-opacity: 1!default;
 
 $btn-disabled-opacity:        1 !default;
 
-$box-shadow:                  0 .125rem .25rem rgba($black, .15) !default;
-$box-shadow-sm:               0 .125rem .25rem rgba($black, .3) !default;
-$box-shadow-lg:               0 1rem 3rem rgba($black, .175) !default;
-
 $form-text-line-height:       1.3125rem;
 $form-text-margin-top:        -0.25rem !default;
 $form-text-margin-bottom:     .5rem;
@@ -210,8 +209,6 @@ $btn-close-color:             $black !default;
 $btn-close-bg:                url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' fill='#{$btn-close-color}' viewBox='0 0 24 24'><path d='M 20.7,4.7 19.3,3.3 12,10.6 4.7,3.3 3.3,4.7 10.6,12 3.3,19.3 4.7,20.7 12,13.4 19.3,20.7 20.7,19.3 13.4,12 Z'/></svg>") !default;
 
 $popover-box-shadow:          none !default;
-
-$box-shadow-sm:               0 .125rem .375rem rgba($black, .5) !default;
 
 $modal-content-border-radius: $janus-border-radius !default;
 
