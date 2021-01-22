@@ -190,7 +190,9 @@ $input-btn-focus-color-opacity: 1!default;
 
 $btn-disabled-opacity:        1 !default;
 
-$box-shadow-sm:               0 .0625rem .125rem rgba($black, .5) !default;
+$box-shadow:                  0 .125rem .25rem rgba($black, .15) !default;
+$box-shadow-sm:               0 .125rem .25rem rgba($black, .3) !default;
+$box-shadow-lg:               0 1rem 3rem rgba($black, .175) !default;
 
 $form-text-line-height:       1.3125rem;
 $form-text-margin-top:        -0.25rem !default;

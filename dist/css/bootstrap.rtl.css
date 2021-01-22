@@ -594,7 +594,7 @@ progress {
   background-color: white;
   border: 1px solid #cccccc;
   border-radius: 0.25rem;
-  box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
   max-width: 100%;
   height: auto;
 }
@@ -7190,7 +7190,7 @@ textarea.form-control-lg {
 }
 
 .shadow-sm {
-  box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.5) !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3) !important;
 }
 
 .shadow-lg {
