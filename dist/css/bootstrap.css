@@ -4541,6 +4541,10 @@ textarea.form-control-lg {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
   outline: none;
 }
+.navbar-toggler svg {
+  position: relative;
+  top: -2px;
+}
 
 .navbar-toggler-icon {
   display: inline-block;
