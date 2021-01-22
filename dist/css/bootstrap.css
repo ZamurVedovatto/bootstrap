@@ -4539,6 +4539,7 @@ textarea.form-control-lg {
   text-decoration: none;
   background: #ececec;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
+  outline: none;
 }
 
 .navbar-toggler-icon {
