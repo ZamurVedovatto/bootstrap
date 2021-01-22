@@ -4530,30 +4530,15 @@ textarea.form-control-lg {
 }
 
 .navbar-toggler {
-  padding: 1.346rem 1.25rem;
-  font-size: 1.25rem;
-  line-height: 1;
   background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 0.188rem;
-  transition: box-shadow 0.15s ease-in-out;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
 }
-@media (prefers-reduced-motion: reduce) {
-  .navbar-toggler {
-    transition: none;
-  }
-}
-.navbar-toggler:hover {
+.navbar-toggler:hover, .navbar-toggler:focus {
   text-decoration: none;
-}
-.navbar-toggler:focus {
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.125rem;
-}
-.navbar-toggler svg {
-  top: -2px;
-  position: relative;
+  background: #ececec;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
 }
 
 .navbar-toggler-icon {
