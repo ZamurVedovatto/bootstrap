@@ -3916,8 +3916,8 @@ textarea.form-control-lg {
   background: rgba(204, 204, 204, 0.25);
 }
 .btn-action.btn-action-icon-only {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2rem;
+  height: 2rem;
   padding: 0;
 }
 .btn-action.btn-action-icon-only.btn-action-header {
