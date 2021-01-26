@@ -75,9 +75,9 @@ $enable-shadows:              true !default;
 
 $body-color:                  $gray-800 !default;
 
-$box-shadow:                  0 .125rem .25rem rgba($black, .15) !default;
-$box-shadow-sm:               0 .125rem .25rem rgba($black, .3) !default;
-$box-shadow-lg:               0 1rem 3rem rgba($black, .175) !default;
+$box-shadow:                  0 .125rem .25rem rgba($black, .5) !default;
+$box-shadow-sm:               0 .0625rem .125rem rgba($black, .5) !default;
+$box-shadow-lg:               0 .125rem .375rem rgba($black, .3) !default;
 
 $modal-content-box-shadow-xs: $box-shadow;
 $modal-content-box-shadow-sm-up: $box-shadow;
