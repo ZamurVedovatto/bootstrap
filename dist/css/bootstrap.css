@@ -4009,7 +4009,7 @@ textarea.form-control-lg {
   background-clip: padding-box;
   border: 1px solid #ececec;
   border-radius: 0.188rem;
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.5);
   max-width: 400px;
 }
 .dropdown-menu[style] {
