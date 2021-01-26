@@ -3921,8 +3921,9 @@ textarea.form-control-lg {
   padding: 0;
 }
 .btn-action.btn-action-icon-only.btn-action-header {
-  color: #6c6c6c;
-  background: #ececec;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: rgba(0, 0, 0, 0.03);
 }
 .btn-action.btn-action-icon-only.btn-action-header:hover, .btn-action.btn-action-icon-only.btn-action-header:focus {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
