@@ -3911,8 +3911,6 @@ textarea.form-control-lg {
 }
 
 .btn-action {
-  border-radius: 1rem;
-  padding: 0.125rem 0.75rem;
   min-width: 0;
 }
 .btn-action.active, .btn-action:hover, .btn-action:focus {
