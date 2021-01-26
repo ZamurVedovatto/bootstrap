@@ -3915,7 +3915,7 @@ textarea.form-control-lg {
   min-width: 0;
 }
 .btn-action.active, .btn-action:hover, .btn-action:focus {
-  background: rgba(204, 204, 204, 0.25);
+  background: rgba(0, 0, 0, 0.03);
 }
 .btn-action.btn-action-icon-only {
   width: 2rem;

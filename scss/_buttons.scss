@@ -124,7 +124,7 @@
   &.active,
   &:hover,
   &:focus {
-      background: rgba($gray-300, .25);
+      background: shade-color(transparent, 3%);
   }
 
   &.btn-action-icon-only {
