@@ -125,7 +125,7 @@
   &:hover,
   &:focus {
     text-decoration: none;
-    background: $gray-200;
+    background: shade-color(transparent, 10%);
     box-shadow: $box-shadow-sm;
     outline: none;
   }

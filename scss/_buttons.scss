@@ -124,7 +124,7 @@
   &.active,
   &:hover,
   &:focus {
-      background: shade-color(transparent, 3%);
+      background: shade-color(transparent, 4%);
   }
 
   &.btn-action-icon-only {
@@ -135,7 +135,7 @@
     &.btn-action-header {
       width: 2.5rem;
       height: 2.5rem;
-      background: shade-color(transparent, 3%);
+      background: $gray-100;
 
       &:hover,
       &:focus {

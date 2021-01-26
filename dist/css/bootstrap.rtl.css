@@ -3913,7 +3913,7 @@ textarea.form-control-lg {
   min-width: 0;
 }
 .btn-action.active, .btn-action:hover, .btn-action:focus {
-  background: rgba(0, 0, 0, 0.03);
+  background: rgba(0, 0, 0, 0.04);
 }
 .btn-action.btn-action-icon-only {
   width: 2rem;
@@ -3923,7 +3923,7 @@ textarea.form-control-lg {
 .btn-action.btn-action-icon-only.btn-action-header {
   width: 2.5rem;
   height: 2.5rem;
-  background: rgba(0, 0, 0, 0.03);
+  background: #f6f6f6;
 }
 .btn-action.btn-action-icon-only.btn-action-header:hover, .btn-action.btn-action-icon-only.btn-action-header:focus {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
@@ -4535,7 +4535,7 @@ textarea.form-control-lg {
 }
 .navbar-toggler:hover, .navbar-toggler:focus {
   text-decoration: none;
-  background: #ececec;
+  background: rgba(0, 0, 0, 0.1);
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
   outline: none;
 }
