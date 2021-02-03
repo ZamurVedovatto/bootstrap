@@ -30,6 +30,10 @@
     }
   }
 
+  &.search-input {
+    padding: $janus-search-select-padding-y $janus-search-select-padding-x;
+  }
+
   // Customize the `:focus` state to imitate native WebKit styles.
   &:focus {
     color: $input-focus-color;

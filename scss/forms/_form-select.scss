@@ -23,7 +23,7 @@
   @include box-shadow($form-select-box-shadow);
   appearance: none;
 
-  &.search-input {
+  &.search-select {
     padding: $janus-search-select-padding-y $janus-search-select-padding-x;
     background-position: $search-select-bg-position;
   }
