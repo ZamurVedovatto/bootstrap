@@ -2619,6 +2619,10 @@ textarea.form-control-lg {
   -moz-appearance: none;
   appearance: none;
 }
+.form-select.search-input {
+  padding: 0.657rem 1.25rem;
+  background-position: right 1.25rem center;
+}
 .form-select:focus {
   border-color: #0e62b9;
   outline: 0;
