@@ -243,5 +243,8 @@
 .modal-search {
   .btn {
     min-width: 40px;
+    max-width: 40px;
+    height: 40px;
+    padding: 0;
   }
 }
