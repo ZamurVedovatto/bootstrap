@@ -6218,6 +6218,10 @@ textarea.form-control-lg {
     border-radius: 0;
   }
 }
+.modal-search .btn {
+  min-width: 40px;
+}
+
 .tooltip {
   position: absolute;
   z-index: 1070;
