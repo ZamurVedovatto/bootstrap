@@ -4291,6 +4291,9 @@ textarea.form-control-lg {
   color: white;
   text-decoration: none;
 }
+.dropdown-item.active .text-muted, .dropdown-item:active .text-muted {
+  color: white;
+}
 
 .btn-group,
 .btn-group-vertical {

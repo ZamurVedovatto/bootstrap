@@ -291,8 +291,11 @@
   &.active,
   &:active {
     .list-avatar {
-      color: $dropdown-dark-link-active-color;
+      color: $dropdown-link-active-color;
       text-decoration: none;
+    }
+    .text-muted {
+      color: $dropdown-link-active-color;
     }
   }
 }
