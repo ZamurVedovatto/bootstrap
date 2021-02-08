@@ -3945,16 +3945,6 @@ textarea.form-control-lg {
   color: #fff;
 }
 
-.list-avatar {
-  width: 2.375rem;
-  height: 2.375rem;
-  background: #f6f6f6;
-}
-.list-avatar:hover, .list-avatar:focus {
-  box-shadow: none;
-  cursor: default;
-}
-
 .fade {
   transition: opacity 0.15s linear;
 }
@@ -4285,6 +4275,21 @@ textarea.form-control-lg {
 .with-suffix-icon span {
   position: relative;
   left: -10px;
+}
+
+.list-avatar {
+  width: 2.375rem;
+  height: 2.375rem;
+  background: #f6f6f6;
+}
+.list-avatar:hover, .list-avatar:focus {
+  box-shadow: none;
+  cursor: default;
+}
+
+.dropdown-item.active .list-avatar, .dropdown-item:active .list-avatar {
+  color: white;
+  text-decoration: none;
 }
 
 .btn-group,

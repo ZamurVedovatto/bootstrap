@@ -271,3 +271,28 @@
     right: -10px;
   }
 }
+
+// Custom style for circular avatar 
+
+.list-avatar {
+  width: $janus-icon-xxl-font-size;
+  height: $janus-icon-xxl-font-size;
+  background: $gray-100;
+
+  &:hover,
+  &:focus {
+    box-shadow: none;
+    cursor: default;
+  }
+}
+  
+.dropdown-item {
+
+  &.active,
+  &:active {
+    .list-avatar {
+      color: $dropdown-dark-link-active-color;
+      text-decoration: none;
+    }
+  }
+}

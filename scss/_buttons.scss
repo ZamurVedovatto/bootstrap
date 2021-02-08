@@ -156,15 +156,3 @@
     }
   }
 }
-    
-.list-avatar {
-  width: $janus-icon-xxl-font-size;
-  height: $janus-icon-xxl-font-size;
-  background: $gray-100;
-
-  &:hover,
-  &:focus {
-    box-shadow: none;
-    cursor: default;
-  }
-}
