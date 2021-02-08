@@ -3935,15 +3935,6 @@ textarea.form-control-lg {
 .btn-action.btn-action-icon-only.btn-action-header:hover, .btn-action.btn-action-icon-only.btn-action-header:focus {
   box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.5);
 }
-.btn-action.btn-action-icon-only.list-avatar {
-  width: 2.5rem;
-  height: 2.5rem;
-  background: #f6f6f6;
-}
-.btn-action.btn-action-icon-only.list-avatar:hover, .btn-action.btn-action-icon-only.list-avatar:focus {
-  box-shadow: none;
-  cursor: default;
-}
 .btn-action.btn-action-toggle {
   background: #f6f6f6;
   color: #0e62b9;
@@ -3952,6 +3943,16 @@ textarea.form-control-lg {
 .btn-action.btn-action-toggle.active {
   background: #0e62b9;
   color: #fff;
+}
+
+.list-avatar {
+  width: 2.375rem;
+  height: 2.375rem;
+  background: #f6f6f6;
+}
+.list-avatar:hover, .list-avatar:focus {
+  box-shadow: none;
+  cursor: default;
 }
 
 .fade {

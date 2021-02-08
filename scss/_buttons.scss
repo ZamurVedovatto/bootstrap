@@ -143,17 +143,6 @@
       }
     }
 
-    &.list-avatar {
-      width: 2.5rem;
-      height: 2.5rem;
-      background: $gray-100;
-
-      &:hover,
-      &:focus {
-        box-shadow: none;
-        cursor: default;
-      }
-    }
   }
 
   &.btn-action-toggle {
@@ -165,5 +154,17 @@
       background: $janus-color-primary;
       color: #fff;
     }
+  }
+}
+    
+.list-avatar {
+  width: $janus-icon-xxl-font-size;
+  height: $janus-icon-xxl-font-size;
+  background: $gray-100;
+
+  &:hover,
+  &:focus {
+    box-shadow: none;
+    cursor: default;
   }
 }
