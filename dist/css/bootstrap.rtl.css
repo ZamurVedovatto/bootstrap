@@ -4281,6 +4281,7 @@ textarea.form-control-lg {
   width: 2.375rem;
   height: 2.375rem;
   background: #f6f6f6;
+  color: #2e2e2e;
 }
 .list-avatar:hover, .list-avatar:focus {
   box-shadow: none;
@@ -4288,7 +4289,7 @@ textarea.form-control-lg {
 }
 
 .dropdown-item.active .list-avatar, .dropdown-item:active .list-avatar {
-  color: white;
+  color: #2e2e2e;
   text-decoration: none;
 }
 .dropdown-item.active .text-muted, .dropdown-item:active .text-muted {

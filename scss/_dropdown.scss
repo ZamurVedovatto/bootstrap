@@ -278,6 +278,7 @@
   width: $janus-icon-xxl-font-size;
   height: $janus-icon-xxl-font-size;
   background: $gray-100;
+  color: $dropdown-link-hover-color;
 
   &:hover,
   &:focus {
@@ -291,11 +292,11 @@
   &.active,
   &:active {
     .list-avatar {
-      color: $dropdown-link-active-color;
+      color: $dropdown-link-hover-color;
       text-decoration: none;
     }
     .text-muted {
-      color: $dropdown-link-active-color;
+      color: $dropdown-dark-link-active-color;
     }
   }
 }
