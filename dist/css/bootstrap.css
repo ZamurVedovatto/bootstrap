@@ -3977,6 +3977,8 @@ textarea.form-control-lg {
   border-bottom-left-radius: 12px;
   border-top: none;
   padding: 16px;
+  position: relative;
+  top: -4px;
 }
 
 .fade {
