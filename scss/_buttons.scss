@@ -114,7 +114,7 @@
 
 
 //
-// Action buttons
+// Action buttons and header search
 //
 
 .btn-action {
@@ -152,12 +152,16 @@
         width: 100%;
         text-align: left;
         max-width: 400px;
-        border-radius: 12px;
-        &:active {
+
+        &.show {
           border-bottom-right-radius: 0;
           border-bottom-left-radius: 0;
           background: #fff;
           border: 1px solid $gray-200;
+        }
+
+        svg {
+          margin-left: 12px;
         }
       }
     }

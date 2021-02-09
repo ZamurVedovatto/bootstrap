@@ -3945,13 +3945,15 @@ textarea.form-control-lg {
     width: 100%;
     text-align: left;
     max-width: 400px;
-    border-radius: 12px;
   }
-  .btn-action.btn-action-icon-only.btn-search:active {
+  .btn-action.btn-action-icon-only.btn-search.show {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
     background: #fff;
     border: 1px solid #ececec;
+  }
+  .btn-action.btn-action-icon-only.btn-search svg {
+    margin-left: 12px;
   }
 }
 .btn-action.btn-action-toggle {
