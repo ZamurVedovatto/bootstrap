@@ -156,12 +156,25 @@
         &.show {
           border-bottom-right-radius: 0;
           border-bottom-left-radius: 0;
+          border-top-left-radius: 12px;
+          border-top-right-radius: 12px;
           background: #fff;
           border: 1px solid $gray-200;
         }
 
         svg {
           margin-left: 12px;
+        }
+      }
+
+      &.btn-search-results {
+
+        &.show {
+          box-shadow: none;
+          border-top-left-radius: 0;
+          border-top-right-radius: 0;
+          border-top: none;
+          padding: 16px;
         }
       }
     }
