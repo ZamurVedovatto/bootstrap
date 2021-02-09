@@ -143,6 +143,11 @@
       }
     }
 
+    @include media-breakpoint-up(lg) {
+      width: 100%;
+      text-align: left;
+    }
+
   }
 
   &.btn-action-toggle {
