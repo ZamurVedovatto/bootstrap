@@ -154,7 +154,8 @@
         max-width: 400px;
         padding: 0.125rem 0.75rem;
 
-        &.show {
+        &.show,
+        &.active {
           border-bottom-right-radius: 0;
           border-bottom-left-radius: 0;
           border-top-left-radius: 12px;

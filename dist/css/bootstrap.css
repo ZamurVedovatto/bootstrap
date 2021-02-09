@@ -3947,7 +3947,7 @@ textarea.form-control-lg {
     max-width: 400px;
     padding: 0.125rem 0.75rem;
   }
-  .btn-action.btn-action-icon-only.btn-search.show {
+  .btn-action.btn-action-icon-only.btn-search.show, .btn-action.btn-action-icon-only.btn-search.active {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
     border-top-left-radius: 12px;
