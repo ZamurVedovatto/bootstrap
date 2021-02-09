@@ -3937,10 +3937,20 @@ textarea.form-control-lg {
 .btn-action.btn-action-icon-only.btn-action-header:hover, .btn-action.btn-action-icon-only.btn-action-header:focus {
   box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.5);
 }
+.btn-action.btn-action-icon-only.btn-search {
+  border-radius: 50rem;
+}
 @media (min-width: 992px) {
-  .btn-action.btn-action-icon-only.btn-action-header {
+  .btn-action.btn-action-icon-only.btn-search {
     width: 100%;
     text-align: left;
+    max-width: 400px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border: 1px solid #ececec;
+    background: #fff;
   }
 }
 .btn-action.btn-action-toggle {
