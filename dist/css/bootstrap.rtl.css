@@ -3952,6 +3952,7 @@ textarea.form-control-lg {
     border-top-left-radius: 12px;
     background: #fff;
     border: 1px solid #ececec;
+    box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.5);
   }
   .btn-action.btn-action-icon-only.btn-search svg {
     margin-right: 12px;
