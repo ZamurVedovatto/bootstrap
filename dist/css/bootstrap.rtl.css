@@ -3936,7 +3936,7 @@ textarea.form-control-lg {
   box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.5);
 }
 @media (min-width: 992px) {
-  .btn-action.btn-action-icon-only {
+  .btn-action.btn-action-icon-only.btn-action-header {
     width: 100%;
     text-align: right;
   }

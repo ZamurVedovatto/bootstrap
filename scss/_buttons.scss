@@ -144,8 +144,10 @@
     }
 
     @include media-breakpoint-up(lg) {
-      width: 100%;
-      text-align: left;
+      &.btn-action-header {
+        width: 100%;
+        text-align: left;
+      }
     }
 
   }
