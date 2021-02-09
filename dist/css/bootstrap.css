@@ -3945,6 +3945,7 @@ textarea.form-control-lg {
     width: 100%;
     text-align: left;
     max-width: 400px;
+    padding: 0.125rem 0.75rem;
   }
   .btn-action.btn-action-icon-only.btn-search.show {
     border-bottom-right-radius: 0;
@@ -3969,9 +3970,10 @@ textarea.form-control-lg {
 }
 
 .btn-search-results.show {
-  box-shadow: none;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
   border-top: none;
   padding: 16px;
 }
