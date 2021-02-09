@@ -166,17 +166,6 @@
           margin-left: 12px;
         }
       }
-
-      &.btn-search-results {
-
-        &.show {
-          box-shadow: none;
-          border-top-left-radius: 0;
-          border-top-right-radius: 0;
-          border-top: none;
-          padding: 16px;
-        }
-      }
     }
   }
 
@@ -189,5 +178,16 @@
       background: $janus-color-primary;
       color: #fff;
     }
+  }
+}
+      
+.btn-search-results {
+
+  &.show {
+    box-shadow: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: none;
+    padding: 16px;
   }
 }

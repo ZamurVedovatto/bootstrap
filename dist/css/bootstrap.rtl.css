@@ -3955,13 +3955,6 @@ textarea.form-control-lg {
   .btn-action.btn-action-icon-only.btn-search svg {
     margin-right: 12px;
   }
-  .btn-action.btn-action-icon-only.btn-search-results.show {
-    box-shadow: none;
-    border-top-right-radius: 0;
-    border-top-left-radius: 0;
-    border-top: none;
-    padding: 16px;
-  }
 }
 .btn-action.btn-action-toggle {
   background: #f6f6f6;
@@ -3971,6 +3964,14 @@ textarea.form-control-lg {
 .btn-action.btn-action-toggle.active {
   background: #0e62b9;
   color: #fff;
+}
+
+.btn-search-results.show {
+  box-shadow: none;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-top: none;
+  padding: 16px;
 }
 
 .fade {
