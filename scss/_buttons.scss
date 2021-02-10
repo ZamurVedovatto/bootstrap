@@ -204,6 +204,9 @@
     box-shadow: none; 
     border-top-right-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
+    &:focus {
+        box-shadow: inset 0px 0px 0px 3px #000;
+    }
   }
 
   .input-group {
@@ -213,8 +216,7 @@
     > .form-control {
       border-radius: 0;
       &:focus {
-        border: 3px solid !important;
-        box-shadow: $box-shadow-lg;
+          box-shadow: inset 0px 0px 0px 3px #000;
       }
     }
   }
