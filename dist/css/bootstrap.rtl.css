@@ -3979,13 +3979,21 @@ textarea.form-control-lg {
   top: -4px;
 }
 
-.btn-search-combo select {
+.btn-search-combo .form-select {
+  border: none;
+  box-shadow: none;
   border-top-left-radius: 0 !important;
   border-bottom-left-radius: 0 !important;
 }
 .btn-search-combo .input-group {
   border-top-right-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
+}
+.btn-search-combo .input-group > .form-control {
+  border-radius: 0;
+}
+.btn-search-combo .input-group > .form-control:focus {
+  border-width: 3px;
 }
 
 .fade {

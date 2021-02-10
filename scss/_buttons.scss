@@ -199,12 +199,21 @@
 }
 
 .btn-search-combo {
-  select {
+  .form-select {
+    border: none;
+    box-shadow: none; 
     border-top-right-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
   }
   .input-group {
     border-top-left-radius: 0 !important;
     border-bottom-left-radius: 0 !important;
+    
+    > .form-control {
+      border-radius: 0;
+      &:focus {
+        border-width: 3px;
+      }
+    }
   }
 }
