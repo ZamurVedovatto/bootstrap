@@ -197,3 +197,14 @@
     top: -4px;
   }
 }
+
+.btn-search-combo {
+  select {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  .input-group {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+  }
+}
