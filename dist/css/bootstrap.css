@@ -4000,6 +4000,13 @@ textarea.form-control-lg {
 .btn-search-combo .input-group > .form-control:focus {
   box-shadow: inset 0px 0px 0px 3px #000;
 }
+.btn-search-combo button {
+  border-top-right-radius: 50rem !important;
+  border-bottom-right-radius: 50rem !important;
+}
+.btn-search-combo button:focus {
+  box-shadow: inset 0px 0px 0px 3px #000;
+}
 
 .fade {
   transition: opacity 0.15s linear;
