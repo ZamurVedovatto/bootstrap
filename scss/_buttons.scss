@@ -214,6 +214,7 @@
       border-radius: 0;
       &:focus {
         border: 3px solid !important;
+        box-shadow: $box-shadow-lg;
       }
     }
   }
