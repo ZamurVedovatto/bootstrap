@@ -3995,7 +3995,7 @@ textarea.form-control-lg {
   border-radius: 0;
 }
 .btn-search-combo .input-group > .form-control:focus {
-  border-width: 3px !important;
+  border: 3px solid !important;
 }
 
 .fade {
