@@ -30,6 +30,10 @@
     }
   }
 
+  &.search-input {
+    padding: $janus-search-select-padding-y $janus-search-select-padding-x;
+  }
+
   // Customize the `:focus` state to imitate native WebKit styles.
   &:focus {
     color: $input-focus-color;
@@ -76,8 +80,8 @@
   // stylelint-disable-next-line selector-pseudo-element-no-unknown
   &::file-selector-button {
     padding: $input-padding-y $input-padding-x;
-    margin: (-$input-padding-y) (-$input-padding-x);
-    margin-inline-end: $input-padding-x;
+    margin: (-$input-padding-y) $input-padding-x (-$input-padding-y) (-$input-padding-x);
+    border-right-width: 1px;
     color: $form-file-button-color;
     @include gradient-bg($form-file-button-bg);
     pointer-events: none;
@@ -96,8 +100,8 @@
 
   &::-webkit-file-upload-button {
     padding: $input-padding-y $input-padding-x;
-    margin: (-$input-padding-y) (-$input-padding-x);
-    margin-inline-end: $input-padding-x;
+    margin: (-$input-padding-y) $input-padding-x (-$input-padding-y) (-$input-padding-x);
+    border-right-width: 1px;
     color: $form-file-button-color;
     @include gradient-bg($form-file-button-bg);
     pointer-events: none;
@@ -153,14 +157,14 @@
   // stylelint-disable-next-line selector-pseudo-element-no-unknown
   &::file-selector-button {
     padding: $input-padding-y-sm $input-padding-x-sm;
-    margin: (-$input-padding-y-sm) (-$input-padding-x-sm);
-    margin-inline-end: $input-padding-x-sm;
+    margin: (-$input-padding-y-sm) $input-padding-x-sm (-$input-padding-y-sm) (-$input-padding-x-sm);
+    border-right-width: 1px;
   }
 
   &::-webkit-file-upload-button {
     padding: $input-padding-y-sm $input-padding-x-sm;
-    margin: (-$input-padding-y-sm) (-$input-padding-x-sm);
-    margin-inline-end: $input-padding-x-sm;
+    margin: (-$input-padding-y-sm) $input-padding-x-sm (-$input-padding-y-sm) (-$input-padding-x-sm);
+    border-right-width: 1px;
   }
 }
 
@@ -173,14 +177,14 @@
   // stylelint-disable-next-line selector-pseudo-element-no-unknown
   &::file-selector-button {
     padding: $input-padding-y-lg $input-padding-x-lg;
-    margin: (-$input-padding-y-lg) (-$input-padding-x-lg);
-    margin-inline-end: $input-padding-x-lg;
+    margin: (-$input-padding-y-lg) $input-padding-x-lg (-$input-padding-y-lg) (-$input-padding-x-lg);
+    border-right-width: 1px;
   }
 
   &::-webkit-file-upload-button {
     padding: $input-padding-y-lg $input-padding-x-lg;
-    margin: (-$input-padding-y-lg) (-$input-padding-x-lg);
-    margin-inline-end: $input-padding-x-lg;
+    margin: (-$input-padding-y-lg) $input-padding-x-lg (-$input-padding-y-lg) (-$input-padding-x-lg);
+    border-right-width: 1px;
   }
 }
 

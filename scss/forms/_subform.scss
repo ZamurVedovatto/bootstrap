@@ -1,0 +1,13 @@
+.subform-footer {
+  border-top: 1px solid $gray-200;
+  border-bottom-right-radius: $border-radius;
+  border-bottom-left-radius: $border-radius;
+  text-align: center;
+  padding-bottom: $dropdown-spacer;
+  padding-top: $dropdown-spacer;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  margin-bottom: -1rem;
+  margin-top: $spacer * .75;
+  background: $light;
+}
