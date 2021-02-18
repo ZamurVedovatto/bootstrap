@@ -112,15 +112,15 @@ $btn-active-border-tint-amount:   10% !default;
 }
 
 .link-light {
-  color: #f6f6f6;
+  color: #ececec;
 }
 .link-light:hover {
   text-decoration: underline;
 }
 .link-light:focus {
-  background-color: #f6f6f6;
+  background-color: #ececec;
   text-decoration: none;
-  outline: 4px solid #f6f6f6;
+  outline: 4px solid #ececec;
   outline-offset: 0;
   color: #333;
 }
@@ -641,7 +641,7 @@ $btn-active-border-tint-amount:   10% !default;
 }
 
 .border-light {
-  border-color: #f6f6f6 !important;
+  border-color: #ececec !important;
 }
 
 .border-dark {
@@ -1977,7 +1977,7 @@ $btn-active-border-tint-amount:   10% !default;
 }
 
 .text-light {
-  color: #f6f6f6 !important;
+  color: #ececec !important;
 }
 
 .text-dark {
@@ -2073,7 +2073,7 @@ $btn-active-border-tint-amount:   10% !default;
 }
 
 .bg-light {
-  background-color: #f6f6f6 !important;
+  background-color: #ececec !important;
 }
 
 .bg-dark {
