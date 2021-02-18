@@ -4,6 +4,8 @@
 // Import variables from Janus design tokens
 @import "../node_modules/@symplicity/janus-tokens/dist/index.scss";
 
+$font-family-sans-serif:      "Lato", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+
 // Map Janus design tokens to bootstrap variables
 $white: $janus-color-white !default;
 $gray-100: $janus-color-gray-100 !default;
