@@ -12,8 +12,11 @@
 }
 
 .nav-link {
-  display: block;
-  padding: $nav-link-padding-y $nav-link-padding-x;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  max-width: 200px;
+  padding: 0 $nav-link-padding-x;
   @include font-size($nav-link-font-size);
   font-weight: $nav-link-font-weight;
   color: $nav-link-color;

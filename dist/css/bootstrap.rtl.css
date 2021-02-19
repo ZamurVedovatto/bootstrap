@@ -4515,8 +4515,11 @@ textarea.form-control-lg {
 }
 
 .nav-link {
-  display: block;
-  padding: 1.0625rem 0.75rem;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  max-width: 200px;
+  padding: 0 0.75rem;
   font-weight: 600;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
