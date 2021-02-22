@@ -5343,7 +5343,6 @@ textarea.form-control-lg {
 }
 
 .badge {
-  display: inline-block;
   padding: 0.3em 0.6em;
   font-size: 0.75em;
   font-weight: 700;
@@ -5353,6 +5352,11 @@ textarea.form-control-lg {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.125rem;
+  min-width: 20px;
+  min-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .badge:empty {
   display: none;

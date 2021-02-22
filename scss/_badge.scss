@@ -4,7 +4,6 @@
 // `background-color`.
 
 .badge {
-  display: inline-block;
   padding: $badge-padding-y $badge-padding-x;
   @include font-size($badge-font-size);
   font-weight: $badge-font-weight;
@@ -15,6 +14,11 @@
   vertical-align: baseline;
   @include border-radius($badge-border-radius);
   @include gradient-bg();
+  min-width: 20px;
+  min-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   // Empty badges collapse automatically
   &:empty {
