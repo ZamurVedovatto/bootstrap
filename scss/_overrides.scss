@@ -4,7 +4,9 @@
 // Import variables from Janus design tokens
 @import "../node_modules/@symplicity/janus-tokens/dist/index.scss";
 
-$font-family-sans-serif:      "Lato", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+@import url('https://use.typekit.net/awj6qer.css');
+
+$font-family-sans-serif:      "lato", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 
 // Map Janus design tokens to bootstrap variables
 $white: $janus-color-white !default;
