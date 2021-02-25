@@ -3,10 +3,7 @@
 
 // Import variables from Janus design tokens
 @import "../node_modules/@symplicity/janus-tokens/dist/index.scss";
-
-@import url('https://use.typekit.net/awj6qer.css');
-
-$font-family-sans-serif:      "lato", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+@import url("//use.typekit.net/awj6qer.css");
 
 // Map Janus design tokens to bootstrap variables
 $white: $janus-color-white !default;
@@ -100,6 +97,8 @@ $btn-box-shadow:              none !default;
 
 $font-family-sans-serif:      $janus-font-stack-base !default;
 $font-family-monospace:       $janus-font-stack-monospace !default;
+
+
 
 $font-size-base:              $janus-font-size-base !default;
 $btn-font-size-lg:            $janus-font-size-base !default;
