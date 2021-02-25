@@ -68,9 +68,9 @@ params:
   cdn:
     # See https://www.srihash.org for info on how to generate the hashes
     css:              "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-    css_hash:         "sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+    css_hash:         "sha384-YrdH83ccP2+CTqHgci/LrmjGb0dDmEZUeJ94xUchZogN6LZtHJXSRb7pzaiJAQYl"
     css_rtl:          "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.rtl.min.css"
-    css_rtl_hash:     "sha384-4dNpRvNX0c/TdYEbYup8qbjvjaMrgUPh+g4I03CnNtANuv+VAvPL6LqdwzZKV38G"
+    css_rtl_hash:     "sha384-ZMXIQFvDyGo/FVMN4YGxZg3z8wMu9fd+4YnHrp5UtpcFZMHGBPcsKnk3ovoXIxgi"
     js:               "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
     js_hash:          "sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
     js_bundle:        "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
