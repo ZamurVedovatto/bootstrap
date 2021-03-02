@@ -306,14 +306,14 @@
 
 .main-nav {
   &.navbar-collapse {
+    width: 100%;
+    max-width: 250px;
     height: calc(100vh - 56px);
-  }
-}
-
-@include media-breakpoint-up(md) {
-  .main-nav {
-    &.navbar-collapse {
+    @include media-breakpoint-up(md) {
       height: calc(100vh - 80px);
+    }
+    .nav-link {
+      max-width: 100%;
     }
   }
 }
