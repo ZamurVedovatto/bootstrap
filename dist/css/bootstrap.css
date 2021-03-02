@@ -4035,7 +4035,7 @@ textarea.form-control-lg {
 .collapsing {
   height: 0;
   overflow: hidden;
-  transition: height 0.1s linear;
+  transition: height 0s linear;
 }
 @media (prefers-reduced-motion: reduce) {
   .collapsing {
