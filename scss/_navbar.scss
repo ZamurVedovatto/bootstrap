@@ -303,3 +303,9 @@
     }
   }
 }
+
+.main-nav {
+  .navbar-collapse {
+    height: calc(100vh - 56px);
+  }
+}

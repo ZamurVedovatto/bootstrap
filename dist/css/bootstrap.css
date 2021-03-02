@@ -4919,6 +4919,10 @@ textarea.form-control-lg {
   color: white;
 }
 
+.main-nav .navbar-collapse {
+  height: calc(100vh - 56px);
+}
+
 .card {
   position: relative;
   display: flex;
