@@ -4932,6 +4932,10 @@ textarea.form-control-lg {
 .main-nav.navbar-collapse .nav-link {
   max-width: 100%;
 }
+.main-nav.navbar-collapse .nav-link.active {
+  padding-left: 1rem;
+  border-left: 8px solid red;
+}
 
 .card {
   position: relative;
