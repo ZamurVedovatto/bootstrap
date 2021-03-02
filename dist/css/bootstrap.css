@@ -4043,6 +4043,17 @@ textarea.form-control-lg {
   }
 }
 
+.expanding {
+  width: 0;
+  overflow: hidden;
+  transition: width 0.35s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .expanding {
+    transition: none;
+  }
+}
+
 .dropup,
 .dropend,
 .dropdown,
