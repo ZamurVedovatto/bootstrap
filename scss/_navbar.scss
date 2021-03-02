@@ -305,7 +305,15 @@
 }
 
 .main-nav {
-  .navbar-collapse {
+  &.navbar-collapse {
     height: calc(100vh - 56px);
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .main-nav {
+    &.navbar-collapse {
+      height: calc(100vh - 80px);
+    }
   }
 }
