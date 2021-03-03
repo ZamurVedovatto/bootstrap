@@ -325,12 +325,6 @@
       }
     }
 
-    a[aria-expanded=false] {
-      .tabler-chevron-down {
-        transform: rotate(-90deg);
-      }
-    }
-
     a[aria-expanded=true] {
       .tabler-chevron-down {
         transform: rotate(180deg);
