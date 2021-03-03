@@ -4931,10 +4931,18 @@ textarea.form-control-lg {
 }
 .main-nav.navbar-collapse .nav-link {
   max-width: 100%;
+  font-weight: 400;
 }
 .main-nav.navbar-collapse .nav-link.active {
   padding-left: 1rem;
   border-left: 8px solid #0e62b9;
+  font-weight: 700;
+}
+.main-nav.navbar-collapse a[aria-expanded=false] .tabler-chevron-down {
+  transform: rotate(-90deg);
+}
+.main-nav.navbar-collapse a[aria-expanded=true] .tabler-chevron-down {
+  transform: rotate(180deg);
 }
 
 .card {

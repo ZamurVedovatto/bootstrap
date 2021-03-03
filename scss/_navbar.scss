@@ -316,11 +316,25 @@
 
     .nav-link {
       max-width: 100%;
+      font-weight: 400;
       
       &.active {
         padding-left: 1rem;
         border-left: 8px solid $primary;
+        font-weight: 700;
       }
     }
+
+    a[aria-expanded=false] {
+      .tabler-chevron-down {
+        transform: rotate(-90deg);
+      }
+    }
+
+    a[aria-expanded=true] {
+      .tabler-chevron-down {
+        transform: rotate(180deg);
+      }
+    }        
   }
 }
