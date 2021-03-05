@@ -305,30 +305,28 @@
 }
 
 .main-nav {
-  &.navbar-collapse {
-    width: 100%;
-    max-width: 250px;
-    height: calc(100vh - 56px);
+  width: 250px;
+  height: 100vh;
+  background: $light;
 
-    @include media-breakpoint-up(md) {
-      height: calc(100vh - 80px);
-    }
-
-    .nav-link {
-      max-width: 100%;
-      font-weight: 400;
-      
-      &.active {
-        padding-left: 1rem;
-        border-left: 8px solid $primary;
-        font-weight: 700;
-      }
-    }
-
-    a[aria-expanded=true] {
-      .tabler-chevron-down {
-        transform: rotate(180deg);
-      }
-    }        
+  @include media-breakpoint-up(md) {
+    height: calc(100vh - 80px);
   }
+
+  .nav-link {
+    max-width: 100%;
+    font-weight: 400;
+      
+    &.active {
+      padding-left: 1rem;
+      border-left: 8px solid $primary;
+      font-weight: 700;
+    }
+  }
+
+  a[aria-expanded=true] {
+    .tabler-chevron-down {
+      transform: rotate(180deg);
+    }
+  }        
 }
