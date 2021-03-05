@@ -4919,8 +4919,6 @@ textarea.form-control-lg {
 
 .main-nav {
   width: 250px;
-  height: 100vh;
-  background: #ececec;
 }
 @media (min-width: 768px) {
   .main-nav {

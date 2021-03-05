@@ -306,8 +306,6 @@
 
 .main-nav {
   width: 250px;
-  height: 100vh;
-  background: $light;
 
   @include media-breakpoint-up(md) {
     height: calc(100vh - 80px);
