@@ -4917,24 +4917,24 @@ textarea.form-control-lg {
   color: white;
 }
 
-.main-nav {
+.modal .main-nav {
   width: 250px;
 }
 @media (min-width: 768px) {
-  .main-nav {
+  .modal .main-nav {
     height: calc(100vh - 80px);
   }
 }
-.main-nav .nav-link {
+.modal .main-nav .nav-link {
   max-width: 100%;
   font-weight: 400;
 }
-.main-nav .nav-link.active {
+.modal .main-nav .nav-link.active {
   padding-right: 1rem;
   border-right: 8px solid #0e62b9;
   font-weight: 700;
 }
-.main-nav a[aria-expanded=true] .tabler-chevron-down {
+.modal .main-nav a[aria-expanded=true] .tabler-chevron-down {
   transform: rotate(-180deg);
 }
 
