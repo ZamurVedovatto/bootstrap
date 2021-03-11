@@ -369,7 +369,7 @@ $btn-active-border-tint-amount:   10% !default;
 }
 
 svg {
-  stroke-width: 2;
+  stroke-width: 1.5;
 }
 
 .align-baseline {
