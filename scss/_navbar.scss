@@ -309,6 +309,7 @@
 
   @include media-breakpoint-up(md) {
     height: calc(100vh - 80px);
+    font-size: $janus-font-size-small;
   }
 
   .nav-link {
