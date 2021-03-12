@@ -372,6 +372,10 @@ svg {
   stroke-width: 1.5;
 }
 
+[class*="tabler-chevron-*"] {
+  stroke-width: 2;
+}
+
 .align-baseline {
   vertical-align: baseline !important;
 }
