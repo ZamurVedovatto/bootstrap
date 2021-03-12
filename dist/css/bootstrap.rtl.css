@@ -4929,11 +4929,13 @@ textarea.form-control-lg {
   max-width: 100%;
   font-weight: 400;
 }
-@media (max-width: 767.98px) {
+.main-nav .nav-link.active {
+  border-right: 8px solid #0e62b9;
+  font-weight: 700;
+}
+@media (min-width: 768px) {
   .main-nav .nav-link.active {
-    padding-right: 1rem;
-    border-right: 8px solid #0e62b9;
-    font-weight: 700;
+    border-right: none;
   }
 }
 .main-nav a[aria-expanded=true] .tabler-chevron-down {

@@ -315,11 +315,14 @@
     max-width: 100%;
     font-weight: 400;
   
-    @include media-breakpoint-down(md) {    
+    &.active {
+      border-left: 8px solid $primary;
+      font-weight: 700;
+    }
+
+    @include media-breakpoint-up(md) {
       &.active {
-        padding-left: 1rem;
-        border-left: 8px solid $primary;
-        font-weight: 700;
+        border-left: none;
       }
     }
 
