@@ -21,6 +21,8 @@ svg {
   stroke-width: 1.5;
 }
 
-[class*="tabler-chevron-*"] {
-  stroke-width: 2;
+[class^="tabler-chevron-"] { 
+    svg {
+      stroke-width: 2;
+    }
 }
