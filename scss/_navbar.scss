@@ -321,7 +321,7 @@
       font-weight: 700;
     }
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       &.active {
         border-left: none;
       }

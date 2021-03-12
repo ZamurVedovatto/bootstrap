@@ -4934,7 +4934,7 @@ textarea.form-control-lg {
   border-right: 8px solid #0e62b9;
   font-weight: 700;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .main-nav .nav-link.active {
     border-right: none;
   }
