@@ -4926,6 +4926,9 @@ textarea.form-control-lg {
     font-size: 0.875em;
   }
 }
+.main-nav .nav-header {
+  margin-bottom: 0.25rem;
+}
 .main-nav .nav-link {
   max-width: 100%;
   font-weight: 400;

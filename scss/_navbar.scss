@@ -312,6 +312,10 @@
     font-size: $janus-font-size-small;
   }
 
+  .nav-header {
+    margin-bottom: $janus-dropdown-spacer;
+  }
+
   .nav-link {
     max-width: 100%;
     font-weight: 400;
