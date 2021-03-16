@@ -307,8 +307,8 @@
 .main-nav {
   width: 262px;
 
-  @include media-breakpoint-up(md) {
-    font-size: $janus-font-size-small;
+  .main-nav-close {
+    width: 64px;
   }
 
   .nav-header {

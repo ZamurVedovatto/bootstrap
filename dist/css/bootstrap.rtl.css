@@ -4920,10 +4920,8 @@ textarea.form-control-lg {
 .main-nav {
   width: 262px;
 }
-@media (min-width: 768px) {
-  .main-nav {
-    font-size: 0.875em;
-  }
+.main-nav .main-nav-close {
+  width: 64px;
 }
 .main-nav .nav-header {
   margin-bottom: 0.25rem;
