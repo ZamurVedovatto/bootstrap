@@ -4924,7 +4924,6 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) {
   .main-nav {
-    height: calc(100vh - 80px);
     font-size: 0.875em;
   }
 }
