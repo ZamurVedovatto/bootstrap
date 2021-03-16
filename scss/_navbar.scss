@@ -305,7 +305,12 @@
 }
 
 .main-nav {
+
   width: 262px;
+
+  @include media-breakpoint-up(lg) {
+    width: 250px;
+  }
 
   .main-nav-close {
     width: 64px;

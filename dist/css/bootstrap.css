@@ -4922,6 +4922,11 @@ textarea.form-control-lg {
 .main-nav {
   width: 262px;
 }
+@media (min-width: 992px) {
+  .main-nav {
+    width: 250px;
+  }
+}
 .main-nav .main-nav-close {
   width: 64px;
 }
