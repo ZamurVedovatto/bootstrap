@@ -140,22 +140,22 @@
       &.main-nav-trigger {
         position: relative;
         left: -8px;
+        background: none;
 
         &:hover,
         &:focus {
           box-shadow: none;
-          background: none;
           color: $gray-800;
+        }
+
+        &:focus + &,
+        &:focus {
+          outline: 2px solid #000;
         }
 
         svg {
           stroke-width: 3;
         }
-      }
-
-      &:focus + &,
-      &:focus {
-        outline: 2px solid #000;
       }
 
     }

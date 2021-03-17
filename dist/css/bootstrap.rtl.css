@@ -3943,17 +3943,17 @@ textarea.form-control-lg {
 .btn-action.btn-action-icon-only.btn-action-header.main-nav-trigger {
   position: relative;
   right: -8px;
+  background: none;
 }
 .btn-action.btn-action-icon-only.btn-action-header.main-nav-trigger:hover, .btn-action.btn-action-icon-only.btn-action-header.main-nav-trigger:focus {
   box-shadow: none;
-  background: none;
   color: #454545;
+}
+.btn-action.btn-action-icon-only.btn-action-header.main-nav-trigger:focus + .btn-action.btn-action-icon-only.btn-action-header.main-nav-trigger, .btn-action.btn-action-icon-only.btn-action-header.main-nav-trigger:focus {
+  outline: 2px solid #000;
 }
 .btn-action.btn-action-icon-only.btn-action-header.main-nav-trigger svg {
   stroke-width: 3;
-}
-.btn-action.btn-action-icon-only.btn-action-header:focus + .btn-action.btn-action-icon-only.btn-action-header, .btn-action.btn-action-icon-only.btn-action-header:focus {
-  outline: 2px solid #000;
 }
 .btn-action.btn-action-icon-only.btn-search {
   border-radius: 50rem;
