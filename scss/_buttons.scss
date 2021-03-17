@@ -141,16 +141,16 @@
         position: relative;
         left: -8px;
 
+        &:hover,
+        &:focus {
+          box-shadow: none;
+          background: none;
+          color: $gray-800;
+        }
+
         svg {
           stroke-width: 3;
         }
-      }
-
-      &:hover,
-      &:focus {
-        box-shadow: none;
-        background: none;
-        color: $gray-800;
       }
 
       &:focus + &,
