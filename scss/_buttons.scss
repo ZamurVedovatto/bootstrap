@@ -133,13 +133,12 @@
     padding: 0;
 
     &.btn-action-header {
-      width: 2.5rem;
-      height: 2.5rem;
-      background: $gray-100;
 
       &:hover,
       &:focus {
-        box-shadow: $box-shadow-sm;
+        box-shadow: none;
+        background: none;
+        color: $gray-800;
       }
     }
 

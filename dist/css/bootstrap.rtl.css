@@ -3935,13 +3935,10 @@ textarea.form-control-lg {
   height: 2rem;
   padding: 0;
 }
-.btn-action.btn-action-icon-only.btn-action-header {
-  width: 2.5rem;
-  height: 2.5rem;
-  background: #f6f6f6;
-}
 .btn-action.btn-action-icon-only.btn-action-header:hover, .btn-action.btn-action-icon-only.btn-action-header:focus {
-  box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.5);
+  box-shadow: none;
+  background: none;
+  color: #454545;
 }
 .btn-action.btn-action-icon-only.btn-search {
   border-radius: 50rem;
