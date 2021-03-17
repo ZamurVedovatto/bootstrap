@@ -133,6 +133,8 @@
     padding: 0;
 
     &.btn-action-header {
+      position: relative;
+      left: -8px;
 
       &:hover,
       &:focus {
@@ -144,8 +146,6 @@
       &:focus + &,
       &:focus {
         outline: 2px solid #000;
-        position: relative;
-        left: -8px;
       }
     }
 
