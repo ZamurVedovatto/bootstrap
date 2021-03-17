@@ -3942,6 +3942,11 @@ textarea.form-control-lg {
   background: none;
   color: #454545;
 }
+.btn-action.btn-action-icon-only.btn-action-header:focus + .btn-action.btn-action-icon-only.btn-action-header, .btn-action.btn-action-icon-only.btn-action-header:focus {
+  outline: 2px solid #000;
+  position: relative;
+  left: -8px;
+}
 .btn-action.btn-action-icon-only.btn-search {
   border-radius: 50rem;
 }

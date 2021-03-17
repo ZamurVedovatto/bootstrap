@@ -140,6 +140,13 @@
         background: none;
         color: $gray-800;
       }
+
+      &:focus + &,
+      &:focus {
+        outline: 2px solid #000;
+        position: relative;
+        left: -8px;
+      }
     }
 
     &.btn-search {
