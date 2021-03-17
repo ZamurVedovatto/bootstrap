@@ -323,6 +323,13 @@
   .nav-link {
     max-width: 100%;
     font-weight: 400;
+
+    @include media-breakpoint-up(lg) {
+      margin-top: janus-input-btn-padding-y-lg;
+      margin-bottom: janus-input-btn-padding-y-lg;
+      line-height: 1.75;
+    }
+    
   
     &.active {
       border-left: 8px solid $primary;

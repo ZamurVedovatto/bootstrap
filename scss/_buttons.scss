@@ -133,8 +133,18 @@
     padding: 0;
 
     &.btn-action-header {
-      position: relative;
-      left: -8px;
+      width: 2.5rem;
+      height: 2.5rem;
+      background: $gray-100;
+
+      &.main-nav-trigger {
+        position: relative;
+        left: -8px;
+
+        svg {
+          stroke-width: 3;
+        }
+      }
 
       &:hover,
       &:focus {
@@ -148,9 +158,6 @@
         outline: 2px solid #000;
       }
 
-      svg {
-        stroke-width: 3px;
-      }
     }
 
     &.btn-search {
