@@ -1,6 +1,4 @@
 .avatar {
-  @include font-size($janus-avatar-font-size);
-  line-height: $janus-avatar-line-height;
   height: 24px;
   min-width: 24px;
   padding: 0;
@@ -8,6 +6,7 @@
 
   &.avatar-text {
     @include font-size($janus-avatar-font-size);
+    line-height: $janus-avatar-line-height;
     font-weight: $font-weight-semibold; 
   }
 
@@ -15,8 +14,7 @@
     overflow: hidden;
 
     img {
-      max-width: 100%;
-      height: auto;
+      height: 100%;
     }
   }
 
