@@ -10,6 +10,8 @@
   }
 
   &.avatar-image {
+    overflow: hidden;
+
     img {
       width: $janus-avatar-image-size;
     }
