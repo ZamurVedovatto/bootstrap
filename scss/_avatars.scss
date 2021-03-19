@@ -1,0 +1,33 @@
+.avatar {
+  @include font-size($janus-avatar-font-size);
+
+  &.avatar-text,
+  &.avatar-photo {
+    @include font-size($janus-avatar-font-size);
+  }
+
+  &.avatar-icon,
+  &.avatar-logo {
+
+    svg {
+      width: $janus-avatar-icon-size;
+      height: $janus-avatar-icon-size;
+    }
+  }
+
+  &.avatar-sm {
+    width: 24px;
+  }
+  
+  &.avatar-md {
+    width: 40px;
+  }
+  
+  &.avatar-lg {
+    width: 64px;
+  }
+  
+  &.avatar-xl {
+    width: 96px;
+  }
+}

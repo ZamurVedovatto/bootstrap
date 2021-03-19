@@ -7011,6 +7011,29 @@ textarea.form-control-lg {
     animation-duration: 1.5s;
   }
 }
+.avatar {
+  font-size: 0.375rem;
+}
+.avatar.avatar-text, .avatar.avatar-photo {
+  font-size: 0.375rem;
+}
+.avatar.avatar-icon svg, .avatar.avatar-logo svg {
+  width: 0.7rem;
+  height: 0.7rem;
+}
+.avatar.avatar-sm {
+  width: 24px;
+}
+.avatar.avatar-md {
+  width: 40px;
+}
+.avatar.avatar-lg {
+  width: 64px;
+}
+.avatar.avatar-xl {
+  width: 96px;
+}
+
 .clearfix::after {
   display: block;
   clear: both;
