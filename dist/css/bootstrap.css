@@ -7018,8 +7018,11 @@ textarea.form-control-lg {
   padding: 0;
   border: none;
 }
-.avatar.avatar-text, .avatar.avatar-photo {
+.avatar.avatar-text {
   font-size: 0.5rem;
+}
+.avatar.avatar-image img {
+  width: 1.5rem;
 }
 .avatar.avatar-icon svg, .avatar.avatar-logo svg {
   width: 1rem;

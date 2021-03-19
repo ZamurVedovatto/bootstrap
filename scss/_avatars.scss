@@ -5,9 +5,14 @@
   padding: 0;
   border: none;
 
-  &.avatar-text,
-  &.avatar-photo {
+  &.avatar-text {
     @include font-size($janus-avatar-font-size);
+  }
+
+  &.avatar-image {
+    img {
+      width: $janus-avatar-image-size;
+    }
   }
 
   &.avatar-icon,
