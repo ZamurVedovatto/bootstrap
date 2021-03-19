@@ -1,5 +1,6 @@
 .avatar {
   @include font-size($janus-avatar-font-size);
+  line-height: $janus-avatar-line-height;
   height: 24px;
   min-width: 24px;
   padding: 0;
@@ -7,39 +8,43 @@
 
   &.avatar-text {
     @include font-size($janus-avatar-font-size);
+    font-weight: $font-weight-semibold; 
   }
 
   &.avatar-image {
     overflow: hidden;
 
     img {
-      width: $janus-avatar-image-size;
-      height: $janus-avatar-image-size;
+      max-width: 100%;
+      height: auto;
     }
   }
 
-  &.avatar-icon,
-  &.avatar-logo {
-
+  &.avatar-icon {
     svg {
-      width: $janus-avatar-icon-size;
-      height: $janus-avatar-icon-size;
+      width: 100%;
+      height: 100%;
+      padding: .25rem;
     }
   }
 
   &.avatar-sm {
     width: 24px;
+    height: 24px;
   }
   
   &.avatar-md {
     width: 40px;
+    height: 40px;
   }
   
   &.avatar-lg {
     width: 64px;
+    height: 64px;
   }
   
   &.avatar-xl {
     width: 96px;
+    height: 96px;
   }
 }
