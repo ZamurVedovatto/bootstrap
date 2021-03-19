@@ -7012,11 +7012,13 @@ textarea.form-control-lg {
 }
 .avatar.avatar-image img {
   height: 100%;
+  vertical-align: top;
 }
 .avatar.avatar-icon svg {
   width: 100%;
   height: 100%;
   padding: 0.25rem;
+  vertical-align: top;
 }
 .avatar.avatar-sm {
   width: 24px;
