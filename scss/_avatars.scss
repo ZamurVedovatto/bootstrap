@@ -8,6 +8,7 @@
     @include font-size($janus-avatar-font-size);
     line-height: $janus-avatar-line-height;
     font-weight: $font-weight-semibold;
+    vertical-align: top;
   }
 
   &.avatar-image {

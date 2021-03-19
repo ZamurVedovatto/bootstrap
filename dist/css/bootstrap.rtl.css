@@ -7006,6 +7006,7 @@ textarea.form-control-lg {
   font-size: 1vw;
   line-height: 1rem;
   font-weight: 600;
+  vertical-align: top;
 }
 .avatar.avatar-image {
   overflow: hidden;
