@@ -7011,6 +7011,7 @@ textarea.form-control-lg {
 }
 .avatar.avatar-image img {
   width: 1.5rem;
+  height: 1.5rem;
 }
 .avatar.avatar-icon svg, .avatar.avatar-logo svg {
   width: 1rem;
