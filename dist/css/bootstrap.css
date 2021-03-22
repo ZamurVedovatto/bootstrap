@@ -7043,14 +7043,17 @@ textarea.form-control-lg {
 .avatar.avatar-md {
   width: 40px;
   height: 40px;
+  font-size: 1rem;
 }
 .avatar.avatar-lg {
   width: 64px;
   height: 64px;
+  font-size: 1.5rem;
 }
 .avatar.avatar-xl {
   width: 96px;
   height: 96px;
+  font-size: 2rem;
 }
 
 .clearfix::after {
