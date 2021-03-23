@@ -7041,6 +7041,9 @@ textarea.form-control-lg {
   height: 96px;
   font-size: 2rem;
 }
+.avatar.avatar-xl svg {
+  stroke-width: 1;
+}
 
 .clearfix::after {
   display: block;
