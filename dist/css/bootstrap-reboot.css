@@ -6,6 +6,7 @@
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
 @import url("//use.typekit.net/awj6qer.css");
+/* border-radius-xl and xxl also available */
 /*
 $btn-hover-bg-shade-amount:       15% !default;
 $btn-hover-bg-tint-amount:        15% !default;
