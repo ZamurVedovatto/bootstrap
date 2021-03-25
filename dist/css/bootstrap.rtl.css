@@ -7011,6 +7011,7 @@ textarea.form-control-lg {
 }
 .avatar.avatar-image {
   overflow: hidden;
+  border: 2px solid #f6f6f6;
 }
 .avatar.avatar-image img {
   height: 100%;
