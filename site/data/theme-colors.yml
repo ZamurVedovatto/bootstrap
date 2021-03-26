@@ -17,3 +17,16 @@
   contrast_color: dark
 - name: dark
   hex: "#343a40"
+- name: pale-green
+  hex: "#66debe"
+- name: pale-orange
+  hex: "#f0874b"
+- name: pale-indigo
+  hex: "#5a90e8"
+- name: pale-purple
+  hex: "#9992fb"
+- name: pale-blue
+  hex: "66baec"  
+- name: pale-red
+  hex: "#f66666"  
+

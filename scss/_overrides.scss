@@ -1,0 +1,241 @@
+// ======================================================================================
+// BEGIN JANUS DESIGN TOKENS IMPLEMENTATION
+
+// Import variables from Janus design tokens
+@import "../node_modules/@symplicity/janus-tokens/dist/index.scss";
+@import url("//use.typekit.net/awj6qer.css");
+
+// Map Janus design tokens to bootstrap variables
+$white: $janus-color-white !default;
+$gray-100: $janus-color-gray-100 !default;
+$gray-200: $janus-color-gray-200 !default;
+$gray-300: $janus-color-gray-300 !default;
+$gray-400: $janus-color-gray-400 !default;
+$gray-500: $janus-color-gray-500 !default;
+$gray-600: $janus-color-gray-600 !default;
+$gray-700: $janus-color-gray-700 !default;
+$gray-800: $janus-color-gray-800 !default;
+$gray-900: $janus-color-gray-900 !default;
+$black: $janus-color-black !default;
+
+$blue:    $janus-color-primary !default;
+$indigo:  #6610f2 !default;         // NEEDS REVIEW
+$purple:  #6f42c1 !default;         // NEEDS REVIEW
+$pink:    #e83e8c !default;         // NEEDS REVIEW
+$red:     $janus-color-danger !default;
+$orange:  #fd7e14 !default;         // NEEDS REVIEW
+$yellow:  $janus-color-warning !default;
+$green:   $janus-color-success !default;
+$teal:    #20c997 !default;         // NEEDS REVIEW
+$cyan:    $janus-color-info !default;
+
+$pale-green: $janus-color-pale-green;
+$pale-orange: $janus-color-pale-orange;
+$pale-indigo: $janus-color-pale-indigo;
+$pale-purple: $janus-color-pale-purple;
+$pale-blue: $janus-color-pale-blue;
+$pale-red: $janus-color-pale-red;
+
+$primary:       $blue !default;
+$secondary:     $janus-color-secondary !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $janus-color-secondary-background !default;
+$dark:          $gray-800 !default;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+  "pale-green": $pale-green,
+  "pale-orange": $pale-orange,
+  "pale-indigo": $pale-indigo,
+  "pale-purple": $pale-purple,
+  "pale-blue": $pale-blue,
+  "pale-red": $pale-red
+) !default;
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-negative-margins:     true !default;
+$enable-validation-icons:     false !default;
+$enable-shadows:              true !default;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-color:                  $gray-800 !default;
+
+$box-shadow:                  0 .125rem .25rem rgba($black, .5) !default;
+$box-shadow-sm:               0 .0625rem .125rem rgba($black, .5) !default;
+$box-shadow-lg:               0 .125rem .375rem rgba($black, .3) !default;
+
+$modal-content-box-shadow-xs: $box-shadow;
+$modal-content-box-shadow-sm-up: $box-shadow;
+
+$alert-bg-scale:              -87% !default;
+$alert-border-scale:          0% !default;
+$alert-color-scale:           -75% !default;
+
+$alert-border-width:          0 !default;
+
+$btn-border-radius:           $janus-border-radius-lg !default;
+$btn-border-radius-lg:        $janus-border-radius-lg !default;
+$btn-border-radius-sm:        $janus-border-radius-sm !default;
+
+$btn-box-shadow:              none !default;
+
+$font-family-sans-serif:      $janus-font-stack-base !default;
+$font-family-monospace:       $janus-font-stack-monospace !default;
+
+
+
+$font-size-base:              $janus-font-size-base !default;
+$btn-font-size-lg:            $janus-font-size-base !default;
+
+$line-height-base:            $janus-line-height-base !default;
+$headings-line-height:        $janus-headings-line-height-base !default;
+
+$h1-font-size:                $janus-font-size-base * 2 !default;
+$h2-font-size:                $janus-font-size-base * 1.75 !default;
+$h3-font-size:                $janus-font-size-base * 1.25 !default;
+$h4-font-size:                $janus-font-size-base !default;
+$h5-font-size:                $janus-font-size-base * .875 !default;
+$h6-font-size:                $janus-font-size-base * .8125 !default;
+
+// scss-docs-start display-headings
+$display-font-sizes: (
+  1: 5rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem,
+  7: .875rem
+) !default;
+
+$legend-margin-bottom:        .25rem !default;
+$legend-font-size:            $h4-font-size !default;
+$legend-font-weight:          600 !default;
+
+$border-radius:               $janus-border-radius !default;
+$border-radius-sm:            $janus-border-radius-sm !default;
+$border-radius-lg:            $janus-border-radius-lg !default;
+
+/* border-radius-xl and xxl also available */
+
+$input-btn-padding-y:         $janus-input-btn-padding-y !default;
+$input-btn-padding-x:         $janus-input-btn-padding-x !default;
+$input-btn-padding-y-sm:      $janus-input-btn-padding-y-sm !default;
+$input-btn-padding-x-sm:      $janus-input-btn-padding-x-sm !default;
+$input-btn-padding-y-lg:      $janus-input-btn-padding-y-lg !default;
+$input-btn-padding-x-lg:      $janus-input-btn-padding-x-lg !default;
+
+$input-box-shadow:            none !default;
+
+$input-padding-x:             $janus-input-text-padding-x !default;
+$input-padding-y:             $janus-input-text-padding-y !default;
+
+$border-width:                1px !default;
+$border-color:                $janus-color-primary !default;
+$input-btn-border-width:      $border-width !default;
+$btn-border-width:            $input-btn-border-width * 2 !default;
+
+$form-check-input-border:     1px solid rgba(148, 148, 148, 1) !default;
+$form-check-input-width:      1em !default;
+$form-check-margin-bottom:    $janus-dropdown-spacer !default;
+$form-check-input-border-radius: $janus-border-radius-sm !default;
+
+$badge-padding-x:             $janus-badge-padding-x !default;
+$badge-padding-y:             $janus-badge-padding-y !default;
+$badge-border-radius:         $janus-border-radius-sm !default;
+
+$alert-padding-x:             $janus-alert-padding-x !default;
+$alert-padding-y:             $janus-alert-padding-y !default;
+
+//$close-font-size:             $janus-font-size-base !default;
+//$close-line-height:           $janus-icon-lg-line-height !default;
+//$close-text-shadow:           none !default;
+
+$dropdown-min-width:          9.375rem !default;
+$dropdown-item-padding-y:     $janus-dropdown-item-padding-y !default;
+$dropdown-item-padding-x:     $janus-dropdown-item-padding-x !default;
+
+$dropdown-header-color:       $janus-color-secondary !default;
+$dropdown-spacer:             $janus-dropdown-spacer !default;
+$dropdown-border-radius:      $janus-border-radius-lg !default;
+$dropdown-box-shadow:         $box-shadow-sm !default;
+$dropdown-border-color:       $janus-color-secondary-background !default;
+
+$dropdown-divider-bg:         $janus-color-gray-200 !default;
+
+$modal-title-line-height:     $janus-modal-title-line-height !default;
+$modal-header-border-color:   transparent !default;
+$modal-content-border-color:  transparent !default;
+
+$btn-disabled-color:          $janus-disabled-button-color;
+$btn-disabled-border-color:   $janus-disabled-button-border-color;
+$btn-disabled-background-color: $janus-disabled-button-background-color;
+
+$font-weight-semibold:        600 !default;
+$btn-font-weight:             $font-weight-semibold !default;
+
+$input-focus-border-color:    $janus-color-primary !default;
+
+$input-btn-focus-width:       .125rem !default;
+$input-btn-focus-box-shadow:  0 0 0 $input-btn-focus-width $janus-color-primary !default;
+$input-btn-focus-color-opacity: 1!default;
+
+$btn-disabled-opacity:        1 !default;
+
+$form-text-line-height:       1.3125rem;
+$form-text-margin-top:        -0.25rem !default;
+$form-text-margin-bottom:     .5rem;
+
+$form-label-margin-bottom:    .25rem !default;
+$form-label-font-weight:      600 !default;
+$form-feedback-font-size:     $janus-font-size-small !default;
+$form-feedback-margin-bottom: .25rem;
+$form-feedback-margin-top:    -0.25rem;
+
+$form-select-bg-position:     right $janus-form-select-padding-x center !default;
+$search-select-bg-position:   right $janus-search-select-padding-x center;
+
+$btn-close-color:             $black !default;
+$btn-close-bg:                url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' fill='#{$btn-close-color}' viewBox='0 0 24 24'><path d='M 20.7,4.7 19.3,3.3 12,10.6 4.7,3.3 3.3,4.7 10.6,12 3.3,19.3 4.7,20.7 12,13.4 19.3,20.7 20.7,19.3 13.4,12 Z'/></svg>") !default;
+
+$popover-box-shadow:          none !default;
+
+$modal-content-border-radius: $janus-border-radius !default;
+
+$card-spacer-y:               $janus-card-spacer-y !default;
+$card-spacer-x:               $janus-card-spacer-x !default;
+$card-border-color:           $gray-200 !default;
+$card-cap-padding-x:          1.25rem !default;
+$card-cap-padding-y:          1.25rem !default;
+$card-cap-margin-bottom:      .25rem;
+$card-inner-border-radius:    $border-radius !default;
+
+$nav-tabs-link-active-color:  $janus-color-primary !default;
+$nav-tabs-border-color:       $white $white $white;
+$nav-tabs-link-active-border-color: $janus-color-primary !default;
+$nav-link-padding-x:          $janus-nav-link-padding-x !default;
+$nav-link-padding-y:          $janus-nav-link-padding-y !default;
+$nav-link-font-weight:        600 !default;
+$nav-tabs-border-width:       0 !default;
+
+$link-hover-decoration:       underline !default;
+
+$hr-opacity:                  .1 !default;
+
+$transition-collapse:         height 0s linear !default;

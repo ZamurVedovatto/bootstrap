@@ -168,6 +168,11 @@
   overflow: scroll;
 }
 
+.modal-header {
+  background: $light;
+  align-items: center;
+}
+
 // Scale up the modal
 @include media-breakpoint-up(sm) {
   // Automatically set modal's width for larger viewports
@@ -232,6 +237,15 @@
         @include border-radius(0);
       }
     }
+  }
+}
+
+.modal-search {
+  .btn {
+    min-width: 40px;
+    max-width: 40px;
+    height: 40px;
+    padding: 0;
   }
 }
 // scss-docs-end modal-fullscreen-loop
