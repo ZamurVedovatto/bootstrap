@@ -6321,6 +6321,7 @@ textarea.form-control-lg {
 .modal-title {
   margin-bottom: 0;
   line-height: 1.45rem;
+  font-weight: 600;
 }
 
 .modal-body {
@@ -6353,7 +6354,7 @@ textarea.form-control-lg {
 }
 
 .modal-header {
-  background: #ececec;
+  background: #f6f6f6;
   align-items: center;
 }
 
