@@ -7050,6 +7050,12 @@ textarea.form-control-lg {
   padding: 0.25rem;
   vertical-align: top;
 }
+.avatar.avatar-icon.avatar-lg svg {
+  padding: 0.5rem;
+}
+.avatar.avatar-icon.avatar-xl svg {
+  padding: 0.75rem;
+}
 .avatar.avatar-sm {
   width: 24px;
   height: 24px;

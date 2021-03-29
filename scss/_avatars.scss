@@ -28,6 +28,18 @@
       padding: .25rem;
       vertical-align: top;
     }
+
+    &.avatar-lg {
+      svg {
+        padding: .5rem;
+      }
+    }
+
+    &.avatar-xl {
+      svg {
+        padding: .75rem;
+      }
+    }
   }
 
   &.avatar-sm {
