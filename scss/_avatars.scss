@@ -45,12 +45,20 @@
   &.avatar-sm {
     width: 24px;
     height: 24px;
+
+    svg {
+      stroke-width: 2;
+    }
   }
   
   &.avatar-md {
     width: 40px;
     height: 40px;
     font-size: 1rem;
+
+    svg {
+      stroke-width: 1.25;
+    }
   }
   
   &.avatar-lg {
@@ -69,7 +77,7 @@
     font-size: 2rem;
 
     svg {
-      stroke-width: 1;
+      stroke-width: .75;
     }
   }
 }

@@ -3257,7 +3257,7 @@ textarea.form-control-lg {
   border-radius: 0.188rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transform: translateZ(0);
-  min-width: 90px;
+  min-width: 60px;
 }
 @media (prefers-reduced-motion: reduce) {
   .btn {
@@ -7060,10 +7060,16 @@ textarea.form-control-lg {
   width: 24px;
   height: 24px;
 }
+.avatar.avatar-sm svg {
+  stroke-width: 2;
+}
 .avatar.avatar-md {
   width: 40px;
   height: 40px;
   font-size: 1rem;
+}
+.avatar.avatar-md svg {
+  stroke-width: 1.25;
 }
 .avatar.avatar-lg {
   width: 64px;
@@ -7079,7 +7085,7 @@ textarea.form-control-lg {
   font-size: 2rem;
 }
 .avatar.avatar-xl svg {
-  stroke-width: 1;
+  stroke-width: 0.75;
 }
 
 .offcanvas {
