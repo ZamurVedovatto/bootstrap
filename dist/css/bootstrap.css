@@ -4099,6 +4099,12 @@ textarea.form-control-lg {
   box-shadow: inset 0px 0px 0px 3px #000;
 }
 
+@media (min-width: 768px) {
+  .profile-header .profile-header-primary-actions {
+    justify-content: flex-end;
+  }
+}
+
 .fade {
   transition: opacity 0.15s linear;
 }

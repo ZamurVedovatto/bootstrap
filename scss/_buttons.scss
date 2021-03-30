@@ -248,3 +248,11 @@
     }
   }
 }
+
+.profile-header {
+  .profile-header-primary-actions {
+    @include media-breakpoint-up(md) {
+      justify-content: flex-end;
+    }
+  }
+}
