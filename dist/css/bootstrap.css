@@ -4112,7 +4112,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 576px) {
   .profile-header .profile-header-primary-actions {
-    margin-top: 0px;
+    margin: 0px;
   }
 }
 @media (min-width: 768px) {
