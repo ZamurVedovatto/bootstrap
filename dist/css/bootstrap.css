@@ -4108,11 +4108,12 @@ textarea.form-control-lg {
   }
 }
 .profile-header .profile-header-primary-actions {
+  padding: 0 12px;
   margin-top: 20px;
 }
 @media (min-width: 576px) {
   .profile-header .profile-header-primary-actions {
-    margin: 0px;
+    margin-top: 20px;
   }
 }
 @media (min-width: 768px) {

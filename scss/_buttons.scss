@@ -260,10 +260,14 @@
   }
 
   .profile-header-primary-actions {
-    margin-top: 20px;
+
+    @include media-breakpoint-up(xs) { 
+      padding: 0 12px;
+      margin-top: 20px;
+    }
 
     @include media-breakpoint-up(sm) {
-      margin: 0px;
+      margin-top: 20px;
     }
 
     @include media-breakpoint-up(md) {
