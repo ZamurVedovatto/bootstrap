@@ -4099,9 +4099,18 @@ textarea.form-control-lg {
   box-shadow: inset 0px 0px 0px 3px #000;
 }
 
+@media (min-width: 576px) {
+  .profile-header .profile-header-logo {
+    margin-bottom: 0;
+  }
+}
+.profile-header .profile-header-primary-actions {
+  margin-top: 20px;
+}
 @media (min-width: 768px) {
   .profile-header .profile-header-primary-actions {
     justify-content: flex-end;
+    margin-top: -40px;
   }
 }
 
