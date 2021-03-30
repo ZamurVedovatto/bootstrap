@@ -253,7 +253,7 @@
   .profile-header-logo {
     .avatar {
       margin-bottom: 40px;
-      @include media-breakpoint-up(sm) {
+      @include media-breakpoint-up(md) {
         margin-bottom: 0;
       }
     }
