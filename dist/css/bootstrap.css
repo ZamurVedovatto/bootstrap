@@ -4100,7 +4100,7 @@ textarea.form-control-lg {
 }
 
 @media (min-width: 576px) {
-  .profile-header .profile-header-logo {
+  .profile-header .profile-header-logo .avatar {
     margin-bottom: 0;
   }
 }
