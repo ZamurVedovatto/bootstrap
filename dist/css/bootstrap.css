@@ -3259,7 +3259,7 @@ textarea.form-control-lg {
   border-radius: 0.188rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transform: translateZ(0);
-  min-width: 60px;
+  min-width: 90px;
 }
 @media (prefers-reduced-motion: reduce) {
   .btn {
@@ -4097,6 +4097,10 @@ textarea.form-control-lg {
 }
 .btn-search-combo button:focus {
   box-shadow: inset 0px 0px 0px 3px #000;
+}
+
+.btn-more {
+  min-width: 60px;
 }
 
 .fade {

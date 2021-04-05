@@ -19,7 +19,7 @@
   @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-border-radius);
   @include transition($btn-transition);
   transform: translateZ(0);
-  min-width: 60px;
+  min-width: 90px;
 
   &:hover {
     color: $body-color;
@@ -247,4 +247,8 @@
       box-shadow: inset 0px 0px 0px 3px #000;
     }
   }
+}
+
+.btn-more {
+  min-width: 60px;
 }
