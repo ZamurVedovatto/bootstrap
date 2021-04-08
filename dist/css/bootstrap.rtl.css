@@ -7100,19 +7100,9 @@ textarea.form-control-lg {
     margin-bottom: 0;
   }
 }
-.profile-header .profile-header-primary-actions {
-  padding: 0 12px;
-  margin-top: 20px;
-}
-@media (min-width: 576px) {
-  .profile-header .profile-header-primary-actions {
-    margin-top: 20px;
-  }
-}
 @media (min-width: 768px) {
-  .profile-header .profile-header-primary-actions {
+  .profile-header .profile-header-primary-actions .btn-toolbar {
     justify-content: flex-end;
-    margin-top: -40px;
   }
 }
 
