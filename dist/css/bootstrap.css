@@ -7116,8 +7116,14 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 768px) {
+  .profile-header .profile-header-body {
+    margin-top: -20px;
+  }
+}
+@media (min-width: 768px) {
   .profile-header .profile-header-primary-actions .btn-toolbar {
     justify-content: flex-end;
+    margin-top: -36px;
   }
 }
 

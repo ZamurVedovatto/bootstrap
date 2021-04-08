@@ -8,11 +8,19 @@
     }
   }
 
+  .profile-header-body {
+    @include media-breakpoint-up(md) {
+      margin-top: -20px;
+    }
+  }
+
   .profile-header-primary-actions {
-    .btn-toolbar {
-      @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(md) {
+      .btn-toolbar {
         justify-content: flex-end;
+        margin-top: -36px;
       }
     }
   }
+
 }
