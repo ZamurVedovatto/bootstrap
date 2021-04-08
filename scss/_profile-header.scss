@@ -8,12 +8,6 @@
     }
   }
 
-  .profile-header-body {
-    @include media-breakpoint-up(md) {
-      margin-top: -20px;
-    }
-  }
-
   .profile-header-primary-actions {
     @include media-breakpoint-up(md) {
       .btn-toolbar {
