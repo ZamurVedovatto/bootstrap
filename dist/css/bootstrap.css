@@ -7107,12 +7107,17 @@ textarea.form-control-lg {
   stroke-width: 0.75;
 }
 
+@media (min-width: 768px) {
+  .profile-header .profile-header-logo {
+    display: inline-block;
+  }
+}
 .profile-header .profile-header-logo .avatar {
   margin-bottom: 40px;
 }
 @media (min-width: 768px) {
-  .profile-header .profile-header-logo {
-    display: inline-block;
+  .profile-header .profile-header-logo .avatar {
+    margin-bottom: 0;
   }
 }
 @media (min-width: 768px) {

@@ -1,10 +1,13 @@
 .profile-header {
   .profile-header-logo {
-    .avatar {
-      margin-bottom: 40px;
-    }
     @include media-breakpoint-up(md) {
       display: inline-block;
+    }
+    .avatar {
+      margin-bottom: 40px;
+      @include media-breakpoint-up(md) {
+        margin-bottom: 0;
+      }
     }
   }
 
