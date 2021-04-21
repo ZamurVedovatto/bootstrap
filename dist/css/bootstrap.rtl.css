@@ -3277,6 +3277,9 @@ textarea.form-control-lg {
   opacity: 1;
   box-shadow: none;
 }
+.btn svg {
+  stroke-width: 2;
+}
 
 .btn-primary {
   color: white;
@@ -7879,6 +7882,26 @@ svg {
 
 .border-5 {
   border-width: 5px !important;
+}
+
+.sw-1 {
+  stroke-width: 1 !important;
+}
+
+.sw-125 {
+  stroke-width: 1.25 !important;
+}
+
+.sw-15 {
+  stroke-width: 1.5 !important;
+}
+
+.sw-175 {
+  stroke-width: 1.75 !important;
+}
+
+.sw-2 {
+  stroke-width: 2 !important;
 }
 
 .w-25 {

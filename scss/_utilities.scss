@@ -149,6 +149,17 @@ $utilities: map-merge(
     // scss-docs-end utils-borders
     // Sizing utilities
     // scss-docs-start utils-sizing
+    "stroke-width": (
+      property: stroke-width,
+      class: sw,
+      values: (
+        1: 1,
+        125: 1.25,
+        15: 1.5,
+        175: 1.75,
+        2: 2
+      )
+    ),
     "width": (
       property: width,
       class: w,

@@ -50,6 +50,10 @@
     opacity: $btn-disabled-opacity;
     @include box-shadow(none);
   }
+
+  svg {
+    stroke-width: 2;
+  }
 }
 
 
