@@ -20,3 +20,9 @@
 svg {
   stroke-width: 1.5;
 }
+
+[class^="tabler-chevron-"] {
+  svg {
+    stroke-width: 2;
+  }
+}
