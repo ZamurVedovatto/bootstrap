@@ -377,14 +377,6 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   text-shadow: none;
 }
 
-svg {
-  stroke-width: 1.5;
-}
-
-[class^=tabler-chevron-] svg {
-  stroke-width: 2;
-}
-
 .align-baseline {
   vertical-align: baseline !important;
 }
