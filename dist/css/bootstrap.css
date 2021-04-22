@@ -7562,6 +7562,10 @@ textarea.form-control-lg {
   text-shadow: none;
 }
 
+svg {
+  stroke-width: 1.5;
+}
+
 .align-baseline {
   vertical-align: baseline !important;
 }
