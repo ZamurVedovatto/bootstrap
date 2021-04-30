@@ -100,8 +100,6 @@ $btn-box-shadow:              none !default;
 $font-family-sans-serif:      $janus-font-stack-base !default;
 $font-family-monospace:       $janus-font-stack-monospace !default;
 
-
-
 $font-size-base:              $janus-font-size-base !default;
 $btn-font-size-lg:            $janus-font-size-base !default;
 
@@ -136,8 +134,6 @@ $border-radius-lg:            $janus-border-radius-lg !default;
 
 /* border-radius-xl and xxl also available */
 
-$focus-box-shadow:            none !default;
-
 $input-btn-padding-y:         $janus-input-btn-padding-y !default;
 $input-btn-padding-x:         $janus-input-btn-padding-x !default;
 $input-btn-padding-y-sm:      $janus-input-btn-padding-y-sm !default;
@@ -145,7 +141,8 @@ $input-btn-padding-x-sm:      $janus-input-btn-padding-x-sm !default;
 $input-btn-padding-y-lg:      $janus-input-btn-padding-y-lg !default;
 $input-btn-padding-x-lg:      $janus-input-btn-padding-x-lg !default;
 
-$input-box-shadow:            none !default;
+$input-box-shadow:            0 0 0 0 $janus-color-primary !default;
+$input-focus-box-shadow:      0 0 0 1px $janus-color-primary !default;
 
 $input-padding-x:             $janus-input-text-padding-x !default;
 $input-padding-y:             $janus-input-text-padding-y !default;

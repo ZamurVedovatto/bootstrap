@@ -2510,7 +2510,6 @@ progress {
   -moz-appearance: none;
   appearance: none;
   border-radius: 0.25rem;
-  box-shadow: none;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -2532,7 +2531,7 @@ progress {
   background-color: white;
   border-color: #0e62b9;
   outline: 0;
-  box-shadow: none, 0 0 0 0.125rem #0e62b9;
+  box-shadow: 0 0 0 1px #0e62b9;
 }
 .form-control::-webkit-date-and-time-value {
   height: 1.5em;
@@ -2846,10 +2845,10 @@ textarea.form-control-lg {
   outline: 0;
 }
 .form-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px white, 0 0 0 0.125rem #0e62b9;
+  box-shadow: 0 0 0 1px white, 0 0 0 1px #0e62b9;
 }
 .form-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px white, 0 0 0 0.125rem #0e62b9;
+  box-shadow: 0 0 0 1px white, 0 0 0 1px #0e62b9;
 }
 .form-range::-moz-focus-outer {
   border: 0;
