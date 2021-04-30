@@ -3076,7 +3076,7 @@ textarea.form-control-lg {
   font-size: 0.875em;
   color: #297848;
   line-height: 1.3125rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 .valid-feedback .feedback-icon,
 .valid-feedback span > span {
@@ -3155,7 +3155,7 @@ textarea.form-control-lg {
   font-size: 0.875em;
   color: #bf3e24;
   line-height: 1.3125rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 .invalid-feedback .feedback-icon,
 .invalid-feedback span > span {
