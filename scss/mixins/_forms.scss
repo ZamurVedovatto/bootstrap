@@ -21,7 +21,7 @@
   $icon,
   $tooltip-color: color-contrast($color),
   $tooltip-bg-color: rgba($color, $form-feedback-tooltip-opacity),
-  $focus-box-shadow: none
+  $focus-box-shadow: 0 0 $input-btn-focus-blur $input-focus-width rgba($color, $input-btn-focus-color-opacity)
 ) {
   .#{$state}-feedback {
     display: none;
@@ -88,9 +88,6 @@
         background-size: $input-height-inner-half $input-height-inner-half;
       }
 
-      &:focus {
-        box-shadow: $focus-box-shadow;
-      }
     }
   }
 
