@@ -596,7 +596,7 @@ progress {
   content: "— ";
 }
 
-[class^=line-clamp-] {
+[class*=line-clamp-] {
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
