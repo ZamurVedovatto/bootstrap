@@ -19,7 +19,7 @@
   // Note: This has no effect on <select>s in some browsers, due to the limited stylability of `<select>`s in CSS.
   @include border-radius($input-border-radius, 0);
 
-  @include box-shadow($input-box-shadow);
+  //@include box-shadow($input-box-shadow);
   @include transition($input-transition);
 
   &[type="file"] {
@@ -30,6 +30,10 @@
     }
   }
 
+  &.search-input {
+    padding: $janus-search-select-padding-y $janus-search-select-padding-x;
+  }
+
   // Customize the `:focus` state to imitate native WebKit styles.
   &:focus {
     color: $input-focus-color;
@@ -37,7 +41,7 @@
     border-color: $input-focus-border-color;
     outline: 0;
     @if $enable-shadows {
-      @include box-shadow($input-box-shadow, $input-focus-box-shadow);
+      @include box-shadow($input-focus-box-shadow);
     } @else {
       // Avoid using mixin so we can pass custom focus shadow properly
       box-shadow: $input-focus-box-shadow;
@@ -75,8 +79,8 @@
   // File input buttons theming
   &::file-selector-button {
     padding: $input-padding-y $input-padding-x;
-    margin: (-$input-padding-y) (-$input-padding-x);
-    margin-inline-end: $input-padding-x;
+    margin: (-$input-padding-y) $input-padding-x (-$input-padding-y) (-$input-padding-x);
+    border-right-width: 1px;
     color: $form-file-button-color;
     @include gradient-bg($form-file-button-bg);
     pointer-events: none;
@@ -94,8 +98,8 @@
 
   &::-webkit-file-upload-button {
     padding: $input-padding-y $input-padding-x;
-    margin: (-$input-padding-y) (-$input-padding-x);
-    margin-inline-end: $input-padding-x;
+    margin: (-$input-padding-y) $input-padding-x (-$input-padding-y) (-$input-padding-x);
+    border-right-width: 1px;
     color: $form-file-button-color;
     @include gradient-bg($form-file-button-bg);
     pointer-events: none;
@@ -150,14 +154,14 @@
 
   &::file-selector-button {
     padding: $input-padding-y-sm $input-padding-x-sm;
-    margin: (-$input-padding-y-sm) (-$input-padding-x-sm);
-    margin-inline-end: $input-padding-x-sm;
+    margin: (-$input-padding-y-sm) $input-padding-x-sm (-$input-padding-y-sm) (-$input-padding-x-sm);
+    border-right-width: 1px;
   }
 
   &::-webkit-file-upload-button {
     padding: $input-padding-y-sm $input-padding-x-sm;
-    margin: (-$input-padding-y-sm) (-$input-padding-x-sm);
-    margin-inline-end: $input-padding-x-sm;
+    margin: (-$input-padding-y-sm) $input-padding-x-sm (-$input-padding-y-sm) (-$input-padding-x-sm);
+    border-right-width: 1px;
   }
 }
 
@@ -169,14 +173,14 @@
 
   &::file-selector-button {
     padding: $input-padding-y-lg $input-padding-x-lg;
-    margin: (-$input-padding-y-lg) (-$input-padding-x-lg);
-    margin-inline-end: $input-padding-x-lg;
+    margin: (-$input-padding-y-lg) $input-padding-x-lg (-$input-padding-y-lg) (-$input-padding-x-lg);
+    border-right-width: 1px;
   }
 
   &::-webkit-file-upload-button {
     padding: $input-padding-y-lg $input-padding-x-lg;
-    margin: (-$input-padding-y-lg) (-$input-padding-x-lg);
-    margin-inline-end: $input-padding-x-lg;
+    margin: (-$input-padding-y-lg) $input-padding-x-lg (-$input-padding-y-lg) (-$input-padding-x-lg);
+    border-right-width: 1px;
   }
 }
 

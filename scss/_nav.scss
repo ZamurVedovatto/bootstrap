@@ -12,8 +12,11 @@
 }
 
 .nav-link {
-  display: block;
-  padding: $nav-link-padding-y $nav-link-padding-x;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  max-width: 200px;
+  padding: 0 $nav-link-padding-x;
   @include font-size($nav-link-font-size);
   font-weight: $nav-link-font-weight;
   color: $nav-link-color;
@@ -46,6 +49,7 @@
     background: none;
     border: $nav-tabs-border-width solid transparent;
     @include border-top-radius($nav-tabs-border-radius);
+    color: $janus-color-gray-600;
 
     &:hover,
     &:focus {
@@ -65,7 +69,7 @@
   .nav-item.show .nav-link {
     color: $nav-tabs-link-active-color;
     background-color: $nav-tabs-link-active-bg;
-    border-color: $nav-tabs-link-active-border-color;
+    border-bottom: 2px solid $nav-tabs-link-active-border-color;
   }
 
   .dropdown-menu {
