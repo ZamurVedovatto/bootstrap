@@ -5,6 +5,33 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
+@import url("//use.typekit.net/awj6qer.css");
+/* border-radius-xl and xxl also available */
+/*
+$btn-hover-bg-shade-amount:       15% !default;
+$btn-hover-bg-tint-amount:        15% !default;
+$btn-hover-border-shade-amount:   20% !default;
+$btn-hover-border-tint-amount:    10% !default;
+$btn-active-bg-shade-amount:      20% !default;
+$btn-active-bg-tint-amount:       20% !default;
+$btn-active-border-shade-amount:  25% !default;
+$btn-active-border-tint-amount:   10% !default;
+*/
+/*
+$navbar-toggler-padding-y:          .25rem !default;
+$navbar-toggler-padding-x:          .75rem !default;
+$navbar-toggler-font-size:          $font-size-lg !default;
+$navbar-toggler-border-radius:      $btn-border-radius !default;
+$navbar-toggler-focus-width:        $btn-focus-width !default;
+$navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
+*/
+.btn.btn-sm {
+  border-width: 1px;
+}
+.btn.btn-sm:hover {
+  border-width: 1px;
+}
+
 *,
 *::before,
 *::after {
@@ -19,22 +46,22 @@
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "lato", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
+  color: #454545;
+  background-color: white;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 hr {
-  margin: 1rem 0;
+  margin: 0.75rem 0;
   color: inherit;
   background-color: currentColor;
   border: 0;
-  opacity: 0.25;
+  opacity: 0.1;
 }
 
 hr:not([size]) {
@@ -45,51 +72,41 @@ h6, h5, h4, h3, h2, h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 h1 {
-  font-size: calc(1.375rem + 1.5vw);
-}
-@media (min-width: 1200px) {
-  h1 {
-    font-size: 2.5rem;
-  }
-}
-
-h2 {
   font-size: calc(1.325rem + 0.9vw);
 }
 @media (min-width: 1200px) {
-  h2 {
+  h1 {
     font-size: 2rem;
   }
 }
 
-h3 {
+h2 {
   font-size: calc(1.3rem + 0.6vw);
 }
 @media (min-width: 1200px) {
-  h3 {
+  h2 {
     font-size: 1.75rem;
   }
 }
 
-h4 {
-  font-size: calc(1.275rem + 0.3vw);
-}
-@media (min-width: 1200px) {
-  h4 {
-    font-size: 1.5rem;
-  }
-}
-
-h5 {
+h3 {
   font-size: 1.25rem;
 }
 
-h6 {
+h4 {
   font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.875rem;
+}
+
+h6 {
+  font-size: 0.8125rem;
 }
 
 p {
@@ -175,11 +192,21 @@ sup {
 }
 
 a {
-  color: #0d6efd;
+  color: #0e62b9;
+  text-decoration: none;
+  font-weight: 600;
+}
+a:hover, a:focus {
+  color: #0b4e94;
   text-decoration: underline;
 }
-a:hover {
-  color: #0a58ca;
+
+p a:focus {
+  background-color: #0b4e94;
+  text-decoration: none;
+  outline: 4px solid #0b4e94;
+  outline-offset: 0;
+  color: #fff;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -191,7 +218,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Monaco, monospace;
   font-size: 1em;
   direction: ltr ;
   unicode-bidi: bidi-override;
@@ -212,7 +239,7 @@ pre code {
 
 code {
   font-size: 0.875em;
-  color: #d63384;
+  color: #e83e8c;
   word-wrap: break-word;
 }
 a > code {
@@ -222,9 +249,9 @@ a > code {
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 0.875em;
-  color: #fff;
-  background-color: #212529;
-  border-radius: 0.2rem;
+  color: white;
+  background-color: #333333;
+  border-radius: 0.125rem;
 }
 kbd kbd {
   padding: 0;
@@ -249,7 +276,7 @@ table {
 caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  color: #6c757d;
+  color: #6c6c6c;
   text-align: right;
 }
 
@@ -345,14 +372,10 @@ legend {
   float: right;
   width: 100%;
   padding: 0;
-  margin-bottom: 0.5rem;
-  font-size: calc(1.275rem + 0.3vw);
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+  font-weight: 600;
   line-height: inherit;
-}
-@media (min-width: 1200px) {
-  legend {
-    font-size: 1.5rem;
-  }
 }
 legend + * {
   clear: right;
