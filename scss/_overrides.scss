@@ -29,13 +29,6 @@ $green:   $janus-color-success !default;
 $teal:    #20c997 !default;         // NEEDS REVIEW
 $cyan:    $janus-color-info !default;
 
-$pale-green: $janus-color-pale-green;
-$pale-orange: $janus-color-pale-orange;
-$pale-indigo: $janus-color-pale-indigo;
-$pale-purple: $janus-color-pale-purple;
-$pale-blue: $janus-color-pale-blue;
-$pale-red: $janus-color-pale-red;
-
 $primary:       $blue !default;
 $secondary:     $janus-color-secondary !default;
 $success:       $green !default;
@@ -44,22 +37,24 @@ $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $janus-color-secondary-background !default;
 $dark:          $gray-800 !default;
+  
+$sec-colors: (
+  "pale-green": $janus-color-pale-green,
+  "pale-orange": $janus-color-pale-orange,
+  "pale-indigo": $janus-color-pale-indigo,
+  "pale-purple": $janus-color-pale-purple,
+  "pale-blue":   $janus-color-pale-blue,
+  "pale-red":    $janus-color-pale-red
+) !default;
 
-$theme-colors: (
-  "primary":    $primary,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark,
-  "pale-green": $pale-green,
-  "pale-orange": $pale-orange,
-  "pale-indigo": $pale-indigo,
-  "pale-purple": $pale-purple,
-  "pale-blue": $pale-blue,
-  "pale-red": $pale-red
+
+$custom-colors: (
+  "pale-green": $janus-color-pale-green,
+  "pale-orange": $janus-color-pale-orange,
+  "pale-indigo": $janus-color-pale-indigo,
+  "pale-purple": $janus-color-pale-purple,
+  "pale-blue": $janus-color-pale-blue,
+  "pale-red": $janus-color-pale-red
 ) !default;
 
 // Options
