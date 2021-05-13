@@ -94,7 +94,6 @@
     "type": "opencollective",
     "url": "https://opencollective.com/bootstrap"
   },
-  "dependencies": {},
   "peerDependencies": {
     "@popperjs/core": "^2.9.2"
   },
@@ -107,7 +106,7 @@
     "@rollup/plugin-commonjs": "^18.0.0",
     "@rollup/plugin-node-resolve": "^11.2.1",
     "@rollup/plugin-replace": "^2.4.2",
-	"@symplicity/janus-tokens": "github:Symplicity/janus-tokens",
+    "@symplicity/janus-tokens": "github:Symplicity/janus-tokens",
     "autoprefixer": "^10.2.5",
     "bundlewatch": "^0.3.2",
     "clean-css-cli": "^5.3.0",
