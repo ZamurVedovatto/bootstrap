@@ -29,6 +29,20 @@ $utilities: map-merge(
       property: overflow,
       values: auto hidden visible scroll,
     ),
+    "line-clamp": (
+      property: [
+        -webkit-line-clamp,
+
+      ],
+      class: line-clamp,
+      values: (
+        1: 1,
+        2: 2,
+        3: 3,
+        4: 4,
+        5: 5,
+      ),
+    ),
     // scss-docs-end utils-overflow
     // scss-docs-start utils-display
     "display": (
@@ -135,6 +149,17 @@ $utilities: map-merge(
     // scss-docs-end utils-borders
     // Sizing utilities
     // scss-docs-start utils-sizing
+    "stroke-width": (
+      property: stroke-width,
+      class: sw,
+      values: (
+        1: 1,
+        125: 1.25,
+        15: 1.5,
+        175: 1.75,
+        2: 2
+      )
+    ),
     "width": (
       property: width,
       class: w,
@@ -554,6 +579,7 @@ $utilities: map-merge(
         1: $border-radius-sm,
         2: $border-radius,
         3: $border-radius-lg,
+        4: $janus-border-radius-xxl,
         circle: 50%,
         pill: $border-radius-pill
       )

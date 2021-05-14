@@ -16,6 +16,14 @@
   @include border-radius($badge-border-radius);
   @include gradient-bg();
 
+  &.count-badge {
+    display: flex;
+    min-width: 20px;
+    min-height: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
   // Empty badges collapse automatically
   &:empty {
     display: none;

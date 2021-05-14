@@ -34,3 +34,8 @@
   padding-bottom: add($input-padding-y-sm, $input-border-width);
   @include font-size($input-font-size-sm);
 }
+
+.fieldgroup-label {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
