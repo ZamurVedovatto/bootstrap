@@ -3084,7 +3084,7 @@ textarea.form-control-lg {
 }
 .valid-feedback .feedback-icon,
 .valid-feedback span > span {
-  font-size: 1.35rem;
+  font-size: 1.25rem;
   position: relative;
   top: 3px;
 }
@@ -3164,7 +3164,7 @@ textarea.form-control-lg {
 }
 .invalid-feedback .feedback-icon,
 .invalid-feedback span > span {
-  font-size: 1.35rem;
+  font-size: 1.25rem;
   position: relative;
   top: 3px;
 }
@@ -5531,7 +5531,7 @@ textarea.form-control-lg {
 .alert-icon {
   position: relative;
   top: 0.1875rem;
-  font-size: 1.35rem;
+  font-size: 1.25rem;
 }
 
 .alert-dismissible {
@@ -7521,8 +7521,8 @@ textarea.form-control-lg {
 }
 
 .icon-lg-font-size {
-  width: 1.35rem;
-  height: 1.35rem;
+  width: 1.25rem;
+  height: 1.25rem;
 }
 
 .icon-xl-font-size {
