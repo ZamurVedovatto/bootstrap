@@ -62,6 +62,7 @@
     "docs-serve": "hugo server --port 9022 --disableFastRender",
     "docs-serve-only": "npx sirv-cli _site --port 9022",
     "lockfile-lint": "npx lockfile-lint -p package-lock.json -t npm -a npm github.com -o https: github:",
+    "postinstall": "patch-package",
     "update-deps": "ncu -u -x karma-browserstack-launcher,terser && npm update && echo Manually update site/assets/js/vendor",
     "release": "npm-run-all dist release-sri docs-build release-zip*",
     "release-sri": "node build/generate-sri.js",
@@ -174,6 +175,7 @@
     }
   },
   "dependencies": {
-    "@tabler/icons": "github:Symplicity/tabler-icons"
+    "@tabler/icons": "github:Symplicity/tabler-icons",
+    "patch-package": "^6.4.7"
   }
 }
