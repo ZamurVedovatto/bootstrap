@@ -136,6 +136,18 @@ $utilities: map-merge(
         0: 0,
       )
     ),
+    "accent-color": (
+      property: accent-color,
+      class: accent,
+      values: (
+        green: $janus-color-pale-green,
+        orange: $janus-color-pale-orange,
+        indigo: $janus-color-pale-indigo,
+        purple: $janus-color-pale-purple,
+        blue: $janus-color-pale-blue,
+        red: $janus-color-pale-red
+      )
+    ),
     "border-color": (
       property: border-color,
       class: border,

@@ -73,8 +73,6 @@ $colors: (
 ) !default;
 // scss-docs-end colors-map
 
-$colors: map-merge($colors, $sec-colors);
-
 // scss-docs-start theme-color-variables
 $primary:       $blue !default;
 $secondary:     $gray-600 !default;
@@ -98,8 +96,6 @@ $theme-colors: (
   "dark":       $dark
 ) !default;
 // scss-docs-end theme-colors-map
-
-$theme-colors: map-merge($theme-colors, $custom-colors);
 
 // The contrast ratio to reach against white, to determine if color changes from "light" to "dark". Acceptable values for WCAG 2.0 are 3, 4.5 and 7.
 // See https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast
