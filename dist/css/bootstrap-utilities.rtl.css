@@ -550,27 +550,27 @@ svg {
   border-right: 0 !important;
 }
 
-.accent-green {
+.bg-accent-green {
   color: #66debe !important;
 }
 
-.accent-orange {
+.bg-accent-orange {
   color: #f0874b !important;
 }
 
-.accent-indigo {
+.bg-accent-indigo {
   color: #5a90e8 !important;
 }
 
-.accent-purple {
+.bg-accent-purple {
   color: #9992fb !important;
 }
 
-.accent-blue {
+.bg-accent-blue {
   color: #66baec !important;
 }
 
-.accent-red {
+.bg-accent-red {
   color: #f66666 !important;
 }
 
