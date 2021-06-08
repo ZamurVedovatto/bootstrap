@@ -7278,27 +7278,27 @@ svg {
 }
 
 .bg-accent-green {
-  color: #66debe !important;
+  background-color: #66debe !important;
 }
 
 .bg-accent-orange {
-  color: #f0874b !important;
+  background-color: #f0874b !important;
 }
 
 .bg-accent-indigo {
-  color: #5a90e8 !important;
+  background-color: #5a90e8 !important;
 }
 
 .bg-accent-purple {
-  color: #9992fb !important;
+  background-color: #9992fb !important;
 }
 
 .bg-accent-blue {
-  color: #66baec !important;
+  background-color: #66baec !important;
 }
 
 .bg-accent-red {
-  color: #f66666 !important;
+  background-color: #f66666 !important;
 }
 
 .border-primary {

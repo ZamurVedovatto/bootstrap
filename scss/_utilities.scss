@@ -137,7 +137,7 @@ $utilities: map-merge(
       )
     ),
     "accent-color": (
-      property: color,
+      property: background-color,
       class: bg-accent,
       values: (
         green: $janus-color-pale-green,
