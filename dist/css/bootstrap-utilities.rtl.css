@@ -551,27 +551,27 @@ svg {
 }
 
 .accent-green {
-  accent-color: #66debe !important;
+  color: #66debe !important;
 }
 
 .accent-orange {
-  accent-color: #f0874b !important;
+  color: #f0874b !important;
 }
 
 .accent-indigo {
-  accent-color: #5a90e8 !important;
+  color: #5a90e8 !important;
 }
 
 .accent-purple {
-  accent-color: #9992fb !important;
+  color: #9992fb !important;
 }
 
 .accent-blue {
-  accent-color: #66baec !important;
+  color: #66baec !important;
 }
 
 .accent-red {
-  accent-color: #f66666 !important;
+  color: #f66666 !important;
 }
 
 .border-primary {
