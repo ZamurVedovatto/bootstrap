@@ -3247,7 +3247,7 @@ textarea.form-control-lg {
   -moz-user-select: none;
   user-select: none;
   background-color: transparent;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   padding: 0.25rem 1rem;
   font-size: 1rem;
   border-radius: 0.188rem;
@@ -4219,7 +4219,7 @@ textarea.form-control-lg {
 
 .btn-group > .btn:not(:first-child),
 .btn-group > .btn-group:not(:first-child) {
-  margin-right: -1px;
+  margin-right: -2px;
 }
 .btn-group.btn-group-sm > .btn:not(:first-child),
 .btn-group.btn-group-sm > .btn-group:not(:first-child) {
@@ -4279,7 +4279,7 @@ textarea.form-control-lg {
 }
 .btn-group-vertical > .btn:not(:first-child),
 .btn-group-vertical > .btn-group:not(:first-child) {
-  margin-top: -1px;
+  margin-top: -2px;
 }
 .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle),
 .btn-group-vertical > .btn-group:not(:last-child) > .btn {
