@@ -126,7 +126,7 @@ $input-padding-y:             $janus-input-text-padding-y !default;
 $border-width:                1px !default;
 $border-color:                $janus-color-primary !default;
 $input-btn-border-width:      $border-width !default;
-$btn-border-width:            $input-btn-border-width * 2 !default;
+$btn-border-width:            $input-btn-border-width !default;
 
 $form-check-input-border:     1px solid rgba(148, 148, 148, 1) !default;
 $form-check-input-width:      1em !default;
