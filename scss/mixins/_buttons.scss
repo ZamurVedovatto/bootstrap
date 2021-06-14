@@ -26,16 +26,15 @@
   &:hover {
     color: $hover-color;
     background: $hover-background;
-    border: 2px solid $hover-border;
   }
 
   .btn-check:focus + &,
   &:focus {
     color: $hover-color;
     @include gradient-bg($hover-background);
-    border-color: $janus-color-secondary-background;
+    border-color: $white;
     @if $enable-shadows {
-      //@include box-shadow($btn-box-shadow, 0 0 0 $btn-focus-width rgba(mix($color, $border, 15%), 0));
+      box-shadow: 0 0 0 2px rgba(mix($color, $border, 15%), 1);
     } @else {
       // Avoid using mixin so we can pass custom focus shadow properly
       //box-shadow: 0 0 0 $btn-focus-width rgba(mix($color, $border, 15%), .5);
@@ -51,7 +50,7 @@
     background-color: $active-background;
     // Remove CSS gradients if they're enabled
     background-image: if($enable-gradients, none, null);
-    border-color: $active-border;
+    border-color: $white;
 
     &:focus {
       @if $enable-shadows {
@@ -84,6 +83,7 @@
 ) {
   color: $color;
   border-color: rgba($color, 0.6);
+  background: #fff;
 
   &:hover,
   &:focus {
@@ -93,7 +93,7 @@
 
   .btn-check:focus + &,
   &:focus {
-    box-shadow: 0 0 0 2px #333, inset 0 0 0 2px $active-border;
+    box-shadow: 0 0 0 2px $color, inset 0 0 0 2px $color;
     border-color: #fff;
   }
 

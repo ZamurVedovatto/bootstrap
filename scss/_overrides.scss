@@ -56,6 +56,9 @@ $box-shadow:                  0 .125rem .25rem rgba($black, .5) !default;
 $box-shadow-sm:               0 .0625rem .125rem rgba($black, .5) !default;
 $box-shadow-lg:               0 .125rem .375rem rgba($black, .3) !default;
 
+$component-active-color:      $white !default;
+$component-active-bg:         $primary !default;
+
 $modal-content-box-shadow-xs: $box-shadow;
 $modal-content-box-shadow-sm-up: $box-shadow;
 
@@ -126,7 +129,7 @@ $input-padding-y:             $janus-input-text-padding-y !default;
 $border-width:                1px !default;
 $border-color:                $janus-color-primary !default;
 $input-btn-border-width:      $border-width !default;
-$btn-border-width:            $input-btn-border-width * 2 !default;
+$btn-border-width:            $input-btn-border-width !default;
 
 $form-check-input-border:     1px solid rgba(148, 148, 148, 1) !default;
 $form-check-input-width:      1em !default;
@@ -167,11 +170,14 @@ $btn-disabled-background-color: $janus-disabled-button-background-color;
 $font-weight-semibold:        600 !default;
 $btn-font-weight:             $font-weight-semibold !default;
 
-$input-focus-border-color:    $janus-color-primary !default;
+//$input-focus-border-color:    $janus-color-primary !default;
+$input-focus-border-color:    tint-color($component-active-bg, 50%) !default;
 
 $input-btn-focus-width:       .125rem !default;
-$input-btn-focus-box-shadow:  0 0 0 $input-btn-focus-width $janus-color-primary !default;
-$input-btn-focus-color-opacity: 1!default;
+$input-btn-focus-color-opacity: 1 !default;
+//$input-btn-focus-box-shadow:  0 0 0 $input-btn-focus-width $janus-color-primary !default;
+//$input-btn-focus-color:         rgba($component-active-bg, $input-btn-focus-color-opacity) !default;
+$input-btn-focus-color:       rgba($component-active-bg, $input-btn-focus-color-opacity) !default;
 
 $btn-disabled-opacity:        1 !default;
 
