@@ -119,6 +119,7 @@
 .modal-title {
   margin-bottom: 0;
   line-height: $modal-title-line-height;
+  font-weight: 600;
 }
 
 // Modal body
@@ -148,6 +149,11 @@
   > * {
     margin: $modal-footer-margin-between * .5;
   }
+}
+
+.modal-header {
+  background: $gray-100;
+  align-items: center;
 }
 
 // Scale up the modal
@@ -214,6 +220,15 @@
         @include border-radius(0);
       }
     }
+  }
+}
+
+.modal-search {
+  .btn {
+    min-width: 40px;
+    max-width: 40px;
+    height: 40px;
+    padding: 0;
   }
 }
 // scss-docs-end modal-fullscreen-loop

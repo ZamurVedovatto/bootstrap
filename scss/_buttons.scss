@@ -18,6 +18,8 @@
   border: $btn-border-width solid transparent;
   @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-border-radius);
   @include transition($btn-transition);
+  transform: translateZ(0);
+  min-width: 90px;
 
   &:hover {
     color: $body-color;
@@ -34,10 +36,10 @@
   .btn-check:active + &,
   &:active,
   &.active {
-    @include box-shadow($btn-active-box-shadow);
+    //@include box-shadow($btn-active-box-shadow);
 
     &:focus {
-      @include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
+      //@include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
     }
   }
 
@@ -47,6 +49,10 @@
     pointer-events: none;
     opacity: $btn-disabled-opacity;
     @include box-shadow(none);
+  }
+
+  svg {
+    stroke-width: 2;
   }
 }
 
@@ -104,8 +110,149 @@
 
 .btn-lg {
   @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $btn-font-size-lg, $btn-border-radius-lg);
+  min-width: 120px;
 }
 
 .btn-sm {
   @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $btn-font-size-sm, $btn-border-radius-sm);
+  min-width: 70px;
+}
+
+
+//
+// Action buttons and header search
+//
+
+.btn-action {
+  padding: 0.125rem .75rem;
+  min-width: 0;
+
+  &.active,
+  &:hover,
+  &:focus {
+      background: shade-color(transparent, 4%);
+  }
+
+  &.btn-action-icon-only {
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+
+    &.btn-action-header {
+      width: 2.5rem;
+      height: 2.5rem;
+      background: $gray-100;
+
+      &.main-nav-trigger {
+        position: relative;
+        left: -8px;
+        background: none;
+
+        &:hover,
+        &:focus {
+          box-shadow: none;
+          color: $gray-800;
+        }
+
+        &:focus + &,
+        &:focus {
+          outline: 2px solid #000;
+        }
+
+        svg {
+          stroke-width: 3;
+        }
+      }
+
+    }
+
+    &.btn-search {
+      border-radius: 50rem; // .rounded-circle
+    }
+
+    @include media-breakpoint-up(lg) {
+      &.btn-search {
+        width: 100%;
+        text-align: left;
+        max-width: 400px;
+        padding: 0.125rem 0.75rem;
+
+        &.show,
+        &.active {
+          border-bottom-right-radius: 0;
+          border-bottom-left-radius: 0;
+          border-top-left-radius: 12px;
+          border-top-right-radius: 12px;
+          background: #fff;
+          border: 1px solid $gray-200;
+          box-shadow: $box-shadow-sm;
+        }
+
+        svg {
+          margin-left: 12px;
+        }
+      }
+    }
+  }
+
+  &.btn-action-toggle {
+    background: $gray-100;
+    color: $janus-color-primary;
+    padding: 0.125rem 1.25rem;
+
+    &.active {
+      background: $janus-color-primary;
+      color: #fff;
+    }
+  }
+}
+      
+.btn-search-results {
+
+  &.show {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top: none;
+    padding: 16px;
+    position: relative;
+    top: -4px;
+  }
+}
+
+.btn-search-combo {
+  .form-select {
+    border: none;
+    box-shadow: none; 
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    &:focus {
+      box-shadow: inset 0px 0px 0px 3px #000;
+    }
+  }
+
+  .input-group {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    
+    > .form-control {
+      border-radius: 0;
+      &:focus {
+        box-shadow: inset 0px 0px 0px 3px #000;
+      }
+    }
+  }
+
+  button {
+    border-top-right-radius: 50rem !important;
+    border-bottom-right-radius: 50rem !important;
+    &:focus {
+      box-shadow: inset 0px 0px 0px 3px #000;
+    }
+  }
+}
+
+.btn-more {
+  min-width: 60px;
 }
