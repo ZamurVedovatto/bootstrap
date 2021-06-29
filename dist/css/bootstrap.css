@@ -5917,7 +5917,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: flex-end;
   padding: 0.75rem;
-  border-top: 1px solid #f7f7f7;
+  border-top: 1px solid #f6f6f6;
   border-bottom-right-radius: calc(0.25rem - 1px);
   border-bottom-left-radius: calc(0.25rem - 1px);
 }
