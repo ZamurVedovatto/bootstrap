@@ -138,7 +138,7 @@
   flex-wrap: wrap;
   flex-shrink: 0;
   align-items: center; // vertically center
-  padding: $modal-inner-padding;
+  padding: $modal-header-padding-y $modal-header-padding-x;
   border-top: $modal-footer-border-width solid $modal-footer-border-color;
   @include border-bottom-radius($modal-content-inner-border-radius);
 
