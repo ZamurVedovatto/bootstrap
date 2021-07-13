@@ -201,6 +201,8 @@ $search-select-bg-position:   right $janus-search-select-padding-x center;
 
 $btn-close-color:             $black !default;
 $btn-close-bg:                url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' fill='#{$btn-close-color}' viewBox='0 0 24 24'><path d='M 20.7,4.7 19.3,3.3 12,10.6 4.7,3.3 3.3,4.7 10.6,12 3.3,19.3 4.7,20.7 12,13.4 19.3,20.7 20.7,19.3 13.4,12 Z'/></svg>") !default;
+$btn-close-padding-x:         $janus-btn-close-padding-x !default;
+$btn-close-padding-y:         $janus-btn-close-padding-y !default;
 
 $popover-box-shadow:          none !default;
 
