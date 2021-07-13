@@ -5892,7 +5892,7 @@ textarea.form-control-lg {
   border-top-left-radius: calc(0.25rem - 1px);
 }
 .modal-header .btn-close {
-  padding: 1rem 1.5rem;
+  padding: 0.25rem 0.25rem;
   margin: -0.5rem auto -0.5rem -0.75rem;
 }
 
