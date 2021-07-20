@@ -93,7 +93,7 @@
 
   .btn-check:focus + &,
   &:focus {
-    box-shadow: 0 0 0 2px $color, inset 0 0 0 2px $color;
+    box-shadow: 0 0 0 2px $color, inset 0 0 0 1px $color;
     border-color: #fff;
   }
 
