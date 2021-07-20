@@ -3794,8 +3794,7 @@ textarea.form-control-lg {
   border-bottom-right-radius: 12px;
   border-top: none;
   padding: 16px;
-  position: relative;
-  top: -4px;
+  top: -4px !important;
 }
 
 .btn-search-combo .form-select {
