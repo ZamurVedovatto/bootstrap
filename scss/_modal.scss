@@ -108,11 +108,6 @@
   padding: $modal-header-padding;
   border-bottom: $modal-header-border-width solid $modal-header-border-color;
   @include border-top-radius($modal-content-inner-border-radius);
-
-  .btn-close {
-    padding: $btn-close-padding-y $btn-close-padding-x;
-    margin: ($modal-header-padding-y * -.5) ($modal-header-padding-y * -.5) ($modal-header-padding-y * -.5) auto;
-  }
 }
 
 // Title text within header
