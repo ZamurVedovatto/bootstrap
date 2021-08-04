@@ -147,7 +147,8 @@ $alert-padding-y:             $janus-alert-padding-y !default;
 //$close-line-height:           $janus-icon-lg-line-height !default;
 //$close-text-shadow:           none !default;
 
-$dropdown-min-width:          9.375rem !default;
+$dropdown-min-width:          12.5rem !default;
+$dropdown-max-width:          25rem;
 $dropdown-item-padding-y:     $janus-dropdown-item-padding-y !default;
 $dropdown-item-padding-x:     $janus-dropdown-item-padding-x !default;
 
