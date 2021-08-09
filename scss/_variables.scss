@@ -1,4 +1,11 @@
+// Start Symplicity
+
+@import "./overrides";
+
+// End Symplicity
+
 // Variables
+//
 //
 // Variables should follow the `$component-state-property-size` formula for
 // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
@@ -380,6 +387,11 @@ $spacers: (
   3: $spacer,
   4: $spacer * 1.5,
   5: $spacer * 3,
+  6: $spacer * .75,
+  7: $spacer * 1.25,
+  8: $spacer * 1.5,
+  9: $spacer * 2.5,
+  10: $spacer * .375
 ) !default;
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
@@ -604,7 +616,8 @@ $font-sizes: (
   3: $h3-font-size,
   4: $h4-font-size,
   5: $h5-font-size,
-  6: $h6-font-size
+  6: $h6-font-size,
+  7: $font-size-base * .75
 ) !default;
 // scss-docs-end font-sizes
 
@@ -795,6 +808,7 @@ $btn-border-radius-lg:        $border-radius-lg !default;
 
 $btn-transition:              color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
 
+/*
 $btn-hover-bg-shade-amount:       15% !default;
 $btn-hover-bg-tint-amount:        15% !default;
 $btn-hover-border-shade-amount:   20% !default;
@@ -803,8 +817,8 @@ $btn-active-bg-shade-amount:      20% !default;
 $btn-active-bg-tint-amount:       20% !default;
 $btn-active-border-shade-amount:  25% !default;
 $btn-active-border-tint-amount:   10% !default;
+*/
 // scss-docs-end btn-variables
-
 
 // Forms
 
@@ -1106,12 +1120,14 @@ $navbar-brand-height:               $navbar-brand-font-size * $line-height-base 
 $navbar-brand-padding-y:            ($nav-link-height - $navbar-brand-height) * .5 !default;
 $navbar-brand-margin-end:           1rem !default;
 
+/*
 $navbar-toggler-padding-y:          .25rem !default;
 $navbar-toggler-padding-x:          .75rem !default;
 $navbar-toggler-font-size:          $font-size-lg !default;
 $navbar-toggler-border-radius:      $btn-border-radius !default;
 $navbar-toggler-focus-width:        $btn-focus-width !default;
 $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
+*/
 // scss-docs-end navbar-variables
 
 // scss-docs-start navbar-theme-variables

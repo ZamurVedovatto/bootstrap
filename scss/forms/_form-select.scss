@@ -25,6 +25,11 @@
   @include transition($form-select-transition);
   appearance: none;
 
+  &.search-select {
+    padding: $janus-search-select-padding-y $janus-search-select-padding-x;
+    background-position: $search-select-bg-position;
+  }
+
   &:focus {
     border-color: $form-select-focus-border-color;
     outline: 0;
