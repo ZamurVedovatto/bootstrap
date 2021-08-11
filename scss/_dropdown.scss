@@ -20,7 +20,6 @@
   display: none; // none by default, but block on "open" of the menu
   min-width: $dropdown-min-width;
   max-width: $dropdown-max-width;
-  max-height: $dropdown-max-height;
   padding: $dropdown-padding-y $dropdown-padding-x;
   margin: 0; // Override default margin of ul
   @include font-size($dropdown-font-size);
@@ -37,6 +36,10 @@
     top: 100%;
     left: 0;
     margin-top: $dropdown-spacer;
+  }
+
+  > ul {
+    max-height: $dropdown-max-height;
   }
 }
 
