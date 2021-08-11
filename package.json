@@ -103,7 +103,7 @@
     "@babel/preset-env": "^7.14.9",
     "@popperjs/core": "^2.9.3",
     "@rollup/plugin-babel": "^5.3.0",
-	"@symplicity/janus-tokens": "github:Symplicity/janus-tokens",
+    "@symplicity/janus-tokens": "github:Symplicity/janus-tokens",
     "@rollup/plugin-commonjs": "^20.0.0",
     "@rollup/plugin-node-resolve": "^13.0.4",
     "@rollup/plugin-replace": "^3.0.0",
