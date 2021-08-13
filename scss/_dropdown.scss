@@ -40,6 +40,12 @@
 
   > ul {
     max-height: $dropdown-max-height;
+
+    li {
+      &:last-child {
+        margin-bottom: .5rem;  
+      }
+    }
   }
 }
 

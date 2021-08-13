@@ -4008,6 +4008,9 @@ textarea.form-control-lg {
 .dropdown-menu > ul {
   max-height: 18.75rem;
 }
+.dropdown-menu > ul li:last-child {
+  margin-bottom: 0.5rem;
+}
 
 .dropdown-menu-start {
   --bs-position: start;
