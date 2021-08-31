@@ -47,6 +47,11 @@
       }
     }
   }
+
+  &.filter-menu {
+    min-width: $filter-dropdown-min-width;
+    max-width: $filter-dropdown-max-width;
+  }
 }
 
 // scss-docs-start responsive-breakpoints

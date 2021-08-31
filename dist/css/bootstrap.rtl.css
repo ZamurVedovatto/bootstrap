@@ -4011,6 +4011,10 @@ textarea.form-control-lg {
 .dropdown-menu > ul li:last-child {
   margin-bottom: 0.5rem;
 }
+.dropdown-menu.filter-menu {
+  min-width: 20rem;
+  max-width: 31.25rem;
+}
 
 .dropdown-menu-start {
   --bs-position: start;
