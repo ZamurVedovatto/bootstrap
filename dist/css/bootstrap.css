@@ -7816,6 +7816,10 @@ svg {
   max-width: 100% !important;
 }
 
+.minw-0 {
+  min-width: 0px !important;
+}
+
 .vw-100 {
   width: 100vw !important;
 }
