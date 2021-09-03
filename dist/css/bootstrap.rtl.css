@@ -2778,7 +2778,6 @@ textarea.form-control-lg {
   background-size: 16px 12px;
   border: 1px solid #aaaaaa;
   border-radius: 0.25rem;
-  box-shadow: 0 0 0 1px #fff;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   -webkit-appearance: none;
   -moz-appearance: none;
