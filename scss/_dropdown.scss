@@ -63,12 +63,13 @@
       svg {
         color: $janus-color-primary;
       }
+    }
 
-      input {
-        &:focus,
-        &:active {
-          outline: none;
-        }
+    input {
+      &:focus,
+      &:active,
+      &:focus-visible {
+        outline: none;
       }
     }
   }

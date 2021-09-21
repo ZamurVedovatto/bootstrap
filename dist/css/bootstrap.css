@@ -3991,7 +3991,7 @@ textarea.form-control-lg {
 .filter-toggle.filter-drop[aria-expanded=true] svg {
   color: #0e62b9;
 }
-.filter-toggle.filter-drop[aria-expanded=true] input:focus, .filter-toggle.filter-drop[aria-expanded=true] input:active {
+.filter-toggle.filter-drop input:focus, .filter-toggle.filter-drop input:active, .filter-toggle.filter-drop input:focus-visible {
   outline: none;
 }
 
