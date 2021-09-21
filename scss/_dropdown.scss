@@ -56,17 +56,12 @@
 
 .filter-toggle {
   &.filter-drop {
-    &:focus,
-    &:active {
-      input {
-        padding: 0;
-      }
+    &[aria-expanded="true"] {
+      border: 2px solid $janus-color-primary;
+      padding: .25rem .9375rem;
+
       svg {
         color: $janus-color-primary;
-      }
-      &[aria-expanded=true] {
-        border: 2px solid $janus-color-primary;
-        padding: .25rem .9375rem;
       }
     }
   }
