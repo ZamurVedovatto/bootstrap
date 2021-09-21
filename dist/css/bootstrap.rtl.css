@@ -3981,13 +3981,14 @@ textarea.form-control-lg {
   min-width: 20rem;
   max-width: 31.25rem;
 }
-.dropdown-menu .filter-toggle.filter-drop:focus input, .dropdown-menu .filter-toggle.filter-drop:active input {
+
+.filter-toggle.filter-drop:focus input, .filter-toggle.filter-drop:active input {
   padding: 0;
 }
-.dropdown-menu .filter-toggle.filter-drop:focus svg, .dropdown-menu .filter-toggle.filter-drop:active svg {
+.filter-toggle.filter-drop:focus svg, .filter-toggle.filter-drop:active svg {
   color: #0e62b9;
 }
-.dropdown-menu .filter-toggle.filter-drop:focus[aria-expanded=true], .dropdown-menu .filter-toggle.filter-drop:active[aria-expanded=true] {
+.filter-toggle.filter-drop:focus[aria-expanded=true], .filter-toggle.filter-drop:active[aria-expanded=true] {
   border: 2px solid #0e62b9;
   padding: 0.25rem 0.9375rem;
 }
