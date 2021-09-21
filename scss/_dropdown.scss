@@ -56,6 +56,9 @@
 
 .filter-toggle {
   &.filter-drop {
+    &:active {
+      background: #fff;
+    }
     &[aria-expanded="true"] {
       border: 2px solid $janus-color-primary;
       padding: .25rem .9375rem;
