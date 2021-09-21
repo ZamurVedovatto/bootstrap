@@ -3989,6 +3989,9 @@ textarea.form-control-lg {
 .filter-toggle.filter-drop[aria-expanded=true] svg {
   color: #0e62b9;
 }
+.filter-toggle.filter-drop[aria-expanded=true] input:focus, .filter-toggle.filter-drop[aria-expanded=true] input:active {
+  outline: none;
+}
 
 .dropdown-menu-start {
   --bs-position: start;
