@@ -4200,7 +4200,9 @@ textarea.form-control-lg {
   text-decoration: none;
   background-color: #0e62b9;
 }
-.dropdown-item.active svg, .dropdown-item:active svg {
+.dropdown-item.active svg,
+.dropdown-item.active label, .dropdown-item:active svg,
+.dropdown-item:active label {
   color: white;
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
