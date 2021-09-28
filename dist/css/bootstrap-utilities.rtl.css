@@ -135,6 +135,20 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   color: #333;
 }
 
+.link-medium {
+  color: #aaaaaa;
+}
+.link-medium:hover {
+  text-decoration: underline;
+}
+.link-medium:focus {
+  background-color: #aaaaaa;
+  text-decoration: none;
+  outline: 4px solid #aaaaaa;
+  outline-offset: 0;
+  color: #333;
+}
+
 .link-dark {
   color: #454545;
 }
@@ -643,6 +657,10 @@ svg {
 
 .border-light {
   border-color: #ececec !important;
+}
+
+.border-medium {
+  border-color: #aaaaaa !important;
 }
 
 .border-dark {
@@ -2121,6 +2139,11 @@ svg {
   color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-medium {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-medium-rgb), var(--bs-text-opacity)) !important;
+}
+
 .text-dark {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
@@ -2210,6 +2233,11 @@ svg {
 .bg-light {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-medium {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-medium-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-dark {

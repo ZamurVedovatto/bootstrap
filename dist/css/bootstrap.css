@@ -62,6 +62,7 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   --bs-warning: #a85502;
   --bs-danger: #bf3e24;
   --bs-light: #ececec;
+  --bs-medium: #aaaaaa;
   --bs-dark: #454545;
   --bs-primary-rgb: 14, 98, 185;
   --bs-secondary-rgb: 69, 69, 69;
@@ -70,6 +71,7 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   --bs-warning-rgb: 168, 85, 2;
   --bs-danger-rgb: 191, 62, 36;
   --bs-light-rgb: 236, 236, 236;
+  --bs-medium-rgb: 170, 170, 170;
   --bs-dark-rgb: 69, 69, 69;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
@@ -3541,6 +3543,33 @@ textarea.form-control-lg {
   border-color: #cccccc;
 }
 
+.btn-medium {
+  color: black;
+  background-color: #aaaaaa;
+  border-color: #aaaaaa;
+  box-shadow: none;
+}
+.btn-medium:hover {
+  color: black;
+  background: #9d9d9d;
+}
+.btn-check:focus + .btn-medium, .btn-medium:focus {
+  color: black;
+  background-color: #9d9d9d;
+  border-color: white;
+  box-shadow: 0 0 0 2px #919191;
+}
+.btn-check:checked + .btn-medium, .btn-check:active + .btn-medium, .btn-medium:active, .btn-medium.active, .show > .btn-medium.dropdown-toggle {
+  color: black;
+  background-color: #919191;
+  border-color: white;
+}
+.btn-medium:disabled, .btn-medium.disabled {
+  color: #aaaaaa;
+  background-color: #ececec;
+  border-color: #cccccc;
+}
+
 .btn-dark {
   color: white;
   background-color: #454545;
@@ -3724,6 +3753,29 @@ textarea.form-control-lg {
   background-color: rgba(236, 236, 236, 0.05);
 }
 .btn-outline-light:disabled, .btn-outline-light.disabled {
+  color: #aaaaaa;
+  background-color: #ececec;
+  border-color: #cccccc;
+}
+
+.btn-outline-medium {
+  color: #aaaaaa;
+  border-color: rgba(170, 170, 170, 0.6);
+  background: #fff;
+}
+.btn-outline-medium:hover, .btn-outline-medium:focus {
+  color: #aaaaaa;
+  border-color: #aaaaaa;
+}
+.btn-check:focus + .btn-outline-medium, .btn-outline-medium:focus {
+  box-shadow: 0 0 0 2px #aaaaaa, inset 0 0 0 1px #aaaaaa;
+  border-color: #fff;
+}
+.btn-check:checked + .btn-outline-medium, .btn-check:active + .btn-outline-medium, .btn-outline-medium:active, .btn-outline-medium.active, .btn-outline-medium.dropdown-toggle.show {
+  color: #aaaaaa;
+  background-color: rgba(170, 170, 170, 0.05);
+}
+.btn-outline-medium:disabled, .btn-outline-medium.disabled {
   color: #aaaaaa;
   background-color: #ececec;
   border-color: #cccccc;
@@ -5578,6 +5630,15 @@ textarea.form-control-lg {
   color: #8e8e8e;
 }
 
+.alert-medium {
+  color: gray;
+  background-color: #f4f4f4;
+  border-color: #aaaaaa;
+}
+.alert-medium .alert-link {
+  color: #666666;
+}
+
 .alert-dark {
   color: #343434;
   background-color: #e7e7e7;
@@ -5959,6 +6020,20 @@ textarea.form-control-lg {
   color: white;
   background-color: #5e5e5e;
   border-color: #5e5e5e;
+}
+
+.list-group-item-medium {
+  color: #666666;
+  background-color: #eeeeee;
+}
+.list-group-item-medium.list-group-item-action:hover, .list-group-item-medium.list-group-item-action:focus {
+  color: #666666;
+  background-color: #d6d6d6;
+}
+.list-group-item-medium.list-group-item-action.active {
+  color: white;
+  background-color: #666666;
+  border-color: #666666;
 }
 
 .list-group-item-dark {
@@ -7219,6 +7294,20 @@ textarea.form-control-lg {
   color: #333;
 }
 
+.link-medium {
+  color: #aaaaaa;
+}
+.link-medium:hover {
+  text-decoration: underline;
+}
+.link-medium:focus {
+  background-color: #aaaaaa;
+  text-decoration: none;
+  outline: 4px solid #aaaaaa;
+  outline-offset: 0;
+  color: #333;
+}
+
 .link-dark {
   color: #454545;
 }
@@ -7727,6 +7816,10 @@ svg {
 
 .border-light {
   border-color: #ececec !important;
+}
+
+.border-medium {
+  border-color: #aaaaaa !important;
 }
 
 .border-dark {
@@ -9213,6 +9306,11 @@ svg {
   color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-medium {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-medium-rgb), var(--bs-text-opacity)) !important;
+}
+
 .text-dark {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
@@ -9302,6 +9400,11 @@ svg {
 .bg-light {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-medium {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-medium-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-dark {
