@@ -7,7 +7,7 @@
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
   typeof define === 'function' && define.amd ? define(factory) :
   (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.bootstrap = factory());
-})(this, (function () { 'use strict';
+}(this, (function () { 'use strict';
 
   /**
    * --------------------------------------------------------------------------
@@ -621,7 +621,7 @@
    * ------------------------------------------------------------------------
    */
   const elementMap = new Map();
-  const Data = {
+  var Data = {
     set(element, key, instance) {
       if (!elementMap.has(element)) {
         elementMap.set(element, new Map());
@@ -2069,7 +2069,7 @@
   } // eslint-disable-next-line import/no-unused-modules
 
 
-  const applyStyles$1 = {
+  var applyStyles$1 = {
     name: 'applyStyles',
     enabled: true,
     phase: 'write',
@@ -2082,39 +2082,39 @@
     return placement.split('-')[0];
   }
 
-  // import { isHTMLElement } from './instanceOf';
-  function getBoundingClientRect(element, // eslint-disable-next-line unused-imports/no-unused-vars
-  includeScale) {
+  var round$1 = Math.round;
+  function getBoundingClientRect(element, includeScale) {
+    if (includeScale === void 0) {
+      includeScale = false;
+    }
 
     var rect = element.getBoundingClientRect();
     var scaleX = 1;
-    var scaleY = 1; // FIXME:
-    // `offsetWidth` returns an integer while `getBoundingClientRect`
-    // returns a float. This results in `scaleX` or `scaleY` being
-    // non-1 when it should be for elements that aren't a full pixel in
-    // width or height.
-    // if (isHTMLElement(element) && includeScale) {
-    //   const offsetHeight = element.offsetHeight;
-    //   const offsetWidth = element.offsetWidth;
-    //   // Do not attempt to divide by 0, otherwise we get `Infinity` as scale
-    //   // Fallback to 1 in case both values are `0`
-    //   if (offsetWidth > 0) {
-    //     scaleX = rect.width / offsetWidth || 1;
-    //   }
-    //   if (offsetHeight > 0) {
-    //     scaleY = rect.height / offsetHeight || 1;
-    //   }
-    // }
+    var scaleY = 1;
+
+    if (isHTMLElement(element) && includeScale) {
+      var offsetHeight = element.offsetHeight;
+      var offsetWidth = element.offsetWidth; // Do not attempt to divide by 0, otherwise we get `Infinity` as scale
+      // Fallback to 1 in case both values are `0`
+
+      if (offsetWidth > 0) {
+        scaleX = rect.width / offsetWidth || 1;
+      }
+
+      if (offsetHeight > 0) {
+        scaleY = rect.height / offsetHeight || 1;
+      }
+    }
 
     return {
-      width: rect.width / scaleX,
-      height: rect.height / scaleY,
-      top: rect.top / scaleY,
-      right: rect.right / scaleX,
-      bottom: rect.bottom / scaleY,
-      left: rect.left / scaleX,
-      x: rect.left / scaleX,
-      y: rect.top / scaleY
+      width: round$1(rect.width / scaleX),
+      height: round$1(rect.height / scaleY),
+      top: round$1(rect.top / scaleY),
+      right: round$1(rect.right / scaleX),
+      bottom: round$1(rect.bottom / scaleY),
+      left: round$1(rect.left / scaleX),
+      x: round$1(rect.left / scaleX),
+      y: round$1(rect.top / scaleY)
     };
   }
 
@@ -2359,7 +2359,7 @@
   } // eslint-disable-next-line import/no-unused-modules
 
 
-  const arrow$1 = {
+  var arrow$1 = {
     name: 'arrow',
     enabled: true,
     phase: 'main',
@@ -2505,7 +2505,7 @@
   } // eslint-disable-next-line import/no-unused-modules
 
 
-  const computeStyles$1 = {
+  var computeStyles$1 = {
     name: 'computeStyles',
     enabled: true,
     phase: 'beforeWrite',
@@ -2552,7 +2552,7 @@
   } // eslint-disable-next-line import/no-unused-modules
 
 
-  const eventListeners = {
+  var eventListeners = {
     name: 'eventListeners',
     enabled: true,
     phase: 'write',
@@ -3066,7 +3066,7 @@
   } // eslint-disable-next-line import/no-unused-modules
 
 
-  const flip$1 = {
+  var flip$1 = {
     name: 'flip',
     enabled: true,
     phase: 'main',
@@ -3128,7 +3128,7 @@
   } // eslint-disable-next-line import/no-unused-modules
 
 
-  const hide$1 = {
+  var hide$1 = {
     name: 'hide',
     enabled: true,
     phase: 'main',
@@ -3180,7 +3180,7 @@
   } // eslint-disable-next-line import/no-unused-modules
 
 
-  const offset$1 = {
+  var offset$1 = {
     name: 'offset',
     enabled: true,
     phase: 'main',
@@ -3204,7 +3204,7 @@
   } // eslint-disable-next-line import/no-unused-modules
 
 
-  const popperOffsets$1 = {
+  var popperOffsets$1 = {
     name: 'popperOffsets',
     enabled: true,
     phase: 'read',
@@ -3320,7 +3320,7 @@
   } // eslint-disable-next-line import/no-unused-modules
 
 
-  const preventOverflow$1 = {
+  var preventOverflow$1 = {
     name: 'preventOverflow',
     enabled: true,
     phase: 'main',
@@ -3358,9 +3358,9 @@
     }
 
     var isOffsetParentAnElement = isHTMLElement(offsetParent);
-    isHTMLElement(offsetParent) && isElementScaled(offsetParent);
+    var offsetParentIsScaled = isHTMLElement(offsetParent) && isElementScaled(offsetParent);
     var documentElement = getDocumentElement(offsetParent);
-    var rect = getBoundingClientRect(elementOrVirtualElement);
+    var rect = getBoundingClientRect(elementOrVirtualElement, offsetParentIsScaled);
     var scroll = {
       scrollLeft: 0,
       scrollTop: 0
@@ -3377,7 +3377,7 @@
       }
 
       if (isHTMLElement(offsetParent)) {
-        offsets = getBoundingClientRect(offsetParent);
+        offsets = getBoundingClientRect(offsetParent, true);
         offsets.x += offsetParent.clientLeft;
         offsets.y += offsetParent.clientTop;
       } else if (documentElement) {
@@ -3670,41 +3670,41 @@
     defaultModifiers: defaultModifiers
   }); // eslint-disable-next-line import/no-unused-modules
 
-  const Popper = /*#__PURE__*/Object.freeze({
+  var Popper = /*#__PURE__*/Object.freeze({
     __proto__: null,
-    popperGenerator,
-    detectOverflow,
+    popperGenerator: popperGenerator,
+    detectOverflow: detectOverflow,
     createPopperBase: createPopper$2,
-    createPopper,
+    createPopper: createPopper,
     createPopperLite: createPopper$1,
-    top,
-    bottom,
-    right,
-    left,
-    auto,
-    basePlacements,
-    start,
-    end,
-    clippingParents,
-    viewport,
-    popper,
-    reference,
-    variationPlacements,
-    placements,
-    beforeRead,
-    read,
-    afterRead,
-    beforeMain,
-    main,
-    afterMain,
-    beforeWrite,
-    write,
-    afterWrite,
-    modifierPhases,
+    top: top,
+    bottom: bottom,
+    right: right,
+    left: left,
+    auto: auto,
+    basePlacements: basePlacements,
+    start: start,
+    end: end,
+    clippingParents: clippingParents,
+    viewport: viewport,
+    popper: popper,
+    reference: reference,
+    variationPlacements: variationPlacements,
+    placements: placements,
+    beforeRead: beforeRead,
+    read: read,
+    afterRead: afterRead,
+    beforeMain: beforeMain,
+    main: main,
+    afterMain: afterMain,
+    beforeWrite: beforeWrite,
+    write: write,
+    afterWrite: afterWrite,
+    modifierPhases: modifierPhases,
     applyStyles: applyStyles$1,
     arrow: arrow$1,
     computeStyles: computeStyles$1,
-    eventListeners,
+    eventListeners: eventListeners,
     flip: flip$1,
     hide: hide$1,
     offset: offset$1,
@@ -6791,7 +6791,7 @@
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
-  const index_umd = {
+  var index_umd = {
     Alert,
     Button,
     Carousel,
@@ -6808,5 +6808,5 @@
 
   return index_umd;
 
-}));
+})));
 //# sourceMappingURL=bootstrap.bundle.js.map

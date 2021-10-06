@@ -7,27 +7,29 @@
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('@popperjs/core')) :
   typeof define === 'function' && define.amd ? define(['@popperjs/core'], factory) :
   (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.bootstrap = factory(global.Popper));
-})(this, (function (Popper) { 'use strict';
+}(this, (function (Popper) { 'use strict';
 
   function _interopNamespace(e) {
     if (e && e.__esModule) return e;
-    const n = Object.create(null);
+    var n = Object.create(null);
     if (e) {
-      for (const k in e) {
+      Object.keys(e).forEach(function (k) {
         if (k !== 'default') {
-          const d = Object.getOwnPropertyDescriptor(e, k);
+          var d = Object.getOwnPropertyDescriptor(e, k);
           Object.defineProperty(n, k, d.get ? d : {
             enumerable: true,
-            get: () => e[k]
+            get: function () {
+              return e[k];
+            }
           });
         }
-      }
+      });
     }
-    n.default = e;
+    n['default'] = e;
     return Object.freeze(n);
   }
 
-  const Popper__namespace = /*#__PURE__*/_interopNamespace(Popper);
+  var Popper__namespace = /*#__PURE__*/_interopNamespace(Popper);
 
   /**
    * --------------------------------------------------------------------------
@@ -641,7 +643,7 @@
    * ------------------------------------------------------------------------
    */
   const elementMap = new Map();
-  const Data = {
+  var Data = {
     set(element, key, instance) {
       if (!elementMap.has(element)) {
         elementMap.set(element, new Map());
@@ -5025,7 +5027,7 @@
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
-  const index_umd = {
+  var index_umd = {
     Alert,
     Button,
     Carousel,
@@ -5042,5 +5044,5 @@
 
   return index_umd;
 
-}));
+})));
 //# sourceMappingURL=bootstrap.js.map
