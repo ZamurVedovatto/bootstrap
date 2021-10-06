@@ -255,7 +255,8 @@
 
 .btn-more {
   min-width: 60px;
-  display: flex;
-  height: 100%;
-  align-items: center;
+  svg {
+    position: relative;
+    top: -2px;
+  }
 }
