@@ -3852,6 +3852,9 @@ textarea.form-control-lg {
   height: 2rem;
   padding: 0;
 }
+.btn-action.btn-action-icon-only svg {
+  top: 0;
+}
 .btn-action.btn-action-icon-only.btn-action-header {
   width: 2.5rem;
   height: 2.5rem;
