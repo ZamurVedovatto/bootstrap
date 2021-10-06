@@ -3942,6 +3942,15 @@ textarea.form-control-lg {
   box-shadow: inset 0px 0px 0px 3px #000;
 }
 
+.btn-more {
+  min-width: 60px;
+}
+
+.btn-group .btn-more svg {
+  position: relative;
+  top: -2px;
+}
+
 .fade {
   transition: opacity 0.15s linear;
 }
