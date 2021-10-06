@@ -3942,6 +3942,9 @@ textarea.form-control-lg {
 
 .btn-more {
   min-width: 60px;
+  display: flex;
+  height: 100%;
+  align-items: center;
 }
 
 .fade {
