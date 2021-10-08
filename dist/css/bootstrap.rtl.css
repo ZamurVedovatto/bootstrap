@@ -457,6 +457,10 @@ legend + * {
   -webkit-appearance: textfield;
 }
 
+[type=button] {
+  -webkit-appearance: none;
+}
+
 [type="tel"],
 [type="url"],
 [type="email"],
