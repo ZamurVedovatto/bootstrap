@@ -457,10 +457,6 @@ legend + * {
   -webkit-appearance: textfield;
 }
 
-[type=button] {
-  -webkit-appearance: none;
-}
-
 /* rtl:raw:
 [type="tel"],
 [type="url"],

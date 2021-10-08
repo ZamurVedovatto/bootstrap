@@ -561,13 +561,6 @@ legend {
   -webkit-appearance: textfield; // 2
 }
 
-// 1. Remove the button overlay in Safari.
-// See https://trentwalton.com/2010/07/14/css-webkit-appearance/
-
-[type="button"] {
-  -webkit-appearance: none;
-}
-
 // 1. A few input types should stay LTR
 // See https://rtlstyling.com/posts/rtl-styling#form-inputs
 // 2. RTL only output
