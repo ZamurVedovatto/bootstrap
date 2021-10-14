@@ -6,6 +6,7 @@
  */
 
 // scss-docs-start import-stack
+
 // Configuration
 @import "functions";
 @import "variables";
@@ -16,6 +17,7 @@
 @import "root";
 @import "reboot";
 @import "type";
+@import "line-clamp";
 @import "images";
 @import "containers";
 @import "grid";
@@ -42,6 +44,8 @@
 @import "popover";
 @import "carousel";
 @import "spinners";
+@import "avatars";
+@import "profile-header";
 @import "offcanvas";
 @import "placeholders";
 
@@ -50,4 +54,6 @@
 
 // Utilities
 @import "utilities/api";
+@import "../site/assets/scss/_placeholder-img"
+
 // scss-docs-end import-stack

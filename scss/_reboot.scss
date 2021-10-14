@@ -249,11 +249,28 @@ sup { top: -.5em; }
 
 a {
   color: $link-color;
-  text-decoration: $link-decoration;
+  text-decoration: none;
+  font-weight: 600;
 
-  &:hover {
+  &:hover,
+  &:focus {
     color: $link-hover-color;
     text-decoration: $link-hover-decoration;
+  }
+}
+
+
+p {
+  a {  
+    //&:not(.nav-link):not(.dropdown-item):not(.list-unstyled li a) {
+      &:focus {
+        background-color: $link-hover-color;
+        text-decoration: none;
+        outline: 4px solid $link-hover-color;
+        outline-offset: 0;
+        color: if(color-contrast($link-color) == $color-contrast-light, #fff, #333);
+      }
+    //}
   }
 }
 
@@ -542,6 +559,13 @@ legend {
 [type="search"] {
   outline-offset: -2px; // 1
   -webkit-appearance: textfield; // 2
+}
+
+// 1. Remove the button overlay in Safari.
+// See https://trentwalton.com/2010/07/14/css-webkit-appearance/
+
+[type="button"] {
+  -webkit-appearance: none;
 }
 
 // 1. A few input types should stay LTR

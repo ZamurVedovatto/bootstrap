@@ -1,0 +1,28 @@
+.icon-lg-font-size {
+  width: $janus-icon-lg-font-size;
+  height: $janus-icon-lg-font-size;
+}
+
+.icon-xl-font-size {
+  width: $janus-icon-xl-font-size;
+  height: $janus-icon-xl-font-size;
+}
+
+.icon-xxl-font-size {
+  width: $janus-icon-xxl-font-size;
+  height: $janus-icon-xxl-font-size;
+}
+
+.text-shadow-none {
+  text-shadow: none;
+}
+
+svg {
+  stroke-width: 1.5;
+}
+
+[class^="tabler-chevron-"] {
+  svg {
+    stroke-width: 2;
+  }
+}
