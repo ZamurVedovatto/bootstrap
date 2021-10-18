@@ -208,7 +208,9 @@
 
     svg,
     label,
-    span {
+    span,
+    ol,
+    .breadcrumb-item + .breadcrumb-item::before {
       color: $dropdown-link-active-color;
     }
   }

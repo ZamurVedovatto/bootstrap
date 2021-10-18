@@ -4263,9 +4263,13 @@ textarea.form-control-lg {
 }
 .dropdown-item.active svg,
 .dropdown-item.active label,
-.dropdown-item.active span, .dropdown-item:active svg,
+.dropdown-item.active span,
+.dropdown-item.active ol,
+.dropdown-item.active .breadcrumb-item + .breadcrumb-item::before, .dropdown-item:active svg,
 .dropdown-item:active label,
-.dropdown-item:active span {
+.dropdown-item:active span,
+.dropdown-item:active ol,
+.dropdown-item:active .breadcrumb-item + .breadcrumb-item::before {
   color: white;
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
