@@ -6989,6 +6989,8 @@ textarea.form-control-lg {
 .avatar.avatar-sm {
   width: 24px;
   height: 24px;
+  font-size: 0.5rem;
+  line-height: 1.5rem;
 }
 .avatar.avatar-sm svg {
   stroke-width: 2;
