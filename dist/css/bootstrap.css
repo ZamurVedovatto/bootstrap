@@ -6180,6 +6180,22 @@ textarea.form-control-lg {
 .modal.show .modal-dialog {
   transform: none;
 }
+@media (max-width: 575.98px) {
+  .modal.fade .modal-dialog {
+    transition: transform 0.3s ease-out;
+    transform: translate3d(0, 100vh, 0);
+  }
+}
+@media (max-width: 575.98px) and (prefers-reduced-motion: reduce) {
+  .modal.fade .modal-dialog {
+    transition: none;
+  }
+}
+@media (max-width: 575.98px) {
+  .modal.show .modal-dialog {
+    transform: translate3d(0, 0, 0);
+  }
+}
 .modal.modal-static .modal-dialog {
   transform: scale(1.02);
 }
