@@ -4265,6 +4265,9 @@ textarea.form-control-lg {
   outline: none;
   background-color: #ececec;
 }
+.dropdown-item button:active {
+  background: none;
+}
 .dropdown-item.active, .dropdown-item:active {
   color: white;
   text-decoration: none;
@@ -4272,9 +4275,6 @@ textarea.form-control-lg {
 }
 .dropdown-item.active button, .dropdown-item:active button {
   background: #ececec;
-}
-.dropdown-item.active button:active, .dropdown-item:active button:active {
-  background: none;
 }
 .dropdown-item.active svg,
 .dropdown-item.active label,

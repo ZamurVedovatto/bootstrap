@@ -211,6 +211,12 @@
     @include gradient-bg($dropdown-link-hover-bg);
   }
 
+  button {
+    &:active {
+      background: none;
+    }
+  }
+
   &.active,
   &:active {
     color: $dropdown-link-active-color;
@@ -219,10 +225,6 @@
 
     button {
       background: $dropdown-link-hover-bg;
-
-      &:active {
-        background: none;
-      }
     }
 
     svg,
