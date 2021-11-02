@@ -4049,7 +4049,7 @@ textarea.form-control-lg {
   border: none;
 }
 .dropdown-menu.filter-menu .dropdown-item button:hover {
-  background: #aaaaaa;
+  background: #aaaaaa !important;
 }
 
 .filter-toggle.filter-drop:active {
@@ -4266,7 +4266,7 @@ textarea.form-control-lg {
   background-color: #ececec;
 }
 .dropdown-item button:active {
-  background: none;
+  background: none !important;
 }
 .dropdown-item.active, .dropdown-item:active {
   color: white;

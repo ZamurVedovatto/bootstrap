@@ -58,7 +58,7 @@
         border: none;
 
         &:hover {
-          background: $gray-400;
+          background: $gray-400 !important;
         }
       }
     }
@@ -213,7 +213,7 @@
 
   button {
     &:active {
-      background: none;
+      background: none !important;
     }
   }
 
