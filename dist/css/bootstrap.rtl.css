@@ -4049,6 +4049,9 @@ textarea.form-control-lg {
 .dropdown-menu.filter-menu .dropdown-item button:hover {
   background: #aaaaaa !important;
 }
+.dropdown-menu.filter-menu .dropdown-item button:active {
+  background: none !important;
+}
 
 .filter-toggle.filter-drop:active {
   background: #fff;

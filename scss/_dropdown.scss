@@ -60,6 +60,10 @@
         &:hover {
           background: $gray-400 !important;
         }
+
+        &:active {
+          background: none !important;
+        }
       }
     }
   }
