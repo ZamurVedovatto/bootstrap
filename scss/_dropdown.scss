@@ -59,8 +59,6 @@
 
         &:hover {
           background: $gray-400;
-          border: 1px solid;
-          border-color: $gray-600; 
         }
       }
     }
@@ -221,6 +219,10 @@
 
     button {
       background: $dropdown-link-hover-bg;
+
+      &:active {
+        background: none;
+      }
     }
 
     svg,
