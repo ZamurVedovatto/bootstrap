@@ -4046,7 +4046,7 @@ textarea.form-control-lg {
   background: none;
   border: none;
 }
-.dropdown-menu.filter-menu .dropdown-item button:hover, .dropdown-menu.filter-menu .dropdown-item button:focus {
+.dropdown-menu.filter-menu .dropdown-item button:hover {
   background: #aaaaaa;
   border: 1px solid;
   border-color: #6c6c6c;
@@ -4270,14 +4270,19 @@ textarea.form-control-lg {
   text-decoration: none;
   background-color: #0e62b9;
 }
+.dropdown-item.active button, .dropdown-item:active button {
+  background: #ececec;
+}
 .dropdown-item.active svg,
 .dropdown-item.active label,
 .dropdown-item.active span,
 .dropdown-item.active ol,
+.dropdown-item.active button,
 .dropdown-item.active .breadcrumb-item + .breadcrumb-item::before, .dropdown-item:active svg,
 .dropdown-item:active label,
 .dropdown-item:active span,
 .dropdown-item:active ol,
+.dropdown-item:active button,
 .dropdown-item:active .breadcrumb-item + .breadcrumb-item::before {
   color: white;
 }

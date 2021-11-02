@@ -57,8 +57,7 @@
         background: none;
         border: none;
 
-        &:hover,
-        &:focus {
+        &:hover {
           background: $gray-400;
           border: 1px solid;
           border-color: $gray-600; 
@@ -220,10 +219,15 @@
     text-decoration: none;
     @include gradient-bg($dropdown-link-active-bg);
 
+    button {
+      background: $dropdown-link-hover-bg;
+    }
+
     svg,
     label,
     span,
     ol,
+    button,
     .breadcrumb-item + .breadcrumb-item::before {
       color: $dropdown-link-active-color;
     }
