@@ -4042,6 +4042,15 @@ textarea.form-control-lg {
   min-width: 20rem;
   max-width: 31.25rem;
 }
+.dropdown-menu.filter-menu .dropdown-item button {
+  background: none;
+  border: none;
+}
+.dropdown-menu.filter-menu .dropdown-item button:hover, .dropdown-menu.filter-menu .dropdown-item button:focus {
+  background: #aaaaaa;
+  border: 1px solid;
+  border-color: #6c6c6c;
+}
 
 .filter-toggle.filter-drop:active {
   background: #fff;

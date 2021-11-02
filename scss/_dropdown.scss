@@ -51,6 +51,20 @@
   &.filter-menu {
     min-width: $filter-dropdown-min-width;
     max-width: $filter-dropdown-max-width;
+
+    .dropdown-item {
+      button {
+        background: none;
+        border: none;
+
+        &:hover,
+        &:focus {
+          background: $gray-400;
+          border: 1px solid;
+          border-color: $gray-600; 
+        }
+      }
+    }
   }
 }
 
