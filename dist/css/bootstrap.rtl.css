@@ -5445,11 +5445,11 @@ textarea.form-control-lg {
 }
 
 .breadcrumb-item + .breadcrumb-item {
-  padding-right: 0.5rem;
+  padding-right: 0.25rem;
 }
 .breadcrumb-item + .breadcrumb-item::before {
   float: right;
-  padding-left: 0.5rem;
+  padding-left: 0.25rem;
   color: #6c6c6c;
   content:  var(--bs-breadcrumb-divider, "/") ;
 }
