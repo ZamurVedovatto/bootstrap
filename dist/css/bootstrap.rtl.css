@@ -6178,6 +6178,22 @@ textarea.form-control-lg {
   outline: 0;
 }
 
+@media (max-width: 767.98px) {
+  .modal-dialog {
+    margin: 0;
+  }
+  .modal-dialog .modal-content {
+    border-radius: 0;
+  }
+  .modal-dialog.modal-dialog-centered {
+    align-items: flex-end;
+  }
+}
+@media (max-width: 991.98px) {
+  .modal-dialog.modal-dialog-centered {
+    align-items: flex-start;
+  }
+}
 .modal-dialog {
   position: relative;
   width: auto;
@@ -6195,14 +6211,6 @@ textarea.form-control-lg {
 }
 .modal.show .modal-dialog {
   transform: none;
-}
-@media (max-width: 575.98px) {
-  .modal-dialog {
-    margin: 0;
-  }
-  .modal-dialog .modal-content {
-    border-radius: 0;
-  }
 }
 .modal.modal-static .modal-dialog {
   transform: scale(1.02);

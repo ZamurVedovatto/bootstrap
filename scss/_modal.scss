@@ -23,6 +23,31 @@
   // See also https://github.com/twbs/bootstrap/issues/17695
 }
 
+@include media-breakpoint-down(md) {
+  .modal-dialog {
+    margin: 0;
+
+    .modal-content {
+      border-radius: 0;
+    }
+
+    &.modal-dialog-centered {
+      align-items: flex-end;
+    }
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .modal-dialog {
+
+    &.modal-dialog-centered {
+      align-items: flex-start;
+    }
+  }
+  
+}
+
+
 // Shell div to position the modal with bottom padding
 .modal-dialog {
   position: relative;
@@ -38,14 +63,6 @@
   }
   .modal.show & {
     transform: $modal-show-transform;
-  }
-
-  @include media-breakpoint-down(sm) {
-    margin: 0;
-
-    .modal-content {
-      border-radius: 0;
-    }
   }
 
   // When trying to close, animate focus to scale
