@@ -40,18 +40,13 @@
   // When fading in the modal, animate it to slide down
   .modal.fade & {
     @include transition($modal-transition);
-    //transform: $modal-fade-transform;
-    transform: translate(0, -50px);
+    transform: $modal-fade-transform;
   }
   .modal.show & {
     transform: $modal-show-transform;
   }
 
   @include media-breakpoint-down(sm) {
-    .modal.fade & {
-      @include transition($modal-transition);
-      transform: $modal-fade-transform;
-    }
     .modal-content {
       border-radius: 0;
     }
