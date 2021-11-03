@@ -6197,6 +6197,9 @@ textarea.form-control-lg {
   transform: none;
 }
 @media (max-width: 575.98px) {
+  .modal-dialog .modal-dialog {
+    margin: 0;
+  }
   .modal-dialog .modal-content {
     border-radius: 0;
   }

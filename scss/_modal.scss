@@ -47,6 +47,9 @@
   }
 
   @include media-breakpoint-down(sm) {
+    .modal-dialog {
+      margin: 0;
+    }
     .modal-content {
       border-radius: 0;
     }
