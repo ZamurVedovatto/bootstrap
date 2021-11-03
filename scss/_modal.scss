@@ -23,7 +23,7 @@
   // See also https://github.com/twbs/bootstrap/issues/17695
 }
 
-@include media-breakpoint-down(md) {
+@include media-breakpoint-down(sm) {
   .modal-dialog {
     margin: 0;
 
@@ -32,19 +32,16 @@
     }
 
     &.modal-dialog-centered {
-      align-items: flex-end;
+      align-items: flex-end !important;
     }
   }
 }
 
-@include media-breakpoint-down(lg) {
-  .modal-dialog {
+.modal-dialog {
 
-    &.modal-dialog-centered {
-      align-items: flex-start;
-    }
+  &.modal-dialog-centered {
+    align-items: flex-start !important;
   }
-  
 }
 
 
