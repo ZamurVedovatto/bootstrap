@@ -6180,6 +6180,11 @@ textarea.form-control-lg {
   outline: 0;
 }
 
+@media (max-width: 575.98px) {
+  .fade:not(.show) {
+    transform: translate(0, -100vh);
+  }
+}
 .modal-dialog {
   position: relative;
   width: auto;
@@ -6201,7 +6206,7 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) {
   .modal.fade .modal-dialog {
     transition: transform 0.3s ease-out;
-    transform: translate3d(0, 100vh, 0);
+    transform: translate(0, 100vh);
   }
 }
 @media (max-width: 575.98px) and (prefers-reduced-motion: reduce) {
@@ -6211,7 +6216,9 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .modal.show .modal-dialog {
-    transform: translate3d(0, 0, 0);
+    transform: translate(0, 0);
+    bottom: 0;
+    position: absolute;
   }
 }
 .modal.modal-static .modal-dialog {
