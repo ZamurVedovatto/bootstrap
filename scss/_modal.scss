@@ -27,14 +27,6 @@
   .fade:not(.show) {
     transform: translate(0, -100vh);
   }
-  .modal-dialog {
-    width: 100%;
-    margin: 0;
-
-    .modal-content {
-      border-radius: 0;
-    }
-  }
 }
 
 // Shell div to position the modal with bottom padding
@@ -63,6 +55,11 @@
       transform: translate(0, 0);
       bottom: 0;
       position: absolute;
+      width: 100%;
+      margin: 0;
+    }
+    .modal-content {
+      border-radius: 0;
     }
   }
 
