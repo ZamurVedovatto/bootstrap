@@ -30,20 +30,8 @@
     .modal-content {
       border-radius: 0;
     }
-
-    &.d-flex {
-      align-items: flex-end !important;
-    }
   }
 }
-
-.modal-dialog {
-
-  &.d-flex {
-    align-items: flex-start;
-  }
-}
-
 
 // Shell div to position the modal with bottom padding
 .modal-dialog {
