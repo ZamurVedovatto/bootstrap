@@ -6185,11 +6185,11 @@ textarea.form-control-lg {
     transform: translate(0, -100vh);
   }
 
-  .modal {
+  .modal-dialog {
     width: 100%;
     margin: 0;
   }
-  .modal .modal-content {
+  .modal-dialog .modal-content {
     border-radius: 0;
   }
 }
