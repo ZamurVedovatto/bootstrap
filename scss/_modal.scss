@@ -23,11 +23,11 @@
   // See also https://github.com/twbs/bootstrap/issues/17695
 }
 
-@include media-breakpoint-down(sm) {
-  .fade:not(.show) {
-    transform: translate(0, -100vh);
-  }
-}
+//@include media-breakpoint-down(sm) {
+//  .fade:not(.show) {
+//    transform: translate(0, -100vh);
+//  }
+//}
 
 // Shell div to position the modal with bottom padding
 .modal-dialog {
@@ -46,22 +46,22 @@
     transform: $modal-show-transform;
   }
 
-  @include media-breakpoint-down(sm) {
-    .modal.fade & {
-      @include transition($modal-transition);
-      transform: translate(0, 100vh);
-    }
-    .modal.show & {
-      transform: translate(0, 0);
-      bottom: 0;
-      position: absolute;
-      width: 100%;
-      margin: 0;
-    }
-    .modal-content {
-      border-radius: 0;
-    }
-  }
+  //@include media-breakpoint-down(sm) {
+  //  .modal.fade & {
+  //    @include transition($modal-transition);
+  //   transform: translate(0, 100vh);
+  //  }
+  //  .modal.show & {
+  //    transform: translate(0, 0);
+  //    bottom: 0;
+  //    position: absolute;
+  //    width: 100%;
+  //    margin: 0;
+  //  }
+  //  .modal-content {
+  //    border-radius: 0;
+  //  }
+  //}
 
   // When trying to close, animate focus to scale
   .modal.modal-static & {
