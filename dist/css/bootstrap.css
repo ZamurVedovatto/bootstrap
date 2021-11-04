@@ -6202,6 +6202,7 @@ textarea.form-control-lg {
   }
   .modal-dialog.d-flex {
     align-items: flex-end !important;
+    width: 100%;
   }
 }
 .modal-dialog.d-flex {
