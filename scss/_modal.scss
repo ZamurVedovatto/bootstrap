@@ -30,6 +30,23 @@
     .modal-content {
       border-radius: 0;
     }
+
+    &.d-flex {
+      align-items: flex-end !important;
+    }
+  
+    .modal.fade.show & {
+      @include transition($modal-transition);
+      transform: $modal-fade-transform-mobile;
+      display: flex !important;
+    }
+  }
+}
+
+.modal-dialog {
+
+  &.d-flex {
+    align-items: flex-start;
   }
 }
 
