@@ -24,6 +24,13 @@
 }
 
 @include media-breakpoint-down(sm) {
+  .modal.fade.show & {
+    @include transition($modal-transition);
+    transform: $modal-fade-transform-mobile;
+    display: flex !important;
+    width: 100%;
+  }
+
   .modal-dialog {
     margin: 0 !important;
 
@@ -33,12 +40,6 @@
 
     &.d-flex {
       align-items: flex-end !important;
-    }
-  
-    .modal.fade.show & {
-      @include transition($modal-transition);
-      transform: $modal-fade-transform-mobile;
-      display: flex !important;
     }
   }
 }
