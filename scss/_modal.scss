@@ -24,7 +24,7 @@
 }
 
 @include media-breakpoint-down(sm) {
-  .modal.fade.show & {
+  .modal.fade.show {
     @include transition($modal-transition);
     transform: $modal-fade-transform-mobile;
     display: flex !important;
