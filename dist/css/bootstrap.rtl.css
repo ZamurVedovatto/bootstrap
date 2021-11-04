@@ -6181,7 +6181,7 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) {
   .modal.fade.show {
     transition: transform 0.3s ease-out;
-    transform: translate(0, 50px);
+    transform: translate(0, 0);
     display: flex !important;
     width: 100%;
   }
@@ -6189,6 +6189,12 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) and (prefers-reduced-motion: reduce) {
   .modal.fade.show {
     transition: none;
+  }
+}
+@media (max-width: 575.98px) {
+  .modal.fade:not(.show) {
+    opacity: 0;
+    transform: translate(0, 0);
   }
 }
 @media (max-width: 575.98px) {

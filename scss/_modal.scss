@@ -31,6 +31,11 @@
     width: 100%;
   }
 
+  .modal.fade:not(.show) {
+    opacity: 0;
+    transform: $modal-fade-transform-mobile;
+  }
+
   .modal-dialog {
     margin: 0 !important;
 
