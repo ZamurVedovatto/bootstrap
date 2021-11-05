@@ -32,8 +32,10 @@
   }
 
   .modal.fade:not(.show) {
-    opacity: 0;
+    opacity: unset;
+    @include transition($modal-transition);
     transform: $modal-hide-transform-mobile;
+    padding-top: 50px;
   }
 
   .modal-dialog {
