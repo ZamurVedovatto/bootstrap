@@ -27,8 +27,8 @@
   .modal.fade.show {
     @include transition($modal-transition);
     transform: $modal-fade-transform-mobile;
-    display: flex !important;
     width: 100%;
+    padding-top: 50px;
   }
 
   .modal.fade:not(.show) {
