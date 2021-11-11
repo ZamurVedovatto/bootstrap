@@ -72,7 +72,7 @@
   }
   .modal.show & {
     transform: $modal-show-transform;
-    height: 100vh;
+    //height: 100vh;
   }
 
   // When trying to close, animate focus to scale

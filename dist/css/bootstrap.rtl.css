@@ -6235,7 +6235,6 @@ textarea.form-control-lg {
 }
 .modal.show .modal-dialog {
   transform: none;
-  height: 100vh;
 }
 .modal.modal-static .modal-dialog {
   transform: scale(1.02);
