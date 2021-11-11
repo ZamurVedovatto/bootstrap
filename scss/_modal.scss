@@ -28,7 +28,6 @@
     @include transition($modal-transition);
     transform: $modal-fade-transform-mobile;
     width: 100%;
-    padding-top: 50px;
   }
 
   .modal.fade:not(.show) {

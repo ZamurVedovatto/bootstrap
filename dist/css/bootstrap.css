@@ -6185,7 +6185,6 @@ textarea.form-control-lg {
     transition: transform 0.3s ease-out;
     transform: translate(0, 0);
     width: 100%;
-    padding-top: 50px;
   }
 }
 @media (max-width: 575.98px) and (prefers-reduced-motion: reduce) {
