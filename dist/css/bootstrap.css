@@ -2695,23 +2695,23 @@ progress {
 
 .form-control-lg {
   min-height: calc(1.5em + 0.875rem + 2px);
-  padding: 0.4375rem 1.875rem;
+  padding: 0.4375rem 1.75rem;
   font-size: 1.25rem;
   border-radius: 0.188rem;
 }
 .form-control-lg::-webkit-file-upload-button {
-  padding: 0.4375rem 1.875rem;
-  margin: -0.4375rem 1.875rem -0.4375rem -1.875rem;
+  padding: 0.4375rem 1.75rem;
+  margin: -0.4375rem 1.75rem -0.4375rem -1.75rem;
   border-right-width: 1px;
 }
 .form-control-lg::file-selector-button {
-  padding: 0.4375rem 1.875rem;
-  margin: -0.4375rem 1.875rem -0.4375rem -1.875rem;
+  padding: 0.4375rem 1.75rem;
+  margin: -0.4375rem 1.75rem -0.4375rem -1.75rem;
   border-right-width: 1px;
 }
 .form-control-lg::-webkit-file-upload-button {
-  padding: 0.4375rem 1.875rem;
-  margin: -0.4375rem 1.875rem -0.4375rem -1.875rem;
+  padding: 0.4375rem 1.75rem;
+  margin: -0.4375rem 1.75rem -0.4375rem -1.75rem;
   border-right-width: 1px;
 }
 
@@ -2800,7 +2800,7 @@ textarea.form-control-lg {
 .form-select-lg {
   padding-top: 0.4375rem;
   padding-bottom: 0.4375rem;
-  padding-left: 1.875rem;
+  padding-left: 1.75rem;
   font-size: 1.25rem;
   border-radius: 0.188rem;
 }
@@ -3113,7 +3113,7 @@ textarea.form-control-lg {
 .input-group-lg > .form-select,
 .input-group-lg > .input-group-text,
 .input-group-lg > .btn {
-  padding: 0.4375rem 1.875rem;
+  padding: 0.4375rem 1.75rem;
   font-size: 1.25rem;
   border-radius: 0.188rem;
 }
@@ -3832,7 +3832,7 @@ textarea.form-control-lg {
 }
 
 .btn-lg, .btn-group-lg > .btn {
-  padding: 0.4375rem 1.875rem;
+  padding: 0.4375rem 1.75rem;
   font-size: 1rem;
   border-radius: 0.188rem;
   min-width: 120px;
@@ -4465,8 +4465,8 @@ textarea.form-control-lg {
 }
 
 .btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split {
-  padding-right: 1.40625rem;
-  padding-left: 1.40625rem;
+  padding-right: 1.3125rem;
+  padding-left: 1.3125rem;
 }
 
 .btn-group.show .dropdown-toggle {
