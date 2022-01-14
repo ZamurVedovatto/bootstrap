@@ -2509,8 +2509,8 @@ progress {
 }
 
 .col-form-label-lg {
-  padding-top: calc(0.4375rem + 1px);
-  padding-bottom: calc(0.4375rem + 1px);
+  padding-top: calc(0.5rem + 1px);
+  padding-bottom: calc(0.5rem + 1px);
   font-size: 1.25rem;
 }
 
@@ -2694,24 +2694,24 @@ progress {
 }
 
 .form-control-lg {
-  min-height: calc(1.5em + 0.875rem + 2px);
-  padding: 0.4375rem 1.75rem;
+  min-height: calc(1.5em + 1rem + 2px);
+  padding: 0.5rem 1.75rem;
   font-size: 1.25rem;
   border-radius: 0.188rem;
 }
 .form-control-lg::-webkit-file-upload-button {
-  padding: 0.4375rem 1.75rem;
-  margin: -0.4375rem 1.75rem -0.4375rem -1.75rem;
+  padding: 0.5rem 1.75rem;
+  margin: -0.5rem 1.75rem -0.5rem -1.75rem;
   border-right-width: 1px;
 }
 .form-control-lg::file-selector-button {
-  padding: 0.4375rem 1.75rem;
-  margin: -0.4375rem 1.75rem -0.4375rem -1.75rem;
+  padding: 0.5rem 1.75rem;
+  margin: -0.5rem 1.75rem -0.5rem -1.75rem;
   border-right-width: 1px;
 }
 .form-control-lg::-webkit-file-upload-button {
-  padding: 0.4375rem 1.75rem;
-  margin: -0.4375rem 1.75rem -0.4375rem -1.75rem;
+  padding: 0.5rem 1.75rem;
+  margin: -0.5rem 1.75rem -0.5rem -1.75rem;
   border-right-width: 1px;
 }
 
@@ -2722,7 +2722,7 @@ textarea.form-control-sm {
   min-height: calc(1.5em + 0.314rem + 2px);
 }
 textarea.form-control-lg {
-  min-height: calc(1.5em + 0.875rem + 2px);
+  min-height: calc(1.5em + 1rem + 2px);
 }
 
 .form-control-color {
@@ -2798,8 +2798,8 @@ textarea.form-control-lg {
 }
 
 .form-select-lg {
-  padding-top: 0.4375rem;
-  padding-bottom: 0.4375rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   padding-left: 1.75rem;
   font-size: 1.25rem;
   border-radius: 0.188rem;
@@ -3113,7 +3113,7 @@ textarea.form-control-lg {
 .input-group-lg > .form-select,
 .input-group-lg > .input-group-text,
 .input-group-lg > .btn {
-  padding: 0.4375rem 1.75rem;
+  padding: 0.5rem 1.75rem;
   font-size: 1.25rem;
   border-radius: 0.188rem;
 }
@@ -3832,7 +3832,7 @@ textarea.form-control-lg {
 }
 
 .btn-lg, .btn-group-lg > .btn {
-  padding: 0.4375rem 1.75rem;
+  padding: 0.5rem 1.75rem;
   font-size: 1rem;
   border-radius: 0.188rem;
   min-width: 120px;
@@ -5194,7 +5194,7 @@ textarea.form-control-lg {
   margin-right: 0.75rem;
 }
 .card-header .card-header-icon span svg {
-  margin: 0.4375rem;
+  margin: 0.5rem;
 }
 .card-header .card-header-text {
   position: relative;
