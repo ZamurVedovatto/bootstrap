@@ -77,7 +77,7 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 69, 69, 69;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "lato", sans-serif;
+  --bs-font-sans-serif: "Source Sans Pro", sans-serif;
   --bs-font-monospace: Monaco, monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -433,7 +433,7 @@ legend {
   padding: 0;
   margin-bottom: 0.25rem;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: inherit;
 }
 legend + * {
@@ -2494,7 +2494,7 @@ progress {
 }
 .form-label {
   margin-bottom: 0.25rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .col-form-label {
@@ -2502,7 +2502,7 @@ progress {
   padding-bottom: calc(0.3125rem + 1px);
   margin-bottom: 0;
   font-size: inherit;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.5;
 }
 
@@ -3322,7 +3322,7 @@ textarea.form-control-lg {
 
 .btn {
   display: inline-block;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.5;
   color: #454545;
   text-align: center;
@@ -4513,7 +4513,7 @@ textarea.form-control-lg {
   height: 60px;
   max-width: 200px;
   padding: 0 0.75rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #0e62b9;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
@@ -5181,7 +5181,7 @@ textarea.form-control-lg {
   margin-bottom: 0.25rem;
   background-color: rgba(0, 0, 0, 0.03);
   font-size: 0.875em;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.25rem;
 }
 .card-header:first-child {
@@ -7009,7 +7009,7 @@ textarea.form-control-lg {
 .avatar.avatar-text {
   font-size: 1vw;
   line-height: 1rem;
-  font-weight: 700;
+  font-weight: 600;
   vertical-align: top;
 }
 .avatar.avatar-image {

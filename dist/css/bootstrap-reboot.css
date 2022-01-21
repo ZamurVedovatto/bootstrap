@@ -433,7 +433,7 @@ legend {
   padding: 0;
   margin-bottom: 0.25rem;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: inherit;
 }
 legend + * {
