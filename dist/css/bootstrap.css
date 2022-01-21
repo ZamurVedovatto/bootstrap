@@ -77,11 +77,11 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 69, 69, 69;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Source Sans Pro", sans-serif;
+  --bs-font-sans-serif: "Open Sans", sans-serif;
   --bs-font-monospace: Monaco, monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
-  --bs-body-font-size: 1rem;
+  --bs-body-font-size: 0.875rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #454545;
@@ -514,7 +514,7 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.09375rem;
   font-weight: 300;
 }
 
@@ -614,7 +614,7 @@ progress {
 
 .blockquote {
   margin-bottom: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.09375rem;
 }
 .blockquote > :last-child {
   margin-bottom: 0;
@@ -2511,13 +2511,13 @@ progress {
 .col-form-label-lg {
   padding-top: calc(0.5rem + 1px);
   padding-bottom: calc(0.5rem + 1px);
-  font-size: 1.25rem;
+  font-size: 1.09375rem;
 }
 
 .col-form-label-sm {
   padding-top: calc(0.157rem + 1px);
   padding-bottom: calc(0.157rem + 1px);
-  font-size: 0.875rem;
+  font-size: 0.765625rem;
 }
 
 .fieldgroup-label {
@@ -2537,7 +2537,7 @@ progress {
   display: block;
   width: 100%;
   padding: 0.3125rem 0.75rem;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
   color: #454545;
@@ -2674,7 +2674,7 @@ progress {
 .form-control-sm {
   min-height: calc(1.5em + 0.314rem + 2px);
   padding: 0.157rem 1rem;
-  font-size: 0.875rem;
+  font-size: 0.765625rem;
   border-radius: 0.125rem;
 }
 .form-control-sm::-webkit-file-upload-button {
@@ -2696,7 +2696,7 @@ progress {
 .form-control-lg {
   min-height: calc(1.5em + 1rem + 2px);
   padding: 0.5rem 1.75rem;
-  font-size: 1.25rem;
+  font-size: 1.09375rem;
   border-radius: 0.188rem;
 }
 .form-control-lg::-webkit-file-upload-button {
@@ -2747,7 +2747,7 @@ textarea.form-control-lg {
   width: 100%;
   padding: 0.3125rem 2.25rem 0.3125rem 0.75rem;
   -moz-padding-start: calc(0.75rem - 3px);
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
   color: #454545;
@@ -2793,7 +2793,7 @@ textarea.form-control-lg {
   padding-top: 0.157rem;
   padding-bottom: 0.157rem;
   padding-left: 1rem;
-  font-size: 0.875rem;
+  font-size: 0.765625rem;
   border-radius: 0.125rem;
 }
 
@@ -2801,13 +2801,13 @@ textarea.form-control-lg {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1.75rem;
-  font-size: 1.25rem;
+  font-size: 1.09375rem;
   border-radius: 0.188rem;
 }
 
 .form-check {
   display: block;
-  min-height: 1.5rem;
+  min-height: 1.3125rem;
   padding-left: 1.5em;
   margin-bottom: 0.25rem;
 }
@@ -3098,7 +3098,7 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   padding: 0.3125rem 0.75rem;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
   color: #454545;
@@ -3114,7 +3114,7 @@ textarea.form-control-lg {
 .input-group-lg > .input-group-text,
 .input-group-lg > .btn {
   padding: 0.5rem 1.75rem;
-  font-size: 1.25rem;
+  font-size: 1.09375rem;
   border-radius: 0.188rem;
 }
 
@@ -3123,7 +3123,7 @@ textarea.form-control-lg {
 .input-group-sm > .input-group-text,
 .input-group-sm > .btn {
   padding: 0.157rem 1rem;
-  font-size: 0.875rem;
+  font-size: 0.765625rem;
   border-radius: 0.125rem;
 }
 
@@ -3176,7 +3176,7 @@ textarea.form-control-lg {
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: 0.1rem;
-  font-size: 0.875rem;
+  font-size: 0.765625rem;
   color: white;
   background-color: rgba(41, 120, 72, 0.9);
   border-radius: 0.25rem;
@@ -3256,7 +3256,7 @@ textarea.form-control-lg {
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: 0.1rem;
-  font-size: 0.875rem;
+  font-size: 0.765625rem;
   color: white;
   background-color: rgba(191, 62, 36, 0.9);
   border-radius: 0.25rem;
@@ -3337,7 +3337,7 @@ textarea.form-control-lg {
   background-color: transparent;
   border: 1px solid transparent;
   padding: 0.3125rem 1rem;
-  font-size: 1rem;
+  font-size: 0.875rem;
   border-radius: 0.188rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transform: translateZ(0);
@@ -3841,7 +3841,7 @@ textarea.form-control-lg {
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.157rem 1rem;
-  font-size: 0.875rem;
+  font-size: 0.765625rem;
   border-radius: 0.125rem;
   min-width: 70px;
 }
@@ -4022,7 +4022,7 @@ textarea.form-control-lg {
   max-width: 25rem;
   padding: 0.5rem 0;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: #454545;
   text-align: left;
   list-style: none;
@@ -4625,10 +4625,10 @@ textarea.form-control-lg {
   justify-content: space-between;
 }
 .navbar-brand {
-  padding-top: 0.875rem;
-  padding-bottom: 0.875rem;
+  padding-top: 0.8984375rem;
+  padding-bottom: 0.8984375rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.09375rem;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -5338,7 +5338,7 @@ textarea.form-control-lg {
   align-items: center;
   width: 100%;
   padding: 1rem 1.25rem;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: #454545;
   text-align: left;
   background-color: white;
@@ -5528,7 +5528,7 @@ textarea.form-control-lg {
 
 .pagination-lg .page-link {
   padding: 0.75rem 1.5rem;
-  font-size: 1.25rem;
+  font-size: 1.09375rem;
 }
 .pagination-lg .page-item:first-child .page-link {
   border-top-left-radius: 0.188rem;
@@ -5541,7 +5541,7 @@ textarea.form-control-lg {
 
 .pagination-sm .page-link {
   padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
+  font-size: 0.765625rem;
 }
 .pagination-sm .page-item:first-child .page-link {
   border-top-left-radius: 0.125rem;
@@ -5699,7 +5699,7 @@ textarea.form-control-lg {
   display: flex;
   height: 1rem;
   overflow: hidden;
-  font-size: 0.75rem;
+  font-size: 0.65625rem;
   background-color: #ececec;
   border-radius: 0.25rem;
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
@@ -6524,7 +6524,7 @@ textarea.form-control-lg {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 0.875rem;
+  font-size: 0.765625rem;
   word-wrap: break-word;
   opacity: 0;
 }
@@ -6626,7 +6626,7 @@ textarea.form-control-lg {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 0.875rem;
+  font-size: 0.765625rem;
   word-wrap: break-word;
   background-color: white;
   background-clip: padding-box;
@@ -6721,7 +6721,7 @@ textarea.form-control-lg {
 .popover-header {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   background-color: #f0f0f0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   border-top-left-radius: calc(0.188rem - 1px);
@@ -9251,7 +9251,7 @@ svg {
 }
 
 .fs-7 {
-  font-size: 0.75rem !important;
+  font-size: 0.65625rem !important;
 }
 
 .fst-italic {
