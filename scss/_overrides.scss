@@ -3,12 +3,7 @@
 
 // Import variables from Janus design tokens
 @import "../node_modules/@symplicity/janus-tokens/dist/index.scss";
-
-// @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
-
-// @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap");
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
 // Map Janus design tokens to bootstrap variables
 $white: $janus-color-white !default;
@@ -81,11 +76,10 @@ $btn-border-radius-sm:        $janus-border-radius-sm !default;
 
 $btn-box-shadow:              none !default;
 
-// $font-family-sans-serif:      $janus-font-stack-base !default;
-$font-family-sans-serif:      "Open Sans", sans-serif;
+$font-family-sans-serif:      $janus-font-stack-base !default;
 $font-family-monospace:       $janus-font-stack-monospace !default;
 
-$font-size-base:              .875rem !default;
+$font-size-base:              $janus-font-size-base !default;
 $btn-font-size-lg:            $janus-font-size-base !default;
 
 $line-height-base:            $janus-line-height-base !default;
@@ -114,7 +108,7 @@ $display-font-sizes: (
 
 $legend-margin-bottom:        .25rem !default;
 $legend-font-size:            $h4-font-size !default;
-$legend-font-weight:          600 !default;
+$legend-font-weight:          700 !default;
 
 $border-radius:               $janus-border-radius !default;
 $border-radius-sm:            $janus-border-radius-sm !default;
@@ -195,7 +189,7 @@ $btn-disabled-color:          $janus-disabled-button-color;
 $btn-disabled-border-color:   $janus-disabled-button-border-color;
 $btn-disabled-background-color: $janus-disabled-button-background-color;
 
-$font-weight-semibold:        600 !default;
+$font-weight-semibold:        700 !default;
 $btn-font-weight:             $font-weight-semibold !default;
 
 //$input-focus-border-color:    $janus-color-primary !default;
@@ -214,7 +208,7 @@ $form-text-margin-top:        -0.25rem !default;
 $form-text-margin-bottom:     .5rem;
 
 $form-label-margin-bottom:    .25rem !default;
-$form-label-font-weight:      600 !default;
+$form-label-font-weight:      700 !default;
 $form-feedback-font-size:     $janus-font-size-small !default;
 $form-feedback-margin-bottom: .25rem;
 $form-feedback-margin-top:    -0.25rem;
@@ -244,7 +238,7 @@ $nav-tabs-border-color:       $white $white $white;
 $nav-tabs-link-active-border-color: $janus-color-primary !default;
 $nav-link-padding-x:          $janus-nav-link-padding-x !default;
 $nav-link-padding-y:          $janus-nav-link-padding-y !default;
-$nav-link-font-weight:        600 !default;
+$nav-link-font-weight:        700 !default;
 $nav-tabs-border-width:       0 !default;
 
 $link-hover-decoration:       underline !default;
