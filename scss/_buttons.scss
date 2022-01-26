@@ -171,7 +171,7 @@
       border-radius: 50rem; // .rounded-circle
     }
 
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(md) {
       &.btn-search {
         width: 100%;
         text-align: left;

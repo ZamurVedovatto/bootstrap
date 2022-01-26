@@ -3881,7 +3881,7 @@ textarea.form-control-lg {
 .btn-action.btn-action-icon-only.btn-search {
   border-radius: 50rem;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .btn-action.btn-action-icon-only.btn-search {
     width: 100%;
     text-align: left;
