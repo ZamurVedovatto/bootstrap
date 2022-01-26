@@ -378,3 +378,24 @@
     }
   }
 }
+
+// Custom style for top search focus-visible
+
+.dropdown {
+  &:focus-visible {
+    outline: none;
+  }
+  &.top-search {
+    .btn-action {
+      &[aria-expanded="true"] {
+        border: 2px solid $janus-color-primary;
+        border-bottom: none;
+
+        ~ ul {
+          border: 2px solid $janus-color-primary;
+          border-top: none; 
+        }
+      }
+    }
+  }
+}

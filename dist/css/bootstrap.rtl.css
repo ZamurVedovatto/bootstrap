@@ -3916,7 +3916,7 @@ textarea.form-control-lg {
   border-bottom-right-radius: 12px;
   border-top: none;
   padding: 16px;
-  top: -4px !important;
+  top: -2px !important;
 }
 
 .btn-search-combo .form-select {
@@ -4386,6 +4386,18 @@ textarea.form-control-lg {
 }
 .dropdown-item.active .text-muted, .dropdown-item:active .text-muted {
   color: white;
+}
+
+.dropdown:focus-visible {
+  outline: none;
+}
+.dropdown.top-search .btn-action[aria-expanded=true] {
+  border: 2px solid #0e62b9;
+  border-bottom: none;
+}
+.dropdown.top-search .btn-action[aria-expanded=true] ~ ul {
+  border: 2px solid #0e62b9;
+  border-top: none;
 }
 
 .btn-group,
