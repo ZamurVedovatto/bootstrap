@@ -52,6 +52,8 @@ $enable-shadows:              true !default;
 
 $body-color:                  $gray-800 !default;
 
+$font-weight-semibold:        600 !default;
+
 $box-shadow:                  0 .125rem .25rem rgba($black, .5) !default;
 $box-shadow-sm:               0 .0625rem .125rem rgba($black, .5) !default;
 $box-shadow-lg:               0 .125rem .375rem rgba($black, .3) !default;
@@ -70,6 +72,7 @@ $alert-color-scale:           -75% !default;
 $alert-border-width:          0 !default;
 
 $badge-font-size:             $janus-badge-font-size !default;
+$badge-font-weight:           $font-weight-semibold !default;
 
 $btn-border-radius:           $janus-border-radius-lg !default;
 $btn-border-radius-lg:        $janus-border-radius-lg !default;
@@ -190,7 +193,6 @@ $btn-disabled-color:          $janus-disabled-button-color;
 $btn-disabled-border-color:   $janus-disabled-button-border-color;
 $btn-disabled-background-color: $janus-disabled-button-background-color;
 
-$font-weight-semibold:        600 !default;
 $btn-font-weight:             $font-weight-semibold !default;
 
 //$input-focus-border-color:    $janus-color-primary !default;
