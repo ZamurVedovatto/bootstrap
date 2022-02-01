@@ -5,7 +5,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
 /* border-radius-xl and xxl also available */
 /*
 $btn-hover-bg-shade-amount:       15% !default;
@@ -433,7 +433,7 @@ legend {
   padding: 0;
   margin-bottom: 0.25rem;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: inherit;
 }
 legend + * {
@@ -2494,7 +2494,7 @@ progress {
 }
 .form-label {
   margin-bottom: 0.25rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .col-form-label {
@@ -2502,7 +2502,7 @@ progress {
   padding-bottom: calc(0.3125rem + 1px);
   margin-bottom: 0;
   font-size: inherit;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.5;
 }
 
@@ -3322,7 +3322,7 @@ textarea.form-control-lg {
 
 .btn {
   display: inline-block;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.5;
   color: #454545;
   text-align: center;
@@ -4525,7 +4525,7 @@ textarea.form-control-lg {
   height: 60px;
   max-width: 200px;
   padding: 0 0.75rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #0e62b9;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
@@ -5193,7 +5193,7 @@ textarea.form-control-lg {
   margin-bottom: 0.25rem;
   background-color: rgba(0, 0, 0, 0.03);
   font-size: 0.875em;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.25rem;
 }
 .card-header:first-child {
@@ -7021,7 +7021,7 @@ textarea.form-control-lg {
 .avatar.avatar-text {
   font-size: 1vw;
   line-height: 1rem;
-  font-weight: 700;
+  font-weight: 600;
   vertical-align: top;
 }
 .avatar.avatar-image {

@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
 /* border-radius-xl and xxl also available */
 /*
 $btn-hover-bg-shade-amount:       15% !default;
@@ -433,7 +433,7 @@ legend {
   padding: 0;
   margin-bottom: 0.25rem;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: inherit;
 }
 legend + * {
