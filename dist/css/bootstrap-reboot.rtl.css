@@ -77,7 +77,7 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 69, 69, 69;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "lato", sans-serif;
+  --bs-font-sans-serif: "Source Sans Pro", sans-serif;
   --bs-font-monospace: Monaco, monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
