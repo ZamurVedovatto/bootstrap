@@ -71,6 +71,12 @@
 
 .filter-toggle {
   &.filter-drop {
+    border: 1px solid $gray-400;
+
+    svg {
+      color: $gray-600;
+    }
+
     &:active {
       background: #fff;
     }
@@ -79,7 +85,9 @@
       padding: .25rem .9375rem;
 
       svg {
-        color: $janus-color-primary;
+        &:not(.filter-remove) {
+          color: $janus-color-primary;
+        }
       }
     }
 
