@@ -55,7 +55,7 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   --bs-gray-700: #555555;
   --bs-gray-800: #454545;
   --bs-gray-900: #333333;
-  --bs-primary: #0d6efd;
+  --bs-primary: #0e62b9;
   --bs-secondary: #454545;
   --bs-success: #297848;
   --bs-info: #0b5ba1;
@@ -64,7 +64,7 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   --bs-light: #ececec;
   --bs-medium: #aaaaaa;
   --bs-dark: #454545;
-  --bs-primary-rgb: 13, 110, 253;
+  --bs-primary-rgb: 14, 98, 185;
   --bs-secondary-rgb: 69, 69, 69;
   --bs-success-rgb: 41, 120, 72;
   --bs-info-rgb: 11, 91, 161;
@@ -251,19 +251,19 @@ sup {
 }
 
 a {
-  color: #0d6efd;
+  color: #0e62b9;
   text-decoration: none;
   font-weight: 600;
 }
 a:hover, a:focus {
-  color: #0a58ca;
+  color: #0b4e94;
   text-decoration: underline;
 }
 
 p a:focus {
-  background-color: #0a58ca;
+  background-color: #0b4e94;
   text-decoration: none;
-  outline: 4px solid #0a58ca;
+  outline: 4px solid #0b4e94;
   outline-offset: 0;
   color: #fff;
 }

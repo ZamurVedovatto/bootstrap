@@ -38,15 +38,15 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
 }
 
 .link-primary {
-  color: #0d6efd;
+  color: #0e62b9;
 }
 .link-primary:hover {
   text-decoration: underline;
 }
 .link-primary:focus {
-  background-color: #0d6efd;
+  background-color: #0e62b9;
   text-decoration: none;
-  outline: 4px solid #0d6efd;
+  outline: 4px solid #0e62b9;
   outline-offset: 0;
   color: #fff;
 }
@@ -632,7 +632,7 @@ svg {
 }
 
 .border-primary {
-  border-color: #0d6efd !important;
+  border-color: #0e62b9 !important;
 }
 
 .border-secondary {
