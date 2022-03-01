@@ -407,3 +407,20 @@
     }
   }
 }
+
+.dropdown-title {
+  padding: $dropdown-item-padding-y $dropdown-item-padding-x;
+
+  button {
+    background: none;
+    border: none;
+
+    &:hover {
+      background: $gray-400 !important;
+    }
+
+    &:active {
+      background: none !important;
+    }
+  }
+}
