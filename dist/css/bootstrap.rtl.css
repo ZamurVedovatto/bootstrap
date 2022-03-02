@@ -4050,7 +4050,7 @@ textarea.form-control-lg {
   border: none;
 }
 .dropdown-menu.filter-menu .dropdown-item button:hover {
-  background: #aaaaaa !important;
+  background: #cccccc !important;
 }
 .dropdown-menu.filter-menu .dropdown-item button:active {
   background: none !important;
