@@ -7557,6 +7557,11 @@ textarea.form-control-lg {
   white-space: nowrap;
 }
 
+.icon-base-font-size {
+  width: 1rem;
+  height: 1rem;
+}
+
 .icon-lg-font-size {
   width: 1.25rem;
   height: 1.25rem;
