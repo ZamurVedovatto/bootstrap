@@ -7282,11 +7282,10 @@ textarea.form-control-lg {
 .steps.four-steps::before {
   content: "";
   position: absolute;
-  width: 469px;
+  width: 477px;
   height: 1px;
   background: #cccccc;
   top: 29px;
-  left: 89px;
 }
 .steps li {
   margin-right: 2.75rem;
