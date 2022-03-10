@@ -11,6 +11,15 @@
     }
   }
 
+  .disabled {
+    button {
+      .rounded-circle {
+        background: $gray-300;
+        color: $gray-700;
+      }
+    }
+  }
+
   button {
     .text-nowrap {
       font-size: $small-font-size;

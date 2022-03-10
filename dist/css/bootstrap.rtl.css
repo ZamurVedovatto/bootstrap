@@ -7273,6 +7273,10 @@ textarea.form-control-lg {
   top: 29px;
   right: 89px;
 }
+.steps .disabled button .rounded-circle {
+  background: #cccccc;
+  color: #555555;
+}
 .steps button .text-nowrap {
   font-size: 0.875em;
 }
