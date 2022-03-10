@@ -7310,6 +7310,10 @@ textarea.form-control-lg {
 .steps .step-number span {
   line-height: 1.5rem;
 }
+.steps .step-icon svg {
+  position: relative;
+  top: -1px;
+}
 
 .clearfix::after {
   display: block;
