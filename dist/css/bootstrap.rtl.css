@@ -7264,6 +7264,16 @@ textarea.form-control-lg {
     mask-position: -200% 0%;
   }
 }
+.steps.four-steps::before {
+  content: "";
+  position: absolute;
+  width: 400px;
+  height: 1px;
+  background: #cccccc;
+  top: 25%;
+  right: 95px;
+}
+
 .clearfix::after {
   display: block;
   clear: both;

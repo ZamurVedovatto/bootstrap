@@ -1,0 +1,13 @@
+.steps {
+  &.four-steps {
+      &::before {
+      content: '';
+      position: absolute;
+      width: 400px;
+      height: 1px;
+      background: $gray-300;
+      top: 25%;
+      left: 95px;
+    }
+  }
+}
