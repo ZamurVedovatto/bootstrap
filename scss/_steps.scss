@@ -6,7 +6,7 @@
       width: 477px;
       height: 1px;
       background: $gray-300;
-      top: 30px;
+      top: 28px;
     }
   }
 
@@ -34,6 +34,9 @@
   }
 
   .step-number {
+    position: relative;
+    top: -1px;
+
     span {
       line-height: $janus-icon-lg-line-height;
     }
