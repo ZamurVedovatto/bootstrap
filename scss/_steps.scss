@@ -33,4 +33,11 @@
       font-size: $small-font-size;
     }
   }
+
+  .step-number {
+    span {
+      line-height: $janus-icon-lg-line-height;
+    }
+  }
+
 }

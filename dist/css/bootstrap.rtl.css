@@ -7285,6 +7285,9 @@ textarea.form-control-lg {
 .steps button .text-nowrap {
   font-size: 0.875em;
 }
+.steps .step-number span {
+  line-height: 1.5rem;
+}
 
 .clearfix::after {
   display: block;
