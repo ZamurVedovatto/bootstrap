@@ -7282,7 +7282,7 @@ textarea.form-control-lg {
 .steps.four-steps::before {
   content: "";
   position: absolute;
-  width: 477px;
+  width: 475px;
   height: 1px;
   background: #cccccc;
   top: 28px;
@@ -7299,6 +7299,9 @@ textarea.form-control-lg {
 }
 .steps button .text-nowrap {
   font-size: 0.875em;
+}
+.steps button:focus {
+  box-shadow: 0 0 0 3px #0e62b9;
 }
 .steps .step-number {
   position: relative;

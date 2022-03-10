@@ -3,7 +3,7 @@
       &::before {
       content: '';
       position: absolute;
-      width: 477px;
+      width: 475px;
       height: 1px;
       background: $gray-300;
       top: 28px;
@@ -30,6 +30,10 @@
   button {
     .text-nowrap {
       font-size: $small-font-size;
+    }
+
+    &:focus {
+      box-shadow: 0 0 0 3px $janus-color-primary;
     }
   }
 
