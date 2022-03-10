@@ -7282,11 +7282,14 @@ textarea.form-control-lg {
 .steps.four-steps::before {
   content: "";
   position: absolute;
-  width: 400px;
+  width: 370px;
   height: 1px;
   background: #cccccc;
-  top: 25%;
-  left: 95px;
+  top: 29px;
+  left: 89px;
+}
+.steps button .text-nowrap {
+  font-size: 0.875em;
 }
 
 .clearfix::after {
