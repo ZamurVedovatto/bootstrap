@@ -7267,13 +7267,19 @@ textarea.form-control-lg {
 .steps.four-steps::before {
   content: "";
   position: absolute;
-  width: 370px;
+  width: 469px;
   height: 1px;
   background: #cccccc;
   top: 29px;
   right: 89px;
 }
-.steps .disabled button .rounded-circle {
+.steps li {
+  margin-left: 2.75rem;
+}
+.steps li:last-of-type {
+  margin-left: 0;
+}
+.steps li.disabled button .rounded-circle {
   background: #cccccc;
   color: #555555;
 }
