@@ -3,10 +3,17 @@
       &::before {
       content: '';
       position: absolute;
-      width: 475px;
+      width: 365px;
       height: 1px;
       background: $gray-300;
-      top: 28px;
+      top: 29px;
+      transform: translate(11px, 0);
+
+      @include media-breakpoint-up(md) {
+        width: 462px;
+        top: 32px;
+        transform: translate(13px, 0);
+      }
     }
   }
 
