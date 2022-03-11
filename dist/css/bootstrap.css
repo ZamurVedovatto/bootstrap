@@ -7282,7 +7282,7 @@ textarea.form-control-lg {
 .steps.four-steps::before {
   content: "";
   position: absolute;
-  width: 365px;
+  width: 367px;
   height: 1px;
   background: #cccccc;
   top: 29px;
@@ -7290,9 +7290,9 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) {
   .steps.four-steps::before {
-    width: 462px;
+    width: 463px;
     top: 32px;
-    transform: translate(13px, 0);
+    transform: translate(14px, 0);
   }
 }
 .steps li {
