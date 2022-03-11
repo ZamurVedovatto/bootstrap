@@ -7288,7 +7288,12 @@ textarea.form-control-lg {
   top: 28px;
 }
 .steps li {
-  margin-right: 2.75rem;
+  margin-right: 1rem;
+}
+@media (min-width: 768px) {
+  .steps li {
+    margin-right: 2.75rem;
+  }
 }
 .steps li:last-of-type {
   margin-right: 0;

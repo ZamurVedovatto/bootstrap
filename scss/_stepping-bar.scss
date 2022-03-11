@@ -11,7 +11,11 @@
   }
 
   li {
-    margin-right: 2.75rem;
+    margin-right: 1rem;
+
+    @include media-breakpoint-up(md) {
+      margin-right: 2.75rem;
+    }
 
     &:last-of-type {
       margin-right: 0;

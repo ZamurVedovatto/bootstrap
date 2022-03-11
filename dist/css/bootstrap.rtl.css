@@ -7273,7 +7273,12 @@ textarea.form-control-lg {
   top: 28px;
 }
 .steps li {
-  margin-left: 2.75rem;
+  margin-left: 1rem;
+}
+@media (min-width: 768px) {
+  .steps li {
+    margin-left: 2.75rem;
+  }
 }
 .steps li:last-of-type {
   margin-left: 0;
