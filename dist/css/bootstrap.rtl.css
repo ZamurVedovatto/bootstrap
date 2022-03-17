@@ -7283,7 +7283,7 @@ textarea.form-control-lg {
   width: 367px;
 }
 @media (min-width: 768px) {
-  .steps.four-steps {
+  .steps.four-steps::before {
     width: 463px;
   }
 }
@@ -7291,7 +7291,7 @@ textarea.form-control-lg {
   width: 665px;
 }
 @media (min-width: 768px) {
-  .steps.six-steps {
+  .steps.six-steps::before {
     width: 764px;
   }
 }
