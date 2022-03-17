@@ -1,28 +1,37 @@
-.steps {  
+.steps {
+  &.four-steps,
+  &.six-steps {
     &::before {
-    content: '';
-    position: absolute;
-    height: 1px;
-    background: $gray-300;
-    top: 29px;
-    transform: translate(11px, 0);
+      content: '';
+      position: absolute;
+      height: 1px;
+      background: $gray-300;
+      top: 29px;
+      transform: translate(11px, 0);
 
-    &.four-steps {
-      &::before {
-        width: 367px;
+      @include media-breakpoint-up(md) {
+        width: 764px;
+        top: 32px;
+        transform: translate(14px, 0);
       }
     }
-
-    &.six-steps {
-      &::before {
-        width: 665px;
-      }
+  }
+  &.four-steps {
+    &::before {
+      width: 367px;
     }
 
     @include media-breakpoint-up(md) {
       width: 463px;
-      top: 32px;
-      transform: translate(14px, 0);
+    }
+  }
+  &.six-steps {
+    &::before {
+      width: 665px;
+    }
+    
+    @include media-breakpoint-up(md) {
+      width: 764px;
     }
   }
 
