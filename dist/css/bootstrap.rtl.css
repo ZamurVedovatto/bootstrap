@@ -7292,7 +7292,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) {
   .steps.six-steps::before {
-    width: 764px;
+    width: 825px;
   }
 }
 .steps li {
