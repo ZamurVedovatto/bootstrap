@@ -4399,11 +4399,13 @@ textarea.form-control-lg {
   background: none !important;
 }
 
-.list-parent .dropdown-item:hover {
+.list-parent .dropdown-item:hover,
+.list-parent .dropdown-item:focus {
   background: #fff;
   cursor: default;
 }
-.list-parent .dropdown-item:hover span:first-of-type {
+.list-parent .dropdown-item:hover span:first-of-type,
+.list-parent .dropdown-item:focus span:first-of-type {
   cursor: pointer;
 }
 

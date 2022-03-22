@@ -406,7 +406,8 @@
 }
 
 .list-parent {
-  .dropdown-item:hover {
+  .dropdown-item:hover,
+  .dropdown-item:focus {
     background: #fff;
     cursor: default;
 
