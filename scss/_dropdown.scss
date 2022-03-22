@@ -404,3 +404,14 @@
     }
   }
 }
+
+.list-parent {
+  .dropdown-item:hover {
+    background: #fff;
+    cursor: default;
+
+    span:first-of-type {
+      cursor: pointer;
+    }
+  }
+}
