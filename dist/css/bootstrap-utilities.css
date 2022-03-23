@@ -122,15 +122,15 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
 }
 
 .link-light {
-  color: #ececec;
+  color: #f6f6f6;
 }
 .link-light:hover {
   text-decoration: underline;
 }
 .link-light:focus {
-  background-color: #ececec;
+  background-color: #f6f6f6;
   text-decoration: none;
-  outline: 4px solid #ececec;
+  outline: 4px solid #f6f6f6;
   outline-offset: 0;
   color: #333;
 }
@@ -661,7 +661,7 @@ svg {
 }
 
 .border-light {
-  border-color: #ececec !important;
+  border-color: #f6f6f6 !important;
 }
 
 .border-medium {
