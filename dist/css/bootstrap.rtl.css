@@ -7285,7 +7285,7 @@ textarea.form-control-lg {
   left: 0;
   width: 100%;
   position: absolute;
-  background: red;
+  background: #cccccc;
   content: "";
 }
 @media (min-width: 768px) {
