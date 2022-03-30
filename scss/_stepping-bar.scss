@@ -1,36 +1,30 @@
 .steps {
-  &.four-steps,
-  &.six-steps {
-    &::before {
-      content: '';
-      position: absolute;
+
+  li {
+    button {
+      position: relative;
+      z-index: 2;
+    }
+    button:after {
       height: 1px;
-      background: $gray-300;
-      top: 29px;
-      transform: translate(11px, 0);
-
-      @include media-breakpoint-up(md) {
-        width: 764px;
-        top: 32px;
-        transform: translate(14px, 0);
+      z-index: 1;
+      top: 31px;
+      right: 0;
+      width: 100%;
+      position: absolute;
+      background: red;
+      content: '';
+    }
+    &.first {
+      button:after {
+        right: 0;
+        width: 50%;
       }
     }
-  }
-  &.four-steps {
-    &::before {
-      width: 367px;
-
-      @include media-breakpoint-up(md) {
-        width: 463px;
-      }
-    }
-  }
-  &.six-steps {
-    &::before {
-      width: 665px;
-    
-      @include media-breakpoint-up(md) {
-        width: 825px;
+    &.last {
+      button: after {
+        left: 0;
+        width: 50%;
       }
     }
   }

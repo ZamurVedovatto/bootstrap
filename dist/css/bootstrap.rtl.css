@@ -7274,36 +7274,28 @@ textarea.form-control-lg {
     mask-position: -200% 0%;
   }
 }
-.steps.four-steps::before, .steps.six-steps::before {
-  content: "";
-  position: absolute;
+.steps li button {
+  position: relative;
+  z-index: 2;
+}
+.steps li button:after {
   height: 1px;
-  background: #cccccc;
-  top: 29px;
-  transform: translate(-11px, 0);
+  z-index: 1;
+  top: 31px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  background: red;
+  content: "";
 }
-@media (min-width: 768px) {
-  .steps.four-steps::before, .steps.six-steps::before {
-    width: 764px;
-    top: 32px;
-    transform: translate(-14px, 0);
-  }
+.steps li.first button:after {
+  left: 0;
+  width: 50%;
 }
-.steps.four-steps::before {
-  width: 367px;
-}
-@media (min-width: 768px) {
-  .steps.four-steps::before {
-    width: 463px;
-  }
-}
-.steps.six-steps::before {
-  width: 665px;
-}
-@media (min-width: 768px) {
-  .steps.six-steps::before {
-    width: 825px;
-  }
+.steps li.last {
+  button: after;
+  button-right: 0;
+  button-width: 50%;
 }
 .steps li {
   margin-left: 1rem;
