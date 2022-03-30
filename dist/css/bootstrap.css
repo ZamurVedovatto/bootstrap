@@ -7326,8 +7326,11 @@ textarea.form-control-lg {
 .steps div .text-nowrap {
   font-size: 0.875em;
 }
+.steps .step-number,
+.steps .step-icon {
+  z-index: 2;
+}
 .steps .step-number {
-  position: relative;
   top: -1px;
   justify-content: center;
 }
