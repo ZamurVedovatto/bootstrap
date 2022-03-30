@@ -33,7 +33,6 @@
   }
 
   li {
-    margin-right: 1rem;
 
     @include media-breakpoint-up(md) {
       margin-right: 2.75rem;
@@ -56,10 +55,6 @@
   div {
     .text-nowrap {
       font-size: $small-font-size;
-    }
-
-    &:focus {
-      box-shadow: 0 0 0 3px $janus-color-primary;
     }
   }
 

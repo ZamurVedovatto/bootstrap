@@ -7301,9 +7301,6 @@ textarea.form-control-lg {
   right: 0;
   width: 50%;
 }
-.steps li {
-  margin-left: 1rem;
-}
 @media (min-width: 768px) {
   .steps li {
     margin-left: 2.75rem;
@@ -7318,9 +7315,6 @@ textarea.form-control-lg {
 }
 .steps div .text-nowrap {
   font-size: 0.875em;
-}
-.steps div:focus {
-  box-shadow: 0 0 0 3px #0e62b9;
 }
 .steps .step-number {
   position: relative;
