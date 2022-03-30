@@ -34,10 +34,6 @@
 
   li {
 
-    @include media-breakpoint-up(md) {
-      margin-right: 2.75rem;
-    }
-
     &:last-of-type {
       margin-right: 0;
     }

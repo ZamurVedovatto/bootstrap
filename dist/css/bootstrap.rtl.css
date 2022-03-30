@@ -7301,11 +7301,6 @@ textarea.form-control-lg {
   right: 0;
   width: 50%;
 }
-@media (min-width: 768px) {
-  .steps li {
-    margin-left: 2.75rem;
-  }
-}
 .steps li:last-of-type {
   margin-left: 0;
 }
