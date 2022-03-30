@@ -7289,28 +7289,27 @@ textarea.form-control-lg {
     mask-position: -200% 0%;
   }
 }
-.steps li button {
+.steps li div {
   position: relative;
   z-index: 2;
 }
-.steps li button:after {
+.steps li div:after {
   height: 1px;
   z-index: 1;
-  top: 31px;
+  top: 28px;
   right: 0;
   width: 100%;
   position: absolute;
   background: red;
   content: "";
 }
-.steps li.first button:after {
+.steps li.first div:after {
   right: 0;
   width: 50%;
 }
-.steps li.last {
-  button: after;
-  button-left: 0;
-  button-width: 50%;
+.steps li.last div:after {
+  left: 0;
+  width: 50%;
 }
 .steps li {
   margin-right: 1rem;
@@ -7323,22 +7322,27 @@ textarea.form-control-lg {
 .steps li:last-of-type {
   margin-right: 0;
 }
-.steps li.disabled button .rounded-circle {
+.steps li.disabled div .rounded-circle {
   background: #cccccc;
   color: #555555;
 }
-.steps button .text-nowrap {
+.steps div .text-nowrap {
   font-size: 0.875em;
 }
-.steps button:focus {
+.steps div:focus {
   box-shadow: 0 0 0 3px #0e62b9;
 }
 .steps .step-number {
   position: relative;
   top: -1px;
+  justify-content: center;
 }
 .steps .step-number span {
   line-height: 1.5rem;
+}
+.steps .step-icon {
+  justify-content: center;
+  align-items: center;
 }
 .steps .step-icon svg {
   position: relative;

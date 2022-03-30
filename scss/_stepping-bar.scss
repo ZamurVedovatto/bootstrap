@@ -1,14 +1,14 @@
 .steps {
 
   li {
-    button {
+    div {
       position: relative;
       z-index: 2;
     }
-    button:after {
+    div:after {
       height: 1px;
       z-index: 1;
-      top: 31px;
+      top: 28px;
       right: 0;
       width: 100%;
       position: absolute;
@@ -16,13 +16,13 @@
       content: '';
     }
     &.first {
-      button:after {
+      div:after {
         right: 0;
         width: 50%;
       }
     }
     &.last {
-      button: after {
+      div:after {
         left: 0;
         width: 50%;
       }
@@ -41,7 +41,7 @@
     }
 
     &.disabled {
-      button {
+      div {
         .rounded-circle {
           background: $gray-300;
           color: $gray-700;
@@ -50,7 +50,7 @@
     }
   }
 
-  button {
+  div {
     .text-nowrap {
       font-size: $small-font-size;
     }
@@ -63,6 +63,7 @@
   .step-number {
     position: relative;
     top: -1px;
+    justify-content: center;
 
     span {
       line-height: $janus-icon-lg-line-height;
@@ -70,6 +71,9 @@
   }
 
   .step-icon {
+    justify-content: center;
+    align-items: center;
+
     svg {
       position: relative;
       top: -1px;
