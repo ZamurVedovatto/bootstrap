@@ -9,6 +9,9 @@
       height: 1px;
       z-index: 1;
       top: 28px;
+      @include media-breakpoint-up(md) {
+        top: 32px;
+      }
       right: 0;
       width: 100%;
       position: absolute;

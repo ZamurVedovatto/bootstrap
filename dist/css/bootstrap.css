@@ -7303,6 +7303,11 @@ textarea.form-control-lg {
   background: red;
   content: "";
 }
+@media (min-width: 768px) {
+  .steps li div:after {
+    top: 32px;
+  }
+}
 .steps li.first div:after {
   right: 0;
   width: 50%;
