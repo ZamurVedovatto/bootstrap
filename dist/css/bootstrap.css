@@ -7346,6 +7346,22 @@ textarea.form-control-lg {
   top: -1px;
 }
 
+.action-bar-container {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+}
+
+.action-bar {
+  overflow-x: auto;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .action-bar {
+    width: auto;
+  }
+}
+
 .clearfix::after {
   display: block;
   clear: both;
