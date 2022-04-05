@@ -7367,7 +7367,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) {
   .action-bar {
-    width: auto;
+    position: relative;
   }
 }
 
