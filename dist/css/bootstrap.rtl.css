@@ -7333,8 +7333,17 @@ textarea.form-control-lg {
 
 .action-bar-container {
   display: flex;
-  height: 100vh;
   margin: 0;
+  width: 100%;
+  height: auto;
+}
+@media (min-width: 768px) {
+  .action-bar-container {
+    right: unset;
+    height: 100%;
+    width: auto;
+    display: flex;
+  }
 }
 
 .action-bar {
