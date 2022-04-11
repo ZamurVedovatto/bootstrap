@@ -7371,6 +7371,9 @@ textarea.form-control-lg {
     position: relative !important;
   }
 }
+.action-bar .nav .nav-pills .nav-link {
+  border-radius: 0;
+}
 .action-bar .nav .nav-link {
   height: auto;
   background: #f6f6f6;
@@ -7380,9 +7383,6 @@ textarea.form-control-lg {
 }
 .action-bar .nav .nav-link.active svg {
   color: #0e62b9;
-}
-.action-bar .nav .nav-link .nav-pills {
-  border-radius: 0;
 }
 .action-bar .nav .nav-link svg {
   color: #454545;
