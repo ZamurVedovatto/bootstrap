@@ -17,4 +17,8 @@
   @include media-breakpoint-up(md) {
     position: relative !important;
   }
+
+  .nav-link {
+    height: auto;
+  }
 }

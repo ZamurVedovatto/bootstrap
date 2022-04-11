@@ -7356,6 +7356,9 @@ textarea.form-control-lg {
     position: relative !important;
   }
 }
+.action-bar .nav-link {
+  height: auto;
+}
 
 .clearfix::after {
   display: block;
