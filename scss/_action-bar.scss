@@ -18,7 +18,19 @@
     position: relative !important;
   }
 
-  .nav-link {
-    height: auto;
+  .nav {
+    .nav-link {
+      height: auto;
+      background: $gray-100;
+    }
+
+    li {
+      &.active {
+        border-top: 2px solid $janus-color-primary;
+      }
+      svg {
+        color: $gray-800;
+      }
+    }
   }
 }

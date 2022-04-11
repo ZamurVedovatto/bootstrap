@@ -7356,8 +7356,15 @@ textarea.form-control-lg {
     position: relative !important;
   }
 }
-.action-bar .nav-link {
+.action-bar .nav .nav-link {
   height: auto;
+  background: #f6f6f6;
+}
+.action-bar .nav li.active {
+  border-top: 2px solid #0e62b9;
+}
+.action-bar .nav li svg {
+  color: #454545;
 }
 
 .clearfix::after {
