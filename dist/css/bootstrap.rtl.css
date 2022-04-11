@@ -7361,10 +7361,13 @@ textarea.form-control-lg {
   background: #f6f6f6;
 }
 .action-bar .nav .nav-link.active {
-  border-top: 2px solid #0e62b9;
+  box-shadow: inset 0 2px 0 0 #0e62b9;
 }
 .action-bar .nav .nav-link.active svg {
   color: #0e62b9;
+}
+.action-bar .nav .nav-link .nav-pills {
+  border-radius: 0;
 }
 .action-bar .nav .nav-link svg {
   color: #454545;
