@@ -18,12 +18,13 @@
     position: relative !important;
   }
 
-  .nav {
-    .nav-pills {
-      .nav-link {
-        border-radius: 0;
-      }
+  .nav-pills {
+    .nav-link {
+      border-radius: 0;
     }
+  }
+
+  .nav {
     .nav-link {
       height: auto;
       background: $gray-100;
