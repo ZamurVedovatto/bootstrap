@@ -7360,10 +7360,13 @@ textarea.form-control-lg {
   height: auto;
   background: #f6f6f6;
 }
-.action-bar .nav li.active {
+.action-bar .nav .nav-link.active {
   border-top: 2px solid #0e62b9;
 }
-.action-bar .nav li svg {
+.action-bar .nav .nav-link.active svg {
+  color: #0e62b9;
+}
+.action-bar .nav .nav-link svg {
   color: #454545;
 }
 
