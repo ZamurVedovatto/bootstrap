@@ -7365,10 +7365,13 @@ textarea.form-control-lg {
 .action-bar {
   overflow-x: auto;
   width: 100%;
+  border-top: 1px solid #6c6c6c;
 }
 @media (min-width: 768px) {
   .action-bar {
     position: relative !important;
+    border-left: 1px solid #6c6c6c;
+    border-top: none;
   }
 }
 .action-bar .nav-pills .nav-link {
@@ -7376,7 +7379,7 @@ textarea.form-control-lg {
 }
 .action-bar .nav .nav-link {
   height: auto;
-  background: #f6f6f6;
+  background: #fff;
 }
 .action-bar .nav .nav-link.active {
   box-shadow: inset 0 2px 0 0 #0e62b9;
