@@ -14,10 +14,10 @@
 .action-bar {
   overflow-x: auto;
   width: 100%;
-  border-top: 1px solid $gray-600;
+  border-top: 1px solid $gray-300;
   @include media-breakpoint-up(md) {
     position: relative !important;
-    border-left: 1px solid $gray-600;
+    border-left: 1px solid $gray-300;
     border-top: none;
   }
 
@@ -44,7 +44,7 @@
       }
 
       svg {
-        color: $gray-800;
+        color: $gray-500;
       }
     }
   }

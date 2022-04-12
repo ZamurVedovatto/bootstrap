@@ -7350,12 +7350,12 @@ textarea.form-control-lg {
 .action-bar {
   overflow-x: auto;
   width: 100%;
-  border-top: 1px solid #6c6c6c;
+  border-top: 1px solid #cccccc;
 }
 @media (min-width: 768px) {
   .action-bar {
     position: relative !important;
-    border-right: 1px solid #6c6c6c;
+    border-right: 1px solid #cccccc;
     border-top: none;
   }
 }
@@ -7378,7 +7378,7 @@ textarea.form-control-lg {
   color: #0e62b9;
 }
 .action-bar .nav .nav-link svg {
-  color: #454545;
+  color: #949494;
 }
 
 .clearfix::after {
