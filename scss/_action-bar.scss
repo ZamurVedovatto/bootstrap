@@ -31,6 +31,9 @@
 
       &.active {
         box-shadow: inset 0 2px 0 0 $janus-color-primary;
+        @include media-breakpoint-up(md) {
+          box-shadow: inset 2px 0 0 0 $janus-color-primary;
+        }
 
         svg {
           color: $janus-color-primary;
