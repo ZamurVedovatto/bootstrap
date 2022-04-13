@@ -6548,6 +6548,11 @@ textarea.form-control-lg {
   word-wrap: break-word;
   opacity: 0;
 }
+@media (max-width: 575.98px) {
+  .tooltip {
+    display: none;
+  }
+}
 .tooltip.show {
   opacity: 0.9;
 }
