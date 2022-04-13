@@ -6550,7 +6550,7 @@ textarea.form-control-lg {
   word-wrap: break-word;
   opacity: 0;
 }
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   .tooltip {
     display: none;
   }

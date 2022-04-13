@@ -3,7 +3,7 @@
   position: absolute;
   z-index: $zindex-tooltip;
   display: block;
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(md) {
     display: none;
   }
   margin: $tooltip-margin;
