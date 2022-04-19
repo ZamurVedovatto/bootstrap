@@ -7414,6 +7414,9 @@ textarea.form-control-lg {
 .stage-container .stage-header svg {
   color: #949494;
 }
+.stage-container .stage-header .title {
+  line-height: 14px;
+}
 
 .clearfix::after {
   display: block;
