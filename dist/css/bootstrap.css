@@ -7408,6 +7408,13 @@ textarea.form-control-lg {
   color: #949494;
 }
 
+.stages-container {
+  width: 300px;
+}
+.stages-container .stages-header svg {
+  color: #949494;
+}
+
 .clearfix::after {
   display: block;
   clear: both;
