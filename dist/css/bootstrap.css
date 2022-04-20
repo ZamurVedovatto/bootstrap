@@ -7411,14 +7411,14 @@ textarea.form-control-lg {
 .stage-container {
   width: 300px;
 }
+.stage-container .stage-header:hover .move-controls button {
+  opacity: 1;
+}
 .stage-container .stage-header svg {
   color: #949494;
 }
 .stage-container .stage-header .title {
   line-height: 14px;
-}
-.stage-container .stage-header .move-controls:hover button {
-  opacity: 1;
 }
 .stage-container .stage-header .move-controls button {
   opacity: 0;

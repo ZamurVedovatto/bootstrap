@@ -2,6 +2,14 @@
   width: 300px;
 
   .stage-header {
+    &:hover {
+      .move-controls {
+        button {
+          opacity: 1;
+        }
+      }
+    }
+
     svg {
       color: $gray-500;
     }
@@ -11,12 +19,6 @@
     }
 
     .move-controls {
-      
-      &:hover {
-        button {
-          opacity: 1;
-        }
-      }
 
       button {
         opacity: 0;
