@@ -7396,11 +7396,27 @@ textarea.form-control-lg {
 .stage-container {
   width: 300px;
 }
+.stage-container .stage-header:hover .move-controls {
+  background: linear-gradient(to left, transparent, #f6f6f6);
+  -webkit-text-fill-color: transparent;
+  background-position-x: left;
+  padding-right: 50px;
+  position: absolute;
+  left: 0;
+  height: 100%;
+}
 .stage-container .stage-header:hover .move-controls button {
   opacity: 1;
 }
 .stage-container .stage-header svg {
   color: #949494;
+}
+.stage-container .stage-header .stage-header-title {
+  background: linear-gradient(to right, #eee, #333);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-position-x: left;
 }
 .stage-container .stage-header .title {
   line-height: 14px;
