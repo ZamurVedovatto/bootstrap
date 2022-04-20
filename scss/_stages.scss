@@ -11,12 +11,17 @@
     }
 
     .move-controls {
-      opacity: 0;
+      
+      button {
+        opacity: 0;
 
-      &:hover,
-      &:focus {
-        opacity: 1;
-      }
+        &:hover,
+        &:focus,
+        &:not(:focus-visible) {
+          opacity: 1;
+          outline: auto;
+        }
+      } 
     }
   }
 }
