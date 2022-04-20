@@ -7420,7 +7420,7 @@ textarea.form-control-lg {
 .stage-container .stage-header .move-controls button {
   opacity: 0;
 }
-.stage-container .stage-header .move-controls button:hover, .stage-container .stage-header .move-controls button:focus, .stage-container .stage-header .move-controls button:not(:focus-visible) {
+.stage-container .stage-header .move-controls button:hover, .stage-container .stage-header .move-controls button:focus, .stage-container .stage-header .move-controls button:focus:not(:focus-visible) {
   opacity: 1;
   outline: auto;
 }
