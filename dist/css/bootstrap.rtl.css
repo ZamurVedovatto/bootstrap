@@ -7411,13 +7411,6 @@ textarea.form-control-lg {
 .stage-container .stage-header svg {
   color: #949494;
 }
-.stage-container .stage-header .stage-header-title {
-  background: linear-gradient(to right, #eee, #333);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-position-x: left;
-}
 .stage-container .stage-header .title {
   line-height: 14px;
 }
