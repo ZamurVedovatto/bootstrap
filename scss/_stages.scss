@@ -11,11 +11,11 @@
     }
 
     .move-controls {
-      visibility: hidden;
+      opacity: 0;
 
       &:hover,
       &:focus {
-        visibility: visible;
+        opacity: 1;
       }
     }
   }
