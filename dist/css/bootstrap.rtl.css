@@ -7397,13 +7397,10 @@ textarea.form-control-lg {
   width: 300px;
 }
 .stage-container .stage-header:hover .move-controls {
-  background: linear-gradient(to left, transparent, #f6f6f6);
+  background: linear-gradient(to left, transparent, #f6f6f6 45%);
   -webkit-text-fill-color: transparent;
   background-position-x: left;
   padding-right: 50px;
-  position: absolute;
-  left: 0;
-  height: 100%;
 }
 .stage-container .stage-header:hover .move-controls button {
   opacity: 1;
@@ -7413,6 +7410,7 @@ textarea.form-control-lg {
 }
 .stage-container .stage-header .title {
   line-height: 14px;
+  max-width: 208px;
 }
 .stage-container .stage-header .move-controls button {
   opacity: 0;
