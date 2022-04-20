@@ -7402,6 +7402,9 @@ textarea.form-control-lg {
 .stage-container .stage-header .title {
   line-height: 14px;
 }
+.stage-container .stage-header .move-controls:hover button {
+  opacity: 1;
+}
 .stage-container .stage-header .move-controls button {
   opacity: 0;
 }

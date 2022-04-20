@@ -12,6 +12,12 @@
 
     .move-controls {
       
+      &:hover {
+        button {
+          opacity: 1;
+        }
+      }
+
       button {
         opacity: 0;
 
