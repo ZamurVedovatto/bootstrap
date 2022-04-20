@@ -15,7 +15,10 @@
       button {
         opacity: 0;
 
-        &:hover,
+        &:hover {
+          opacity: 1;
+        }
+
         &:focus,
         &:focus:not(:focus-visible) {
           opacity: 1;
