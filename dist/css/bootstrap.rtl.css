@@ -7405,6 +7405,15 @@ textarea.form-control-lg {
 .stage-container .stage-header:hover .move-controls button {
   opacity: 1;
 }
+.stage-container .stage-header .stage-header-title:focus-within .move-controls {
+  background: linear-gradient(to left, transparent, #f6f6f6 45%);
+  -webkit-text-fill-color: transparent;
+  background-position-x: left;
+  padding-right: 50px;
+}
+.stage-container .stage-header .stage-header-title:focus-within .move-controls button {
+  opacity: 1;
+}
 .stage-container .stage-header svg {
   color: #949494;
 }
@@ -7421,6 +7430,7 @@ textarea.form-control-lg {
 .stage-container .stage-header .move-controls button:focus, .stage-container .stage-header .move-controls button:focus:not(:focus-visible) {
   opacity: 1;
   outline: auto;
+  background: #f6f6f6;
 }
 
 .clearfix::after {
