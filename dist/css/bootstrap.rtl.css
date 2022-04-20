@@ -7403,10 +7403,10 @@ textarea.form-control-lg {
   line-height: 14px;
 }
 .stage-container .stage-header .move-controls {
-  display: none;
+  visibility: hidden;
 }
 .stage-container .stage-header .move-controls:hover, .stage-container .stage-header .move-controls:focus {
-  display: flex;
+  visibility: visible;
 }
 
 .clearfix::after {
