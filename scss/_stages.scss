@@ -9,5 +9,14 @@
     .title {
       line-height: 14px;
     }
+
+    .move-controls {
+      display: none;
+
+      &:hover,
+      &:focus {
+        display: flex;
+      }
+    }
   }
 }

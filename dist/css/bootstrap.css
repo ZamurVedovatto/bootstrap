@@ -7417,6 +7417,12 @@ textarea.form-control-lg {
 .stage-container .stage-header .title {
   line-height: 14px;
 }
+.stage-container .stage-header .move-controls {
+  display: none;
+}
+.stage-container .stage-header .move-controls:hover, .stage-container .stage-header .move-controls:focus {
+  display: flex;
+}
 
 .clearfix::after {
   display: block;
