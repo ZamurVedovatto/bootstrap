@@ -7433,10 +7433,10 @@ textarea.form-control-lg {
   background: #f6f6f6;
 }
 .draggable-column-container .draggable-column-item h3, .draggable-column-container .draggable-column-item .h3 {
-  color: #cccccc;
+  color: #aaaaaa;
 }
 .draggable-column-container .draggable-column-item .draggable-column-item-controls svg {
-  color: #949494;
+  color: #6c6c6c;
 }
 
 .clearfix::after {
