@@ -58,8 +58,11 @@
     }
   }
   .draggable-column-item {
-    h3 {
-      color: $gray-400;
+    h3,
+    ul {
+      p {
+        color: $gray-400;
+      }
     }
 
     .draggable-column-item-controls {

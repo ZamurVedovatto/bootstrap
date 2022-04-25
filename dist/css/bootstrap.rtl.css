@@ -7432,7 +7432,8 @@ textarea.form-control-lg {
   outline: auto;
   background: #f6f6f6;
 }
-.draggable-column-container .draggable-column-item h3, .draggable-column-container .draggable-column-item .h3 {
+.draggable-column-container .draggable-column-item h3 p, .draggable-column-container .draggable-column-item .h3 p,
+.draggable-column-container .draggable-column-item ul p {
   color: #aaaaaa;
 }
 .draggable-column-container .draggable-column-item .draggable-column-item-controls svg {
