@@ -30,6 +30,18 @@
       }
     }
 
+    .draggable-column-item {
+      h3 {
+        color: $gray-300;
+      }
+
+      .draggable-column-item-controls {
+        svg {
+          color: $gray-500;
+        }
+      }
+    }
+
     svg {
       color: $gray-500;
     }
