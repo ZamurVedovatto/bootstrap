@@ -7429,12 +7429,6 @@ textarea.form-control-lg {
 .draggable-column-container .draggable-column-header .draggable-column-header-title:focus-within .move-controls button {
   opacity: 1;
 }
-.draggable-column-container .draggable-column-header .draggable-column-item h3, .draggable-column-container .draggable-column-header .draggable-column-item .h3 {
-  color: #cccccc;
-}
-.draggable-column-container .draggable-column-header .draggable-column-item .draggable-column-item-controls svg {
-  color: #949494;
-}
 .draggable-column-container .draggable-column-header svg {
   color: #949494;
 }
@@ -7452,6 +7446,12 @@ textarea.form-control-lg {
   opacity: 1;
   outline: auto;
   background: #f6f6f6;
+}
+.draggable-column-container .draggable-column-item h3, .draggable-column-container .draggable-column-item .h3 {
+  color: #cccccc;
+}
+.draggable-column-container .draggable-column-item .draggable-column-item-controls svg {
+  color: #949494;
 }
 
 .clearfix::after {
