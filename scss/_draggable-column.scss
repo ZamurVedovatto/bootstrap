@@ -1,7 +1,7 @@
-.stage-container {
+.draggable-column-container {
   width: 300px;
 
-  .stage-header {
+  .draggable-column-header {
     &:hover {
       .move-controls {
         background: linear-gradient(to right, transparent, rgb(246,246,246) 45%);
@@ -15,7 +15,7 @@
       }
     }
 
-    .stage-header-title {
+    .draggable-column-header-title {
       &:focus-within {
         .move-controls {
           background: linear-gradient(to right, transparent, rgb(246,246,246) 45%);
