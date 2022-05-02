@@ -41,3 +41,6 @@
 @import "mixins/clearfix";
 @import "mixins/container";
 @import "mixins/grid";
+
+// Mixin to use instead of @extend.
+@import "mixins/form-builder-mixins";
