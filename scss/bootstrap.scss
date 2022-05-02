@@ -51,7 +51,6 @@
 @import "stepping-bar";
 @import "action-bar";
 @import "draggable-column";
-@import "form-builder-overrides";
 
 // Helpers
 @import "helpers";
@@ -59,5 +58,8 @@
 // Utilities
 @import "utilities/api";
 @import "../site/assets/scss/_placeholder-img";
+
+// Symplicity
+@import "form-builder-overrides";
 
 // scss-docs-end import-stack
