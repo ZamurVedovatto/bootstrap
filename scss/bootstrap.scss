@@ -12,6 +12,7 @@
 @import "variables";
 @import "mixins";
 @import "utilities";
+@import "./mixins/form-builder-mixins";
 
 // Layout & components
 @import "root";
@@ -51,13 +52,13 @@
 @import "stepping-bar";
 @import "action-bar";
 @import "draggable-column";
-@import "component-overrides.scss";
+@import "form-builder-overrides";
 
 // Helpers
 @import "helpers";
 
 // Utilities
 @import "utilities/api";
-@import "../site/assets/scss/_placeholder-img"
+@import "../site/assets/scss/_placeholder-img";
 
 // scss-docs-end import-stack
