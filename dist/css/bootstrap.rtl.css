@@ -16707,39 +16707,39 @@ fieldset:disabled #fg_container input[type=button] {
 #fg_container li.fg_field {
   border-color: #ececec;
 }
-#fg_container .btn_save_nav6up,
-#fg_container .btn_primary {
+#fg_container #field_list .btn_save_nav6up,
+#fg_container #field_list .btn_primary {
   color: white;
   background-color: #0e62b9;
   border-color: #0e62b9;
   box-shadow: none;
 }
-#fg_container .btn_save_nav6up:hover,
-#fg_container .btn_primary:hover {
+#fg_container #field_list .btn_save_nav6up:hover,
+#fg_container #field_list .btn_primary:hover {
   color: white;
   background: #0c55a1;
 }
-.btn-check:focus + #fg_container .btn_save_nav6up, #fg_container .btn_save_nav6up:focus,
-.btn-check:focus + #fg_container .btn_primary,
-#fg_container .btn_primary:focus {
+.btn-check:focus + #fg_container #field_list .btn_save_nav6up, #fg_container #field_list .btn_save_nav6up:focus,
+.btn-check:focus + #fg_container #field_list .btn_primary,
+#fg_container #field_list .btn_primary:focus {
   color: white;
   background-color: #0c55a1;
   border-color: white;
   box-shadow: 0 0 0 2px #327ac4;
 }
-.btn-check:checked + #fg_container .btn_save_nav6up, .btn-check:active + #fg_container .btn_save_nav6up, #fg_container .btn_save_nav6up:active, #fg_container .btn_save_nav6up.active, .show > #fg_container .btn_save_nav6up.dropdown-toggle,
-.btn-check:checked + #fg_container .btn_primary,
-.btn-check:active + #fg_container .btn_primary,
-#fg_container .btn_primary:active,
-#fg_container .btn_primary.active,
-.show > #fg_container .btn_primary.dropdown-toggle {
+.btn-check:checked + #fg_container #field_list .btn_save_nav6up, .btn-check:active + #fg_container #field_list .btn_save_nav6up, #fg_container #field_list .btn_save_nav6up:active, #fg_container #field_list .btn_save_nav6up.active, .show > #fg_container #field_list .btn_save_nav6up.dropdown-toggle,
+.btn-check:checked + #fg_container #field_list .btn_primary,
+.btn-check:active + #fg_container #field_list .btn_primary,
+#fg_container #field_list .btn_primary:active,
+#fg_container #field_list .btn_primary.active,
+.show > #fg_container #field_list .btn_primary.dropdown-toggle {
   color: white;
   background-color: #0a498a;
   border-color: white;
 }
-#fg_container .btn_save_nav6up:disabled, #fg_container .btn_save_nav6up.disabled,
-#fg_container .btn_primary:disabled,
-#fg_container .btn_primary.disabled {
+#fg_container #field_list .btn_save_nav6up:disabled, #fg_container #field_list .btn_save_nav6up.disabled,
+#fg_container #field_list .btn_primary:disabled,
+#fg_container #field_list .btn_primary.disabled {
   color: #aaaaaa;
   background-color: #ececec;
   border-color: #cccccc;

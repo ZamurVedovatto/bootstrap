@@ -89,9 +89,11 @@ $fg_notices: (
       border-color: $gray-200;
     }
   }
-  .btn_save_nav6up,
-  .btn_primary {
-    @include button-variant($primary, $primary);
+  #field_list {
+    .btn_save_nav6up,
+    .btn_primary {
+      @include button-variant($primary, $primary);
+    }
   }
   .fld_btn {
     &.fg_add,
