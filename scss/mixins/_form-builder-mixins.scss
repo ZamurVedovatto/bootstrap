@@ -214,6 +214,25 @@
   }
 }
 
+@mixin form-builder-form-control-sm() {
+  min-height: $input-height-sm;
+  padding: $input-padding-y-sm $input-padding-x-sm;
+  @include font-size($input-font-size-sm);
+  @include border-radius($input-border-radius-sm);
+
+  &::file-selector-button {
+    padding: $input-padding-y-sm $input-padding-x-sm;
+    margin: (-$input-padding-y-sm) $input-padding-x-sm (-$input-padding-y-sm) (-$input-padding-x-sm);
+    border-right-width: 1px;
+  }
+
+  &::-webkit-file-upload-button {
+    padding: $input-padding-y-sm $input-padding-x-sm;
+    margin: (-$input-padding-y-sm) $input-padding-x-sm (-$input-padding-y-sm) (-$input-padding-x-sm);
+    border-right-width: 1px;
+  }
+}
+
 @mixin form-builder-alert() {
   // Copied from .alert
   position: relative;

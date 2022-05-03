@@ -118,6 +118,14 @@ $fg_notices: (
   }
 }
 
+#fg_inspector {
+  .chosen-search {
+    input.chosen-search-input {
+      @include form-builder-form-control-sm();
+    }
+  }
+}
+
 body {
   &.fw {
     .ui-menu {

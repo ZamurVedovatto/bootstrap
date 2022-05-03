@@ -16755,6 +16755,28 @@ fieldset:disabled #fg_container input[type=button] {
   color: #6c6c6c;
 }
 
+#fg_inspector .chosen-search input.chosen-search-input {
+  min-height: calc(1.5em + 0.314rem + 2px);
+  padding: 0.157rem 1rem;
+  font-size: 0.875rem;
+  border-radius: 0.125rem;
+}
+#fg_inspector .chosen-search input.chosen-search-input::-webkit-file-upload-button {
+  padding: 0.157rem 1rem;
+  margin: -0.157rem -1rem -0.157rem 1rem;
+  border-left-width: 1px;
+}
+#fg_inspector .chosen-search input.chosen-search-input::file-selector-button {
+  padding: 0.157rem 1rem;
+  margin: -0.157rem -1rem -0.157rem 1rem;
+  border-left-width: 1px;
+}
+#fg_inspector .chosen-search input.chosen-search-input::-webkit-file-upload-button {
+  padding: 0.157rem 1rem;
+  margin: -0.157rem -1rem -0.157rem 1rem;
+  border-left-width: 1px;
+}
+
 body.fw .ui-menu .ui-state-active {
   background-color: #ececec;
 }
