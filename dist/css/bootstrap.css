@@ -5601,6 +5601,26 @@ textarea.form-control-lg {
   top: -1px;
 }
 
+.badge-published {
+  background: #d4e4da;
+  color: #333333;
+}
+
+.badge-draft {
+  background: #333333;
+  color: #f6f6f6;
+}
+
+.badge-ready-to-publish {
+  background: #ffffcc;
+  color: #333333;
+}
+
+.badge-not-published {
+  background: #f6b2d1;
+  color: #333333;
+}
+
 .alert {
   position: relative;
   padding: 0.75rem 1rem;
