@@ -16875,4 +16875,27 @@ body.fw .ui-dialog .ui-dialog-buttonpane button:disabled, body.fw .ui-dialog .ui
   background-color: #ececec;
   border-color: #cccccc;
 }
+
+#fg_msg .msg_btn {
+  color: #454545;
+  border-color: rgba(69, 69, 69, 0.6);
+  background: #fff;
+}
+#fg_msg .msg_btn:hover, #fg_msg .msg_btn:focus {
+  color: #454545;
+  border-color: #454545;
+}
+.btn-check:focus + #fg_msg .msg_btn, #fg_msg .msg_btn:focus {
+  box-shadow: 0 0 0 2px #454545, inset 0 0 0 1px #454545;
+  border-color: #fff;
+}
+.btn-check:checked + #fg_msg .msg_btn, .btn-check:active + #fg_msg .msg_btn, #fg_msg .msg_btn:active, #fg_msg .msg_btn.active, #fg_msg .msg_btn.dropdown-toggle.show {
+  color: #454545;
+  background-color: rgba(69, 69, 69, 0.05);
+}
+#fg_msg .msg_btn:disabled, #fg_msg .msg_btn.disabled {
+  color: #aaaaaa;
+  background-color: #ececec;
+  border-color: #cccccc;
+}
 /*# sourceMappingURL=bootstrap.rtl.css.map */

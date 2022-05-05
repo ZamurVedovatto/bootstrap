@@ -153,3 +153,9 @@ body {
     }
   }
 }
+
+#fg_msg {
+  .msg_btn {
+    @include button-outline-variant($secondary);
+  }
+}
