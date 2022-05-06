@@ -2501,10 +2501,10 @@ progress {
   padding-top: 0;
   padding-bottom: 0;
 }
-.expandable-row-child tr:first-child {
+.expandable-row-child tr:first-child td {
   padding-top: 0.5rem;
 }
-.expandable-row-child tr:last-child {
+.expandable-row-child tr:last-child td {
   padding-bottom: 0.5rem;
 }
 
