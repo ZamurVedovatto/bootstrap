@@ -2498,11 +2498,11 @@ progress {
 }
 
 .expandable-row-child tr:first-child td {
-  padding-top: 1rem !important;
+  padding-top: 0.5rem !important;
 }
 
 .expandable-row-child tr:last-child td {
-  padding-bottom: 1rem !important;
+  padding-bottom: 0.5rem !important;
 }
 
 .form-label {
