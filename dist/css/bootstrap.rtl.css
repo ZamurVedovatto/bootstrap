@@ -2492,6 +2492,27 @@ progress {
     -webkit-overflow-scrolling: touch;
   }
 }
+.expandable-table thead > tr,
+.expandable-row-parent > tr {
+  box-shadow: inset 0 -1px 0 0 #cccccc;
+}
+
+.expandable-table.table-borderless > :not(:first-child) {
+  border-top-width: 1px;
+  border-color: #cccccc;
+}
+
+.expandable-row-child tr td {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.expandable-row-child tr:first-child td {
+  padding-top: 0.5rem;
+}
+.expandable-row-child tr:last-child td {
+  padding-bottom: 0.5rem;
+}
+
 .form-label {
   margin-bottom: 0.25rem;
   font-weight: 600;
@@ -5597,6 +5618,26 @@ textarea.form-control-lg {
 .btn .badge {
   position: relative;
   top: -1px;
+}
+
+.badge-published {
+  background: #d4e4da;
+  color: #333333;
+}
+
+.badge-draft {
+  background: #333333;
+  color: #f6f6f6;
+}
+
+.badge-ready-to-publish {
+  background: #ffffcc;
+  color: #333333;
+}
+
+.badge-not-published {
+  background: #fad8e8;
+  color: #333333;
 }
 
 .alert {

@@ -153,3 +153,34 @@
     }
   }
 }
+
+.expandable-table thead > tr,
+.expandable-row-parent > tr {
+  box-shadow: inset 0 -1px 0 0 $gray-300;
+}
+
+.expandable-table {
+  &.table-borderless {
+    > :not(:first-child) {
+      border-top-width: 1px;
+      border-color: $gray-300;
+    }  
+  }
+}
+
+.expandable-row-child tr {
+  td {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  &:first-child {
+    td {
+      padding-top: .5rem;
+    }
+  }
+  &:last-child {
+    td {
+      padding-bottom: .5rem;
+    }
+  }
+}
