@@ -3837,7 +3837,7 @@ textarea.form-control-lg {
 .btn-link {
   font-weight: 400;
   color: #0e62b9;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .btn-link:hover {
   color: #0b4e94;

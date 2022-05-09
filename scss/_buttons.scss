@@ -84,15 +84,15 @@
 .btn-link {
   font-weight: $font-weight-normal;
   color: $btn-link-color;
-  text-decoration: $link-decoration;
+  text-decoration: none;
 
   &:hover {
     color: $btn-link-hover-color;
-    text-decoration: $link-hover-decoration;
+    text-decoration: underline;
   }
 
   &:focus {
-    text-decoration: $link-hover-decoration;
+    text-decoration: underline;
   }
 
   &:disabled,
