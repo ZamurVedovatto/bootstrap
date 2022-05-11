@@ -1,0 +1,34 @@
+.case-type-container {
+  .header {
+    button { 
+      min-width: auto; 
+    }
+  }
+
+  .case-type-list {
+    li {
+      .case-type-card {
+        .case-top {
+          .case-actions {
+            display: none; 
+            background-color: #ffffff94; 
+            border-radius: 4px;
+          }
+          .case-actions-sm {
+            .dropdown-menu { 
+              min-width: auto; 
+            }
+          }
+        }
+
+        &:hover {
+          .case-top {
+            .case-actions { 
+              display: flex !important; 
+            }
+          }
+        }
+      }
+    }
+  }
+}
