@@ -7481,8 +7481,8 @@ textarea.form-control-lg {
   color: #6c6c6c;
 }
 
-.case-type-container .header button {
-  min-width: auto;
+.case-type-container .case-type-list li .case-type-card .case-top .case-title {
+  font-size: 1.125em;
 }
 .case-type-container .case-type-list li .case-type-card .case-top .case-actions {
   display: none;
@@ -8207,6 +8207,10 @@ svg {
 
 .minw-0 {
   min-width: 0px !important;
+}
+
+.minw-auto {
+  min-width: auto !important;
 }
 
 .vw-100 {

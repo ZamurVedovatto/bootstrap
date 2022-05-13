@@ -1,14 +1,11 @@
 .case-type-container {
-  .header {
-    button { 
-      min-width: auto; 
-    }
-  }
-
   .case-type-list {
     li {
       .case-type-card {
         .case-top {
+          .case-title {
+            font-size: 1.125em;
+          }
           .case-actions {
             display: none; 
             background-color: #ffffff94; 

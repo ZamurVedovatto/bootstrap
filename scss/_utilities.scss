@@ -204,7 +204,10 @@ $utilities: map-merge(
     "min-width": (
       property: min-width,
       class: minw,
-      values: (0: 0px)
+      values: (
+        0: 0px,
+        auto: auto
+      )
     ),
     "viewport-width": (
       property: width,

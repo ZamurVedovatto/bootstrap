@@ -744,6 +744,10 @@ svg {
   min-width: 0px !important;
 }
 
+.minw-auto {
+  min-width: auto !important;
+}
+
 .vw-100 {
   width: 100vw !important;
 }
