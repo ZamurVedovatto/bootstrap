@@ -7481,16 +7481,14 @@ textarea.form-control-lg {
   color: #6c6c6c;
 }
 
+.case-type-container .case-type-list li .case-type-card {
+  padding-top: 1px;
+}
 .case-type-container .case-type-list li .case-type-card .case-top .case-title {
   font-size: 1.125em;
 }
 .case-type-container .case-type-list li .case-type-card .case-top .case-actions {
-  display: none;
-  background-color: #ffffff94;
-  border-radius: 4px;
-}
-.case-type-container .case-type-list li .case-type-card .case-top .case-actions-sm .dropdown-menu {
-  min-width: auto;
+  background-color: #cccccc;
 }
 .case-type-container .case-type-list li .case-type-card:hover .case-top .case-actions {
   display: flex !important;
