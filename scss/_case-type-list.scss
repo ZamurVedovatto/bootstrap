@@ -2,8 +2,6 @@
   .case-type-list {
     li {
       .case-type-card {
-        padding-top: 1px;
-        
         .case-top {
           .case-title {
             font-size: 1.125em;
@@ -13,7 +11,8 @@
           }
         }
 
-        &:hover {
+        &:hover,
+        &:focus {
           .case-top {
             .case-actions { 
               display: flex !important; 

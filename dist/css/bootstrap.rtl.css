@@ -7481,16 +7481,13 @@ textarea.form-control-lg {
   color: #6c6c6c;
 }
 
-.case-type-container .case-type-list li .case-type-card {
-  padding-top: 1px;
-}
 .case-type-container .case-type-list li .case-type-card .case-top .case-title {
   font-size: 1.125em;
 }
 .case-type-container .case-type-list li .case-type-card .case-top .case-actions {
   background-color: #cccccc;
 }
-.case-type-container .case-type-list li .case-type-card:hover .case-top .case-actions {
+.case-type-container .case-type-list li .case-type-card:hover .case-top .case-actions, .case-type-container .case-type-list li .case-type-card:focus .case-top .case-actions {
   display: flex !important;
 }
 
