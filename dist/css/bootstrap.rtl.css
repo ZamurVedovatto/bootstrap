@@ -7498,6 +7498,7 @@ textarea.form-control-lg {
 .case-type-container .case-type-list .case-type-item:focus .case-actions-lg {
     visibility: visible;
     position: relative;
+    display: inline-flex;
   }
 }
 @media (min-width: 576px) {
