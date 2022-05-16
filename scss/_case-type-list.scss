@@ -8,14 +8,15 @@
           background: $gray-100;
 
           .case-type-item-drag-handle,
-          .case-actions {
+          .case-actions-lg {
             visibility: visible;
+            position: relative;
           }
         }
       }
       .case-type-item-drag-handle {
         visibility: visible;
-        @include media-breakpoint-down(md) {
+        @include media-breakpoint-up(sm) {
           visibility: hidden;
         }
       }
@@ -41,11 +42,6 @@
       .case-actions-lg {
         position: absolute;
         visibility: hidden;
-
-        @include media-breakpoint-up(md) {
-          position: relative;
-          visibility: visible;
-        }
       }
     }
   }

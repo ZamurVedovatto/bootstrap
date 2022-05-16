@@ -7509,15 +7509,16 @@ textarea.form-control-lg {
     background: #f6f6f6;
   }
   .case-type-container .case-type-list .case-type-item:hover .case-type-item-drag-handle,
-.case-type-container .case-type-list .case-type-item:hover .case-actions, .case-type-container .case-type-list .case-type-item:focus .case-type-item-drag-handle,
-.case-type-container .case-type-list .case-type-item:focus .case-actions {
+.case-type-container .case-type-list .case-type-item:hover .case-actions-lg, .case-type-container .case-type-list .case-type-item:focus .case-type-item-drag-handle,
+.case-type-container .case-type-list .case-type-item:focus .case-actions-lg {
     visibility: visible;
+    position: relative;
   }
 }
 .case-type-container .case-type-list .case-type-item .case-type-item-drag-handle {
   visibility: visible;
 }
-@media (max-width: 767.98px) {
+@media (min-width: 576px) {
   .case-type-container .case-type-list .case-type-item .case-type-item-drag-handle {
     visibility: hidden;
   }
@@ -7534,12 +7535,6 @@ textarea.form-control-lg {
 .case-type-container .case-type-list .case-type-item .case-actions-lg {
   position: absolute;
   visibility: hidden;
-}
-@media (min-width: 768px) {
-  .case-type-container .case-type-list .case-type-item .case-actions-lg {
-    position: relative;
-    visibility: visible;
-  }
 }
 
 .clearfix::after {
