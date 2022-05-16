@@ -7494,15 +7494,15 @@ textarea.form-control-lg {
     background: #ececec;
   }
   .case-type-container .case-type-list .case-type-item:hover .case-type-item-drag-handle, .case-type-container .case-type-list .case-type-item:focus .case-type-item-drag-handle {
-    display: block;
+    visibility: visible;
   }
 }
 .case-type-container .case-type-list .case-type-item .case-type-item-drag-handle {
-  display: block;
+  visibility: visible;
 }
 @media (min-width: 576px) {
   .case-type-container .case-type-list .case-type-item .case-type-item-drag-handle {
-    display: none;
+    visibility: hidden;
   }
 }
 .case-type-container .case-type-list .case-type-item .case-type-body .case-top .case-title {

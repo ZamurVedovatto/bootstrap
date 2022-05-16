@@ -8,14 +8,14 @@
           background: $gray-200;
 
           .case-type-item-drag-handle {
-            display: block;
+            visibility: visible;
           }
         }
       }
       .case-type-item-drag-handle {
-        display: block;
+        visibility: visible;
         @include media-breakpoint-up(sm) {
-          display: none;
+          visibility: hidden;
         }
       }
       .case-type-body {
