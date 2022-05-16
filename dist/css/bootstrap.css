@@ -7513,12 +7513,13 @@ textarea.form-control-lg {
 .case-type-container .case-type-list .case-type-item:focus .case-actions-lg {
     visibility: visible;
     position: relative;
+    display: flex;
   }
 }
 .case-type-container .case-type-list .case-type-item .case-type-item-drag-handle {
   visibility: visible;
 }
-@media (min-width: 576px) {
+@media (max-width: 767.98px) {
   .case-type-container .case-type-list .case-type-item .case-type-item-drag-handle {
     visibility: hidden;
   }

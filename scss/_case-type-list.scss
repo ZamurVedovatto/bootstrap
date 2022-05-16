@@ -11,12 +11,13 @@
           .case-actions-lg {
             visibility: visible;
             position: relative;
+            display: flex;
           }
         }
       }
       .case-type-item-drag-handle {
         visibility: visible;
-        @include media-breakpoint-up(sm) {
+        @include media-breakpoint-down(md) {
           visibility: hidden;
         }
       }
