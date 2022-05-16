@@ -5630,6 +5630,11 @@ textarea.form-control-lg {
   color: #f6f6f6;
 }
 
+.badge-light-gray {
+  background: #ececec;
+  color: #f6f6f6;
+}
+
 .badge-light-yellow {
   background: #ffffcc;
   color: #333333;
