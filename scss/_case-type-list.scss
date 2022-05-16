@@ -15,7 +15,7 @@
           }
         }
       }
-      .case-type-item-drag-handle a {
+      .case-type-item-drag-handle {
         @include media-breakpoint-down(md) {
           visibility: visible;
         }
