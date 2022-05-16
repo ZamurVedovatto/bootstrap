@@ -7,14 +7,12 @@
         &:focus {
           background: $gray-100;
 
-          .case-type-item-drag-handle {
-            visibility: visible;
-            display: inline-flex;
-          }
-
+          .case-type-item-drag-handle,
           .case-actions-lg {
+            visibility: visible;
             position: relative;
           }
+          
         }
       }
       .case-type-item-drag-handle {
