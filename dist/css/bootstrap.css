@@ -7517,12 +7517,12 @@ textarea.form-control-lg {
   }
 }
 @media (max-width: 767.98px) {
-  .case-type-container .case-type-list .case-type-item .case-type-item-drag-handle {
+  .case-type-container .case-type-list .case-type-item .case-type-item-drag-handle a {
     visibility: visible;
   }
 }
 @media (min-width: 768px) {
-  .case-type-container .case-type-list .case-type-item .case-type-item-drag-handle {
+  .case-type-container .case-type-list .case-type-item .case-type-item-drag-handle a {
     visibility: hidden;
   }
 }
