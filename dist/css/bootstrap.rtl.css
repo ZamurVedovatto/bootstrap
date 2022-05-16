@@ -7486,13 +7486,19 @@ textarea.form-control-lg {
   color: #6c6c6c;
 }
 
-.case-type-container .case-type-list li .case-type-card .case-top .case-title {
+.case-type-container .case-type-list .case-type-item {
+  background: white;
+}
+.case-type-container .case-type-list .case-type-item:hover, .case-type-container .case-type-list .case-type-item:focus {
+  background: #ececec;
+}
+.case-type-container .case-type-list .case-type-item .case-type-card .case-top .case-title {
   font-size: 1.125em;
 }
-.case-type-container .case-type-list li .case-type-card .case-top .case-actions {
+.case-type-container .case-type-list .case-type-item .case-type-card .case-top .case-actions {
   background-color: #cccccc;
 }
-.case-type-container .case-type-list li .case-type-card:hover .case-top .case-actions, .case-type-container .case-type-list li .case-type-card:focus .case-top .case-actions {
+.case-type-container .case-type-list .case-type-item .case-type-card:hover .case-top .case-actions, .case-type-container .case-type-list .case-type-item .case-type-card:focus .case-top .case-actions {
   display: flex !important;
 }
 

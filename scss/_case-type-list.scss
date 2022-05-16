@@ -1,6 +1,12 @@
 .case-type-container {
   .case-type-list {
-    li {
+    .case-type-item {
+      background: $white;
+
+      &:hover,
+      &:focus {
+        background: $gray-200;
+      }
       .case-type-card {
         .case-top {
           .case-title {
