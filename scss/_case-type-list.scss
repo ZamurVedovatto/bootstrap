@@ -7,16 +7,18 @@
         &:focus {
           background: $gray-100;
 
-          .case-type-item-drag-handle,
-          .case-actions-lg {
+          .case-type-item-drag-handle {
             visibility: visible;
+            display: inline-flex;
+          }
+
+          .case-actions-lg {
             position: relative;
-            display: flex;
           }
         }
       }
       .case-type-item-drag-handle {
-        @include media-breakpoint-down(md) {
+        @include media-breakpoint-up(sm) {
           visibility: visible;
         }
         @include media-breakpoint-up(md) {
