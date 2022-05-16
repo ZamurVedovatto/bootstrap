@@ -7516,8 +7516,15 @@ textarea.form-control-lg {
 .case-type-container .case-type-list .case-type-item .case-type-body:hover .case-top .case-actions, .case-type-container .case-type-list .case-type-item .case-type-body:focus .case-top .case-actions {
   display: flex !important;
 }
-.case-type-container .case-type-list .case-type-item .case-actions {
+.case-type-container .case-type-list .case-type-item .case-actions-lg {
+  position: absolute;
   visibility: hidden;
+}
+@media (min-width: 576px) {
+  .case-type-container .case-type-list .case-type-item .case-actions-lg {
+    position: relative;
+    visibility: visible;
+  }
 }
 
 .clearfix::after {

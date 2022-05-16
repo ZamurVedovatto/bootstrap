@@ -38,8 +38,14 @@
           }
         }
       }
-      .case-actions {
+      .case-actions-lg {
+        position: absolute;
         visibility: hidden;
+
+        @include media-breakpoint-up(sm) {
+          position: relative;
+          visibility: visible;
+        }
       }
     }
   }
