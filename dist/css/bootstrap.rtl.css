@@ -7489,7 +7489,7 @@ textarea.form-control-lg {
 .case-type-container .case-type-list .case-type-item {
   background: white;
 }
-@media (max-width: 767.98px) {
+@media (min-width: 576px) {
   .case-type-container .case-type-list .case-type-item:hover, .case-type-container .case-type-list .case-type-item:focus {
     background: #f6f6f6;
   }
