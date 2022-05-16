@@ -5622,22 +5622,22 @@ textarea.form-control-lg {
   top: -1px;
 }
 
-.badge-published {
+.badge-light-green {
   background: #d4e4da;
   color: #333333;
 }
 
-.badge-draft {
+.badge-dark-gray {
   background: #333333;
   color: #f6f6f6;
 }
 
-.badge-ready-to-publish {
+.badge-light-yellow {
   background: #ffffcc;
   color: #333333;
 }
 
-.badge-not-published {
+.badge-light-red {
   background: #fad8e8;
   color: #333333;
 }

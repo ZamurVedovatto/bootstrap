@@ -36,22 +36,22 @@
   top: -1px;
 }
 
-.badge-published {
+.badge-light-green {
   background: $green-100;
   color: $gray-900;
 }
 
-.badge-draft {
+.badge-dark-gray {
   background: $gray-900;
   color: $gray-100;
 }
 
-.badge-ready-to-publish {
+.badge-light-yellow {
   background: #ffffcc;
   color: $gray-900;
 }
 
-.badge-not-published {
+.badge-light-red {
   background: $pink-100;
   color: $gray-900;
 }
