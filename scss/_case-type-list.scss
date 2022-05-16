@@ -5,9 +5,10 @@
       @include media-breakpoint-up(sm) {
         &:hover,
         &:focus {
-          background: $gray-200;
+          background: $gray-100;
 
-          .case-type-item-drag-handle {
+          .case-type-item-drag-handle,
+          .case-actions {
             visibility: visible;
           }
         }
@@ -36,6 +37,9 @@
             }
           }
         }
+      }
+      .case-actions {
+        visibility: hidden;
       }
     }
   }
