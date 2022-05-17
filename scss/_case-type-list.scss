@@ -4,6 +4,21 @@
       background: $white;
       @include media-breakpoint-up(sm) {
         &:hover,
+        &:focus,
+        &:focus-within {
+          background: $gray-100;
+
+          .case-type-item-drag-handle,
+          .case-actions-lg {
+            visibility: visible;
+            position: relative;
+            display: inline-flex;
+          }
+          
+        }
+      }
+      @include media-breakpoint-up(md) {
+        &:hover,
         &:focus {
           background: $gray-100;
 

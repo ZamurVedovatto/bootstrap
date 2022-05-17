@@ -7490,6 +7490,19 @@ textarea.form-control-lg {
   background: white;
 }
 @media (min-width: 576px) {
+  .case-type-container .case-type-list .case-type-item:hover, .case-type-container .case-type-list .case-type-item:focus, .case-type-container .case-type-list .case-type-item:focus-within {
+    background: #f6f6f6;
+  }
+  .case-type-container .case-type-list .case-type-item:hover .case-type-item-drag-handle,
+.case-type-container .case-type-list .case-type-item:hover .case-actions-lg, .case-type-container .case-type-list .case-type-item:focus .case-type-item-drag-handle,
+.case-type-container .case-type-list .case-type-item:focus .case-actions-lg, .case-type-container .case-type-list .case-type-item:focus-within .case-type-item-drag-handle,
+.case-type-container .case-type-list .case-type-item:focus-within .case-actions-lg {
+    visibility: visible;
+    position: relative;
+    display: inline-flex;
+  }
+}
+@media (min-width: 768px) {
   .case-type-container .case-type-list .case-type-item:hover, .case-type-container .case-type-list .case-type-item:focus {
     background: #f6f6f6;
   }
