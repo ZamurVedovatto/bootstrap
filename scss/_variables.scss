@@ -85,17 +85,29 @@ $medium:        $gray-400 !default;
 $dark:          $gray-900 !default;
 // scss-docs-end theme-color-variables
 
+$primary-light: #cedeec;
+$success-light: rgba(238, 238, 238, 1);
+$warning-light: rgba(255, 255, 204, 1);
+$light-light:   $gray-200;
+$dark-light:    $gray-600;
+
+
 // scss-docs-start theme-colors-map
 $theme-colors: (
-  "primary":    $primary,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "medium":     $medium,
-  "dark":       $dark
+  "primary":        $primary,
+  "secondary":      $secondary,
+  "success":        $success,
+  "info":           $info,
+  "warning":        $warning,
+  "danger":         $danger,
+  "light":          $light,
+  "medium":         $medium,
+  "dark":           $dark,
+  "primary-light":  $primary-light,
+  "success-light":  $success-light,
+  "warning-light":  $warning-light,
+  "light-light":    $light-light,
+  "dark-light":     $dark-light
 ) !default;
 // scss-docs-end theme-colors-map
 
