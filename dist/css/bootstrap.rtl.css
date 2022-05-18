@@ -628,6 +628,10 @@ progress {
   content: "— ";
 }
 
+.text-spaced {
+  letter-spacing: 0.2rem;
+}
+
 [class*=line-clamp-] {
   overflow: hidden;
   display: -webkit-box;
