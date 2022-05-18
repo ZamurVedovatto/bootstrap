@@ -177,13 +177,13 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   color: #333;
 }
 
-.link-primary-light {
+.link-info-light {
   color: #cedeec;
 }
-.link-primary-light:hover {
+.link-info-light:hover {
   text-decoration: underline;
 }
-.link-primary-light:focus {
+.link-info-light:focus {
   background-color: #cedeec;
   text-decoration: none;
   outline: 4px solid #cedeec;
@@ -732,7 +732,7 @@ svg {
   border-color: #fad8e8 !important;
 }
 
-.border-primary-light {
+.border-info-light {
   border-color: #cedeec !important;
 }
 
@@ -2239,9 +2239,9 @@ svg {
   color: rgba(var(--bs-danger-light-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-primary-light {
+.text-info-light {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-light-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-info-light-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-success-light {
@@ -2355,9 +2355,9 @@ svg {
   background-color: rgba(var(--bs-danger-light-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-primary-light {
+.bg-info-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-info-light-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-success-light {
