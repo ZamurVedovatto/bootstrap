@@ -89,9 +89,6 @@ $danger-light:  #fad8e8;
 $primary-light: #cedeec;
 $success-light: #e5f0e5;
 $warning-light: #ffffcc;
-$light-light:   $gray-200;
-$dark-light:    $gray-600;
-
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
@@ -107,9 +104,7 @@ $theme-colors: (
   "danger-light":   $danger-light,
   "primary-light":  $primary-light,
   "success-light":  $success-light,
-  "warning-light":  $warning-light,
-  "light-light":    $light-light,
-  "dark-light":     $dark-light
+  "warning-light":  $warning-light
 ) !default;
 // scss-docs-end theme-colors-map
 
