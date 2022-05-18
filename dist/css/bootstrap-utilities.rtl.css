@@ -178,17 +178,17 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
 }
 
 .link-success-light {
-  color: #eeeeee;
+  color: rgba(0, 105, 4, 0.1);
 }
 .link-success-light:hover {
   text-decoration: underline;
 }
 .link-success-light:focus {
-  background-color: #eeeeee;
+  background-color: rgba(0, 105, 4, 0.1);
   text-decoration: none;
-  outline: 4px solid #eeeeee;
+  outline: 4px solid rgba(0, 105, 4, 0.1);
   outline-offset: 0;
-  color: #333;
+  color: #fff;
 }
 
 .link-warning-light {
@@ -747,7 +747,7 @@ svg {
 }
 
 .border-success-light {
-  border-color: #eeeeee !important;
+  border-color: rgba(0, 105, 4, 0.1) !important;
 }
 
 .border-warning-light {
