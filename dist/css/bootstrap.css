@@ -7397,17 +7397,25 @@ textarea.form-control-lg {
   position: relative;
   top: -1px;
 }
+.steps.steps-vertical {
+  width: 200px;
+}
+.steps.steps-vertical ol:before {
+  content: "";
+  background: #cccccc;
+  width: 1px;
+  top: 30px;
+  height: 265px;
+  position: absolute;
+}
 .steps.steps-vertical li div:after {
-  transform: rotate(90deg);
-  transform-origin: center;
+  display: none;
 }
 .steps.steps-vertical li.first div:after {
-  transform: rotate(90deg);
-  transform-origin: left;
+  display: none;
 }
 .steps.steps-vertical li.last div:after {
-  transform: rotate(90deg);
-  transform-origin: right;
+  display: none;
 }
 
 .action-bar-container {

@@ -79,21 +79,30 @@
   }
 
   &.steps-vertical {
+    width: 200px;
+    
+    ol {
+      &:before {
+        content: '';
+        background: $gray-300;
+        width: 1px;
+        top: 30px;
+        height: 265px;
+        position: absolute;
+      }
+    }
     li {
       div:after {
-        transform: rotate(90deg);
-        transform-origin: center;
+        display: none;
       }
       &.first {
         div:after {
-          transform: rotate(90deg);
-          transform-origin: left;
+          display: none;
         }
       }
       &.last {
         div:after {
-          transform: rotate(90deg);
-          transform-origin: right;
+          display: none;
         }
       }
     }
