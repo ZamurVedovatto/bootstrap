@@ -78,4 +78,10 @@
     }
   }
 
+  &.steps-vertical {
+    li.first div:after {
+      transform: rotate(90deg);
+      transform-origin: left;
+    }
+  }
 }
