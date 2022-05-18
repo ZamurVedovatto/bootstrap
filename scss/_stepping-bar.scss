@@ -79,9 +79,23 @@
   }
 
   &.steps-vertical {
-    li.first div:after {
-      transform: rotate(90deg);
-      transform-origin: left;
+    li {
+      div:after {
+        transform: rotate(90deg);
+        transform-origin: center;
+      }
+      &.first {
+        div:after {
+          transform: rotate(90deg);
+          transform-origin: left;
+        }
+      }
+      &.last {
+        div:after {
+          transform: rotate(90deg);
+          transform-origin: right;
+        }
+      }
     }
   }
 }

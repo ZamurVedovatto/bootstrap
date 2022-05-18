@@ -7382,9 +7382,17 @@ textarea.form-control-lg {
   position: relative;
   top: -1px;
 }
+.steps.steps-vertical li div:after {
+  transform: rotate(-90deg);
+  transform-origin: center;
+}
 .steps.steps-vertical li.first div:after {
   transform: rotate(-90deg);
   transform-origin: right;
+}
+.steps.steps-vertical li.last div:after {
+  transform: rotate(-90deg);
+  transform-origin: left;
 }
 
 .action-bar-container {
