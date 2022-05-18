@@ -85,6 +85,7 @@ $medium:        $gray-400 !default;
 $dark:          $gray-900 !default;
 // scss-docs-end theme-color-variables
 
+$danger-light:  #fad8e8;
 $primary-light: #cedeec;
 $success-light: #e5f0e5;
 $warning-light: #ffffcc;
@@ -103,6 +104,7 @@ $theme-colors: (
   "light":          $light,
   "medium":         $medium,
   "dark":           $dark,
+  "danger-light":   $danger-light,
   "primary-light":  $primary-light,
   "success-light":  $success-light,
   "warning-light":  $warning-light,

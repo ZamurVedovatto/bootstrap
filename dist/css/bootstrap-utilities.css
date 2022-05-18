@@ -163,6 +163,20 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   color: #fff;
 }
 
+.link-danger-light {
+  color: #fad8e8;
+}
+.link-danger-light:hover {
+  text-decoration: underline;
+}
+.link-danger-light:focus {
+  background-color: #fad8e8;
+  text-decoration: none;
+  outline: 4px solid #fad8e8;
+  outline-offset: 0;
+  color: #333;
+}
+
 .link-primary-light {
   color: #cedeec;
 }
@@ -740,6 +754,10 @@ svg {
 
 .border-dark {
   border-color: #454545 !important;
+}
+
+.border-danger-light {
+  border-color: #fad8e8 !important;
 }
 
 .border-primary-light {
@@ -2260,6 +2278,11 @@ svg {
   color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-danger-light {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-danger-light-rgb), var(--bs-text-opacity)) !important;
+}
+
 .text-primary-light {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-light-rgb), var(--bs-text-opacity)) !important;
@@ -2379,6 +2402,11 @@ svg {
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-danger-light {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-danger-light-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-primary-light {
