@@ -4504,7 +4504,8 @@ textarea.form-control-lg {
   background-color: transparent;
   border: 0;
 }
-.dropdown-item:hover, .dropdown-item:focus, .dropdown-item:active {
+.dropdown-item:hover, .dropdown-item:focus, .dropdown-item:active,
+.dropdown-item .active {
   color: #2e2e2e;
   text-decoration: none;
   outline: none;
