@@ -3719,7 +3719,7 @@
     defaultModifiers: defaultModifiers
   }); // eslint-disable-next-line import/no-unused-modules
 
-  const Popper = /*#__PURE__*/Object.freeze({
+  const Popper = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
     __proto__: null,
     popperGenerator,
     detectOverflow,
@@ -3759,7 +3759,7 @@
     offset: offset$1,
     popperOffsets: popperOffsets$1,
     preventOverflow: preventOverflow$1
-  });
+  }, Symbol.toStringTag, { value: 'Module' }));
 
   /**
    * --------------------------------------------------------------------------

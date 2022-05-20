@@ -38,127 +38,127 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
 }
 
 .link-primary {
-  color: #0e62b9;
+  color: rgb(14, 98, 185);
 }
 .link-primary:hover {
   text-decoration: underline;
 }
 .link-primary:focus {
-  background-color: #0e62b9;
+  background-color: rgb(14, 98, 185);
   text-decoration: none;
-  outline: 4px solid #0e62b9;
+  outline: 4px solid rgb(14, 98, 185);
   outline-offset: 0;
   color: #fff;
 }
 
 .link-secondary {
-  color: #454545;
+  color: rgb(69, 69, 69);
 }
 .link-secondary:hover {
   text-decoration: underline;
 }
 .link-secondary:focus {
-  background-color: #454545;
+  background-color: rgb(69, 69, 69);
   text-decoration: none;
-  outline: 4px solid #454545;
+  outline: 4px solid rgb(69, 69, 69);
   outline-offset: 0;
   color: #fff;
 }
 
 .link-success {
-  color: #297848;
+  color: rgb(41, 120, 72);
 }
 .link-success:hover {
   text-decoration: underline;
 }
 .link-success:focus {
-  background-color: #297848;
+  background-color: rgb(41, 120, 72);
   text-decoration: none;
-  outline: 4px solid #297848;
+  outline: 4px solid rgb(41, 120, 72);
   outline-offset: 0;
   color: #fff;
 }
 
 .link-info {
-  color: #0b5ba1;
+  color: rgb(11, 91, 161);
 }
 .link-info:hover {
   text-decoration: underline;
 }
 .link-info:focus {
-  background-color: #0b5ba1;
+  background-color: rgb(11, 91, 161);
   text-decoration: none;
-  outline: 4px solid #0b5ba1;
+  outline: 4px solid rgb(11, 91, 161);
   outline-offset: 0;
   color: #fff;
 }
 
 .link-warning {
-  color: #a85502;
+  color: rgb(168, 85, 2);
 }
 .link-warning:hover {
   text-decoration: underline;
 }
 .link-warning:focus {
-  background-color: #a85502;
+  background-color: rgb(168, 85, 2);
   text-decoration: none;
-  outline: 4px solid #a85502;
+  outline: 4px solid rgb(168, 85, 2);
   outline-offset: 0;
   color: #fff;
 }
 
 .link-danger {
-  color: #bf3e24;
+  color: rgb(191, 62, 36);
 }
 .link-danger:hover {
   text-decoration: underline;
 }
 .link-danger:focus {
-  background-color: #bf3e24;
+  background-color: rgb(191, 62, 36);
   text-decoration: none;
-  outline: 4px solid #bf3e24;
+  outline: 4px solid rgb(191, 62, 36);
   outline-offset: 0;
   color: #fff;
 }
 
 .link-light {
-  color: #f6f6f6;
+  color: rgb(246, 246, 246);
 }
 .link-light:hover {
   text-decoration: underline;
 }
 .link-light:focus {
-  background-color: #f6f6f6;
+  background-color: rgb(246, 246, 246);
   text-decoration: none;
-  outline: 4px solid #f6f6f6;
+  outline: 4px solid rgb(246, 246, 246);
   outline-offset: 0;
   color: #333;
 }
 
 .link-medium {
-  color: #aaaaaa;
+  color: rgb(170, 170, 170);
 }
 .link-medium:hover {
   text-decoration: underline;
 }
 .link-medium:focus {
-  background-color: #aaaaaa;
+  background-color: rgb(170, 170, 170);
   text-decoration: none;
-  outline: 4px solid #aaaaaa;
+  outline: 4px solid rgb(170, 170, 170);
   outline-offset: 0;
   color: #333;
 }
 
 .link-dark {
-  color: #454545;
+  color: rgb(69, 69, 69);
 }
 .link-dark:hover {
   text-decoration: underline;
 }
 .link-dark:focus {
-  background-color: #454545;
+  background-color: rgb(69, 69, 69);
   text-decoration: none;
-  outline: 4px solid #454545;
+  outline: 4px solid rgb(69, 69, 69);
   outline-offset: 0;
   color: #fff;
 }
@@ -629,7 +629,7 @@ svg {
 }
 
 .border {
-  border: 1px solid #0e62b9 !important;
+  border: 1px solid rgb(14, 98, 185) !important;
 }
 
 .border-0 {
@@ -637,7 +637,7 @@ svg {
 }
 
 .border-top {
-  border-top: 1px solid #0e62b9 !important;
+  border-top: 1px solid rgb(14, 98, 185) !important;
 }
 
 .border-top-0 {
@@ -645,7 +645,7 @@ svg {
 }
 
 .border-end {
-  border-right: 1px solid #0e62b9 !important;
+  border-right: 1px solid rgb(14, 98, 185) !important;
 }
 
 .border-end-0 {
@@ -653,7 +653,7 @@ svg {
 }
 
 .border-bottom {
-  border-bottom: 1px solid #0e62b9 !important;
+  border-bottom: 1px solid rgb(14, 98, 185) !important;
 }
 
 .border-bottom-0 {
@@ -661,7 +661,7 @@ svg {
 }
 
 .border-start {
-  border-left: 1px solid #0e62b9 !important;
+  border-left: 1px solid rgb(14, 98, 185) !important;
 }
 
 .border-start-0 {
@@ -669,63 +669,63 @@ svg {
 }
 
 .bg-accent-green {
-  background-color: #66debe !important;
+  background-color: rgb(102, 222, 190) !important;
 }
 
 .bg-accent-orange {
-  background-color: #f0874b !important;
+  background-color: rgb(240, 135, 75) !important;
 }
 
 .bg-accent-indigo {
-  background-color: #5a90e8 !important;
+  background-color: rgb(90, 144, 232) !important;
 }
 
 .bg-accent-purple {
-  background-color: #9992fb !important;
+  background-color: rgb(153, 146, 251) !important;
 }
 
 .bg-accent-blue {
-  background-color: #66baec !important;
+  background-color: rgb(102, 186, 236) !important;
 }
 
 .bg-accent-red {
-  background-color: #f66666 !important;
+  background-color: rgb(246, 102, 102) !important;
 }
 
 .border-primary {
-  border-color: #0e62b9 !important;
+  border-color: rgb(14, 98, 185) !important;
 }
 
 .border-secondary {
-  border-color: #454545 !important;
+  border-color: rgb(69, 69, 69) !important;
 }
 
 .border-success {
-  border-color: #297848 !important;
+  border-color: rgb(41, 120, 72) !important;
 }
 
 .border-info {
-  border-color: #0b5ba1 !important;
+  border-color: rgb(11, 91, 161) !important;
 }
 
 .border-warning {
-  border-color: #a85502 !important;
+  border-color: rgb(168, 85, 2) !important;
 }
 
 .border-danger {
-  border-color: #bf3e24 !important;
+  border-color: rgb(191, 62, 36) !important;
 }
 
 .border-light {
-  border-color: #f6f6f6 !important;
+  border-color: rgb(246, 246, 246) !important;
 }
 
 .border-medium {
-  border-color: #aaaaaa !important;
+  border-color: rgb(170, 170, 170) !important;
 }
 
 .border-dark {
-  border-color: #454545 !important;
+  border-color: rgb(69, 69, 69) !important;
 }
 
 .border-danger-light {
@@ -745,7 +745,7 @@ svg {
 }
 
 .border-white {
-  border-color: white !important;
+  border-color: rgb(255, 255, 255) !important;
 }
 
 .border-1 {
@@ -2279,7 +2279,7 @@ svg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c6c6c !important;
+  color: rgb(108, 108, 108) !important;
 }
 
 .text-black-50 {
