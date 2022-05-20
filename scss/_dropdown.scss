@@ -218,7 +218,7 @@
   &:hover,
   &:focus,
   &:active,
-  .active {
+  &.active {
     color: $dropdown-link-hover-color;
     text-decoration: if($link-hover-decoration == underline, none, null);
     outline: none;
