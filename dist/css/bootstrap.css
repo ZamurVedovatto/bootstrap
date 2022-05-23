@@ -7629,7 +7629,6 @@ textarea.form-control-lg {
   counter-increment: li;
   position: absolute;
   left: 0.5rem;
-  top: 1rem;
   width: 1.5rem;
   height: 1.5rem;
   color: #000;
@@ -7638,6 +7637,11 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.list-steps-item-body p {
+  position: relative;
+  display: inline;
+  top: 5px;
 }
 
 .list-steps-item.selected .list-steps-item-body::before {
