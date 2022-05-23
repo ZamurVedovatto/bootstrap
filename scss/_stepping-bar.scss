@@ -84,9 +84,9 @@
       content: "";
       width: 100%;
       z-index: 0;
-      top: 2.75rem;
+      top: 1.75rem;
       @include media-breakpoint-up(md) {      
-        top: 3rem;
+        top: 2rem;
       }
     }
   }
