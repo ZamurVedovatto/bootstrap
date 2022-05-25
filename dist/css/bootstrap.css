@@ -7857,15 +7857,15 @@ textarea.form-control-lg {
   left: 0.23rem;
   z-index: 0;
 }
-.list-item-timeline:first-child ::before {
+.list-item-timeline:first-child::before {
   height: 96%;
   height: calc(100% - 8px);
   bottom: 0;
 }
-.list-item-timeline:first-child:last-child ::before {
+.list-item-timeline:first-child:last-child::before {
   display: none;
 }
-.list-item-timeline:last-child ::before {
+.list-item-timeline:last-child::before {
   height: 0.5rem;
   bottom: top;
 }

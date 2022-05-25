@@ -9,30 +9,31 @@
     z-index: 0;
   }
   &:first-child {
-    ::before {
+    &::before {
       height: 96%;
       height: calc(100% - 8px);
       bottom: 0;
     }
     &:last-child {
-      ::before {
+      &::before {
         display:none;
       }
     }
   }
   &:last-child {
-    ::before {
+    &::before {
       height: .5rem;
       bottom: top;
     }
     .list-item-timeline-body {
       &::before {
-      background: #ccc;
-      border: 0;
+        background: #ccc;
+        border: 0;
       }
     }
   }
 }
+
 .list-item-timeline-body {
   z-index:10;
 
