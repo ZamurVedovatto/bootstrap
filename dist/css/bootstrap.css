@@ -7673,6 +7673,9 @@ textarea.form-control-lg {
   margin-left: 2.25rem;
 }
 
+.steps-horizontal {
+  overflow-x: auto;
+}
 .steps-horizontal .list-steps-item:last-child::before {
   width: 50%;
 }

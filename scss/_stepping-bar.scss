@@ -66,6 +66,8 @@
 }
 
 .steps-horizontal {
+  overflow-x: auto;
+  
   .list-steps-item {
     &:last-child {
       &::before {
