@@ -7833,6 +7833,54 @@ textarea.form-control-lg {
   visibility: hidden;
 }
 
+.list-item-timeline::before {
+  display: block;
+  border-right: 1px solid #ccc;
+  position: absolute;
+  content: "";
+  height: 100%;
+  right: 0.23rem;
+  z-index: 0;
+}
+.list-item-timeline:first-child ::before {
+  height: 96%;
+  height: calc(100% - 8px);
+  bottom: 0;
+}
+.list-item-timeline:first-child:last-child ::before {
+  display: none;
+}
+.list-item-timeline:last-child ::before {
+  height: 0.5rem;
+  bottom: top;
+}
+.list-item-timeline:last-child .list-item-timeline-body::before {
+  background: #ccc;
+  border: 0;
+}
+
+.list-item-timeline-body {
+  z-index: 10;
+}
+.list-item-timeline-body::before {
+  display: block;
+  background: #fff;
+  border: 1px solid #ccc;
+  content: "";
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  top: 0.4rem;
+}
+
+.list-item-timeline:first-child .list-item-timeline-body::before,
+.list-item-timeline:first-child:last-child .list-item-timeline-body::before {
+  background: #0d6efd;
+  border: 0;
+}
+
 .clearfix::after {
   display: block;
   clear: both;

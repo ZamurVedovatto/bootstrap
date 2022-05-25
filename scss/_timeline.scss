@@ -1,0 +1,57 @@
+.list-item-timeline {
+  &::before {
+    display: block;
+    border-left: 1px solid #ccc;
+    position: absolute;
+    content: "";
+    height: 100%;
+    left: .23rem;
+    z-index: 0;
+  }
+  &:first-child {
+    ::before {
+      height: 96%;
+      height: calc(100% - 8px);
+      bottom: 0;
+    }
+    &:last-child {
+      ::before {
+        display:none;
+      }
+    }
+  }
+  &:last-child {
+    ::before {
+      height: .5rem;
+      bottom: top;
+    }
+    .list-item-timeline-body {
+      &::before {
+      background: #ccc;
+      border: 0;
+      }
+    }
+  }
+}
+.list-item-timeline-body {
+  z-index:10;
+
+  &::before {
+    display: block;
+    background: #fff;
+    border: 1px solid #ccc;
+    content: "";
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: .4rem;
+  }
+}
+
+.list-item-timeline:first-child .list-item-timeline-body::before,
+.list-item-timeline:first-child:last-child .list-item-timeline-body::before {
+  background: #0d6efd;
+  border: 0;
+}
