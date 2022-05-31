@@ -64,20 +64,37 @@ $fg_notices: (
       }
     }
   }
-}
-
-#fg_container {
-  .fg_field {
+  input[type=text],
+  input[type=password],
+  input[type=number],
+  textarea {
+    @include form-builder-form-control();
+  }
+  select {
+    @include form-builder-form-select();
+  }
+  #fg_wrapper {
+    button.btn,
+    button[data-action],
+    input[type=button] {
+      @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $btn-font-size-sm, $btn-border-radius-sm);
+      min-width: 70px;
+    }
     input[type=text],
     input[type=password],
     input[type=number],
-    textarea {
-      @include form-builder-form-control();
-    }
-    select {
-      @include form-builder-form-select();
+    textarea,
+    select,
+    .chosen-single {
+      min-height: $input-height-sm;
+      padding: $input-padding-y-sm $input-padding-x-sm;
+      @include font-size($input-font-size-sm);
+      @include border-radius($input-border-radius-sm);
     }
   }
+}
+
+#fg_container {
   button.btn,
   button[data-action],
   input[type=button] {
