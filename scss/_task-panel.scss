@@ -2,7 +2,7 @@
   background: $light;
 }
 
-@include media-breakpoint-up(md) {
+@include media-breakpoint-up(sm) {
   .show-on-focus {
     opacity: 0;
   }
