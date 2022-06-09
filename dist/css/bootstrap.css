@@ -4293,6 +4293,7 @@ textarea.form-control-lg {
 
 .filter-toggle.filter-drop {
   border: 1px solid rgb(170, 170, 170);
+  transform: unset;
 }
 .filter-toggle.filter-drop svg {
   color: rgb(108, 108, 108);
