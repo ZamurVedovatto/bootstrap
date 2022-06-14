@@ -1,5 +1,7 @@
 .case-type-container {
   .case-type-list {
+    grid-gap: 16px;
+    
     .case-type-item {
       background: $white;
       @include media-breakpoint-up(sm) {

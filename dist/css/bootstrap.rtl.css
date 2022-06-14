@@ -7791,6 +7791,9 @@ textarea.form-control-lg {
   color: rgb(108, 108, 108);
 }
 
+.case-type-container .case-type-list {
+  grid-gap: 16px;
+}
 .case-type-container .case-type-list .case-type-item {
   background: rgb(255, 255, 255);
 }
