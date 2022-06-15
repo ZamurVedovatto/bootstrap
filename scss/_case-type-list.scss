@@ -1,6 +1,5 @@
 .case-type-container {
   .case-type-list {
-    grid-gap: 16px;
     
     li:first-child {
       .case-type-actions {
@@ -10,7 +9,7 @@
         }
       }
     }
-    
+
     li:last-child {
       .case-type-actions {
         .case-type-btn-move-down {

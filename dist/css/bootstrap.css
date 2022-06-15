@@ -7806,9 +7806,6 @@ textarea.form-control-lg {
   color: rgb(108, 108, 108);
 }
 
-.case-type-container .case-type-list {
-  grid-gap: 16px;
-}
 .case-type-container .case-type-list li:first-child .case-type-actions .case-type-btn-move-up {
   opacity: 0.1;
   pointer-events: none;
