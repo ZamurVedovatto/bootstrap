@@ -2,6 +2,24 @@
   .case-type-list {
     grid-gap: 16px;
     
+    li:first-child {
+      .case-type-actions {
+        .case-type-btn-move-up {
+          opacity: .1;
+          pointer-events: none;
+        }
+      }
+    }
+    
+    li:last-child {
+      .case-type-actions {
+        .case-type-btn-move-down {
+          opacity: .1;
+          pointer-events: none;
+        }
+      }
+    }
+
     .case-type-item {
       background: $white;
       @include media-breakpoint-up(sm) {

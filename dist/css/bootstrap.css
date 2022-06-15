@@ -7809,6 +7809,14 @@ textarea.form-control-lg {
 .case-type-container .case-type-list {
   grid-gap: 16px;
 }
+.case-type-container .case-type-list li:first-child .case-type-actions .case-type-btn-move-up {
+  opacity: 0.1;
+  pointer-events: none;
+}
+.case-type-container .case-type-list li:last-child .case-type-actions .case-type-btn-move-down {
+  opacity: 0.1;
+  pointer-events: none;
+}
 .case-type-container .case-type-list .case-type-item {
   background: rgb(255, 255, 255);
 }
