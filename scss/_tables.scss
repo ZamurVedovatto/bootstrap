@@ -160,6 +160,10 @@
 }
 
 .expandable-table {
+  
+  border-bottom-width: 1px;
+  border-color: $gray-300;
+    
   &.table-borderless {
     > :not(:first-child) {
       border-top-width: 1px;
