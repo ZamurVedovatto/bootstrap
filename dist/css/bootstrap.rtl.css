@@ -6954,12 +6954,6 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
 }
 
-@media (max-width: 767.98px) {
-  .nav-item .tooltip {
-    display: none;
-  }
-}
-
 .popover {
   position: absolute;
   top: 0;
