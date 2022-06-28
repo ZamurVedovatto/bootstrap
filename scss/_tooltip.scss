@@ -114,10 +114,10 @@
   @include border-radius($tooltip-border-radius);
 }
 
-@include media-breakpoint-down(md) {
-  .action-bar {
-    .nav-link {
-      .tooltip {
+.action-bar {
+  .nav-link {
+    .tooltip {
+      @include media-breakpoint-down(md) {
         display: none;
       }
     }
