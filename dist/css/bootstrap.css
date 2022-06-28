@@ -6957,7 +6957,7 @@ textarea.form-control-lg {
 }
 
 @media (max-width: 767.98px) {
-  .action-bar .nav-link .tooltip {
+  .action-bar .tooltip {
     display: none;
   }
 }

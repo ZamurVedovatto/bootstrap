@@ -115,11 +115,9 @@
 }
 
 .action-bar {
-  .nav-link {
-    .tooltip {
-      @include media-breakpoint-down(md) {
-        display: none;
-      }
+  .tooltip {
+    @include media-breakpoint-down(md) {
+      display: none;
     }
   }
 }
