@@ -6877,11 +6877,6 @@ textarea.form-control-lg {
   word-wrap: break-word;
   opacity: 0;
 }
-@media (max-width: 767.98px) {
-  .tooltip {
-    display: none;
-  }
-}
 .tooltip.show {
   opacity: 0.9;
 }
@@ -6959,6 +6954,11 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
 }
 
+@media (max-width: 767.98px) {
+  .action-bar .nav-link .tooltip {
+    display: none;
+  }
+}
 .popover {
   position: absolute;
   top: 0;

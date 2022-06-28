@@ -3,9 +3,6 @@
   position: absolute;
   z-index: $zindex-tooltip;
   display: block;
-  @include media-breakpoint-down(md) {
-    display: none;
-  }
   margin: $tooltip-margin;
   // Our parent element can be arbitrary since tooltips are by default inserted as a sibling of their target element.
   // So reset our font and text properties to avoid inheriting weird values.
@@ -117,3 +114,12 @@
   @include border-radius($tooltip-border-radius);
 }
 
+@include media-breakpoint-down(md) {
+  .action-bar {
+    .nav-link {
+      .tooltip {
+        display: none;
+      }
+    }
+  }
+}
