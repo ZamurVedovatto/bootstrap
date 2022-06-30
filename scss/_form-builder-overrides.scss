@@ -36,13 +36,6 @@ $fg_notices: (
   }
 }
 
-#fg_title {
-  .badge {
-    color: $gray-600;
-    background-color: $gray-200;
-  }
-}
-
 #fg_title,
 #fg_steps {
   border-color: $gray-300;
@@ -151,12 +144,14 @@ body {
       }
     }
     .ui-dialog {
+      .btn-close {
+        background: transparent escape-svg($btn-close-bg) center / $btn-close-width auto no-repeat;
+      }
       .ui-dialog-titlebar {
         background: $gray-100;
       }
       .ui-dialog-buttonpane {
-        background: $gray-100;
-        border-radius: 0 0 $border-radius-lg $border-radius-lg;
+        border-color: $modal-footer-border-color;
         .ui-button {
           &.btn_primary {
             @include button-variant($primary, $primary);

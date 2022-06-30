@@ -1,7 +1,6 @@
 @mixin form-builder-button() {
   // Copied from .btn
   display: inline-block;
-  font-family: $btn-font-family;
   font-weight: $btn-font-weight;
   line-height: $btn-line-height;
   color: $body-color;
@@ -13,7 +12,7 @@
   user-select: none;
   background-color: transparent;
   border: $btn-border-width solid transparent;
-  @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-border-radius);
+  @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $btn-font-size-sm, $btn-border-radius-sm);
   @include transition($btn-transition);
   transform: translateZ(0);
   min-width: 90px;
