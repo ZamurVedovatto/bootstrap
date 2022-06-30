@@ -13,7 +13,7 @@
 
   function _interopNamespace(e) {
     if (e && e.__esModule) return e;
-    const n = Object.create(null, { [Symbol.toStringTag]: { value: 'Module' } });
+    const n = Object.create(null);
     if (e) {
       for (const k in e) {
         if (k !== 'default') {
