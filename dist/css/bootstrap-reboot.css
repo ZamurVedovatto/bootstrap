@@ -37,33 +37,33 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #e83e8c;
-  --bs-red: #bf3e24;
+  --bs-red: rgb(191, 62, 36);
   --bs-orange: #fd7e14;
-  --bs-yellow: #a85502;
-  --bs-green: #297848;
+  --bs-yellow: rgb(168, 85, 2);
+  --bs-green: rgb(41, 120, 72);
   --bs-teal: #20c997;
-  --bs-cyan: #0b5ba1;
-  --bs-white: white;
-  --bs-gray: #6c6c6c;
-  --bs-gray-dark: #454545;
-  --bs-gray-100: #f6f6f6;
-  --bs-gray-200: #ececec;
-  --bs-gray-300: #cccccc;
-  --bs-gray-400: #aaaaaa;
-  --bs-gray-500: #949494;
-  --bs-gray-600: #6c6c6c;
-  --bs-gray-700: #555555;
-  --bs-gray-800: #454545;
-  --bs-gray-900: #333333;
-  --bs-primary: #0e62b9;
-  --bs-secondary: #454545;
-  --bs-success: #297848;
-  --bs-info: #0b5ba1;
-  --bs-warning: #a85502;
-  --bs-danger: #bf3e24;
-  --bs-light: #f6f6f6;
-  --bs-medium: #aaaaaa;
-  --bs-dark: #454545;
+  --bs-cyan: rgb(11, 91, 161);
+  --bs-white: rgb(255, 255, 255);
+  --bs-gray: rgb(108, 108, 108);
+  --bs-gray-dark: rgb(69, 69, 69);
+  --bs-gray-100: rgb(246, 246, 246);
+  --bs-gray-200: rgb(236, 236, 236);
+  --bs-gray-300: rgb(204, 204, 204);
+  --bs-gray-400: rgb(170, 170, 170);
+  --bs-gray-500: rgb(148, 148, 148);
+  --bs-gray-600: rgb(108, 108, 108);
+  --bs-gray-700: rgb(85, 85, 85);
+  --bs-gray-800: rgb(69, 69, 69);
+  --bs-gray-900: rgb(51, 51, 51);
+  --bs-primary: rgb(14, 98, 185);
+  --bs-secondary: rgb(69, 69, 69);
+  --bs-success: rgb(41, 120, 72);
+  --bs-info: rgb(11, 91, 161);
+  --bs-warning: rgb(168, 85, 2);
+  --bs-danger: rgb(191, 62, 36);
+  --bs-light: rgb(246, 246, 246);
+  --bs-medium: rgb(170, 170, 170);
+  --bs-dark: rgb(69, 69, 69);
   --bs-danger-light: #fad8e8;
   --bs-info-light: #cedeec;
   --bs-success-light: #e5f0e5;
@@ -92,8 +92,8 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #454545;
-  --bs-body-bg: white;
+  --bs-body-color: rgb(69, 69, 69);
+  --bs-body-bg: rgb(255, 255, 255);
 }
 
 *,
@@ -259,7 +259,7 @@ sup {
 }
 
 a {
-  color: #0e62b9;
+  color: rgb(14, 98, 185);
   text-decoration: none;
   font-weight: 600;
 }
@@ -316,8 +316,8 @@ a > code {
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 0.875em;
-  color: white;
-  background-color: #333333;
+  color: rgb(255, 255, 255);
+  background-color: rgb(51, 51, 51);
   border-radius: 0.125rem;
 }
 kbd kbd {
@@ -343,7 +343,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #6c6c6c;
+  color: rgb(108, 108, 108);
   text-align: left;
 }
 
