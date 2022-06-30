@@ -17396,9 +17396,6 @@ fieldset:disabled #fg_container input[type=button] {
   border-right-width: 1px;
 }
 
-body.fw .ui-widget {
-  font-size: 14px;
-}
 body.fw .ui-menu .ui-state-active {
   background-color: #ececec;
 }

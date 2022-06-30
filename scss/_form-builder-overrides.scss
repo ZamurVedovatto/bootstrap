@@ -138,9 +138,6 @@ $fg_notices: (
 
 body {
   &.fw {
-    .ui-widget {
-      font-size: 14px;
-    }
     .ui-menu {
       .ui-state-active {
         background-color: $gray-200;
