@@ -2514,7 +2514,7 @@ progress {
 .expandable-table {
   border-bottom: 1px solid rgb(204, 204, 204);
 }
-.expandable-table.table-borderless > :not(:first-child) {
+.expandable-table.table-borderless .expandable-row-parent {
   border-top-width: 1px;
   border-color: rgb(204, 204, 204);
 }
