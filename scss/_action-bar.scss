@@ -48,6 +48,11 @@
         }
       }
 
+      &:focus,
+      &:hover {
+        cursor: pointer;
+      }
+
       svg {
         color: $gray-500;
       }
