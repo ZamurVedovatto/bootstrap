@@ -17828,24 +17828,30 @@ svg {
   color: transparent;
   text-shadow: 0 0 0 rgb(69, 69, 69);
 }
-#fg_content #fg_wrapper button.btn,
-#fg_content #fg_wrapper button[data-action],
-#fg_content #fg_wrapper input[type=button] {
+#fg_content .fg_button_bar button.btn,
+#fg_content .fg_button_bar button[data-action],
+#fg_content .fg_button_bar input[type=button],
+#fg_content .fg_button_bar input[type=text],
+#fg_content .fg_button_bar .chosen-single {
   padding: 0.157rem 1rem;
   font-size: 0.875rem;
   border-radius: 0.125rem;
-  min-width: 70px;
+  padding: 0.157rem 1rem;
+  font-size: 0.875rem;
+  border-radius: 0.125rem;
 }
-#fg_content #fg_wrapper input[type=text],
-#fg_content #fg_wrapper input[type=password],
-#fg_content #fg_wrapper input[type=number],
-#fg_content #fg_wrapper textarea,
-#fg_content #fg_wrapper select,
-#fg_content #fg_wrapper .chosen-single {
-  min-height: calc(1.5em + 0.314rem + 2px);
-  padding: 0.157rem 1rem;
-  font-size: 0.875rem;
-  border-radius: 0.125rem;
+#fg_content .fg_button_bar select {
+  padding: 0;
+}
+#fg_content #fg_container input[type=text],
+#fg_content #fg_container input[type=password],
+#fg_content #fg_container input[type=number],
+#fg_content #fg_container textarea,
+#fg_content #fg_container select,
+#fg_content #fg_container .chosen-single {
+  padding: 0.3125rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
 }
 
 #fg_container button.btn,
@@ -17873,6 +17879,10 @@ svg {
   color: rgb(69, 69, 69);
   border-color: rgba(69, 69, 69, 0.6);
   background: #fff;
+  padding: 0.3125rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.188rem;
+  min-width: 70px;
 }
 @media (prefers-reduced-motion: reduce) {
   #fg_container button.btn,
