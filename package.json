@@ -107,7 +107,7 @@
     "@rollup/plugin-commonjs": "^21.0.0",
     "@rollup/plugin-node-resolve": "^13.0.5",
     "@rollup/plugin-replace": "^3.0.0",
-    "@symplicity/janus-tokens": "github:Symplicity/janus-tokens",
+    "@symplicity/janus-tokens": "https://github.com/Symplicity/janus-tokens",
     "autoprefixer": "^10.3.6",
     "bundlewatch": "^0.3.2",
     "clean-css-cli": "^5.4.1",
@@ -176,6 +176,6 @@
     }
   },
   "dependencies": {
-    "@tabler/icons": "github:Symplicity/tabler-icons"
+    "@tabler/icons": "https://github.com/Symplicity/tabler-icons"
   }
 }
