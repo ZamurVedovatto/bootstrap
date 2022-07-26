@@ -121,6 +121,20 @@ $navbar-toggler-transition:         box-shadow .15s ease-in-out !default;
   color: #fff;
 }
 
+.link-ultra-light {
+  color: rgb(236, 236, 236);
+}
+.link-ultra-light:hover {
+  text-decoration: underline;
+}
+.link-ultra-light:focus {
+  background-color: rgb(236, 236, 236);
+  text-decoration: none;
+  outline: 4px solid rgb(236, 236, 236);
+  outline-offset: 0;
+  color: #333;
+}
+
 .link-light {
   color: rgb(246, 246, 246);
 }
@@ -714,6 +728,10 @@ svg {
 
 .border-danger {
   border-color: rgb(191, 62, 36) !important;
+}
+
+.border-ultra-light {
+  border-color: rgb(236, 236, 236) !important;
 }
 
 .border-light {
@@ -2321,6 +2339,11 @@ svg {
   color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-ultra-light {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-ultra-light-rgb), var(--bs-text-opacity)) !important;
+}
+
 .text-light {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;
@@ -2435,6 +2458,11 @@ svg {
 .bg-danger {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-ultra-light {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-ultra-light-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-light {

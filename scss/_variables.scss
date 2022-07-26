@@ -80,6 +80,7 @@ $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
+$ultra-light:   $gray-200 !default;
 $light:         $gray-100 !default;
 $medium:        $gray-400 !default;
 $dark:          $gray-900 !default;
@@ -98,6 +99,7 @@ $theme-colors: (
   "info":           $info,
   "warning":        $warning,
   "danger":         $danger,
+  "ultra-light":    $ultra-light,
   "light":          $light,
   "medium":         $medium,
   "dark":           $dark,
