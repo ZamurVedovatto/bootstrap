@@ -7881,6 +7881,9 @@ textarea.form-control-lg {
 .action-bar .nav .nav-link:focus svg, .action-bar .nav .nav-link:hover svg {
   color: rgb(69, 69, 69);
 }
+.action-bar .nav .nav-link:focus-visible {
+  outline: none;
+}
 .action-bar .nav .nav-link svg {
   color: rgb(108, 108, 108);
 }

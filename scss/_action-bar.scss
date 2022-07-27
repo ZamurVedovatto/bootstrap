@@ -59,6 +59,10 @@
         }
       }
 
+      &:focus-visible {
+        outline: none;
+      }
+
       svg {
         color: $gray-600;
       }
