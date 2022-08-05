@@ -7089,6 +7089,15 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
 }
 
+.tooltip.show {
+  opacity: 0 !important;
+}
+@media (min-width: 768px) {
+  .tooltip.show {
+    opacity: 0.9 !important;
+  }
+}
+
 .popover {
   position: absolute;
   top: 0;

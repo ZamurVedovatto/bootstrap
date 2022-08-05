@@ -113,3 +113,10 @@
   background-color: $tooltip-bg;
   @include border-radius($tooltip-border-radius);
 }
+
+.tooltip.show {
+  opacity: 0 !important;
+  @include media-breakpoint-up(md) {
+    opacity: $tooltip-opacity !important;
+  }
+}
