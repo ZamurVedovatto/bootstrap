@@ -116,7 +116,7 @@
 
 .tooltip.show {
   opacity: 0 !important;
-  @include media-breakpoint-up(md) {
+  @media (hover: hover) {
     opacity: $tooltip-opacity !important;
   }
 }

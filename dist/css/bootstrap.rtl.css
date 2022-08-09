@@ -7092,7 +7092,7 @@ textarea.form-control-lg {
 .tooltip.show {
   opacity: 0 !important;
 }
-@media (min-width: 768px) {
+@media (hover: hover) {
   .tooltip.show {
     opacity: 0.9 !important;
   }
