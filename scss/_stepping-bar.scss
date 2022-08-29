@@ -87,9 +87,6 @@
       width: 100%;
       z-index: 0;
       top: 1.75rem;
-      @include media-breakpoint-up(md) {      
-        top: 2rem;
-      }
     }
   }
   .list-steps-item-body {

@@ -7879,11 +7879,6 @@ textarea.form-control-lg {
   z-index: 0;
   top: 1.75rem;
 }
-@media (min-width: 768px) {
-  .steps-horizontal .list-steps-item::before {
-    top: 2rem;
-  }
-}
 .steps-horizontal .list-steps-item-body::before {
   right: unset;
   margin: 0 auto;
