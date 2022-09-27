@@ -8806,6 +8806,10 @@ svg {
   background-color: rgb(246, 102, 102) !important;
 }
 
+.bg-accent-yellow {
+  background-color: rgb(255, 255, 204) !important;
+}
+
 .border-primary {
   border-color: rgb(14, 98, 185) !important;
 }
