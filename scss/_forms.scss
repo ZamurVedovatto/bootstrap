@@ -8,3 +8,9 @@
 @import "forms/input-group";
 @import "forms/validation";
 @import "forms/subform";
+
+@include media-breakpoint-up(md) {
+  form {
+    max-width: 31.25rem;
+  }
+}
