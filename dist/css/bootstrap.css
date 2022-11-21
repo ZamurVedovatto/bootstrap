@@ -8136,6 +8136,10 @@ textarea.form-control-lg {
   opacity: 1;
 }
 
+.footer-buttonbar {
+  margin-top: 1rem;
+}
+
 .clearfix::after {
   display: block;
   clear: both;
