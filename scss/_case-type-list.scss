@@ -1,24 +1,5 @@
 .case-type-container {
   .case-type-list {
-    
-    li:first-child {
-      .case-type-actions {
-        .case-type-btn-move-up {
-          opacity: .1;
-          pointer-events: none;
-        }
-      }
-    }
-
-    li:last-child {
-      .case-type-actions {
-        .case-type-btn-move-down {
-          opacity: .1;
-          pointer-events: none;
-        }
-      }
-    }
-
     .case-type-item {
       background: $white;
       @include media-breakpoint-up(sm) {
@@ -33,7 +14,6 @@
             position: relative;
             display: inline-flex;
           }
-          
         }
       }
       @include media-breakpoint-up(md) {
@@ -47,7 +27,6 @@
             position: relative;
             display: inline-flex;
           }
-          
         }
       }
       .case-type-item-drag-handle {
@@ -62,8 +41,8 @@
         &:hover,
         &:focus {
           .case-top {
-            .case-actions { 
-              display: flex !important; 
+            .case-actions {
+              display: flex !important;
             }
           }
         }
@@ -71,6 +50,14 @@
       .case-actions-lg {
         position: absolute;
         visibility: hidden;
+      }
+    }
+    .case-type-actions {
+      button {
+        &[aria-disabled="true"] {
+          opacity: 0.1 !important;
+          pointer-events: none !important;
+        }
       }
     }
   }

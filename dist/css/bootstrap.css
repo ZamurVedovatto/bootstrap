@@ -8019,14 +8019,6 @@ textarea.form-control-lg {
   color: rgb(108, 108, 108);
 }
 
-.case-type-container .case-type-list li:first-child .case-type-actions .case-type-btn-move-up {
-  opacity: 0.1;
-  pointer-events: none;
-}
-.case-type-container .case-type-list li:last-child .case-type-actions .case-type-btn-move-down {
-  opacity: 0.1;
-  pointer-events: none;
-}
 .case-type-container .case-type-list .case-type-item {
   background: rgb(255, 255, 255);
 }
@@ -8071,6 +8063,10 @@ textarea.form-control-lg {
 .case-type-container .case-type-list .case-type-item .case-actions-lg {
   position: absolute;
   visibility: hidden;
+}
+.case-type-container .case-type-list .case-type-actions button[aria-disabled=true] {
+  opacity: 0.1 !important;
+  pointer-events: none !important;
 }
 
 .list-item-timeline::before {
