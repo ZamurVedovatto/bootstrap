@@ -8007,6 +8007,16 @@ textarea.form-control-lg {
 .case-type-container .case-type-list .case-type-item {
   background: rgb(255, 255, 255);
 }
+.case-type-container .case-type-list .case-type-item .case-type-item-expand .case-type-btn-expand {
+  transition: transform 0.35s ease;
+}
+.case-type-container .case-type-list .case-type-item .case-type-item-expand .case-type-btn-expand[aria-disabled=true] {
+  opacity: 0.3;
+  pointer-events: none;
+}
+.case-type-container .case-type-list .case-type-item .case-type-item-expand.expanded .case-type-btn-expand {
+  transform: rotate(-90deg);
+}
 @media (min-width: 576px) {
   .case-type-container .case-type-list .case-type-item:hover, .case-type-container .case-type-list .case-type-item:focus, .case-type-container .case-type-list .case-type-item:focus-within {
     background: rgb(246, 246, 246);
