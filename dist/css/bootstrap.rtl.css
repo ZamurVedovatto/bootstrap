@@ -8064,6 +8064,85 @@ textarea.form-control-lg {
   pointer-events: none !important;
 }
 
+.drag-handle:hover button {
+  cursor: move;
+}
+
+.group-hover-opacity {
+  opacity: 0;
+}
+
+.group:hover .group-hover-opacity,
+.group:focus-within .group-hover-opacity {
+  opacity: 1;
+}
+
+.universal-list-container {
+  max-width: 800px;
+}
+.universal-list-container .list-buttons li:hover {
+  background: #f8f9fa;
+}
+.universal-list-container .btn {
+  min-width: -webkit-min-content !important;
+  min-width: -moz-min-content !important;
+  min-width: min-content !important;
+}
+
+.card-actions {
+  left: 0;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.card-actions-container::before {
+  content: "";
+  display: block;
+  width: 6rem;
+  height: 100%;
+  background: rgb(246, 246, 246);
+  background: linear-gradient(-90deg, rgb(69, 69, 69), rgb(246, 246, 246));
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+@media (min-width: 992px) {
+  .group-hover-lg-opacity {
+    opacity: 0;
+  }
+
+  .group:hover .group-hover-lg-opacity,
+.group:focus-within .group-hover-lg-opacity {
+    opacity: 1;
+  }
+
+  .group:hover .group-hover-mt-0,
+.group:focus-within .group-hover-mt-0 {
+    margin-top: 0 !important;
+  }
+
+  .group:hover .group-hover-me-0,
+.group:focus-within .group-hover-me-0 {
+    margin-left: 0 !important;
+  }
+
+  .focus-within:hover .border-lg-primary,
+.focus-within:focus-within .border-lg-primary {
+    border: 1px solid rgb(14, 98, 185);
+  }
+
+  .fs-lg-5 {
+    font-size: 1.25rem !important;
+  }
+
+  .fs-lg-6 {
+    font-size: 1rem !important;
+  }
+}
 .list-item-timeline::before {
   display: block;
   border-right: 1px solid #ccc;
