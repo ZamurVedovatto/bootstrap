@@ -8101,7 +8101,7 @@ textarea.form-control-lg {
   width: 6rem;
   height: 100%;
   background: rgb(246, 246, 246);
-  background: linear-gradient(-90deg, rgb(69, 69, 69), rgb(246, 246, 246));
+  background: linear-gradient(-90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%);
 }
 
 .transition-all {
