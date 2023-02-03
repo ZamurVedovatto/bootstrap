@@ -8149,14 +8149,6 @@ textarea.form-control-lg {
 .focus-within:focus-within .border-lg-primary {
     border: 1px solid rgb(14, 98, 185);
   }
-
-  .fs-lg-5 {
-    font-size: 1.25rem !important;
-  }
-
-  .fs-lg-6 {
-    font-size: 1rem !important;
-  }
 }
 .list-item-timeline::before {
   display: block;
