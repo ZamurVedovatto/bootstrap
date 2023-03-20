@@ -10,7 +10,9 @@
 @import "forms/subform";
 
 @include media-breakpoint-up(md) {
-  form {
-    max-width: 31.25rem;
+  :not(.card, .modal) > {
+    form {
+      max-width: 31.25rem;
+    }
   }
 }
